@@ -1,0 +1,2152 @@
+[
+  {
+    "id": "proc_0da009d8",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'curl' processes",
+    "linux": "pkill curl",
+    "windows_cmd": "taskkill /IM curl.exe /F",
+    "mac": "pkill curl"
+  },
+  {
+    "id": "proc_d926286f",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_09d6a3c1",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'slack' processes",
+    "linux": "pkill slack",
+    "windows_cmd": "taskkill /IM slack.exe /F",
+    "mac": "pkill slack"
+  },
+  {
+    "id": "proc_847be1eb",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 32445",
+    "linux": "kill 32445",
+    "windows_cmd": "taskkill /PID 32445 /F",
+    "mac": "kill 32445"
+  },
+  {
+    "id": "proc_f4089699",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_282cb684",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'postgres' processes",
+    "linux": "pkill postgres",
+    "windows_cmd": "taskkill /IM postgres.exe /F",
+    "mac": "pkill postgres"
+  },
+  {
+    "id": "proc_cbbf67fc",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'java'",
+    "linux": "pgrep java",
+    "windows_cmd": "tasklist | findstr java",
+    "mac": "pgrep java"
+  },
+  {
+    "id": "proc_2cdb5fa2",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 41595",
+    "linux": "kill 41595",
+    "windows_cmd": "taskkill /PID 41595 /F",
+    "mac": "kill 41595"
+  },
+  {
+    "id": "proc_e9fca146",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 61049",
+    "linux": "kill 61049",
+    "windows_cmd": "taskkill /PID 61049 /F",
+    "mac": "kill 61049"
+  },
+  {
+    "id": "proc_ed0d1036",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'slack' processes",
+    "linux": "pkill slack",
+    "windows_cmd": "taskkill /IM slack.exe /F",
+    "mac": "pkill slack"
+  },
+  {
+    "id": "proc_c1d5d9fe",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'vim'",
+    "linux": "pgrep vim",
+    "windows_cmd": "tasklist | findstr vim",
+    "mac": "pgrep vim"
+  },
+  {
+    "id": "proc_751c7016",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'zoom'",
+    "linux": "pgrep zoom",
+    "windows_cmd": "tasklist | findstr zoom",
+    "mac": "pgrep zoom"
+  },
+  {
+    "id": "proc_435fb9ba",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 74022",
+    "linux": "kill 74022",
+    "windows_cmd": "taskkill /PID 74022 /F",
+    "mac": "kill 74022"
+  },
+  {
+    "id": "proc_2e595634",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'curl'",
+    "linux": "pgrep curl",
+    "windows_cmd": "tasklist | findstr curl",
+    "mac": "pgrep curl"
+  },
+  {
+    "id": "proc_60424820",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_1d0c6a3e",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'node' processes",
+    "linux": "pkill node",
+    "windows_cmd": "taskkill /IM node.exe /F",
+    "mac": "pkill node"
+  },
+  {
+    "id": "proc_4ca41d6a",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_6318cf0f",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'java'",
+    "linux": "pgrep java",
+    "windows_cmd": "tasklist | findstr java",
+    "mac": "pgrep java"
+  },
+  {
+    "id": "proc_0cccf4ce",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_5ab1aa07",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'git'",
+    "linux": "pgrep git",
+    "windows_cmd": "tasklist | findstr git",
+    "mac": "pgrep git"
+  },
+  {
+    "id": "proc_e72f606f",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_02b02e98",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_297a7847",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_c12b952d",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_cf325da0",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'java'",
+    "linux": "pgrep java",
+    "windows_cmd": "tasklist | findstr java",
+    "mac": "pgrep java"
+  },
+  {
+    "id": "proc_8bfa639c",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'chrome'",
+    "linux": "pgrep chrome",
+    "windows_cmd": "tasklist | findstr chrome",
+    "mac": "pgrep chrome"
+  },
+  {
+    "id": "proc_f185382c",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'zoom'",
+    "linux": "pgrep zoom",
+    "windows_cmd": "tasklist | findstr zoom",
+    "mac": "pgrep zoom"
+  },
+  {
+    "id": "proc_6650cf86",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_d74df63b",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 29298",
+    "linux": "kill 29298",
+    "windows_cmd": "taskkill /PID 29298 /F",
+    "mac": "kill 29298"
+  },
+  {
+    "id": "proc_221773d7",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'spotify'",
+    "linux": "pgrep spotify",
+    "windows_cmd": "tasklist | findstr spotify",
+    "mac": "pgrep spotify"
+  },
+  {
+    "id": "proc_45f024f5",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 23622",
+    "linux": "kill 23622",
+    "windows_cmd": "taskkill /PID 23622 /F",
+    "mac": "kill 23622"
+  },
+  {
+    "id": "proc_29776353",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 97223",
+    "linux": "kill 97223",
+    "windows_cmd": "taskkill /PID 97223 /F",
+    "mac": "kill 97223"
+  },
+  {
+    "id": "proc_f812ae87",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 13595",
+    "linux": "kill 13595",
+    "windows_cmd": "taskkill /PID 13595 /F",
+    "mac": "kill 13595"
+  },
+  {
+    "id": "proc_663711ee",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_9cd3596d",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'firefox'",
+    "linux": "pgrep firefox",
+    "windows_cmd": "tasklist | findstr firefox",
+    "mac": "pgrep firefox"
+  },
+  {
+    "id": "proc_6f92ba87",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'zoom' processes",
+    "linux": "pkill zoom",
+    "windows_cmd": "taskkill /IM zoom.exe /F",
+    "mac": "pkill zoom"
+  },
+  {
+    "id": "proc_c020088d",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'mysql'",
+    "linux": "pgrep mysql",
+    "windows_cmd": "tasklist | findstr mysql",
+    "mac": "pgrep mysql"
+  },
+  {
+    "id": "proc_a51b99b0",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_a2e253a5",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_12d02f13",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'python'",
+    "linux": "pgrep python",
+    "windows_cmd": "tasklist | findstr python",
+    "mac": "pgrep python"
+  },
+  {
+    "id": "proc_fa145de2",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_a7183895",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'curl'",
+    "linux": "pgrep curl",
+    "windows_cmd": "tasklist | findstr curl",
+    "mac": "pgrep curl"
+  },
+  {
+    "id": "proc_f5de8621",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'bash'",
+    "linux": "pgrep bash",
+    "windows_cmd": "tasklist | findstr bash",
+    "mac": "pgrep bash"
+  },
+  {
+    "id": "proc_1399d348",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'mysql'",
+    "linux": "pgrep mysql",
+    "windows_cmd": "tasklist | findstr mysql",
+    "mac": "pgrep mysql"
+  },
+  {
+    "id": "proc_26689d95",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'curl'",
+    "linux": "pgrep curl",
+    "windows_cmd": "tasklist | findstr curl",
+    "mac": "pgrep curl"
+  },
+  {
+    "id": "proc_5aa9380c",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_c209a5e2",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'code'",
+    "linux": "pgrep code",
+    "windows_cmd": "tasklist | findstr code",
+    "mac": "pgrep code"
+  },
+  {
+    "id": "proc_15bbe2f9",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 83727",
+    "linux": "kill 83727",
+    "windows_cmd": "taskkill /PID 83727 /F",
+    "mac": "kill 83727"
+  },
+  {
+    "id": "proc_fcb3eb4e",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'java'",
+    "linux": "pgrep java",
+    "windows_cmd": "tasklist | findstr java",
+    "mac": "pgrep java"
+  },
+  {
+    "id": "proc_b957b5c8",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_a97510f6",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 6278",
+    "linux": "kill 6278",
+    "windows_cmd": "taskkill /PID 6278 /F",
+    "mac": "kill 6278"
+  },
+  {
+    "id": "proc_87cf961b",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 99099",
+    "linux": "kill 99099",
+    "windows_cmd": "taskkill /PID 99099 /F",
+    "mac": "kill 99099"
+  },
+  {
+    "id": "proc_8b12f866",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 45185",
+    "linux": "kill 45185",
+    "windows_cmd": "taskkill /PID 45185 /F",
+    "mac": "kill 45185"
+  },
+  {
+    "id": "proc_3ee6e420",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'redis'",
+    "linux": "pgrep redis",
+    "windows_cmd": "tasklist | findstr redis",
+    "mac": "pgrep redis"
+  },
+  {
+    "id": "proc_9834e824",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'mysql'",
+    "linux": "pgrep mysql",
+    "windows_cmd": "tasklist | findstr mysql",
+    "mac": "pgrep mysql"
+  },
+  {
+    "id": "proc_3bfb32b2",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'spotify' processes",
+    "linux": "pkill spotify",
+    "windows_cmd": "taskkill /IM spotify.exe /F",
+    "mac": "pkill spotify"
+  },
+  {
+    "id": "proc_8d3b98c3",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 31141",
+    "linux": "kill 31141",
+    "windows_cmd": "taskkill /PID 31141 /F",
+    "mac": "kill 31141"
+  },
+  {
+    "id": "proc_90b40990",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_ea8ec807",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_6d1283f0",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'docker'",
+    "linux": "pgrep docker",
+    "windows_cmd": "tasklist | findstr docker",
+    "mac": "pgrep docker"
+  },
+  {
+    "id": "proc_5297512b",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_ccb67acb",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'python' processes",
+    "linux": "pkill python",
+    "windows_cmd": "taskkill /IM python.exe /F",
+    "mac": "pkill python"
+  },
+  {
+    "id": "proc_8a6cef75",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 96562",
+    "linux": "kill 96562",
+    "windows_cmd": "taskkill /PID 96562 /F",
+    "mac": "kill 96562"
+  },
+  {
+    "id": "proc_6298111b",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'git'",
+    "linux": "pgrep git",
+    "windows_cmd": "tasklist | findstr git",
+    "mac": "pgrep git"
+  },
+  {
+    "id": "proc_67586242",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_e80e58a2",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_31a68a84",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'vim' processes",
+    "linux": "pkill vim",
+    "windows_cmd": "taskkill /IM vim.exe /F",
+    "mac": "pkill vim"
+  },
+  {
+    "id": "proc_481a7bd3",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_8f976c6b",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'mysql'",
+    "linux": "pgrep mysql",
+    "windows_cmd": "tasklist | findstr mysql",
+    "mac": "pgrep mysql"
+  },
+  {
+    "id": "proc_a703591c",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'node'",
+    "linux": "pgrep node",
+    "windows_cmd": "tasklist | findstr node",
+    "mac": "pgrep node"
+  },
+  {
+    "id": "proc_b89e7c40",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'nginx'",
+    "linux": "pgrep nginx",
+    "windows_cmd": "tasklist | findstr nginx",
+    "mac": "pgrep nginx"
+  },
+  {
+    "id": "proc_4c1c0e3c",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'git' processes",
+    "linux": "pkill git",
+    "windows_cmd": "taskkill /IM git.exe /F",
+    "mac": "pkill git"
+  },
+  {
+    "id": "proc_16a31540",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'docker' processes",
+    "linux": "pkill docker",
+    "windows_cmd": "taskkill /IM docker.exe /F",
+    "mac": "pkill docker"
+  },
+  {
+    "id": "proc_3ec72d9b",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'chrome'",
+    "linux": "pgrep chrome",
+    "windows_cmd": "tasklist | findstr chrome",
+    "mac": "pgrep chrome"
+  },
+  {
+    "id": "proc_c885bdbd",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 73778",
+    "linux": "kill 73778",
+    "windows_cmd": "taskkill /PID 73778 /F",
+    "mac": "kill 73778"
+  },
+  {
+    "id": "proc_f7035873",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'docker'",
+    "linux": "pgrep docker",
+    "windows_cmd": "tasklist | findstr docker",
+    "mac": "pgrep docker"
+  },
+  {
+    "id": "proc_e4db5a33",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_c68bd1e2",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'spotify' processes",
+    "linux": "pkill spotify",
+    "windows_cmd": "taskkill /IM spotify.exe /F",
+    "mac": "pkill spotify"
+  },
+  {
+    "id": "proc_659b9e78",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'wget'",
+    "linux": "pgrep wget",
+    "windows_cmd": "tasklist | findstr wget",
+    "mac": "pgrep wget"
+  },
+  {
+    "id": "proc_20423baa",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 39849",
+    "linux": "kill 39849",
+    "windows_cmd": "taskkill /PID 39849 /F",
+    "mac": "kill 39849"
+  },
+  {
+    "id": "proc_9a58093c",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Terminate all 'wget' processes",
+    "linux": "pkill wget",
+    "windows_cmd": "taskkill /IM wget.exe /F",
+    "mac": "pkill wget"
+  },
+  {
+    "id": "proc_21f25d08",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_fe88e9b9",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 58743",
+    "linux": "kill 58743",
+    "windows_cmd": "taskkill /PID 58743 /F",
+    "mac": "kill 58743"
+  },
+  {
+    "id": "proc_a70fd9f0",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_0d6e4e83",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'nginx'",
+    "linux": "pgrep nginx",
+    "windows_cmd": "tasklist | findstr nginx",
+    "mac": "pgrep nginx"
+  },
+  {
+    "id": "proc_ce86820a",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_99d606f5",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_b45c449e",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'nginx'",
+    "linux": "pgrep nginx",
+    "windows_cmd": "tasklist | findstr nginx",
+    "mac": "pgrep nginx"
+  },
+  {
+    "id": "proc_4d52cfb4",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_ebedb733",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 84232",
+    "linux": "kill 84232",
+    "windows_cmd": "taskkill /PID 84232 /F",
+    "mac": "kill 84232"
+  },
+  {
+    "id": "proc_e333d3d3",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_e8cb132a",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_3825e23f",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_1c71b042",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_517eb81b",
+    "category": "process_management",
+    "subcategory": "list",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "list"
+    ],
+    "instruction": "List all running processes",
+    "linux": "ps aux",
+    "windows_cmd": "tasklist",
+    "mac": "ps aux"
+  },
+  {
+    "id": "proc_d853e510",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 13364",
+    "linux": "kill 13364",
+    "windows_cmd": "taskkill /PID 13364 /F",
+    "mac": "kill 13364"
+  },
+  {
+    "id": "proc_cfbefd6e",
+    "category": "process_management",
+    "subcategory": "kill",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "instruction": "Kill the process with PID 66074",
+    "linux": "kill 66074",
+    "windows_cmd": "taskkill /PID 66074 /F",
+    "mac": "kill 66074"
+  },
+  {
+    "id": "proc_234fb063",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'postgres'",
+    "linux": "pgrep postgres",
+    "windows_cmd": "tasklist | findstr postgres",
+    "mac": "pgrep postgres"
+  },
+  {
+    "id": "proc_7d46ded5",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'python'",
+    "linux": "pgrep python",
+    "windows_cmd": "tasklist | findstr python",
+    "mac": "pgrep python"
+  },
+  {
+    "id": "proc_8a5eedc2",
+    "category": "process_management",
+    "subcategory": "find",
+    "difficulty": "intermediate",
+    "tags": [
+      "process",
+      "find"
+    ],
+    "instruction": "Find the PID of 'redis'",
+    "linux": "pgrep redis",
+    "windows_cmd": "tasklist | findstr redis",
+    "mac": "pgrep redis"
+  },
+  {
+    "id": "proc_comp_001",
+    "category": "process_management",
+    "subcategory": "kill_pattern",
+    "instruction": "Kill all processes starting with 'node-'",
+    "linux": "pkill -f '^node-'",
+    "windows_cmd": "taskkill /F /FI \"IMAGENAME eq node-*\"",
+    "mac": "pkill -f '^node-'",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "pattern",
+      "pkill"
+    ]
+  },
+  {
+    "id": "proc_comp_002",
+    "category": "process_management",
+    "subcategory": "top_cpu",
+    "instruction": "Display the top 5 CPU consuming processes",
+    "linux": "ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -6",
+    "windows_cmd": "typeperf \"\\Process(*)\\% Processor Time\" -sc 1 | findstr /V \"_Total\"",
+    "mac": "ps -Ao pid,ppid,command,%mem,%cpu -r | head -6",
+    "difficulty": "advanced",
+    "tags": [
+      "cpu",
+      "top",
+      "monitor"
+    ]
+  },
+  {
+    "id": "proc_comp_003",
+    "category": "process_management",
+    "subcategory": "find_port",
+    "instruction": "Find the process ID listening on port 8080",
+    "linux": "lsof -t -i:8080",
+    "windows_cmd": "netstat -ano | findstr :8080",
+    "mac": "lsof -t -i:8080",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "port",
+      "network"
+    ]
+  },
+  {
+    "id": "proc_comp_004",
+    "category": "process_management",
+    "subcategory": "kill_user",
+    "instruction": "Kill all processes owned by user 'guest'",
+    "linux": "pkill -u guest",
+    "windows_cmd": "taskkill /F /FI \"USERNAME eq guest\"",
+    "mac": "pkill -u guest",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "user",
+      "owner"
+    ]
+  },
+  {
+    "id": "proc_comp_005",
+    "category": "process_management",
+    "subcategory": "priority",
+    "instruction": "Set priority of process 1234 to high/nice -10",
+    "linux": "renice -n -10 -p 1234",
+    "windows_cmd": "wmic process where processid=1234 call setpriority 128",
+    "mac": "renice -n -10 -p 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "priority",
+      "nice",
+      "performance"
+    ]
+  },
+  {
+    "id": "proc_comp_006",
+    "category": "process_management",
+    "subcategory": "tree_kill",
+    "instruction": "Kill a process tree starting at PID 1234",
+    "linux": "pkill -P 1234",
+    "windows_cmd": "taskkill /PID 1234 /T /F",
+    "mac": "pkill -P 1234",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "tree",
+      "child"
+    ]
+  },
+  {
+    "id": "proc_comp_007",
+    "category": "process_management",
+    "subcategory": "zombie",
+    "instruction": "Find zombie processes",
+    "linux": "ps aux | grep 'Z'",
+    "windows_cmd": "echo Windows does not have zombie processes in the Unix sense.",
+    "mac": "ps aux | grep 'Z'",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "zombie",
+      "status"
+    ]
+  },
+  {
+    "id": "proc_comp_008",
+    "category": "process_management",
+    "subcategory": "wait",
+    "instruction": "Wait for process 1234 to finish",
+    "linux": "tail --pid=1234 -f /dev/null",
+    "windows_cmd": "start /wait cmd /c \"echo Waiting for 1234...\"",
+    "mac": "lsof -p 1234 +r 1 &>/dev/null",
+    "difficulty": "advanced",
+    "tags": [
+      "wait",
+      "sync",
+      "status"
+    ]
+  },
+  {
+    "id": "proc_comp_009",
+    "category": "process_management",
+    "subcategory": "list_mem",
+    "instruction": "List processes sorted by memory usage",
+    "linux": "ps aux --sort=-%mem | head",
+    "windows_cmd": "tasklist /sort MEMORY",
+    "mac": "ps aux -m | head",
+    "difficulty": "intermediate",
+    "tags": [
+      "list",
+      "memory",
+      "sort"
+    ]
+  },
+  {
+    "id": "proc_comp_010",
+    "category": "process_management",
+    "subcategory": "signal_hup",
+    "instruction": "Send SIGHUP (reload configuration) to process 1234",
+    "linux": "kill -1 1234",
+    "windows_cmd": "echo Windows CMD does not support POSIX signals directly.",
+    "mac": "kill -1 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "signal",
+      "hup",
+      "reload"
+    ]
+  },
+  {
+    "id": "proc_comp_011",
+    "category": "process_management",
+    "subcategory": "count_running",
+    "instruction": "Count how many 'chrome' processes are running",
+    "linux": "pgrep -c chrome",
+    "windows_cmd": "tasklist | find /c \"chrome.exe\"",
+    "mac": "pgrep -c chrome",
+    "difficulty": "intermediate",
+    "tags": [
+      "count",
+      "monitor",
+      "status"
+    ]
+  },
+  {
+    "id": "proc_comp_012",
+    "category": "process_management",
+    "subcategory": "start_bg",
+    "instruction": "Start a long-running script in the background",
+    "linux": "./script.sh &",
+    "windows_cmd": "start /B script.bat",
+    "mac": "./script.sh &",
+    "difficulty": "beginner",
+    "tags": [
+      "background",
+      "start",
+      "async"
+    ]
+  },
+  {
+    "id": "proc_comp_013",
+    "category": "process_management",
+    "subcategory": "uptime_proc",
+    "instruction": "Check how long process 1234 has been running",
+    "linux": "ps -p 1234 -o etime",
+    "windows_cmd": "wmic process where processid=1234 get creationdate",
+    "mac": "ps -p 1234 -o etime",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "uptime",
+      "status"
+    ]
+  },
+  {
+    "id": "proc_comp_014",
+    "category": "process_management",
+    "subcategory": "watch_cmd",
+    "instruction": "Run 'ps aux' every 2 seconds to monitor processes",
+    "linux": "watch -n 2 'ps aux'",
+    "windows_cmd": "for /l %x in (1, 0, 100) do @cls & tasklist & timeout 2 >nul",
+    "mac": "watch -n 2 'ps aux'",
+    "difficulty": "intermediate",
+    "tags": [
+      "monitor",
+      "watch",
+      "loop"
+    ]
+  },
+  {
+    "id": "proc_comp_015",
+    "category": "process_management",
+    "subcategory": "kill_old",
+    "instruction": "Kill processes running for more than 1 hour",
+    "linux": "find /proc -maxdepth 1 -user $USER -mmin +60 -name '[0-9]*' -exec kill -9 {} +",
+    "windows_cmd": "echo Complex logic requires script.",
+    "mac": "ps -eo pid,etime | grep -E '([0-9]{2}-|([0-9]{2}:){2})' | awk '{print $1}' | xargs kill",
+    "difficulty": "advanced",
+    "tags": [
+      "kill",
+      "time",
+      "filter"
+    ]
+  },
+  {
+    "id": "proc_comp_016",
+    "category": "process_management",
+    "subcategory": "parent_pid",
+    "instruction": "Find the parent PID of process 1234",
+    "linux": "ps -o ppid= -p 1234",
+    "windows_cmd": "wmic process where processid=1234 get parentprocessid",
+    "mac": "ps -o ppid= -p 1234",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "parent",
+      "ppid"
+    ]
+  },
+  {
+    "id": "proc_comp_017",
+    "category": "process_management",
+    "subcategory": "kill_mem",
+    "instruction": "Kill process consuming most memory",
+    "linux": "ps -eo pid,pcpu,pmem --sort=-pmem | head -2 | tail -1 | awk '{print $1}' | xargs kill",
+    "windows_cmd": "echo Complex logic requires script.",
+    "mac": "ps -Am -o pid | head -1 | xargs kill",
+    "difficulty": "advanced",
+    "tags": [
+      "kill",
+      "memory",
+      "top"
+    ]
+  },
+  {
+    "id": "proc_comp_018",
+    "category": "process_management",
+    "subcategory": "list_threads",
+    "instruction": "List threads of process 1234",
+    "linux": "ps -T -p 1234",
+    "windows_cmd": "wmic path win32_thread where ProcessHandle=1234 list brief",
+    "mac": "ps -M 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "list",
+      "threads",
+      "details"
+    ]
+  },
+  {
+    "id": "proc_comp_019",
+    "category": "process_management",
+    "subcategory": "suspend",
+    "instruction": "Suspend/Pause process 1234",
+    "linux": "kill -STOP 1234",
+    "windows_cmd": "pssuspend 1234 (requires PsTools)",
+    "mac": "kill -STOP 1234",
+    "difficulty": "intermediate",
+    "tags": [
+      "suspend",
+      "pause",
+      "stop"
+    ]
+  },
+  {
+    "id": "proc_comp_020",
+    "category": "process_management",
+    "subcategory": "resume",
+    "instruction": "Resume a suspended process 1234",
+    "linux": "kill -CONT 1234",
+    "windows_cmd": "pssuspend -r 1234 (requires PsTools)",
+    "mac": "kill -CONT 1234",
+    "difficulty": "intermediate",
+    "tags": [
+      "resume",
+      "continue",
+      "start"
+    ]
+  },
+  {
+    "id": "proc_comp_021",
+    "category": "process_management",
+    "subcategory": "cmdline",
+    "instruction": "Show the full command line used to start process 1234",
+    "linux": "cat /proc/1234/cmdline | tr '\\0' ' '",
+    "windows_cmd": "wmic process where processid=1234 get commandline",
+    "mac": "ps -p 1234 -o command",
+    "difficulty": "intermediate",
+    "tags": [
+      "info",
+      "command",
+      "args"
+    ]
+  },
+  {
+    "id": "proc_comp_022",
+    "category": "process_management",
+    "subcategory": "limit_cpu",
+    "instruction": "Run a command limited to 50% CPU usage",
+    "linux": "cpulimit -l 50 -- ./command",
+    "windows_cmd": "start /b /low command",
+    "mac": "cpulimit -l 50 -- ./command",
+    "difficulty": "advanced",
+    "tags": [
+      "limit",
+      "cpu",
+      "throttle"
+    ]
+  },
+  {
+    "id": "proc_comp_023",
+    "category": "process_management",
+    "subcategory": "nohup",
+    "instruction": "Run a command that keeps running after logout",
+    "linux": "nohup ./script.sh &",
+    "windows_cmd": "start /b script.bat (Windows services are better for this)",
+    "mac": "nohup ./script.sh &",
+    "difficulty": "intermediate",
+    "tags": [
+      "persist",
+      "nohup",
+      "background"
+    ]
+  },
+  {
+    "id": "proc_comp_024",
+    "category": "process_management",
+    "subcategory": "kill_window",
+    "instruction": "Kill a process by clicking on its window (interactive)",
+    "linux": "xkill",
+    "windows_cmd": "taskkill /FI \"STATUS eq NOT RESPONDING\"",
+    "mac": "Force Quit via UI or 'killall appname'",
+    "difficulty": "beginner",
+    "tags": [
+      "kill",
+      "gui",
+      "interactive"
+    ]
+  },
+  {
+    "id": "proc_comp_025",
+    "category": "process_management",
+    "subcategory": "env_proc",
+    "instruction": "Show environment variables of process 1234",
+    "linux": "cat /proc/1234/environ | tr '\\0' '\\n'",
+    "windows_cmd": "wmic process where processid=1234 get commandline (limited env access)",
+    "mac": "ps -p 1234 -wwwe",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "variables",
+      "info"
+    ]
+  },
+  {
+    "id": "proc_comp_026",
+    "category": "process_management",
+    "subcategory": "kill_group",
+    "instruction": "Kill the entire process group of PID 1234",
+    "linux": "kill -- -1234",
+    "windows_cmd": "taskkill /PID 1234 /T /F",
+    "mac": "kill -- -1234",
+    "difficulty": "advanced",
+    "tags": [
+      "kill",
+      "group",
+      "pgid"
+    ]
+  },
+  {
+    "id": "proc_comp_027",
+    "category": "process_management",
+    "subcategory": "nice_start",
+    "instruction": "Start a process with low priority",
+    "linux": "nice -n 10 ./script.sh",
+    "windows_cmd": "start /low script.bat",
+    "mac": "nice -n 10 ./script.sh",
+    "difficulty": "intermediate",
+    "tags": [
+      "priority",
+      "start",
+      "nice"
+    ]
+  },
+  {
+    "id": "proc_comp_028",
+    "category": "process_management",
+    "subcategory": "open_files",
+    "instruction": "List files opened by process 1234",
+    "linux": "lsof -p 1234",
+    "windows_cmd": "handle -p 1234 (requires SysInternals)",
+    "mac": "lsof -p 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "files",
+      "open",
+      "lsof"
+    ]
+  },
+  {
+    "id": "proc_comp_029",
+    "category": "process_management",
+    "subcategory": "core_dump",
+    "instruction": "Force a core dump of process 1234",
+    "linux": "gcore 1234",
+    "windows_cmd": "procdump 1234 (requires SysInternals)",
+    "mac": "lldb -p 1234 --batch -o 'process save-core \"core.1234\"'",
+    "difficulty": "advanced",
+    "tags": [
+      "debug",
+      "dump",
+      "core"
+    ]
+  },
+  {
+    "id": "proc_comp_030",
+    "category": "process_management",
+    "subcategory": "proc_path",
+    "instruction": "Find the executable path of process 1234",
+    "linux": "readlink -f /proc/1234/exe",
+    "windows_cmd": "wmic process where processid=1234 get ExecutablePath",
+    "mac": "ps -p 1234 -o comm=",
+    "difficulty": "intermediate",
+    "tags": [
+      "path",
+      "find",
+      "location"
+    ]
+  },
+  {
+    "id": "proc_comp_031",
+    "category": "process_management",
+    "subcategory": "kill_all_user",
+    "instruction": "Kill all processes owned by the current user",
+    "linux": "pkill -u $USER",
+    "windows_cmd": "taskkill /F /FI \"USERNAME eq %USERNAME%\"",
+    "mac": "pkill -u $USER",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "self",
+      "user"
+    ]
+  },
+  {
+    "id": "proc_comp_032",
+    "category": "process_management",
+    "subcategory": "job_control",
+    "instruction": "Bring the last background job to the foreground",
+    "linux": "fg",
+    "windows_cmd": "echo CMD does not support job control like bash.",
+    "mac": "fg",
+    "difficulty": "intermediate",
+    "tags": [
+      "jobs",
+      "foreground",
+      "control"
+    ]
+  },
+  {
+    "id": "proc_comp_033",
+    "category": "process_management",
+    "subcategory": "affinity",
+    "instruction": "Set process 1234 to run only on CPU Core 0",
+    "linux": "taskset -p 1 1234",
+    "windows_cmd": "wmic process where processid=1234 call setaffinity 1",
+    "mac": "echo macOS does not support affinity setting easily via CLI.",
+    "difficulty": "advanced",
+    "tags": [
+      "cpu",
+      "affinity",
+      "core"
+    ]
+  },
+  {
+    "id": "proc_comp_034",
+    "category": "process_management",
+    "subcategory": "iotop",
+    "instruction": "Monitor I/O usage by process",
+    "linux": "iotop",
+    "windows_cmd": "typeperf \"\\Process(*)\\IO Data Bytes/sec\"",
+    "mac": "iotop (requires installing)",
+    "difficulty": "advanced",
+    "tags": [
+      "io",
+      "disk",
+      "monitor"
+    ]
+  },
+  {
+    "id": "proc_comp_035",
+    "category": "process_management",
+    "subcategory": "kill_not_responding",
+    "instruction": "Kill all applications that are not responding",
+    "linux": "echo Requires GUI specific tools.",
+    "windows_cmd": "taskkill /FI \"STATUS eq NOT RESPONDING\" /F",
+    "mac": "echo Requires GUI specific tools.",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "status",
+      "hang"
+    ]
+  },
+  {
+    "id": "proc_comp_036",
+    "category": "process_management",
+    "subcategory": "pidof",
+    "instruction": "Get the PID of the 'sshd' service",
+    "linux": "pidof sshd",
+    "windows_cmd": "sc queryex sshd",
+    "mac": "pgrep sshd",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "service",
+      "pid"
+    ]
+  },
+  {
+    "id": "proc_comp_037",
+    "category": "process_management",
+    "subcategory": "strace",
+    "instruction": "Trace system calls of process 1234",
+    "linux": "strace -p 1234",
+    "windows_cmd": "echo Requires ProcMon or similar.",
+    "mac": "dtruss -p 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "debug",
+      "trace",
+      "syscall"
+    ]
+  },
+  {
+    "id": "proc_comp_038",
+    "category": "process_management",
+    "subcategory": "pstree",
+    "instruction": "Show process tree",
+    "linux": "pstree",
+    "windows_cmd": "wmic process get ParentProcessId,ProcessId,Name",
+    "mac": "pstree",
+    "difficulty": "intermediate",
+    "tags": [
+      "tree",
+      "view",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "proc_comp_039",
+    "category": "process_management",
+    "subcategory": "kill_wait",
+    "instruction": "Send TERM signal, wait 5s, then send KILL",
+    "linux": "timeout -k 5s 10s ./command",
+    "windows_cmd": "echo Requires script logic.",
+    "mac": "gtimeout -k 5s 10s ./command",
+    "difficulty": "advanced",
+    "tags": [
+      "timeout",
+      "kill",
+      "force"
+    ]
+  },
+  {
+    "id": "proc_comp_040",
+    "category": "process_management",
+    "subcategory": "run_as",
+    "instruction": "Run a command as user 'john'",
+    "linux": "sudo -u john ./command",
+    "windows_cmd": "runas /user:john command",
+    "mac": "sudo -u john ./command",
+    "difficulty": "intermediate",
+    "tags": [
+      "user",
+      "sudo",
+      "permissions"
+    ]
+  },
+  {
+    "id": "proc_comp_041",
+    "category": "process_management",
+    "subcategory": "orphan",
+    "instruction": "Find orphaned processes (parent is init/1)",
+    "linux": "ps -elf | awk '{if ($5 == 1) {print $0}}'",
+    "windows_cmd": "echo N/A on Windows",
+    "mac": "ps -elf | awk '{if ($5 == 1) {print $0}}'",
+    "difficulty": "advanced",
+    "tags": [
+      "find",
+      "orphan",
+      "init"
+    ]
+  },
+  {
+    "id": "proc_comp_042",
+    "category": "process_management",
+    "subcategory": "session",
+    "instruction": "Start a new session for a process",
+    "linux": "setsid ./command",
+    "windows_cmd": "start command",
+    "mac": "setsid ./command",
+    "difficulty": "advanced",
+    "tags": [
+      "session",
+      "detach",
+      "start"
+    ]
+  },
+  {
+    "id": "proc_comp_043",
+    "category": "process_management",
+    "subcategory": "time_limit",
+    "instruction": "Run a command for maximum 10 seconds",
+    "linux": "timeout 10s ./command",
+    "windows_cmd": "start /wait command & timeout 10 & taskkill /im command.exe /f",
+    "mac": "gtimeout 10s ./command",
+    "difficulty": "intermediate",
+    "tags": [
+      "timeout",
+      "limit",
+      "time"
+    ]
+  },
+  {
+    "id": "proc_comp_044",
+    "category": "process_management",
+    "subcategory": "lock_check",
+    "instruction": "Check what process is holding a lock on 'file.txt'",
+    "linux": "fuser file.txt",
+    "windows_cmd": "openfiles /query /fo table | findstr file.txt",
+    "mac": "fuser file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "lock",
+      "file",
+      "find"
+    ]
+  },
+  {
+    "id": "proc_comp_045",
+    "category": "process_management",
+    "subcategory": "kill_idle",
+    "instruction": "Kill users who have been idle for more than 30 minutes",
+    "linux": "w -i | awk '$4 > 30:00 {print $2}' | xargs -I {} pkill -t {}",
+    "windows_cmd": "echo Requires advanced scripting.",
+    "mac": "w -i | awk '$4 > 30:00 {print $2}' | xargs -I {} pkill -t {}",
+    "difficulty": "advanced",
+    "tags": [
+      "kill",
+      "idle",
+      "users"
+    ]
+  },
+  {
+    "id": "proc_comp_046",
+    "category": "process_management",
+    "subcategory": "batch_kill",
+    "instruction": "Kill multiple PIDs: 1001, 1002, 1003",
+    "linux": "kill 1001 1002 1003",
+    "windows_cmd": "taskkill /PID 1001 /PID 1002 /PID 1003 /F",
+    "mac": "kill 1001 1002 1003",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "batch",
+      "multiple"
+    ]
+  },
+  {
+    "id": "proc_comp_047",
+    "category": "process_management",
+    "subcategory": "perf_mon",
+    "instruction": "Monitor system calls count for a process",
+    "linux": "perf stat -p 1234",
+    "windows_cmd": "typeperf \"\\Process(processname)\\Handle Count\"",
+    "mac": "dtrace -p 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "monitor",
+      "perf",
+      "stats"
+    ]
+  },
+  {
+    "id": "proc_comp_048",
+    "category": "process_management",
+    "subcategory": "bg_list",
+    "instruction": "List background jobs",
+    "linux": "jobs",
+    "windows_cmd": "echo N/A",
+    "mac": "jobs",
+    "difficulty": "beginner",
+    "tags": [
+      "jobs",
+      "list",
+      "background"
+    ]
+  },
+  {
+    "id": "proc_comp_049",
+    "category": "process_management",
+    "subcategory": "disown",
+    "instruction": "Disown a process from the shell so it survives logout",
+    "linux": "disown -h %1",
+    "windows_cmd": "echo Use 'start' to detach processes.",
+    "mac": "disown -h %1",
+    "difficulty": "intermediate",
+    "tags": [
+      "disown",
+      "detach",
+      "shell"
+    ]
+  },
+  {
+    "id": "proc_comp_050",
+    "category": "process_management",
+    "subcategory": "chroot",
+    "instruction": "Run a command in a new root directory",
+    "linux": "chroot /mnt/newroot /bin/bash",
+    "windows_cmd": "echo Windows does not support chroot.",
+    "mac": "chroot /mnt/newroot /bin/bash",
+    "difficulty": "advanced",
+    "tags": [
+      "chroot",
+      "jail",
+      "root"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "pkg_comp_002",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  }
+]

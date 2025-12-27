@@ -1,0 +1,752 @@
+[
+  {
+    "id": "proc_comp_001",
+    "category": "process_management",
+    "subcategory": "kill_pattern",
+    "instruction": "Kill all processes starting with 'node-'",
+    "linux": "pkill -f '^node-'",
+    "windows_cmd": "taskkill /F /FI \"IMAGENAME eq node-*\"",
+    "mac": "pkill -f '^node-'",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "pattern",
+      "pkill"
+    ]
+  },
+  {
+    "id": "proc_comp_002",
+    "category": "process_management",
+    "subcategory": "top_cpu",
+    "instruction": "Display the top 5 CPU consuming processes",
+    "linux": "ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -6",
+    "windows_cmd": "typeperf \"\\Process(*)\\% Processor Time\" -sc 1 | findstr /V \"_Total\"",
+    "mac": "ps -Ao pid,ppid,command,%mem,%cpu -r | head -6",
+    "difficulty": "advanced",
+    "tags": [
+      "cpu",
+      "top",
+      "monitor"
+    ]
+  },
+  {
+    "id": "proc_comp_003",
+    "category": "process_management",
+    "subcategory": "find_port",
+    "instruction": "Find the process ID listening on port 8080",
+    "linux": "lsof -t -i:8080",
+    "windows_cmd": "netstat -ano | findstr :8080",
+    "mac": "lsof -t -i:8080",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "port",
+      "network"
+    ]
+  },
+  {
+    "id": "proc_comp_004",
+    "category": "process_management",
+    "subcategory": "kill_user",
+    "instruction": "Kill all processes owned by user 'guest'",
+    "linux": "pkill -u guest",
+    "windows_cmd": "taskkill /F /FI \"USERNAME eq guest\"",
+    "mac": "pkill -u guest",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "user",
+      "owner"
+    ]
+  },
+  {
+    "id": "proc_comp_005",
+    "category": "process_management",
+    "subcategory": "priority",
+    "instruction": "Set priority of process 1234 to high/nice -10",
+    "linux": "renice -n -10 -p 1234",
+    "windows_cmd": "wmic process where processid=1234 call setpriority 128",
+    "mac": "renice -n -10 -p 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "priority",
+      "nice",
+      "performance"
+    ]
+  },
+  {
+    "id": "proc_comp_006",
+    "category": "process_management",
+    "subcategory": "tree_kill",
+    "instruction": "Kill a process tree starting at PID 1234",
+    "linux": "pkill -P 1234",
+    "windows_cmd": "taskkill /PID 1234 /T /F",
+    "mac": "pkill -P 1234",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "tree",
+      "child"
+    ]
+  },
+  {
+    "id": "proc_comp_007",
+    "category": "process_management",
+    "subcategory": "zombie",
+    "instruction": "Find zombie processes",
+    "linux": "ps aux | grep 'Z'",
+    "windows_cmd": "echo Windows does not have zombie processes in the Unix sense.",
+    "mac": "ps aux | grep 'Z'",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "zombie",
+      "status"
+    ]
+  },
+  {
+    "id": "proc_comp_008",
+    "category": "process_management",
+    "subcategory": "wait",
+    "instruction": "Wait for process 1234 to finish",
+    "linux": "tail --pid=1234 -f /dev/null",
+    "windows_cmd": "start /wait cmd /c \"echo Waiting for 1234...\"",
+    "mac": "lsof -p 1234 +r 1 &>/dev/null",
+    "difficulty": "advanced",
+    "tags": [
+      "wait",
+      "sync",
+      "status"
+    ]
+  },
+  {
+    "id": "proc_comp_009",
+    "category": "process_management",
+    "subcategory": "list_mem",
+    "instruction": "List processes sorted by memory usage",
+    "linux": "ps aux --sort=-%mem | head",
+    "windows_cmd": "tasklist /sort MEMORY",
+    "mac": "ps aux -m | head",
+    "difficulty": "intermediate",
+    "tags": [
+      "list",
+      "memory",
+      "sort"
+    ]
+  },
+  {
+    "id": "proc_comp_010",
+    "category": "process_management",
+    "subcategory": "signal_hup",
+    "instruction": "Send SIGHUP (reload configuration) to process 1234",
+    "linux": "kill -1 1234",
+    "windows_cmd": "echo Windows CMD does not support POSIX signals directly.",
+    "mac": "kill -1 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "signal",
+      "hup",
+      "reload"
+    ]
+  },
+  {
+    "id": "proc_comp_011",
+    "category": "process_management",
+    "subcategory": "count_running",
+    "instruction": "Count how many 'chrome' processes are running",
+    "linux": "pgrep -c chrome",
+    "windows_cmd": "tasklist | find /c \"chrome.exe\"",
+    "mac": "pgrep -c chrome",
+    "difficulty": "intermediate",
+    "tags": [
+      "count",
+      "monitor",
+      "status"
+    ]
+  },
+  {
+    "id": "proc_comp_012",
+    "category": "process_management",
+    "subcategory": "start_bg",
+    "instruction": "Start a long-running script in the background",
+    "linux": "./script.sh &",
+    "windows_cmd": "start /B script.bat",
+    "mac": "./script.sh &",
+    "difficulty": "beginner",
+    "tags": [
+      "background",
+      "start",
+      "async"
+    ]
+  },
+  {
+    "id": "proc_comp_013",
+    "category": "process_management",
+    "subcategory": "uptime_proc",
+    "instruction": "Check how long process 1234 has been running",
+    "linux": "ps -p 1234 -o etime",
+    "windows_cmd": "wmic process where processid=1234 get creationdate",
+    "mac": "ps -p 1234 -o etime",
+    "difficulty": "intermediate",
+    "tags": [
+      "time",
+      "uptime",
+      "status"
+    ]
+  },
+  {
+    "id": "proc_comp_014",
+    "category": "process_management",
+    "subcategory": "watch_cmd",
+    "instruction": "Run 'ps aux' every 2 seconds to monitor processes",
+    "linux": "watch -n 2 'ps aux'",
+    "windows_cmd": "for /l %x in (1, 0, 100) do @cls & tasklist & timeout 2 >nul",
+    "mac": "watch -n 2 'ps aux'",
+    "difficulty": "intermediate",
+    "tags": [
+      "monitor",
+      "watch",
+      "loop"
+    ]
+  },
+  {
+    "id": "proc_comp_015",
+    "category": "process_management",
+    "subcategory": "kill_old",
+    "instruction": "Kill processes running for more than 1 hour",
+    "linux": "find /proc -maxdepth 1 -user $USER -mmin +60 -name '[0-9]*' -exec kill -9 {} +",
+    "windows_cmd": "echo Complex logic requires script.",
+    "mac": "ps -eo pid,etime | grep -E '([0-9]{2}-|([0-9]{2}:){2})' | awk '{print $1}' | xargs kill",
+    "difficulty": "advanced",
+    "tags": [
+      "kill",
+      "time",
+      "filter"
+    ]
+  },
+  {
+    "id": "proc_comp_016",
+    "category": "process_management",
+    "subcategory": "parent_pid",
+    "instruction": "Find the parent PID of process 1234",
+    "linux": "ps -o ppid= -p 1234",
+    "windows_cmd": "wmic process where processid=1234 get parentprocessid",
+    "mac": "ps -o ppid= -p 1234",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "parent",
+      "ppid"
+    ]
+  },
+  {
+    "id": "proc_comp_017",
+    "category": "process_management",
+    "subcategory": "kill_mem",
+    "instruction": "Kill process consuming most memory",
+    "linux": "ps -eo pid,pcpu,pmem --sort=-pmem | head -2 | tail -1 | awk '{print $1}' | xargs kill",
+    "windows_cmd": "echo Complex logic requires script.",
+    "mac": "ps -Am -o pid | head -1 | xargs kill",
+    "difficulty": "advanced",
+    "tags": [
+      "kill",
+      "memory",
+      "top"
+    ]
+  },
+  {
+    "id": "proc_comp_018",
+    "category": "process_management",
+    "subcategory": "list_threads",
+    "instruction": "List threads of process 1234",
+    "linux": "ps -T -p 1234",
+    "windows_cmd": "wmic path win32_thread where ProcessHandle=1234 list brief",
+    "mac": "ps -M 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "list",
+      "threads",
+      "details"
+    ]
+  },
+  {
+    "id": "proc_comp_019",
+    "category": "process_management",
+    "subcategory": "suspend",
+    "instruction": "Suspend/Pause process 1234",
+    "linux": "kill -STOP 1234",
+    "windows_cmd": "pssuspend 1234 (requires PsTools)",
+    "mac": "kill -STOP 1234",
+    "difficulty": "intermediate",
+    "tags": [
+      "suspend",
+      "pause",
+      "stop"
+    ]
+  },
+  {
+    "id": "proc_comp_020",
+    "category": "process_management",
+    "subcategory": "resume",
+    "instruction": "Resume a suspended process 1234",
+    "linux": "kill -CONT 1234",
+    "windows_cmd": "pssuspend -r 1234 (requires PsTools)",
+    "mac": "kill -CONT 1234",
+    "difficulty": "intermediate",
+    "tags": [
+      "resume",
+      "continue",
+      "start"
+    ]
+  },
+  {
+    "id": "proc_comp_021",
+    "category": "process_management",
+    "subcategory": "cmdline",
+    "instruction": "Show the full command line used to start process 1234",
+    "linux": "cat /proc/1234/cmdline | tr '\\0' ' '",
+    "windows_cmd": "wmic process where processid=1234 get commandline",
+    "mac": "ps -p 1234 -o command",
+    "difficulty": "intermediate",
+    "tags": [
+      "info",
+      "command",
+      "args"
+    ]
+  },
+  {
+    "id": "proc_comp_022",
+    "category": "process_management",
+    "subcategory": "limit_cpu",
+    "instruction": "Run a command limited to 50% CPU usage",
+    "linux": "cpulimit -l 50 -- ./command",
+    "windows_cmd": "start /b /low command",
+    "mac": "cpulimit -l 50 -- ./command",
+    "difficulty": "advanced",
+    "tags": [
+      "limit",
+      "cpu",
+      "throttle"
+    ]
+  },
+  {
+    "id": "proc_comp_023",
+    "category": "process_management",
+    "subcategory": "nohup",
+    "instruction": "Run a command that keeps running after logout",
+    "linux": "nohup ./script.sh &",
+    "windows_cmd": "start /b script.bat (Windows services are better for this)",
+    "mac": "nohup ./script.sh &",
+    "difficulty": "intermediate",
+    "tags": [
+      "persist",
+      "nohup",
+      "background"
+    ]
+  },
+  {
+    "id": "proc_comp_024",
+    "category": "process_management",
+    "subcategory": "kill_window",
+    "instruction": "Kill a process by clicking on its window (interactive)",
+    "linux": "xkill",
+    "windows_cmd": "taskkill /FI \"STATUS eq NOT RESPONDING\"",
+    "mac": "Force Quit via UI or 'killall appname'",
+    "difficulty": "beginner",
+    "tags": [
+      "kill",
+      "gui",
+      "interactive"
+    ]
+  },
+  {
+    "id": "proc_comp_025",
+    "category": "process_management",
+    "subcategory": "env_proc",
+    "instruction": "Show environment variables of process 1234",
+    "linux": "cat /proc/1234/environ | tr '\\0' '\\n'",
+    "windows_cmd": "wmic process where processid=1234 get commandline (limited env access)",
+    "mac": "ps -p 1234 -wwwe",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "variables",
+      "info"
+    ]
+  },
+  {
+    "id": "proc_comp_026",
+    "category": "process_management",
+    "subcategory": "kill_group",
+    "instruction": "Kill the entire process group of PID 1234",
+    "linux": "kill -- -1234",
+    "windows_cmd": "taskkill /PID 1234 /T /F",
+    "mac": "kill -- -1234",
+    "difficulty": "advanced",
+    "tags": [
+      "kill",
+      "group",
+      "pgid"
+    ]
+  },
+  {
+    "id": "proc_comp_027",
+    "category": "process_management",
+    "subcategory": "nice_start",
+    "instruction": "Start a process with low priority",
+    "linux": "nice -n 10 ./script.sh",
+    "windows_cmd": "start /low script.bat",
+    "mac": "nice -n 10 ./script.sh",
+    "difficulty": "intermediate",
+    "tags": [
+      "priority",
+      "start",
+      "nice"
+    ]
+  },
+  {
+    "id": "proc_comp_028",
+    "category": "process_management",
+    "subcategory": "open_files",
+    "instruction": "List files opened by process 1234",
+    "linux": "lsof -p 1234",
+    "windows_cmd": "handle -p 1234 (requires SysInternals)",
+    "mac": "lsof -p 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "files",
+      "open",
+      "lsof"
+    ]
+  },
+  {
+    "id": "proc_comp_029",
+    "category": "process_management",
+    "subcategory": "core_dump",
+    "instruction": "Force a core dump of process 1234",
+    "linux": "gcore 1234",
+    "windows_cmd": "procdump 1234 (requires SysInternals)",
+    "mac": "lldb -p 1234 --batch -o 'process save-core \"core.1234\"'",
+    "difficulty": "advanced",
+    "tags": [
+      "debug",
+      "dump",
+      "core"
+    ]
+  },
+  {
+    "id": "proc_comp_030",
+    "category": "process_management",
+    "subcategory": "proc_path",
+    "instruction": "Find the executable path of process 1234",
+    "linux": "readlink -f /proc/1234/exe",
+    "windows_cmd": "wmic process where processid=1234 get ExecutablePath",
+    "mac": "ps -p 1234 -o comm=",
+    "difficulty": "intermediate",
+    "tags": [
+      "path",
+      "find",
+      "location"
+    ]
+  },
+  {
+    "id": "proc_comp_031",
+    "category": "process_management",
+    "subcategory": "kill_all_user",
+    "instruction": "Kill all processes owned by the current user",
+    "linux": "pkill -u $USER",
+    "windows_cmd": "taskkill /F /FI \"USERNAME eq %USERNAME%\"",
+    "mac": "pkill -u $USER",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "self",
+      "user"
+    ]
+  },
+  {
+    "id": "proc_comp_032",
+    "category": "process_management",
+    "subcategory": "job_control",
+    "instruction": "Bring the last background job to the foreground",
+    "linux": "fg",
+    "windows_cmd": "echo CMD does not support job control like bash.",
+    "mac": "fg",
+    "difficulty": "intermediate",
+    "tags": [
+      "jobs",
+      "foreground",
+      "control"
+    ]
+  },
+  {
+    "id": "proc_comp_033",
+    "category": "process_management",
+    "subcategory": "affinity",
+    "instruction": "Set process 1234 to run only on CPU Core 0",
+    "linux": "taskset -p 1 1234",
+    "windows_cmd": "wmic process where processid=1234 call setaffinity 1",
+    "mac": "echo macOS does not support affinity setting easily via CLI.",
+    "difficulty": "advanced",
+    "tags": [
+      "cpu",
+      "affinity",
+      "core"
+    ]
+  },
+  {
+    "id": "proc_comp_034",
+    "category": "process_management",
+    "subcategory": "iotop",
+    "instruction": "Monitor I/O usage by process",
+    "linux": "iotop",
+    "windows_cmd": "typeperf \"\\Process(*)\\IO Data Bytes/sec\"",
+    "mac": "iotop (requires installing)",
+    "difficulty": "advanced",
+    "tags": [
+      "io",
+      "disk",
+      "monitor"
+    ]
+  },
+  {
+    "id": "proc_comp_035",
+    "category": "process_management",
+    "subcategory": "kill_not_responding",
+    "instruction": "Kill all applications that are not responding",
+    "linux": "echo Requires GUI specific tools.",
+    "windows_cmd": "taskkill /FI \"STATUS eq NOT RESPONDING\" /F",
+    "mac": "echo Requires GUI specific tools.",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "status",
+      "hang"
+    ]
+  },
+  {
+    "id": "proc_comp_036",
+    "category": "process_management",
+    "subcategory": "pidof",
+    "instruction": "Get the PID of the 'sshd' service",
+    "linux": "pidof sshd",
+    "windows_cmd": "sc queryex sshd",
+    "mac": "pgrep sshd",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "service",
+      "pid"
+    ]
+  },
+  {
+    "id": "proc_comp_037",
+    "category": "process_management",
+    "subcategory": "strace",
+    "instruction": "Trace system calls of process 1234",
+    "linux": "strace -p 1234",
+    "windows_cmd": "echo Requires ProcMon or similar.",
+    "mac": "dtruss -p 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "debug",
+      "trace",
+      "syscall"
+    ]
+  },
+  {
+    "id": "proc_comp_038",
+    "category": "process_management",
+    "subcategory": "pstree",
+    "instruction": "Show process tree",
+    "linux": "pstree",
+    "windows_cmd": "wmic process get ParentProcessId,ProcessId,Name",
+    "mac": "pstree",
+    "difficulty": "intermediate",
+    "tags": [
+      "tree",
+      "view",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "proc_comp_039",
+    "category": "process_management",
+    "subcategory": "kill_wait",
+    "instruction": "Send TERM signal, wait 5s, then send KILL",
+    "linux": "timeout -k 5s 10s ./command",
+    "windows_cmd": "echo Requires script logic.",
+    "mac": "gtimeout -k 5s 10s ./command",
+    "difficulty": "advanced",
+    "tags": [
+      "timeout",
+      "kill",
+      "force"
+    ]
+  },
+  {
+    "id": "proc_comp_040",
+    "category": "process_management",
+    "subcategory": "run_as",
+    "instruction": "Run a command as user 'john'",
+    "linux": "sudo -u john ./command",
+    "windows_cmd": "runas /user:john command",
+    "mac": "sudo -u john ./command",
+    "difficulty": "intermediate",
+    "tags": [
+      "user",
+      "sudo",
+      "permissions"
+    ]
+  },
+  {
+    "id": "proc_comp_041",
+    "category": "process_management",
+    "subcategory": "orphan",
+    "instruction": "Find orphaned processes (parent is init/1)",
+    "linux": "ps -elf | awk '{if ($5 == 1) {print $0}}'",
+    "windows_cmd": "echo N/A on Windows",
+    "mac": "ps -elf | awk '{if ($5 == 1) {print $0}}'",
+    "difficulty": "advanced",
+    "tags": [
+      "find",
+      "orphan",
+      "init"
+    ]
+  },
+  {
+    "id": "proc_comp_042",
+    "category": "process_management",
+    "subcategory": "session",
+    "instruction": "Start a new session for a process",
+    "linux": "setsid ./command",
+    "windows_cmd": "start command",
+    "mac": "setsid ./command",
+    "difficulty": "advanced",
+    "tags": [
+      "session",
+      "detach",
+      "start"
+    ]
+  },
+  {
+    "id": "proc_comp_043",
+    "category": "process_management",
+    "subcategory": "time_limit",
+    "instruction": "Run a command for maximum 10 seconds",
+    "linux": "timeout 10s ./command",
+    "windows_cmd": "start /wait command & timeout 10 & taskkill /im command.exe /f",
+    "mac": "gtimeout 10s ./command",
+    "difficulty": "intermediate",
+    "tags": [
+      "timeout",
+      "limit",
+      "time"
+    ]
+  },
+  {
+    "id": "proc_comp_044",
+    "category": "process_management",
+    "subcategory": "lock_check",
+    "instruction": "Check what process is holding a lock on 'file.txt'",
+    "linux": "fuser file.txt",
+    "windows_cmd": "openfiles /query /fo table | findstr file.txt",
+    "mac": "fuser file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "lock",
+      "file",
+      "find"
+    ]
+  },
+  {
+    "id": "proc_comp_045",
+    "category": "process_management",
+    "subcategory": "kill_idle",
+    "instruction": "Kill users who have been idle for more than 30 minutes",
+    "linux": "w -i | awk '$4 > 30:00 {print $2}' | xargs -I {} pkill -t {}",
+    "windows_cmd": "echo Requires advanced scripting.",
+    "mac": "w -i | awk '$4 > 30:00 {print $2}' | xargs -I {} pkill -t {}",
+    "difficulty": "advanced",
+    "tags": [
+      "kill",
+      "idle",
+      "users"
+    ]
+  },
+  {
+    "id": "proc_comp_046",
+    "category": "process_management",
+    "subcategory": "batch_kill",
+    "instruction": "Kill multiple PIDs: 1001, 1002, 1003",
+    "linux": "kill 1001 1002 1003",
+    "windows_cmd": "taskkill /PID 1001 /PID 1002 /PID 1003 /F",
+    "mac": "kill 1001 1002 1003",
+    "difficulty": "intermediate",
+    "tags": [
+      "kill",
+      "batch",
+      "multiple"
+    ]
+  },
+  {
+    "id": "proc_comp_047",
+    "category": "process_management",
+    "subcategory": "perf_mon",
+    "instruction": "Monitor system calls count for a process",
+    "linux": "perf stat -p 1234",
+    "windows_cmd": "typeperf \"\\Process(processname)\\Handle Count\"",
+    "mac": "dtrace -p 1234",
+    "difficulty": "advanced",
+    "tags": [
+      "monitor",
+      "perf",
+      "stats"
+    ]
+  },
+  {
+    "id": "proc_comp_048",
+    "category": "process_management",
+    "subcategory": "bg_list",
+    "instruction": "List background jobs",
+    "linux": "jobs",
+    "windows_cmd": "echo N/A",
+    "mac": "jobs",
+    "difficulty": "beginner",
+    "tags": [
+      "jobs",
+      "list",
+      "background"
+    ]
+  },
+  {
+    "id": "proc_comp_049",
+    "category": "process_management",
+    "subcategory": "disown",
+    "instruction": "Disown a process from the shell so it survives logout",
+    "linux": "disown -h %1",
+    "windows_cmd": "echo Use 'start' to detach processes.",
+    "mac": "disown -h %1",
+    "difficulty": "intermediate",
+    "tags": [
+      "disown",
+      "detach",
+      "shell"
+    ]
+  },
+  {
+    "id": "proc_comp_050",
+    "category": "process_management",
+    "subcategory": "chroot",
+    "instruction": "Run a command in a new root directory",
+    "linux": "chroot /mnt/newroot /bin/bash",
+    "windows_cmd": "echo Windows does not support chroot.",
+    "mac": "chroot /mnt/newroot /bin/bash",
+    "difficulty": "advanced",
+    "tags": [
+      "chroot",
+      "jail",
+      "root"
+    ]
+  }
+]

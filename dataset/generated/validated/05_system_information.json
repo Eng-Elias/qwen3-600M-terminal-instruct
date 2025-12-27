@@ -1,0 +1,2152 @@
+[
+  {
+    "id": "sys_dfb9824b",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "View disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_e337ed3a",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Show me disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_5a54e6e7",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Check disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_1144093e",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Print system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_32d5fe28",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Check USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_5f162bc9",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "What is memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_e80bf0c1",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Print memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_16bfb89b",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Check environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_0cc23bc2",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Print disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_d8163b5b",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Display environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_dc3bcc77",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "What is system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_9e31a44a",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Show me memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_63325600",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Check environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_d0e652b0",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "Show me OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_b89e0cff",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "What is memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_cbc38210",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Display memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_37d59e1c",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Display environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_2fd63b92",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Check memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_84f1a170",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Get environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_9aa4f33b",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "What is system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_a6d95e5c",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Check USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_bc600c9c",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Show me system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_e2f98fc9",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "Display OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_1002ba7a",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Get USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_94ae0f7e",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Show me disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_eb7c5e38",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Check USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_f960b563",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Show me system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_72374946",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Print system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_3f4cd5ab",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "Print OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_b3ddf89e",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Display environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_6d3d0b4b",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "View disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_e8cf0e27",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Check USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_b28c8e35",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Get disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_b84d5036",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "View system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_57081499",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "What is OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_093344d6",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Show me system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_971b00c7",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Display disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_eabea760",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "View OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_57e405f8",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Show me system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_e1497d71",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Get USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_e6e24d61",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Print environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_a648546d",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "View memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_667016fc",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "View disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_d4cf271a",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Print memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_bee4e6ce",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Print USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_6c421bb3",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "View disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_4d2712c9",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "What is system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_01555792",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "What is environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_4479c3c8",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Get memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_09149914",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Show me environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_9b06dbb9",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "What is disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_e422c2e0",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Print environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_314d5c0c",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Check memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_1c062ff5",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "Get OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_9c99ae32",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Check memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_48e056ba",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "View USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_02ad2be7",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Print USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_8916f71d",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "What is system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_e0b1ea72",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "What is OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_cc24a982",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Get memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_a2c6d3e5",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "What is memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_b00a86bc",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Show me disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_08419911",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Get memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_9bee5213",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Check system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_38c6144c",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Display system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_6e9e47e0",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Get system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_48068806",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Show me USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_d8f4e973",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "What is memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_4d5cac37",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Print memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_ded9a4bf",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Print memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_ebb427d2",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Display USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_81814666",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Check system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_49e8c0c6",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "Get OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_e5840fac",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Check disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_9d776a9b",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Print system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_7ad7e0e0",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "View OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_0833a193",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Print disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_1552d86e",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Check environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_ca7c1ea6",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Check disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_64feca4e",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Display memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_0d083007",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Show me system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_66292de3",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Get memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_a52ab3eb",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "View system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_4a75235e",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Print USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_8db52fba",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Get system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_486fd69e",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Print disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_4a931171",
+    "category": "system_information",
+    "subcategory": "env",
+    "instruction": "Check environment variables",
+    "linux": "printenv",
+    "windows_cmd": "set",
+    "mac": "printenv",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "env"
+    ]
+  },
+  {
+    "id": "sys_9915938b",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "Check USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_c2fa834d",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "View USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_782766d1",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "Check OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_ec56ce09",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "View OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_fe71e4ea",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Show me system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_513a879e",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "Show me OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_3a031aeb",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "Print OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_ab2e9a03",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "What is OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_78b34823",
+    "category": "system_information",
+    "subcategory": "uptime",
+    "instruction": "Display system uptime",
+    "linux": "uptime",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_3ff2e874",
+    "category": "system_information",
+    "subcategory": "usb",
+    "instruction": "What is USB devices",
+    "linux": "lsusb",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "usb"
+    ]
+  },
+  {
+    "id": "sys_f30d63f0",
+    "category": "system_information",
+    "subcategory": "os",
+    "instruction": "Print OS version",
+    "linux": "cat /etc/os-release",
+    "windows_cmd": "ver",
+    "mac": "sw_vers",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "os"
+    ]
+  },
+  {
+    "id": "sys_2a7aa752",
+    "category": "system_information",
+    "subcategory": "mem",
+    "instruction": "Get memory usage",
+    "linux": "free -h",
+    "windows_cmd": "systeminfo | findstr /C:\"Total Physical Memory\"",
+    "mac": "vm_stat",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "mem"
+    ]
+  },
+  {
+    "id": "sys_bb85fe3c",
+    "category": "system_information",
+    "subcategory": "disk",
+    "instruction": "Display disk usage",
+    "linux": "df -h",
+    "windows_cmd": "wmic logicaldisk get size,freespace,caption",
+    "mac": "df -h",
+    "difficulty": "beginner",
+    "tags": [
+      "system",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_comp_001",
+    "category": "system_information",
+    "subcategory": "hardware_summary",
+    "instruction": "Display detailed hardware configuration summary",
+    "linux": "lshw -short",
+    "windows_cmd": "systeminfo",
+    "mac": "system_profiler SPHardwareDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "hardware",
+      "info",
+      "summary"
+    ]
+  },
+  {
+    "id": "sys_comp_002",
+    "category": "system_information",
+    "subcategory": "kernel_version",
+    "instruction": "Show full kernel version and build date",
+    "linux": "uname -v",
+    "windows_cmd": "ver",
+    "mac": "uname -v",
+    "difficulty": "beginner",
+    "tags": [
+      "kernel",
+      "version",
+      "build"
+    ]
+  },
+  {
+    "id": "sys_comp_003",
+    "category": "system_information",
+    "subcategory": "disk_uuid",
+    "instruction": "List block devices with their UUIDs",
+    "linux": "blkid",
+    "windows_cmd": "wmic partition get name,size,type",
+    "mac": "diskutil list",
+    "difficulty": "intermediate",
+    "tags": [
+      "disk",
+      "uuid",
+      "partitions"
+    ]
+  },
+  {
+    "id": "sys_comp_004",
+    "category": "system_information",
+    "subcategory": "cpu_details",
+    "instruction": "Display detailed CPU information (architecture, cores, threads)",
+    "linux": "lscpu",
+    "windows_cmd": "wmic cpu get caption, deviceid, name, numberofcores, maxclockspeed",
+    "mac": "sysctl -a | grep machdep.cpu",
+    "difficulty": "intermediate",
+    "tags": [
+      "cpu",
+      "cores",
+      "info"
+    ]
+  },
+  {
+    "id": "sys_comp_005",
+    "category": "system_information",
+    "subcategory": "memory_slots",
+    "instruction": "Show memory slot usage and capacity",
+    "linux": "dmidecode -t memory",
+    "windows_cmd": "wmic memorychip get capacity, speed, devicelocator",
+    "mac": "system_profiler SPMemoryDataType",
+    "difficulty": "advanced",
+    "tags": [
+      "memory",
+      "ram",
+      "slots"
+    ]
+  },
+  {
+    "id": "sys_comp_006",
+    "category": "system_information",
+    "subcategory": "usb_tree",
+    "instruction": "List USB devices in a tree structure",
+    "linux": "lsusb -t",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "usb",
+      "devices",
+      "tree"
+    ]
+  },
+  {
+    "id": "sys_comp_007",
+    "category": "system_information",
+    "subcategory": "bios_info",
+    "instruction": "Display BIOS/UEFI version and date",
+    "linux": "dmidecode -t bios",
+    "windows_cmd": "wmic bios get smbiosbiosversion",
+    "mac": "system_profiler SPHardwareDataType | grep 'Boot ROM'",
+    "difficulty": "intermediate",
+    "tags": [
+      "bios",
+      "firmware",
+      "uefi"
+    ]
+  },
+  {
+    "id": "sys_comp_008",
+    "category": "system_information",
+    "subcategory": "battery_status",
+    "instruction": "Check laptop battery health and status",
+    "linux": "upower -i /org/freedesktop/UPower/devices/battery_BAT0",
+    "windows_cmd": "powercfg /batteryreport",
+    "mac": "pmset -g batt",
+    "difficulty": "intermediate",
+    "tags": [
+      "battery",
+      "power",
+      "health"
+    ]
+  },
+  {
+    "id": "sys_comp_009",
+    "category": "system_information",
+    "subcategory": "last_boot",
+    "instruction": "Show the date and time of the last system boot",
+    "linux": "who -b",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "sysctl kern.boottime",
+    "difficulty": "beginner",
+    "tags": [
+      "boot",
+      "time",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_comp_010",
+    "category": "system_information",
+    "subcategory": "pci_devices",
+    "instruction": "List all PCI devices",
+    "linux": "lspci",
+    "windows_cmd": "wmic path win32_pncentity where \"deviceid like 'PCI%'\" get name, deviceid",
+    "mac": "system_profiler SPPCIDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "pci",
+      "hardware",
+      "devices"
+    ]
+  },
+  {
+    "id": "sys_comp_011",
+    "category": "system_information",
+    "subcategory": "load_avg",
+    "instruction": "Display system load averages",
+    "linux": "cat /proc/loadavg",
+    "windows_cmd": "wmic cpu get loadpercentage",
+    "mac": "sysctl vm.loadavg",
+    "difficulty": "intermediate",
+    "tags": [
+      "load",
+      "cpu",
+      "performance"
+    ]
+  },
+  {
+    "id": "sys_comp_012",
+    "category": "system_information",
+    "subcategory": "os_release",
+    "instruction": "Show OS release information (distro, version, codename)",
+    "linux": "cat /etc/*release",
+    "windows_cmd": "reg query \"HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\" /v ProductName",
+    "mac": "sw_vers",
+    "difficulty": "intermediate",
+    "tags": [
+      "os",
+      "version",
+      "release"
+    ]
+  },
+  {
+    "id": "sys_comp_013",
+    "category": "system_information",
+    "subcategory": "hostname_fqdn",
+    "instruction": "Display the Fully Qualified Domain Name (FQDN)",
+    "linux": "hostname -f",
+    "windows_cmd": "echo %COMPUTERNAME%.%USERDNSDOMAIN%",
+    "mac": "hostname -f",
+    "difficulty": "intermediate",
+    "tags": [
+      "hostname",
+      "fqdn",
+      "network"
+    ]
+  },
+  {
+    "id": "sys_comp_014",
+    "category": "system_information",
+    "subcategory": "open_ports",
+    "instruction": "List all open ports and associated processes",
+    "linux": "netstat -tulpn",
+    "windows_cmd": "netstat -ano",
+    "mac": "lsof -i -P | grep LISTEN",
+    "difficulty": "advanced",
+    "tags": [
+      "ports",
+      "network",
+      "security"
+    ]
+  },
+  {
+    "id": "sys_comp_015",
+    "category": "system_information",
+    "subcategory": "disk_serial",
+    "instruction": "Get the serial number of the hard drive",
+    "linux": "hdparm -I /dev/sda | grep Serial",
+    "windows_cmd": "wmic diskdrive get serialnumber",
+    "mac": "system_profiler SPSerialATADataType | grep Serial",
+    "difficulty": "advanced",
+    "tags": [
+      "disk",
+      "serial",
+      "hardware"
+    ]
+  },
+  {
+    "id": "sys_comp_016",
+    "category": "system_information",
+    "subcategory": "user_groups",
+    "instruction": "List all groups the current user belongs to",
+    "linux": "groups",
+    "windows_cmd": "whoami /groups",
+    "mac": "groups",
+    "difficulty": "beginner",
+    "tags": [
+      "user",
+      "groups",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sys_comp_017",
+    "category": "system_information",
+    "subcategory": "timezone",
+    "instruction": "Check the current system timezone",
+    "linux": "timedatectl",
+    "windows_cmd": "tzutil /g",
+    "mac": "sudo systemsetup -gettimezone",
+    "difficulty": "intermediate",
+    "tags": [
+      "timezone",
+      "date",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_018",
+    "category": "system_information",
+    "subcategory": "login_history",
+    "instruction": "Show history of user logins",
+    "linux": "last",
+    "windows_cmd": "echo Check Event Viewer Security Log",
+    "mac": "last",
+    "difficulty": "intermediate",
+    "tags": [
+      "logins",
+      "history",
+      "security"
+    ]
+  },
+  {
+    "id": "sys_comp_019",
+    "category": "system_information",
+    "subcategory": "swap_usage",
+    "instruction": "Display swap memory usage",
+    "linux": "swapon --show",
+    "windows_cmd": "wmic pagefile list /format:list",
+    "mac": "sysctl vm.swapusage",
+    "difficulty": "intermediate",
+    "tags": [
+      "swap",
+      "memory",
+      "paging"
+    ]
+  },
+  {
+    "id": "sys_comp_020",
+    "category": "system_information",
+    "subcategory": "locale",
+    "instruction": "Show current locale settings",
+    "linux": "localectl",
+    "windows_cmd": "systeminfo | findstr \"Locale\"",
+    "mac": "locale",
+    "difficulty": "intermediate",
+    "tags": [
+      "locale",
+      "language",
+      "settings"
+    ]
+  },
+  {
+    "id": "sys_comp_021",
+    "category": "system_information",
+    "subcategory": "cpu_temp",
+    "instruction": "Check CPU temperature",
+    "linux": "sensors",
+    "windows_cmd": "wmic /namespace:\\\\root\\wmi path MSAcpi_ThermalZoneTemperature get CurrentTemperature",
+    "mac": "sudo powermetrics --samplers smc | grep -i \"CPU die temperature\"",
+    "difficulty": "advanced",
+    "tags": [
+      "temperature",
+      "sensors",
+      "hardware"
+    ]
+  },
+  {
+    "id": "sys_comp_022",
+    "category": "system_information",
+    "subcategory": "file_limits",
+    "instruction": "Check open file limits (ulimit)",
+    "linux": "ulimit -n",
+    "windows_cmd": "echo Windows handles limits differently per process/system.",
+    "mac": "ulimit -n",
+    "difficulty": "intermediate",
+    "tags": [
+      "limits",
+      "files",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_023",
+    "category": "system_information",
+    "subcategory": "gpu_info",
+    "instruction": "Display Graphics/GPU information",
+    "linux": "lshw -C display",
+    "windows_cmd": "wmic path win32_VideoController get name",
+    "mac": "system_profiler SPDisplaysDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "gpu",
+      "graphics",
+      "video"
+    ]
+  },
+  {
+    "id": "sys_comp_024",
+    "category": "system_information",
+    "subcategory": "scheduled_tasks",
+    "instruction": "List scheduled tasks/cron jobs",
+    "linux": "crontab -l",
+    "windows_cmd": "schtasks /query",
+    "mac": "crontab -l",
+    "difficulty": "intermediate",
+    "tags": [
+      "cron",
+      "schedule",
+      "tasks"
+    ]
+  },
+  {
+    "id": "sys_comp_025",
+    "category": "system_information",
+    "subcategory": "runlevel",
+    "instruction": "Check current runlevel or boot target",
+    "linux": "runlevel",
+    "windows_cmd": "echo Windows uses Sessions, not Runlevels.",
+    "mac": "who -r",
+    "difficulty": "advanced",
+    "tags": [
+      "runlevel",
+      "boot",
+      "init"
+    ]
+  },
+  {
+    "id": "sys_comp_026",
+    "category": "system_information",
+    "subcategory": "bluetooth",
+    "instruction": "Check Bluetooth status and controller info",
+    "linux": "hciconfig -a",
+    "windows_cmd": "wmic path Win32_PNPEntity where \"Caption like '%Bluetooth%'\" get Caption",
+    "mac": "system_profiler SPBluetoothDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "bluetooth",
+      "hardware",
+      "wireless"
+    ]
+  },
+  {
+    "id": "sys_comp_027",
+    "category": "system_information",
+    "subcategory": "arp_table",
+    "instruction": "Display the ARP cache",
+    "linux": "ip neigh show",
+    "windows_cmd": "arp -a",
+    "mac": "arp -a",
+    "difficulty": "intermediate",
+    "tags": [
+      "arp",
+      "network",
+      "cache"
+    ]
+  },
+  {
+    "id": "sys_comp_028",
+    "category": "system_information",
+    "subcategory": "disk_free_inode",
+    "instruction": "Check inode usage on disk",
+    "linux": "df -i",
+    "windows_cmd": "echo NTFS doesn't use inodes in the same way.",
+    "mac": "df -i",
+    "difficulty": "advanced",
+    "tags": [
+      "disk",
+      "inode",
+      "usage"
+    ]
+  },
+  {
+    "id": "sys_comp_029",
+    "category": "system_information",
+    "subcategory": "mounts",
+    "instruction": "List all mounted filesystems",
+    "linux": "mount | column -t",
+    "windows_cmd": "wmic logicaldisk get name, description",
+    "mac": "mount",
+    "difficulty": "intermediate",
+    "tags": [
+      "mount",
+      "filesystem",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_comp_030",
+    "category": "system_information",
+    "subcategory": "product_key",
+    "instruction": "Retrieve Windows Product Key (BIOS)",
+    "linux": "strings /sys/firmware/acpi/tables/MSDM",
+    "windows_cmd": "wmic path softwarelicensingservice get OA3xOriginalProductKey",
+    "mac": "echo N/A",
+    "difficulty": "advanced",
+    "tags": [
+      "license",
+      "key",
+      "bios"
+    ]
+  },
+  {
+    "id": "sys_comp_031",
+    "category": "system_information",
+    "subcategory": "uptime_since",
+    "instruction": "Show exact date and time system was booted",
+    "linux": "uptime -s",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "sysctl -n kern.boottime",
+    "difficulty": "beginner",
+    "tags": [
+      "uptime",
+      "boot",
+      "time"
+    ]
+  },
+  {
+    "id": "sys_comp_032",
+    "category": "system_information",
+    "subcategory": "user_id",
+    "instruction": "Display user ID (uid) and group ID (gid)",
+    "linux": "id",
+    "windows_cmd": "whoami /user",
+    "mac": "id",
+    "difficulty": "beginner",
+    "tags": [
+      "user",
+      "id",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sys_comp_033",
+    "category": "system_information",
+    "subcategory": "ipv6_addr",
+    "instruction": "Display only the IPv6 address",
+    "linux": "ip -6 addr",
+    "windows_cmd": "ipconfig | find \"IPv6\"",
+    "mac": "ifconfig | grep inet6",
+    "difficulty": "intermediate",
+    "tags": [
+      "ipv6",
+      "network",
+      "address"
+    ]
+  },
+  {
+    "id": "sys_comp_034",
+    "category": "system_information",
+    "subcategory": "dns_servers",
+    "instruction": "Show configured DNS servers",
+    "linux": "cat /etc/resolv.conf",
+    "windows_cmd": "ipconfig /all | find \"DNS Servers\"",
+    "mac": "scutil --dns",
+    "difficulty": "intermediate",
+    "tags": [
+      "dns",
+      "network",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_035",
+    "category": "system_information",
+    "subcategory": "default_gateway",
+    "instruction": "Show default gateway IP",
+    "linux": "ip route | grep default",
+    "windows_cmd": "ipconfig | find \"Default Gateway\"",
+    "mac": "route -n get default",
+    "difficulty": "intermediate",
+    "tags": [
+      "gateway",
+      "network",
+      "route"
+    ]
+  },
+  {
+    "id": "sys_comp_036",
+    "category": "system_information",
+    "subcategory": "shell_version",
+    "instruction": "Check the version of the current shell",
+    "linux": "$SHELL --version",
+    "windows_cmd": "cmd /?",
+    "mac": "$SHELL --version",
+    "difficulty": "beginner",
+    "tags": [
+      "shell",
+      "version",
+      "info"
+    ]
+  },
+  {
+    "id": "sys_comp_037",
+    "category": "system_information",
+    "subcategory": "display_res",
+    "instruction": "Check current display resolution",
+    "linux": "xrandr | grep '*'",
+    "windows_cmd": "wmic path Win32_VideoController get CurrentHorizontalResolution,CurrentVerticalResolution",
+    "mac": "system_profiler SPDisplaysDataType | grep Resolution",
+    "difficulty": "intermediate",
+    "tags": [
+      "display",
+      "resolution",
+      "screen"
+    ]
+  },
+  {
+    "id": "sys_comp_038",
+    "category": "system_information",
+    "subcategory": "sound_cards",
+    "instruction": "List audio/sound devices",
+    "linux": "aplay -l",
+    "windows_cmd": "wmic sounddev get name",
+    "mac": "system_profiler SPAudioDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "audio",
+      "sound",
+      "hardware"
+    ]
+  },
+  {
+    "id": "sys_comp_039",
+    "category": "system_information",
+    "subcategory": "process_limit",
+    "instruction": "Check max number of processes allowed",
+    "linux": "ulimit -u",
+    "windows_cmd": "echo Windows limits rely on memory/paged pool.",
+    "mac": "ulimit -u",
+    "difficulty": "advanced",
+    "tags": [
+      "limits",
+      "processes",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_040",
+    "category": "system_information",
+    "subcategory": "kernel_modules",
+    "instruction": "List loaded kernel modules/drivers",
+    "linux": "lsmod",
+    "windows_cmd": "driverquery",
+    "mac": "kextstat",
+    "difficulty": "advanced",
+    "tags": [
+      "kernel",
+      "drivers",
+      "modules"
+    ]
+  },
+  {
+    "id": "sys_comp_041",
+    "category": "system_information",
+    "subcategory": "virtualization",
+    "instruction": "Check if running in a virtual machine",
+    "linux": "systemd-detect-virt",
+    "windows_cmd": "systeminfo | find \"System Model\"",
+    "mac": "sysctl -a | grep machdep.cpu.features | grep VMM",
+    "difficulty": "advanced",
+    "tags": [
+      "vm",
+      "virtualization",
+      "detect"
+    ]
+  },
+  {
+    "id": "sys_comp_042",
+    "category": "system_information",
+    "subcategory": "block_size",
+    "instruction": "Check filesystem block size",
+    "linux": "blockdev --getbsz /dev/sda1",
+    "windows_cmd": "fsutil fsinfo ntfsinfo C:",
+    "mac": "stat -f %k .",
+    "difficulty": "advanced",
+    "tags": [
+      "disk",
+      "block",
+      "size"
+    ]
+  },
+  {
+    "id": "sys_comp_043",
+    "category": "system_information",
+    "subcategory": "who_users",
+    "instruction": "Show who is currently logged in",
+    "linux": "who -a",
+    "windows_cmd": "query user",
+    "mac": "who",
+    "difficulty": "beginner",
+    "tags": [
+      "users",
+      "login",
+      "who"
+    ]
+  },
+  {
+    "id": "sys_comp_044",
+    "category": "system_information",
+    "subcategory": "sysctl",
+    "instruction": "List all kernel parameters",
+    "linux": "sysctl -a",
+    "windows_cmd": "echo Registry contains parameters.",
+    "mac": "sysctl -a",
+    "difficulty": "advanced",
+    "tags": [
+      "kernel",
+      "config",
+      "sysctl"
+    ]
+  },
+  {
+    "id": "sys_comp_045",
+    "category": "system_information",
+    "subcategory": "assoc",
+    "instruction": "Check file association for .txt",
+    "linux": "xdg-mime query default text/plain",
+    "windows_cmd": "assoc .txt",
+    "mac": "echo Use 'duti' or LaunchServices.",
+    "difficulty": "intermediate",
+    "tags": [
+      "file",
+      "association",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_046",
+    "category": "system_information",
+    "subcategory": "path_var",
+    "instruction": "Print the PATH variable specifically",
+    "linux": "echo $PATH",
+    "windows_cmd": "path",
+    "mac": "echo $PATH",
+    "difficulty": "beginner",
+    "tags": [
+      "path",
+      "env",
+      "var"
+    ]
+  },
+  {
+    "id": "sys_comp_047",
+    "category": "system_information",
+    "subcategory": "uptime_pretty",
+    "instruction": "Show uptime in pretty format",
+    "linux": "uptime -p",
+    "windows_cmd": "systeminfo | find \"Up Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "uptime",
+      "time",
+      "pretty"
+    ]
+  },
+  {
+    "id": "sys_comp_048",
+    "category": "system_information",
+    "subcategory": "wifi_signal",
+    "instruction": "Check Wi-Fi signal strength",
+    "linux": "iwconfig",
+    "windows_cmd": "netsh wlan show interfaces",
+    "mac": "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I",
+    "difficulty": "intermediate",
+    "tags": [
+      "wifi",
+      "signal",
+      "network"
+    ]
+  },
+  {
+    "id": "sys_comp_049",
+    "category": "system_information",
+    "subcategory": "cpu_freq",
+    "instruction": "Check current CPU frequency",
+    "linux": "cat /proc/cpuinfo | grep 'MHz'",
+    "windows_cmd": "wmic cpu get currentclockspeed",
+    "mac": "sysctl hw.cpufrequency",
+    "difficulty": "advanced",
+    "tags": [
+      "cpu",
+      "frequency",
+      "speed"
+    ]
+  },
+  {
+    "id": "sys_comp_050",
+    "category": "system_information",
+    "subcategory": "printer_list",
+    "instruction": "List installed printers",
+    "linux": "lpstat -p",
+    "windows_cmd": "wmic printer get name",
+    "mac": "lpstat -p",
+    "difficulty": "intermediate",
+    "tags": [
+      "printer",
+      "hardware",
+      "list"
+    ]
+  }
+]

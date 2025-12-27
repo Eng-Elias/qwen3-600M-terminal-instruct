@@ -1,0 +1,194 @@
+[
+  {
+    "id": "text_comp_002",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_004",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_006",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_008",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_009",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_010",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_011",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_012",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_013",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_015",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_017",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_018",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_020",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_021",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_022",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_025",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_026",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_034",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_039",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_040",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_041",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_042",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_045",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "text_comp_046",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  }
+]

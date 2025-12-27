@@ -1,0 +1,752 @@
+[
+  {
+    "id": "env_comp_001",
+    "category": "environment_variables",
+    "subcategory": "path_append",
+    "instruction": "Append '/opt/bin' to the PATH variable for the current session",
+    "linux": "export PATH=$PATH:/opt/bin",
+    "windows_cmd": "set PATH=%PATH%;C:\\opt\\bin",
+    "mac": "export PATH=$PATH:/opt/bin",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "path",
+      "export"
+    ]
+  },
+  {
+    "id": "env_comp_002",
+    "category": "environment_variables",
+    "subcategory": "env_persist_user",
+    "instruction": "Permanently set 'MY_VAR=hello' for the current user",
+    "linux": "echo 'export MY_VAR=hello' >> ~/.bashrc",
+    "windows_cmd": "setx MY_VAR \"hello\"",
+    "mac": "echo 'export MY_VAR=hello' >> ~/.zshrc",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "persist",
+      "user"
+    ]
+  },
+  {
+    "id": "env_comp_003",
+    "category": "environment_variables",
+    "subcategory": "env_persist_system",
+    "instruction": "Permanently set 'GLOBAL_VAR=world' for all users",
+    "linux": "echo 'export GLOBAL_VAR=world' | sudo tee /etc/profile.d/global_var.sh",
+    "windows_cmd": "setx /M GLOBAL_VAR \"world\"",
+    "mac": "echo 'export GLOBAL_VAR=world' | sudo tee /etc/profile.d/global_var.sh",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "persist",
+      "system"
+    ]
+  },
+  {
+    "id": "env_comp_004",
+    "category": "environment_variables",
+    "subcategory": "print_env",
+    "instruction": "Print all environment variables sorted by name",
+    "linux": "printenv | sort",
+    "windows_cmd": "set | sort",
+    "mac": "printenv | sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "list",
+      "sort"
+    ]
+  },
+  {
+    "id": "env_comp_005",
+    "category": "environment_variables",
+    "subcategory": "unset_env",
+    "instruction": "Remove the environment variable 'TEMP_VAR'",
+    "linux": "unset TEMP_VAR",
+    "windows_cmd": "set TEMP_VAR=",
+    "mac": "unset TEMP_VAR",
+    "difficulty": "beginner",
+    "tags": [
+      "env",
+      "unset",
+      "remove"
+    ]
+  },
+  {
+    "id": "env_comp_006",
+    "category": "environment_variables",
+    "subcategory": "env_exec",
+    "instruction": "Run a command with a modified environment variable without affecting current shell",
+    "linux": "MY_VAR=value ./script.sh",
+    "windows_cmd": "cmd /c \"set MY_VAR=value && script.bat\"",
+    "mac": "MY_VAR=value ./script.sh",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "run",
+      "temporary"
+    ]
+  },
+  {
+    "id": "env_comp_007",
+    "category": "environment_variables",
+    "subcategory": "ps1_prompt",
+    "instruction": "Change the shell prompt to show user and current directory",
+    "linux": "export PS1='\\u@\\h:\\w\\$ '",
+    "windows_cmd": "prompt $P$G",
+    "mac": "export PS1='%n@%m:%~%# '",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "prompt",
+      "shell"
+    ]
+  },
+  {
+    "id": "env_comp_008",
+    "category": "environment_variables",
+    "subcategory": "ld_library_path",
+    "instruction": "Add current directory to shared library search path",
+    "linux": "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.",
+    "windows_cmd": "set PATH=%PATH%;.",
+    "mac": "export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:.",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "library",
+      "path"
+    ]
+  },
+  {
+    "id": "env_comp_009",
+    "category": "environment_variables",
+    "subcategory": "editor_set",
+    "instruction": "Set the default text editor to 'nano'",
+    "linux": "export EDITOR=nano",
+    "windows_cmd": "set EDITOR=nano",
+    "mac": "export EDITOR=nano",
+    "difficulty": "beginner",
+    "tags": [
+      "env",
+      "editor",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_010",
+    "category": "environment_variables",
+    "subcategory": "grep_env",
+    "instruction": "Find environment variables containing 'USER'",
+    "linux": "printenv | grep USER",
+    "windows_cmd": "set | findstr \"USER\"",
+    "mac": "printenv | grep USER",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "search",
+      "grep"
+    ]
+  },
+  {
+    "id": "env_comp_011",
+    "category": "environment_variables",
+    "subcategory": "proxy_http",
+    "instruction": "Set HTTP proxy environment variable",
+    "linux": "export http_proxy='http://proxy.example.com:8080'",
+    "windows_cmd": "set http_proxy=http://proxy.example.com:8080",
+    "mac": "export http_proxy='http://proxy.example.com:8080'",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "proxy",
+      "network"
+    ]
+  },
+  {
+    "id": "env_comp_012",
+    "category": "environment_variables",
+    "subcategory": "no_proxy",
+    "instruction": "Set NO_PROXY to bypass proxy for localhost",
+    "linux": "export no_proxy='localhost,127.0.0.1'",
+    "windows_cmd": "set no_proxy=localhost,127.0.0.1",
+    "mac": "export no_proxy='localhost,127.0.0.1'",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "proxy",
+      "bypass"
+    ]
+  },
+  {
+    "id": "env_comp_013",
+    "category": "environment_variables",
+    "subcategory": "locale_utf8",
+    "instruction": "Set system locale to US English UTF-8",
+    "linux": "export LANG=en_US.UTF-8",
+    "windows_cmd": "chcp 65001",
+    "mac": "export LANG=en_US.UTF-8",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "locale",
+      "encoding"
+    ]
+  },
+  {
+    "id": "env_comp_014",
+    "category": "environment_variables",
+    "subcategory": "env_read",
+    "instruction": "Read environment variable 'HOME' into a variable 'dir'",
+    "linux": "dir=$HOME",
+    "windows_cmd": "set dir=%HOMEPATH%",
+    "mac": "dir=$HOME",
+    "difficulty": "beginner",
+    "tags": [
+      "env",
+      "read",
+      "variable"
+    ]
+  },
+  {
+    "id": "env_comp_015",
+    "category": "environment_variables",
+    "subcategory": "env_subst",
+    "instruction": "Substitute environment variables in a template file",
+    "linux": "envsubst < template.conf > config.conf",
+    "windows_cmd": "echo N/A (requires scripting)",
+    "mac": "envsubst < template.conf > config.conf",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "substitute",
+      "template"
+    ]
+  },
+  {
+    "id": "env_comp_016",
+    "category": "environment_variables",
+    "subcategory": "path_prepend",
+    "instruction": "Prepend '~/bin' to PATH",
+    "linux": "export PATH=~/bin:$PATH",
+    "windows_cmd": "set PATH=%USERPROFILE%\\bin;%PATH%",
+    "mac": "export PATH=~/bin:$PATH",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "path",
+      "prepend"
+    ]
+  },
+  {
+    "id": "env_comp_017",
+    "category": "environment_variables",
+    "subcategory": "term_type",
+    "instruction": "Set terminal type to 'xterm-256color'",
+    "linux": "export TERM=xterm-256color",
+    "windows_cmd": "echo N/A",
+    "mac": "export TERM=xterm-256color",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "term",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_018",
+    "category": "environment_variables",
+    "subcategory": "history_size",
+    "instruction": "Increase history size to 10000 commands",
+    "linux": "export HISTSIZE=10000",
+    "windows_cmd": "echo N/A (doskey /history buffer is fixed)",
+    "mac": "export HISTSIZE=10000",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "history",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_019",
+    "category": "environment_variables",
+    "subcategory": "pythonpath",
+    "instruction": "Add current directory to PYTHONPATH",
+    "linux": "export PYTHONPATH=$PYTHONPATH:.",
+    "windows_cmd": "set PYTHONPATH=%PYTHONPATH%;.",
+    "mac": "export PYTHONPATH=$PYTHONPATH:.",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "python",
+      "path"
+    ]
+  },
+  {
+    "id": "env_comp_020",
+    "category": "environment_variables",
+    "subcategory": "java_home",
+    "instruction": "Set JAVA_HOME to '/usr/lib/jvm/java-11'",
+    "linux": "export JAVA_HOME=/usr/lib/jvm/java-11",
+    "windows_cmd": "set JAVA_HOME=C:\\Program Files\\Java\\jdk-11",
+    "mac": "export JAVA_HOME=$(/usr/libexec/java_home -v 11)",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "java",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_021",
+    "category": "environment_variables",
+    "subcategory": "ssh_auth_sock",
+    "instruction": "Manually set SSH_AUTH_SOCK",
+    "linux": "export SSH_AUTH_SOCK=/run/user/1000/keyring/ssh",
+    "windows_cmd": "echo N/A",
+    "mac": "export SSH_AUTH_SOCK=/tmp/ssh-agent.sock",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "ssh",
+      "auth"
+    ]
+  },
+  {
+    "id": "env_comp_022",
+    "category": "environment_variables",
+    "subcategory": "pager_set",
+    "instruction": "Set default pager to 'less'",
+    "linux": "export PAGER=less",
+    "windows_cmd": "echo N/A",
+    "mac": "export PAGER=less",
+    "difficulty": "beginner",
+    "tags": [
+      "env",
+      "pager",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_023",
+    "category": "environment_variables",
+    "subcategory": "browser_set",
+    "instruction": "Set default browser to 'firefox'",
+    "linux": "export BROWSER=firefox",
+    "windows_cmd": "echo Configured via Default Apps",
+    "mac": "echo Configured via System Settings",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "browser",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_024",
+    "category": "environment_variables",
+    "subcategory": "visual_editor",
+    "instruction": "Set visual editor to 'vim'",
+    "linux": "export VISUAL=vim",
+    "windows_cmd": "echo N/A",
+    "mac": "export VISUAL=vim",
+    "difficulty": "beginner",
+    "tags": [
+      "env",
+      "editor",
+      "visual"
+    ]
+  },
+  {
+    "id": "env_comp_025",
+    "category": "environment_variables",
+    "subcategory": "manpager",
+    "instruction": "Set man page pager to 'bat'",
+    "linux": "export MANPAGER=\"sh -c 'col -bx | bat -l man -p'\"",
+    "windows_cmd": "echo N/A",
+    "mac": "export MANPAGER=\"sh -c 'col -bx | bat -l man -p'\"",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "man",
+      "pager"
+    ]
+  },
+  {
+    "id": "env_comp_026",
+    "category": "environment_variables",
+    "subcategory": "xdg_config",
+    "instruction": "Set XDG_CONFIG_HOME to '~/.config'",
+    "linux": "export XDG_CONFIG_HOME=$HOME/.config",
+    "windows_cmd": "echo N/A",
+    "mac": "export XDG_CONFIG_HOME=$HOME/.config",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "xdg",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_027",
+    "category": "environment_variables",
+    "subcategory": "shell_var",
+    "instruction": "Print the current shell path",
+    "linux": "echo $SHELL",
+    "windows_cmd": "echo %COMSPEC%",
+    "mac": "echo $SHELL",
+    "difficulty": "beginner",
+    "tags": [
+      "env",
+      "shell",
+      "info"
+    ]
+  },
+  {
+    "id": "env_comp_028",
+    "category": "environment_variables",
+    "subcategory": "uid_var",
+    "instruction": "Print current user ID from environment",
+    "linux": "echo $UID",
+    "windows_cmd": "echo N/A (use whoami /user)",
+    "mac": "echo $UID",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "user",
+      "id"
+    ]
+  },
+  {
+    "id": "env_comp_029",
+    "category": "environment_variables",
+    "subcategory": "tz_set",
+    "instruction": "Set time zone to UTC for current session",
+    "linux": "export TZ=UTC",
+    "windows_cmd": "set TZ=UTC",
+    "mac": "export TZ=UTC",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "timezone",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_030",
+    "category": "environment_variables",
+    "subcategory": "columns_lines",
+    "instruction": "Manually set terminal dimensions",
+    "linux": "export COLUMNS=80 LINES=24",
+    "windows_cmd": "mode con cols=80 lines=24",
+    "mac": "export COLUMNS=80 LINES=24",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "terminal",
+      "size"
+    ]
+  },
+  {
+    "id": "env_comp_031",
+    "category": "environment_variables",
+    "subcategory": "tmpdir",
+    "instruction": "Change temporary directory location",
+    "linux": "export TMPDIR=/var/tmp",
+    "windows_cmd": "set TMP=%TEMP%",
+    "mac": "export TMPDIR=/var/tmp",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "tmp",
+      "dir"
+    ]
+  },
+  {
+    "id": "env_comp_032",
+    "category": "environment_variables",
+    "subcategory": "display_x11",
+    "instruction": "Set X11 display variable",
+    "linux": "export DISPLAY=:0",
+    "windows_cmd": "echo N/A",
+    "mac": "export DISPLAY=:0",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "display",
+      "x11"
+    ]
+  },
+  {
+    "id": "env_comp_033",
+    "category": "environment_variables",
+    "subcategory": "debug_node",
+    "instruction": "Enable verbose logging for Node.js",
+    "linux": "export NODE_DEBUG=http",
+    "windows_cmd": "set NODE_DEBUG=http",
+    "mac": "export NODE_DEBUG=http",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "debug",
+      "node"
+    ]
+  },
+  {
+    "id": "env_comp_034",
+    "category": "environment_variables",
+    "subcategory": "go_path",
+    "instruction": "Set GOPATH to '~/go'",
+    "linux": "export GOPATH=$HOME/go",
+    "windows_cmd": "set GOPATH=%USERPROFILE%\\go",
+    "mac": "export GOPATH=$HOME/go",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "go",
+      "path"
+    ]
+  },
+  {
+    "id": "env_comp_035",
+    "category": "environment_variables",
+    "subcategory": "cargo_home",
+    "instruction": "Set CARGO_HOME",
+    "linux": "export CARGO_HOME=$HOME/.cargo",
+    "windows_cmd": "set CARGO_HOME=%USERPROFILE%\\.cargo",
+    "mac": "export CARGO_HOME=$HOME/.cargo",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "rust",
+      "cargo"
+    ]
+  },
+  {
+    "id": "env_comp_036",
+    "category": "environment_variables",
+    "subcategory": "host_alias",
+    "instruction": "Use HOSTALIASES file",
+    "linux": "export HOSTALIASES=~/.hosts",
+    "windows_cmd": "echo N/A",
+    "mac": "echo N/A",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "network",
+      "alias"
+    ]
+  },
+  {
+    "id": "env_comp_037",
+    "category": "environment_variables",
+    "subcategory": "inputrc",
+    "instruction": "Set custom readline config",
+    "linux": "export INPUTRC=~/.inputrc",
+    "windows_cmd": "echo N/A",
+    "mac": "export INPUTRC=~/.inputrc",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "readline",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_038",
+    "category": "environment_variables",
+    "subcategory": "pip_config",
+    "instruction": "Set pip configuration file location",
+    "linux": "export PIP_CONFIG_FILE=~/.config/pip/pip.conf",
+    "windows_cmd": "set PIP_CONFIG_FILE=%APPDATA%\\pip\\pip.ini",
+    "mac": "export PIP_CONFIG_FILE=~/.config/pip/pip.conf",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "pip",
+      "python"
+    ]
+  },
+  {
+    "id": "env_comp_039",
+    "category": "environment_variables",
+    "subcategory": "npm_config",
+    "instruction": "Set npm user configuration file",
+    "linux": "export NPM_CONFIG_USERCONFIG=~/.npmrc",
+    "windows_cmd": "set NPM_CONFIG_USERCONFIG=%USERPROFILE%\\.npmrc",
+    "mac": "export NPM_CONFIG_USERCONFIG=~/.npmrc",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "npm",
+      "node"
+    ]
+  },
+  {
+    "id": "env_comp_040",
+    "category": "environment_variables",
+    "subcategory": "aws_profile",
+    "instruction": "Select AWS CLI profile",
+    "linux": "export AWS_PROFILE=production",
+    "windows_cmd": "set AWS_PROFILE=production",
+    "mac": "export AWS_PROFILE=production",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "aws",
+      "cloud"
+    ]
+  },
+  {
+    "id": "env_comp_041",
+    "category": "environment_variables",
+    "subcategory": "docker_host",
+    "instruction": "Set Docker daemon host",
+    "linux": "export DOCKER_HOST=tcp://localhost:2375",
+    "windows_cmd": "set DOCKER_HOST=tcp://localhost:2375",
+    "mac": "export DOCKER_HOST=tcp://localhost:2375",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "docker",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_042",
+    "category": "environment_variables",
+    "subcategory": "kube_config",
+    "instruction": "Set Kubernetes config file",
+    "linux": "export KUBECONFIG=~/.kube/config",
+    "windows_cmd": "set KUBECONFIG=%USERPROFILE%\\.kube\\config",
+    "mac": "export KUBECONFIG=~/.kube/config",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "kubernetes",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_043",
+    "category": "environment_variables",
+    "subcategory": "colorterm",
+    "instruction": "Enable truecolor support",
+    "linux": "export COLORTERM=truecolor",
+    "windows_cmd": "echo N/A",
+    "mac": "export COLORTERM=truecolor",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "color",
+      "terminal"
+    ]
+  },
+  {
+    "id": "env_comp_044",
+    "category": "environment_variables",
+    "subcategory": "git_author",
+    "instruction": "Override Git author name via environment",
+    "linux": "export GIT_AUTHOR_NAME='John Doe'",
+    "windows_cmd": "set GIT_AUTHOR_NAME=John Doe",
+    "mac": "export GIT_AUTHOR_NAME='John Doe'",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "git",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_045",
+    "category": "environment_variables",
+    "subcategory": "git_editor",
+    "instruction": "Set Git commit editor",
+    "linux": "export GIT_EDITOR=vim",
+    "windows_cmd": "set GIT_EDITOR=notepad",
+    "mac": "export GIT_EDITOR=vim",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "git",
+      "editor"
+    ]
+  },
+  {
+    "id": "env_comp_046",
+    "category": "environment_variables",
+    "subcategory": "secret_key",
+    "instruction": "Set application secret key",
+    "linux": "export SECRET_KEY='s3cr3t'",
+    "windows_cmd": "set SECRET_KEY=s3cr3t",
+    "mac": "export SECRET_KEY='s3cr3t'",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "secret",
+      "app"
+    ]
+  },
+  {
+    "id": "env_comp_047",
+    "category": "environment_variables",
+    "subcategory": "flask_env",
+    "instruction": "Set Flask environment to development",
+    "linux": "export FLASK_ENV=development",
+    "windows_cmd": "set FLASK_ENV=development",
+    "mac": "export FLASK_ENV=development",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "flask",
+      "python"
+    ]
+  },
+  {
+    "id": "env_comp_048",
+    "category": "environment_variables",
+    "subcategory": "rails_env",
+    "instruction": "Set Rails environment to production",
+    "linux": "export RAILS_ENV=production",
+    "windows_cmd": "set RAILS_ENV=production",
+    "mac": "export RAILS_ENV=production",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "rails",
+      "ruby"
+    ]
+  },
+  {
+    "id": "env_comp_049",
+    "category": "environment_variables",
+    "subcategory": "node_env",
+    "instruction": "Set Node environment to production",
+    "linux": "export NODE_ENV=production",
+    "windows_cmd": "set NODE_ENV=production",
+    "mac": "export NODE_ENV=production",
+    "difficulty": "intermediate",
+    "tags": [
+      "env",
+      "node",
+      "config"
+    ]
+  },
+  {
+    "id": "env_comp_050",
+    "category": "environment_variables",
+    "subcategory": "term_program",
+    "instruction": "Identify terminal program (informational override)",
+    "linux": "export TERM_PROGRAM=vscode",
+    "windows_cmd": "set TERM_PROGRAM=vscode",
+    "mac": "export TERM_PROGRAM=vscode",
+    "difficulty": "advanced",
+    "tags": [
+      "env",
+      "term",
+      "info"
+    ]
+  }
+]

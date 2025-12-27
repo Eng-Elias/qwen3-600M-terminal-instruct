@@ -1,0 +1,2137 @@
+[
+  {
+    "id": "pkg_84f209ee",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall tmux",
+    "linux": "sudo apt remove tmux -y",
+    "windows_cmd": "choco uninstall tmux -y",
+    "mac": "brew uninstall tmux"
+  },
+  {
+    "id": "pkg_0ac24572",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install tmux",
+    "linux": "sudo apt install tmux -y",
+    "windows_cmd": "choco install tmux -y",
+    "mac": "brew install tmux"
+  },
+  {
+    "id": "pkg_16ac04af",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_6f5fab8d",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'ffmpeg'",
+    "linux": "apt search ffmpeg",
+    "windows_cmd": "choco search ffmpeg",
+    "mac": "brew search ffmpeg"
+  },
+  {
+    "id": "pkg_88706b48",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_0bbad3b8",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall imagemagick",
+    "linux": "sudo apt remove imagemagick -y",
+    "windows_cmd": "choco uninstall imagemagick -y",
+    "mac": "brew uninstall imagemagick"
+  },
+  {
+    "id": "pkg_509fe9d2",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install tmux",
+    "linux": "sudo apt install tmux -y",
+    "windows_cmd": "choco install tmux -y",
+    "mac": "brew install tmux"
+  },
+  {
+    "id": "pkg_467d2c0f",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'git'",
+    "linux": "apt search git",
+    "windows_cmd": "choco search git",
+    "mac": "brew search git"
+  },
+  {
+    "id": "pkg_2d61e628",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'wget'",
+    "linux": "apt search wget",
+    "windows_cmd": "choco search wget",
+    "mac": "brew search wget"
+  },
+  {
+    "id": "pkg_7783947b",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_2d6078f4",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_6c4e804d",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install ffmpeg",
+    "linux": "sudo apt install ffmpeg -y",
+    "windows_cmd": "choco install ffmpeg -y",
+    "mac": "brew install ffmpeg"
+  },
+  {
+    "id": "pkg_47a0dbd8",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'ruby'",
+    "linux": "apt search ruby",
+    "windows_cmd": "choco search ruby",
+    "mac": "brew search ruby"
+  },
+  {
+    "id": "pkg_db94c7c3",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_965d4e57",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install go",
+    "linux": "sudo apt install go -y",
+    "windows_cmd": "choco install go -y",
+    "mac": "brew install go"
+  },
+  {
+    "id": "pkg_33e2553d",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall python3",
+    "linux": "sudo apt remove python3 -y",
+    "windows_cmd": "choco uninstall python3 -y",
+    "mac": "brew uninstall python3"
+  },
+  {
+    "id": "pkg_6b9e9037",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_13939b26",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install python3",
+    "linux": "sudo apt install python3 -y",
+    "windows_cmd": "choco install python3 -y",
+    "mac": "brew install python3"
+  },
+  {
+    "id": "pkg_dc1a7f09",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'cmake'",
+    "linux": "apt search cmake",
+    "windows_cmd": "choco search cmake",
+    "mac": "brew search cmake"
+  },
+  {
+    "id": "pkg_72018507",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall pip",
+    "linux": "sudo apt remove pip -y",
+    "windows_cmd": "choco uninstall pip -y",
+    "mac": "brew uninstall pip"
+  },
+  {
+    "id": "pkg_1097e3ed",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install make",
+    "linux": "sudo apt install make -y",
+    "windows_cmd": "choco install make -y",
+    "mac": "brew install make"
+  },
+  {
+    "id": "pkg_63dfea9d",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_6f805490",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_6b997db6",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'gcc'",
+    "linux": "apt search gcc",
+    "windows_cmd": "choco search gcc",
+    "mac": "brew search gcc"
+  },
+  {
+    "id": "pkg_ccd82666",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_3c0cac31",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall jq",
+    "linux": "sudo apt remove jq -y",
+    "windows_cmd": "choco uninstall jq -y",
+    "mac": "brew uninstall jq"
+  },
+  {
+    "id": "pkg_b884a7a6",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'vim'",
+    "linux": "apt search vim",
+    "windows_cmd": "choco search vim",
+    "mac": "brew search vim"
+  },
+  {
+    "id": "pkg_d2e3a279",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_9698633d",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'ruby'",
+    "linux": "apt search ruby",
+    "windows_cmd": "choco search ruby",
+    "mac": "brew search ruby"
+  },
+  {
+    "id": "pkg_88258ba1",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'npm'",
+    "linux": "apt search npm",
+    "windows_cmd": "choco search npm",
+    "mac": "brew search npm"
+  },
+  {
+    "id": "pkg_0116d36a",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install nginx",
+    "linux": "sudo apt install nginx -y",
+    "windows_cmd": "choco install nginx -y",
+    "mac": "brew install nginx"
+  },
+  {
+    "id": "pkg_507bd1df",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'zsh'",
+    "linux": "apt search zsh",
+    "windows_cmd": "choco search zsh",
+    "mac": "brew search zsh"
+  },
+  {
+    "id": "pkg_09a3fb6a",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_730f47b0",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall tree",
+    "linux": "sudo apt remove tree -y",
+    "windows_cmd": "choco uninstall tree -y",
+    "mac": "brew uninstall tree"
+  },
+  {
+    "id": "pkg_3b2d110a",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall tmux",
+    "linux": "sudo apt remove tmux -y",
+    "windows_cmd": "choco uninstall tmux -y",
+    "mac": "brew uninstall tmux"
+  },
+  {
+    "id": "pkg_f70ad474",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install wget",
+    "linux": "sudo apt install wget -y",
+    "windows_cmd": "choco install wget -y",
+    "mac": "brew install wget"
+  },
+  {
+    "id": "pkg_d9e17f1b",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall vim",
+    "linux": "sudo apt remove vim -y",
+    "windows_cmd": "choco uninstall vim -y",
+    "mac": "brew uninstall vim"
+  },
+  {
+    "id": "pkg_d40c350d",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install htop",
+    "linux": "sudo apt install htop -y",
+    "windows_cmd": "choco install htop -y",
+    "mac": "brew install htop"
+  },
+  {
+    "id": "pkg_271b6df6",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall make",
+    "linux": "sudo apt remove make -y",
+    "windows_cmd": "choco uninstall make -y",
+    "mac": "brew uninstall make"
+  },
+  {
+    "id": "pkg_ced56656",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_1a2fcbc3",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'imagemagick'",
+    "linux": "apt search imagemagick",
+    "windows_cmd": "choco search imagemagick",
+    "mac": "brew search imagemagick"
+  },
+  {
+    "id": "pkg_fba2174b",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_7d160427",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install wget",
+    "linux": "sudo apt install wget -y",
+    "windows_cmd": "choco install wget -y",
+    "mac": "brew install wget"
+  },
+  {
+    "id": "pkg_27dc7254",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_2aa948c7",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install npm",
+    "linux": "sudo apt install npm -y",
+    "windows_cmd": "choco install npm -y",
+    "mac": "brew install npm"
+  },
+  {
+    "id": "pkg_cf25a9c9",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_1478733a",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall make",
+    "linux": "sudo apt remove make -y",
+    "windows_cmd": "choco uninstall make -y",
+    "mac": "brew uninstall make"
+  },
+  {
+    "id": "pkg_8484cf49",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_cfcd1317",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'jq'",
+    "linux": "apt search jq",
+    "windows_cmd": "choco search jq",
+    "mac": "brew search jq"
+  },
+  {
+    "id": "pkg_b150ac0b",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall pip",
+    "linux": "sudo apt remove pip -y",
+    "windows_cmd": "choco uninstall pip -y",
+    "mac": "brew uninstall pip"
+  },
+  {
+    "id": "pkg_cce8fb48",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install imagemagick",
+    "linux": "sudo apt install imagemagick -y",
+    "windows_cmd": "choco install imagemagick -y",
+    "mac": "brew install imagemagick"
+  },
+  {
+    "id": "pkg_5df42a68",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install htop",
+    "linux": "sudo apt install htop -y",
+    "windows_cmd": "choco install htop -y",
+    "mac": "brew install htop"
+  },
+  {
+    "id": "pkg_f23449a8",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall npm",
+    "linux": "sudo apt remove npm -y",
+    "windows_cmd": "choco uninstall npm -y",
+    "mac": "brew uninstall npm"
+  },
+  {
+    "id": "pkg_1e166ce4",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_4af9ae17",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install ruby",
+    "linux": "sudo apt install ruby -y",
+    "windows_cmd": "choco install ruby -y",
+    "mac": "brew install ruby"
+  },
+  {
+    "id": "pkg_788b7d9b",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall htop",
+    "linux": "sudo apt remove htop -y",
+    "windows_cmd": "choco uninstall htop -y",
+    "mac": "brew uninstall htop"
+  },
+  {
+    "id": "pkg_3678476d",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall go",
+    "linux": "sudo apt remove go -y",
+    "windows_cmd": "choco uninstall go -y",
+    "mac": "brew uninstall go"
+  },
+  {
+    "id": "pkg_93fc15e3",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install yarn",
+    "linux": "sudo apt install yarn -y",
+    "windows_cmd": "choco install yarn -y",
+    "mac": "brew install yarn"
+  },
+  {
+    "id": "pkg_c26dd0f1",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall cmake",
+    "linux": "sudo apt remove cmake -y",
+    "windows_cmd": "choco uninstall cmake -y",
+    "mac": "brew uninstall cmake"
+  },
+  {
+    "id": "pkg_998b4ad3",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install tmux",
+    "linux": "sudo apt install tmux -y",
+    "windows_cmd": "choco install tmux -y",
+    "mac": "brew install tmux"
+  },
+  {
+    "id": "pkg_b7278d74",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_fe2c61d5",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install htop",
+    "linux": "sudo apt install htop -y",
+    "windows_cmd": "choco install htop -y",
+    "mac": "brew install htop"
+  },
+  {
+    "id": "pkg_b83c7d40",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'nodejs'",
+    "linux": "apt search nodejs",
+    "windows_cmd": "choco search nodejs",
+    "mac": "brew search nodejs"
+  },
+  {
+    "id": "pkg_436d33f3",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall git",
+    "linux": "sudo apt remove git -y",
+    "windows_cmd": "choco uninstall git -y",
+    "mac": "brew uninstall git"
+  },
+  {
+    "id": "pkg_fd5a72a6",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install ffmpeg",
+    "linux": "sudo apt install ffmpeg -y",
+    "windows_cmd": "choco install ffmpeg -y",
+    "mac": "brew install ffmpeg"
+  },
+  {
+    "id": "pkg_4c791e5e",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install go",
+    "linux": "sudo apt install go -y",
+    "windows_cmd": "choco install go -y",
+    "mac": "brew install go"
+  },
+  {
+    "id": "pkg_5b7a0db8",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall ruby",
+    "linux": "sudo apt remove ruby -y",
+    "windows_cmd": "choco uninstall ruby -y",
+    "mac": "brew uninstall ruby"
+  },
+  {
+    "id": "pkg_a1d54454",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_c86b40c3",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'ffmpeg'",
+    "linux": "apt search ffmpeg",
+    "windows_cmd": "choco search ffmpeg",
+    "mac": "brew search ffmpeg"
+  },
+  {
+    "id": "pkg_7daa71e8",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_3dbf80e0",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'npm'",
+    "linux": "apt search npm",
+    "windows_cmd": "choco search npm",
+    "mac": "brew search npm"
+  },
+  {
+    "id": "pkg_487f216f",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall zsh",
+    "linux": "sudo apt remove zsh -y",
+    "windows_cmd": "choco uninstall zsh -y",
+    "mac": "brew uninstall zsh"
+  },
+  {
+    "id": "pkg_c4cbf2ac",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall zsh",
+    "linux": "sudo apt remove zsh -y",
+    "windows_cmd": "choco uninstall zsh -y",
+    "mac": "brew uninstall zsh"
+  },
+  {
+    "id": "pkg_424712db",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_39a128c8",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_b8f83b33",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall ruby",
+    "linux": "sudo apt remove ruby -y",
+    "windows_cmd": "choco uninstall ruby -y",
+    "mac": "brew uninstall ruby"
+  },
+  {
+    "id": "pkg_a8e21607",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall imagemagick",
+    "linux": "sudo apt remove imagemagick -y",
+    "windows_cmd": "choco uninstall imagemagick -y",
+    "mac": "brew uninstall imagemagick"
+  },
+  {
+    "id": "pkg_65619ef1",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_a7b26d21",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'go'",
+    "linux": "apt search go",
+    "windows_cmd": "choco search go",
+    "mac": "brew search go"
+  },
+  {
+    "id": "pkg_bbc11120",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'yarn'",
+    "linux": "apt search yarn",
+    "windows_cmd": "choco search yarn",
+    "mac": "brew search yarn"
+  },
+  {
+    "id": "pkg_2756efa0",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_6a1a7871",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'yarn'",
+    "linux": "apt search yarn",
+    "windows_cmd": "choco search yarn",
+    "mac": "brew search yarn"
+  },
+  {
+    "id": "pkg_6b56bbd6",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_4d6aa166",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install jq",
+    "linux": "sudo apt install jq -y",
+    "windows_cmd": "choco install jq -y",
+    "mac": "brew install jq"
+  },
+  {
+    "id": "pkg_53d04b19",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall imagemagick",
+    "linux": "sudo apt remove imagemagick -y",
+    "windows_cmd": "choco uninstall imagemagick -y",
+    "mac": "brew uninstall imagemagick"
+  },
+  {
+    "id": "pkg_116b603d",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install git",
+    "linux": "sudo apt install git -y",
+    "windows_cmd": "choco install git -y",
+    "mac": "brew install git"
+  },
+  {
+    "id": "pkg_54627cb4",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall curl",
+    "linux": "sudo apt remove curl -y",
+    "windows_cmd": "choco uninstall curl -y",
+    "mac": "brew uninstall curl"
+  },
+  {
+    "id": "pkg_8954acf1",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'imagemagick'",
+    "linux": "apt search imagemagick",
+    "windows_cmd": "choco search imagemagick",
+    "mac": "brew search imagemagick"
+  },
+  {
+    "id": "pkg_7d2739ef",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall curl",
+    "linux": "sudo apt remove curl -y",
+    "windows_cmd": "choco uninstall curl -y",
+    "mac": "brew uninstall curl"
+  },
+  {
+    "id": "pkg_43c16312",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_c787730e",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall make",
+    "linux": "sudo apt remove make -y",
+    "windows_cmd": "choco uninstall make -y",
+    "mac": "brew uninstall make"
+  },
+  {
+    "id": "pkg_7677e411",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_a4d38964",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install yarn",
+    "linux": "sudo apt install yarn -y",
+    "windows_cmd": "choco install yarn -y",
+    "mac": "brew install yarn"
+  },
+  {
+    "id": "pkg_977c6547",
+    "category": "package_management",
+    "subcategory": "install",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "install"
+    ],
+    "instruction": "Install yarn",
+    "linux": "sudo apt install yarn -y",
+    "windows_cmd": "choco install yarn -y",
+    "mac": "brew install yarn"
+  },
+  {
+    "id": "pkg_e566e7ad",
+    "category": "package_management",
+    "subcategory": "update",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "update"
+    ],
+    "instruction": "Update all packages",
+    "linux": "sudo apt update && sudo apt upgrade -y",
+    "windows_cmd": "choco upgrade all -y",
+    "mac": "brew update && brew upgrade"
+  },
+  {
+    "id": "pkg_6dee706b",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'zsh'",
+    "linux": "apt search zsh",
+    "windows_cmd": "choco search zsh",
+    "mac": "brew search zsh"
+  },
+  {
+    "id": "pkg_afcfa02e",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'gcc'",
+    "linux": "apt search gcc",
+    "windows_cmd": "choco search gcc",
+    "mac": "brew search gcc"
+  },
+  {
+    "id": "pkg_428599cd",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'nginx'",
+    "linux": "apt search nginx",
+    "windows_cmd": "choco search nginx",
+    "mac": "brew search nginx"
+  },
+  {
+    "id": "pkg_450edce8",
+    "category": "package_management",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "remove"
+    ],
+    "instruction": "Uninstall rust",
+    "linux": "sudo apt remove rust -y",
+    "windows_cmd": "choco uninstall rust -y",
+    "mac": "brew uninstall rust"
+  },
+  {
+    "id": "pkg_0e1ab916",
+    "category": "package_management",
+    "subcategory": "search",
+    "difficulty": "beginner",
+    "tags": [
+      "package",
+      "search"
+    ],
+    "instruction": "Search for package 'ruby'",
+    "linux": "apt search ruby",
+    "windows_cmd": "choco search ruby",
+    "mac": "brew search ruby"
+  },
+  {
+    "id": "pkg_comp_001",
+    "category": "package_management",
+    "subcategory": "list_installed",
+    "instruction": "List all installed packages and filter for 'python'",
+    "linux": "apt list --installed | grep python",
+    "windows_cmd": "choco list --local-only | findstr /i python",
+    "mac": "brew list | grep python",
+    "difficulty": "intermediate",
+    "tags": [
+      "list",
+      "filter",
+      "search"
+    ]
+  },
+  {
+    "id": "pkg_comp_003",
+    "category": "package_management",
+    "subcategory": "info",
+    "instruction": "Display detailed information about package 'git'",
+    "linux": "apt show git",
+    "windows_cmd": "choco info git",
+    "mac": "brew info git",
+    "difficulty": "intermediate",
+    "tags": [
+      "info",
+      "details",
+      "package"
+    ]
+  },
+  {
+    "id": "pkg_comp_004",
+    "category": "package_management",
+    "subcategory": "search_desc",
+    "instruction": "Search for packages related to 'video editor'",
+    "linux": "apt-cache search \"video editor\"",
+    "windows_cmd": "choco search \"video editor\"",
+    "mac": "brew search \"video editor\"",
+    "difficulty": "intermediate",
+    "tags": [
+      "search",
+      "description",
+      "find"
+    ]
+  },
+  {
+    "id": "pkg_comp_005",
+    "category": "package_management",
+    "subcategory": "upgrade_one",
+    "instruction": "Upgrade only the 'nodejs' package",
+    "linux": "sudo apt --only-upgrade install nodejs",
+    "windows_cmd": "choco upgrade nodejs -y",
+    "mac": "brew upgrade nodejs",
+    "difficulty": "intermediate",
+    "tags": [
+      "upgrade",
+      "single",
+      "update"
+    ]
+  },
+  {
+    "id": "pkg_comp_006",
+    "category": "package_management",
+    "subcategory": "add_repo",
+    "instruction": "Add a new package repository (e.g. deadsnakes ppa)",
+    "linux": "sudo add-apt-repository ppa:deadsnakes/ppa",
+    "windows_cmd": "choco source add -n=newrepo -s=\"http://newrepo.com/api\"",
+    "mac": "brew tap user/repo",
+    "difficulty": "advanced",
+    "tags": [
+      "repo",
+      "source",
+      "add"
+    ]
+  },
+  {
+    "id": "pkg_comp_007",
+    "category": "package_management",
+    "subcategory": "clean",
+    "instruction": "Clean up cached package files to free space",
+    "linux": "sudo apt clean && sudo apt autoclean",
+    "windows_cmd": "choco clean",
+    "mac": "brew cleanup",
+    "difficulty": "intermediate",
+    "tags": [
+      "clean",
+      "cache",
+      "space"
+    ]
+  },
+  {
+    "id": "pkg_comp_008",
+    "category": "package_management",
+    "subcategory": "autoremove",
+    "instruction": "Remove unused dependencies",
+    "linux": "sudo apt autoremove -y",
+    "windows_cmd": "echo Chocolatey handles dependencies on uninstall usually.",
+    "mac": "brew autoremove",
+    "difficulty": "intermediate",
+    "tags": [
+      "cleanup",
+      "dependencies",
+      "unused"
+    ]
+  },
+  {
+    "id": "pkg_comp_009",
+    "category": "package_management",
+    "subcategory": "hold",
+    "instruction": "Prevent 'docker' package from being updated",
+    "linux": "sudo apt-mark hold docker",
+    "windows_cmd": "choco pin add -n=docker",
+    "mac": "brew pin docker",
+    "difficulty": "advanced",
+    "tags": [
+      "pin",
+      "hold",
+      "lock"
+    ]
+  },
+  {
+    "id": "pkg_comp_010",
+    "category": "package_management",
+    "subcategory": "unhold",
+    "instruction": "Allow 'docker' package to be updated again",
+    "linux": "sudo apt-mark unhold docker",
+    "windows_cmd": "choco pin remove -n=docker",
+    "mac": "brew unpin docker",
+    "difficulty": "advanced",
+    "tags": [
+      "unpin",
+      "unhold",
+      "unlock"
+    ]
+  },
+  {
+    "id": "pkg_comp_011",
+    "category": "package_management",
+    "subcategory": "install_version",
+    "instruction": "Install specific version 1.2.3 of 'app'",
+    "linux": "sudo apt install app=1.2.3",
+    "windows_cmd": "choco install app --version 1.2.3",
+    "mac": "echo Homebrew install specific version requires finding the formula version.",
+    "difficulty": "advanced",
+    "tags": [
+      "version",
+      "install",
+      "specific"
+    ]
+  },
+  {
+    "id": "pkg_comp_012",
+    "category": "package_management",
+    "subcategory": "list_files",
+    "instruction": "List files installed by package 'tar'",
+    "linux": "dpkg -L tar",
+    "windows_cmd": "echo Chocolatey does not easily track file lists natively.",
+    "mac": "brew list tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "files",
+      "list",
+      "content"
+    ]
+  },
+  {
+    "id": "pkg_comp_013",
+    "category": "package_management",
+    "subcategory": "check_dep",
+    "instruction": "Check dependencies of package 'vim'",
+    "linux": "apt-cache depends vim",
+    "windows_cmd": "choco info vim",
+    "mac": "brew deps vim",
+    "difficulty": "intermediate",
+    "tags": [
+      "dependencies",
+      "check",
+      "info"
+    ]
+  },
+  {
+    "id": "pkg_comp_014",
+    "category": "package_management",
+    "subcategory": "reinstall",
+    "instruction": "Reinstall package 'curl'",
+    "linux": "sudo apt install --reinstall curl",
+    "windows_cmd": "choco install curl --force",
+    "mac": "brew reinstall curl",
+    "difficulty": "intermediate",
+    "tags": [
+      "reinstall",
+      "force",
+      "repair"
+    ]
+  },
+  {
+    "id": "pkg_comp_015",
+    "category": "package_management",
+    "subcategory": "export_list",
+    "instruction": "Export list of installed packages to a file",
+    "linux": "apt list --installed > packages.txt",
+    "windows_cmd": "choco list --local-only > packages.txt",
+    "mac": "brew list > packages.txt",
+    "difficulty": "beginner",
+    "tags": [
+      "export",
+      "list",
+      "backup"
+    ]
+  },
+  {
+    "id": "pkg_comp_016",
+    "category": "package_management",
+    "subcategory": "install_file",
+    "instruction": "Install a package from a local .deb/.msi file",
+    "linux": "sudo dpkg -i package.deb",
+    "windows_cmd": "msiexec /i package.msi /quiet",
+    "mac": "sudo installer -pkg package.pkg -target /",
+    "difficulty": "advanced",
+    "tags": [
+      "install",
+      "local",
+      "file"
+    ]
+  },
+  {
+    "id": "pkg_comp_017",
+    "category": "package_management",
+    "subcategory": "fix_broken",
+    "instruction": "Fix broken package dependencies",
+    "linux": "sudo apt --fix-broken install",
+    "windows_cmd": "choco install -f",
+    "mac": "brew doctor",
+    "difficulty": "advanced",
+    "tags": [
+      "fix",
+      "repair",
+      "dependencies"
+    ]
+  },
+  {
+    "id": "pkg_comp_018",
+    "category": "package_management",
+    "subcategory": "update_check",
+    "instruction": "Check for available updates without installing",
+    "linux": "apt list --upgradable",
+    "windows_cmd": "choco outdated",
+    "mac": "brew outdated",
+    "difficulty": "intermediate",
+    "tags": [
+      "check",
+      "update",
+      "outdated"
+    ]
+  },
+  {
+    "id": "pkg_comp_019",
+    "category": "package_management",
+    "subcategory": "remove_config",
+    "instruction": "Remove a package and its config files",
+    "linux": "sudo apt purge package",
+    "windows_cmd": "choco uninstall package",
+    "mac": "brew uninstall --zap package",
+    "difficulty": "advanced",
+    "tags": [
+      "remove",
+      "purge",
+      "zap"
+    ]
+  },
+  {
+    "id": "pkg_comp_020",
+    "category": "package_management",
+    "subcategory": "download_only",
+    "instruction": "Download package 'git' without installing it",
+    "linux": "apt download git",
+    "windows_cmd": "choco install git --download-only",
+    "mac": "brew fetch git",
+    "difficulty": "intermediate",
+    "tags": [
+      "download",
+      "fetch",
+      "cache"
+    ]
+  },
+  {
+    "id": "pkg_comp_021",
+    "category": "package_management",
+    "subcategory": "history",
+    "instruction": "View package installation history",
+    "linux": "grep install /var/log/dpkg.log",
+    "windows_cmd": "type %ProgramData%\\chocolatey\\logs\\chocolatey.log",
+    "mac": "echo Homebrew doesn't maintain a simple history log file.",
+    "difficulty": "advanced",
+    "tags": [
+      "history",
+      "log",
+      "view"
+    ]
+  },
+  {
+    "id": "pkg_comp_022",
+    "category": "package_management",
+    "subcategory": "add_key",
+    "instruction": "Add a GPG key for a repository",
+    "linux": "wget -qO - https://key.url | sudo apt-key add -",
+    "windows_cmd": "echo Chocolatey handles keys internally or via source commands.",
+    "mac": "echo Homebrew taps handle keys.",
+    "difficulty": "advanced",
+    "tags": [
+      "key",
+      "gpg",
+      "repo"
+    ]
+  },
+  {
+    "id": "pkg_comp_023",
+    "category": "package_management",
+    "subcategory": "list_repos",
+    "instruction": "List configured repositories",
+    "linux": "cat /etc/apt/sources.list",
+    "windows_cmd": "choco source list",
+    "mac": "brew tap",
+    "difficulty": "intermediate",
+    "tags": [
+      "repos",
+      "sources",
+      "list"
+    ]
+  },
+  {
+    "id": "pkg_comp_024",
+    "category": "package_management",
+    "subcategory": "install_quiet",
+    "instruction": "Install 'wget' quietly without confirmation",
+    "linux": "sudo apt install wget -y -q",
+    "windows_cmd": "choco install wget -y --no-progress",
+    "mac": "brew install wget --quiet",
+    "difficulty": "intermediate",
+    "tags": [
+      "install",
+      "quiet",
+      "silent"
+    ]
+  },
+  {
+    "id": "pkg_comp_025",
+    "category": "package_management",
+    "subcategory": "what_provides",
+    "instruction": "Find which package provides the command 'lsusb'",
+    "linux": "apt-file search lsusb",
+    "windows_cmd": "echo N/A for Windows",
+    "mac": "brew uses --installed lsusb",
+    "difficulty": "advanced",
+    "tags": [
+      "search",
+      "provides",
+      "file"
+    ]
+  },
+  {
+    "id": "pkg_comp_026",
+    "category": "package_management",
+    "subcategory": "remove_orphans",
+    "instruction": "Remove orphaned packages (deborphan)",
+    "linux": "deborphan | xargs sudo apt-get -y remove --purge",
+    "windows_cmd": "echo Chocolatey doesn't track orphans natively.",
+    "mac": "echo Homebrew uses 'brew autoremove'.",
+    "difficulty": "advanced",
+    "tags": [
+      "clean",
+      "orphans",
+      "remove"
+    ]
+  },
+  {
+    "id": "pkg_comp_027",
+    "category": "package_management",
+    "subcategory": "policy",
+    "instruction": "Show installation candidate versions for 'docker'",
+    "linux": "apt-cache policy docker",
+    "windows_cmd": "choco search docker --all-versions",
+    "mac": "brew info docker",
+    "difficulty": "advanced",
+    "tags": [
+      "policy",
+      "versions",
+      "candidate"
+    ]
+  },
+  {
+    "id": "pkg_comp_028",
+    "category": "package_management",
+    "subcategory": "verify",
+    "instruction": "Verify integrity of installed packages",
+    "linux": "debsums -c",
+    "windows_cmd": "echo Chocolatey package verifier is a paid feature.",
+    "mac": "brew doctor",
+    "difficulty": "advanced",
+    "tags": [
+      "verify",
+      "integrity",
+      "check"
+    ]
+  },
+  {
+    "id": "pkg_comp_029",
+    "category": "package_management",
+    "subcategory": "install_multi",
+    "instruction": "Install git, curl, and vim in one command",
+    "linux": "sudo apt install git curl vim -y",
+    "windows_cmd": "choco install git curl vim -y",
+    "mac": "brew install git curl vim",
+    "difficulty": "beginner",
+    "tags": [
+      "install",
+      "batch",
+      "multiple"
+    ]
+  },
+  {
+    "id": "pkg_comp_030",
+    "category": "package_management",
+    "subcategory": "remove_repo",
+    "instruction": "Remove a repository source",
+    "linux": "sudo add-apt-repository --remove ppa:user/repo",
+    "windows_cmd": "choco source remove -n=repoName",
+    "mac": "brew untap user/repo",
+    "difficulty": "intermediate",
+    "tags": [
+      "remove",
+      "repo",
+      "source"
+    ]
+  },
+  {
+    "id": "pkg_comp_031",
+    "category": "package_management",
+    "subcategory": "install_suggests",
+    "instruction": "Install package with suggested packages",
+    "linux": "sudo apt install package --install-suggests",
+    "windows_cmd": "echo Chocolatey installs dependencies by default.",
+    "mac": "echo Homebrew installs dependencies by default.",
+    "difficulty": "intermediate",
+    "tags": [
+      "install",
+      "suggests",
+      "deps"
+    ]
+  },
+  {
+    "id": "pkg_comp_032",
+    "category": "package_management",
+    "subcategory": "dry_run",
+    "instruction": "Simulate an upgrade without doing it",
+    "linux": "sudo apt upgrade --dry-run",
+    "windows_cmd": "choco upgrade all --whatif",
+    "mac": "brew upgrade --dry-run",
+    "difficulty": "intermediate",
+    "tags": [
+      "dry-run",
+      "simulate",
+      "test"
+    ]
+  },
+  {
+    "id": "pkg_comp_033",
+    "category": "package_management",
+    "subcategory": "stats",
+    "instruction": "Show package statistics",
+    "linux": "apt-cache stats",
+    "windows_cmd": "choco list --local-only | find /c /v \"\"",
+    "mac": "brew info",
+    "difficulty": "intermediate",
+    "tags": [
+      "stats",
+      "info",
+      "count"
+    ]
+  },
+  {
+    "id": "pkg_comp_034",
+    "category": "package_management",
+    "subcategory": "config_only",
+    "instruction": "Configure unpacked packages",
+    "linux": "sudo dpkg --configure -a",
+    "windows_cmd": "echo N/A",
+    "mac": "echo N/A",
+    "difficulty": "advanced",
+    "tags": [
+      "config",
+      "dpkg",
+      "fix"
+    ]
+  },
+  {
+    "id": "pkg_comp_035",
+    "category": "package_management",
+    "subcategory": "search_installed",
+    "instruction": "Check if 'python' is installed",
+    "linux": "dpkg -s python",
+    "windows_cmd": "choco list --local-only --exact python",
+    "mac": "brew list --versions python",
+    "difficulty": "beginner",
+    "tags": [
+      "check",
+      "installed",
+      "status"
+    ]
+  },
+  {
+    "id": "pkg_comp_036",
+    "category": "package_management",
+    "subcategory": "edit_sources",
+    "instruction": "Edit the sources list",
+    "linux": "sudo nano /etc/apt/sources.list",
+    "windows_cmd": "echo Use choco source commands.",
+    "mac": "echo Brew taps are managed via CLI.",
+    "difficulty": "intermediate",
+    "tags": [
+      "edit",
+      "config",
+      "sources"
+    ]
+  },
+  {
+    "id": "pkg_comp_037",
+    "category": "package_management",
+    "subcategory": "exclude_upgrade",
+    "instruction": "Upgrade all except 'kernel'",
+    "linux": "sudo apt-mark hold kernel && sudo apt upgrade",
+    "windows_cmd": "choco upgrade all --except=\"kernel\"",
+    "mac": "brew upgrade --ignore-pinned",
+    "difficulty": "advanced",
+    "tags": [
+      "upgrade",
+      "exclude",
+      "hold"
+    ]
+  },
+  {
+    "id": "pkg_comp_038",
+    "category": "package_management",
+    "subcategory": "mark_auto",
+    "instruction": "Mark 'libfoo' as automatically installed",
+    "linux": "sudo apt-mark auto libfoo",
+    "windows_cmd": "echo N/A",
+    "mac": "echo N/A",
+    "difficulty": "advanced",
+    "tags": [
+      "mark",
+      "auto",
+      "manual"
+    ]
+  },
+  {
+    "id": "pkg_comp_039",
+    "category": "package_management",
+    "subcategory": "update_force",
+    "instruction": "Force update package lists",
+    "linux": "sudo apt update --allow-insecure-repositories",
+    "windows_cmd": "choco upgrade all --force",
+    "mac": "brew update --force",
+    "difficulty": "advanced",
+    "tags": [
+      "update",
+      "force",
+      "insecure"
+    ]
+  },
+  {
+    "id": "pkg_comp_040",
+    "category": "package_management",
+    "subcategory": "audit",
+    "instruction": "Audit installed packages for security issues",
+    "linux": "sudo apt install debsecan && debsecan",
+    "windows_cmd": "echo Use Windows Defender or other tools.",
+    "mac": "brew audit",
+    "difficulty": "advanced",
+    "tags": [
+      "audit",
+      "security",
+      "check"
+    ]
+  },
+  {
+    "id": "pkg_comp_041",
+    "category": "package_management",
+    "subcategory": "install_opt",
+    "instruction": "Install package to a custom directory",
+    "linux": "sudo dpkg -i --instdir=/opt/custom pkg.deb",
+    "windows_cmd": "choco install pkg --install-directory=\"C:\\Custom\"",
+    "mac": "echo Homebrew installs to Cellar.",
+    "difficulty": "advanced",
+    "tags": [
+      "install",
+      "custom",
+      "path"
+    ]
+  },
+  {
+    "id": "pkg_comp_042",
+    "category": "package_management",
+    "subcategory": "pin_version",
+    "instruction": "Pin 'node' to version 14",
+    "linux": "echo 'Package: node\nPin: version 14*\nPin-Priority: 1001' | sudo tee /etc/apt/preferences.d/node",
+    "windows_cmd": "choco pin add -n=node --version=14.0.0",
+    "mac": "echo Brew pinning versions is deprecated, use separate formulas.",
+    "difficulty": "advanced",
+    "tags": [
+      "pin",
+      "version",
+      "config"
+    ]
+  },
+  {
+    "id": "pkg_comp_043",
+    "category": "package_management",
+    "subcategory": "list_manual",
+    "instruction": "List manually installed packages (not dependencies)",
+    "linux": "apt-mark showmanual",
+    "windows_cmd": "choco list --local-only",
+    "mac": "brew leaves",
+    "difficulty": "intermediate",
+    "tags": [
+      "list",
+      "manual",
+      "leaves"
+    ]
+  },
+  {
+    "id": "pkg_comp_044",
+    "category": "package_management",
+    "subcategory": "backup_config",
+    "instruction": "Backup configuration of all packages",
+    "linux": "dpkg --get-selections > selections.txt",
+    "windows_cmd": "choco export packages.config",
+    "mac": "brew bundle dump",
+    "difficulty": "intermediate",
+    "tags": [
+      "backup",
+      "config",
+      "export"
+    ]
+  },
+  {
+    "id": "pkg_comp_045",
+    "category": "package_management",
+    "subcategory": "restore_config",
+    "instruction": "Restore packages from backup list",
+    "linux": "sudo dpkg --set-selections < selections.txt && sudo apt-get dselect-upgrade",
+    "windows_cmd": "choco install packages.config",
+    "mac": "brew bundle",
+    "difficulty": "advanced",
+    "tags": [
+      "restore",
+      "install",
+      "import"
+    ]
+  },
+  {
+    "id": "pkg_comp_046",
+    "category": "package_management",
+    "subcategory": "search_file",
+    "instruction": "Find which installed package owns '/usr/bin/python'",
+    "linux": "dpkg -S /usr/bin/python",
+    "windows_cmd": "echo N/A",
+    "mac": "echo N/A",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "owner",
+      "file"
+    ]
+  },
+  {
+    "id": "pkg_comp_047",
+    "category": "package_management",
+    "subcategory": "install_build_dep",
+    "instruction": "Install build dependencies for 'python'",
+    "linux": "sudo apt-get build-dep python",
+    "windows_cmd": "echo N/A",
+    "mac": "echo Homebrew handles build deps automatically.",
+    "difficulty": "advanced",
+    "tags": [
+      "build",
+      "dependencies",
+      "dev"
+    ]
+  },
+  {
+    "id": "pkg_comp_048",
+    "category": "package_management",
+    "subcategory": "list_upgradable",
+    "instruction": "List packages that can be upgraded",
+    "linux": "apt list --upgradable",
+    "windows_cmd": "choco outdated",
+    "mac": "brew outdated",
+    "difficulty": "beginner",
+    "tags": [
+      "list",
+      "upgrade",
+      "check"
+    ]
+  },
+  {
+    "id": "pkg_comp_049",
+    "category": "package_management",
+    "subcategory": "add_ppa",
+    "instruction": "Add a PPA for Ubuntu",
+    "linux": "sudo add-apt-repository ppa:user/repo",
+    "windows_cmd": "echo N/A",
+    "mac": "echo Use 'brew tap'.",
+    "difficulty": "intermediate",
+    "tags": [
+      "ppa",
+      "repo",
+      "add"
+    ]
+  },
+  {
+    "id": "pkg_comp_050",
+    "category": "package_management",
+    "subcategory": "changelog",
+    "instruction": "View changelog of 'sudo' package",
+    "linux": "apt-get changelog sudo",
+    "windows_cmd": "echo Check chocolatey package page.",
+    "mac": "brew info sudo (check url)",
+    "difficulty": "intermediate",
+    "tags": [
+      "changelog",
+      "info",
+      "history"
+    ]
+  }
+]

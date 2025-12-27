@@ -1,0 +1,18 @@
+[
+  {
+    "id": "perm_comp_010",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "perm_comp_015",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  }
+]

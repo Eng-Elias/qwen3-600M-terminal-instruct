@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dir_comp_020",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "dir_comp_023",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "dir_comp_025",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "dir_comp_044",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  },
+  {
+    "id": "dir_comp_047",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  }
+]

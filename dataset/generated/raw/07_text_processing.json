@@ -1,0 +1,2137 @@
+[
+  {
+    "id": "text_7868d91a",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in test.spec.js",
+    "linux": "sort test.spec.js",
+    "windows_cmd": "sort test.spec.js",
+    "mac": "sort test.spec.js"
+  },
+  {
+    "id": "text_a060658e",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'TODO' in config.json",
+    "linux": "grep 'TODO' config.json",
+    "windows_cmd": "findstr \"TODO\" config.json",
+    "mac": "grep 'TODO' config.json"
+  },
+  {
+    "id": "text_be33c633",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'TODO' in app.log",
+    "linux": "grep 'TODO' app.log",
+    "windows_cmd": "findstr \"TODO\" app.log",
+    "mac": "grep 'TODO' app.log"
+  },
+  {
+    "id": "text_dd026724",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of index.html",
+    "linux": "cat index.html",
+    "windows_cmd": "type index.html",
+    "mac": "cat index.html"
+  },
+  {
+    "id": "text_4f145195",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in config.json",
+    "linux": "wc -l config.json",
+    "windows_cmd": "find /c /v \"\" config.json",
+    "mac": "wc -l config.json"
+  },
+  {
+    "id": "text_c4563517",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of error.log",
+    "linux": "cat error.log",
+    "windows_cmd": "type error.log",
+    "mac": "cat error.log"
+  },
+  {
+    "id": "text_0933090b",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'failed' in query.sql",
+    "linux": "grep 'failed' query.sql",
+    "windows_cmd": "findstr \"failed\" query.sql",
+    "mac": "grep 'failed' query.sql"
+  },
+  {
+    "id": "text_e3376ed8",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of script.py",
+    "linux": "cat script.py",
+    "windows_cmd": "type script.py",
+    "mac": "cat script.py"
+  },
+  {
+    "id": "text_fc58f221",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in style.css",
+    "linux": "wc -l style.css",
+    "windows_cmd": "find /c /v \"\" style.css",
+    "mac": "wc -l style.css"
+  },
+  {
+    "id": "text_6081238d",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in readme.txt",
+    "linux": "sort readme.txt",
+    "windows_cmd": "sort readme.txt",
+    "mac": "sort readme.txt"
+  },
+  {
+    "id": "text_98797628",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'failed' in query.sql",
+    "linux": "grep 'failed' query.sql",
+    "windows_cmd": "findstr \"failed\" query.sql",
+    "mac": "grep 'failed' query.sql"
+  },
+  {
+    "id": "text_f7afb727",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in style.css",
+    "linux": "sort style.css",
+    "windows_cmd": "sort style.css",
+    "mac": "sort style.css"
+  },
+  {
+    "id": "text_5aff2a79",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of profile.jpg",
+    "linux": "cat profile.jpg",
+    "windows_cmd": "type profile.jpg",
+    "mac": "cat profile.jpg"
+  },
+  {
+    "id": "text_73623a26",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in query.sql",
+    "linux": "sort query.sql",
+    "windows_cmd": "sort query.sql",
+    "mac": "sort query.sql"
+  },
+  {
+    "id": "text_0e9bf232",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in todo.list",
+    "linux": "sort todo.list",
+    "windows_cmd": "sort todo.list",
+    "mac": "sort todo.list"
+  },
+  {
+    "id": "text_fd4f314d",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in test.spec.js",
+    "linux": "wc -l test.spec.js",
+    "windows_cmd": "find /c /v \"\" test.spec.js",
+    "mac": "wc -l test.spec.js"
+  },
+  {
+    "id": "text_3c852917",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in script.py",
+    "linux": "sort script.py",
+    "windows_cmd": "sort script.py",
+    "mac": "sort script.py"
+  },
+  {
+    "id": "text_b4ea1c3b",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of notes.md",
+    "linux": "cat notes.md",
+    "windows_cmd": "type notes.md",
+    "mac": "cat notes.md"
+  },
+  {
+    "id": "text_033f2539",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in image.png",
+    "linux": "sort image.png",
+    "windows_cmd": "sort image.png",
+    "mac": "sort image.png"
+  },
+  {
+    "id": "text_cc8cf917",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in notes.md",
+    "linux": "sort notes.md",
+    "windows_cmd": "sort notes.md",
+    "mac": "sort notes.md"
+  },
+  {
+    "id": "text_3b008ed6",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in notes.md",
+    "linux": "sort notes.md",
+    "windows_cmd": "sort notes.md",
+    "mac": "sort notes.md"
+  },
+  {
+    "id": "text_0a07fc22",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in notes.md",
+    "linux": "wc -l notes.md",
+    "windows_cmd": "find /c /v \"\" notes.md",
+    "mac": "wc -l notes.md"
+  },
+  {
+    "id": "text_d6183a5d",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'warning' in config.json",
+    "linux": "grep 'warning' config.json",
+    "windows_cmd": "findstr \"warning\" config.json",
+    "mac": "grep 'warning' config.json"
+  },
+  {
+    "id": "text_a9950a5d",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in profile.jpg",
+    "linux": "sort profile.jpg",
+    "windows_cmd": "sort profile.jpg",
+    "mac": "sort profile.jpg"
+  },
+  {
+    "id": "text_bc0f68a2",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in server.conf",
+    "linux": "wc -l server.conf",
+    "windows_cmd": "find /c /v \"\" server.conf",
+    "mac": "wc -l server.conf"
+  },
+  {
+    "id": "text_be1b14fc",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'warning' in dataset.csv",
+    "linux": "grep 'warning' dataset.csv",
+    "windows_cmd": "findstr \"warning\" dataset.csv",
+    "mac": "grep 'warning' dataset.csv"
+  },
+  {
+    "id": "text_79fa5137",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in error.log",
+    "linux": "sort error.log",
+    "windows_cmd": "sort error.log",
+    "mac": "sort error.log"
+  },
+  {
+    "id": "text_eb4a0113",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in config.json",
+    "linux": "wc -l config.json",
+    "windows_cmd": "find /c /v \"\" config.json",
+    "mac": "wc -l config.json"
+  },
+  {
+    "id": "text_4d16fe49",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'failed' in data.txt",
+    "linux": "grep 'failed' data.txt",
+    "windows_cmd": "findstr \"failed\" data.txt",
+    "mac": "grep 'failed' data.txt"
+  },
+  {
+    "id": "text_4ca7dc90",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'failed' in config.json",
+    "linux": "grep 'failed' config.json",
+    "windows_cmd": "findstr \"failed\" config.json",
+    "mac": "grep 'failed' config.json"
+  },
+  {
+    "id": "text_7a0c7610",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'failed' in style.css",
+    "linux": "grep 'failed' style.css",
+    "windows_cmd": "findstr \"failed\" style.css",
+    "mac": "grep 'failed' style.css"
+  },
+  {
+    "id": "text_91c91a1f",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in report.pdf",
+    "linux": "sort report.pdf",
+    "windows_cmd": "sort report.pdf",
+    "mac": "sort report.pdf"
+  },
+  {
+    "id": "text_3234d3f4",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in app.log",
+    "linux": "wc -l app.log",
+    "windows_cmd": "find /c /v \"\" app.log",
+    "mac": "wc -l app.log"
+  },
+  {
+    "id": "text_7dcc0a4f",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in notes.md",
+    "linux": "sort notes.md",
+    "windows_cmd": "sort notes.md",
+    "mac": "sort notes.md"
+  },
+  {
+    "id": "text_60c3e4c7",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in notes.md",
+    "linux": "wc -l notes.md",
+    "windows_cmd": "find /c /v \"\" notes.md",
+    "mac": "wc -l notes.md"
+  },
+  {
+    "id": "text_8ab5572a",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in error.log",
+    "linux": "wc -l error.log",
+    "windows_cmd": "find /c /v \"\" error.log",
+    "mac": "wc -l error.log"
+  },
+  {
+    "id": "text_a3653b2a",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of style.css",
+    "linux": "cat style.css",
+    "windows_cmd": "type style.css",
+    "mac": "cat style.css"
+  },
+  {
+    "id": "text_fb16de39",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in docker-compose.yml",
+    "linux": "wc -l docker-compose.yml",
+    "windows_cmd": "find /c /v \"\" docker-compose.yml",
+    "mac": "wc -l docker-compose.yml"
+  },
+  {
+    "id": "text_30a79afe",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of query.sql",
+    "linux": "cat query.sql",
+    "windows_cmd": "type query.sql",
+    "mac": "cat query.sql"
+  },
+  {
+    "id": "text_0d1943a5",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of app.log",
+    "linux": "cat app.log",
+    "windows_cmd": "type app.log",
+    "mac": "cat app.log"
+  },
+  {
+    "id": "text_2c921223",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'warning' in report.pdf",
+    "linux": "grep 'warning' report.pdf",
+    "windows_cmd": "findstr \"warning\" report.pdf",
+    "mac": "grep 'warning' report.pdf"
+  },
+  {
+    "id": "text_fe035d71",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'success' in dataset.csv",
+    "linux": "grep 'success' dataset.csv",
+    "windows_cmd": "findstr \"success\" dataset.csv",
+    "mac": "grep 'success' dataset.csv"
+  },
+  {
+    "id": "text_55b8be21",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of server.conf",
+    "linux": "cat server.conf",
+    "windows_cmd": "type server.conf",
+    "mac": "cat server.conf"
+  },
+  {
+    "id": "text_b15cd8b9",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in docker-compose.yml",
+    "linux": "wc -l docker-compose.yml",
+    "windows_cmd": "find /c /v \"\" docker-compose.yml",
+    "mac": "wc -l docker-compose.yml"
+  },
+  {
+    "id": "text_f451b5f3",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in app.log",
+    "linux": "sort app.log",
+    "windows_cmd": "sort app.log",
+    "mac": "sort app.log"
+  },
+  {
+    "id": "text_a2dbe38b",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'error' in readme.txt",
+    "linux": "grep 'error' readme.txt",
+    "windows_cmd": "findstr \"error\" readme.txt",
+    "mac": "grep 'error' readme.txt"
+  },
+  {
+    "id": "text_d3cfd850",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in index.html",
+    "linux": "sort index.html",
+    "windows_cmd": "sort index.html",
+    "mac": "sort index.html"
+  },
+  {
+    "id": "text_246ec055",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in server.conf",
+    "linux": "wc -l server.conf",
+    "windows_cmd": "find /c /v \"\" server.conf",
+    "mac": "wc -l server.conf"
+  },
+  {
+    "id": "text_35acab24",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'warning' in error.log",
+    "linux": "grep 'warning' error.log",
+    "windows_cmd": "findstr \"warning\" error.log",
+    "mac": "grep 'warning' error.log"
+  },
+  {
+    "id": "text_f9b6836d",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'TODO' in dataset.csv",
+    "linux": "grep 'TODO' dataset.csv",
+    "windows_cmd": "findstr \"TODO\" dataset.csv",
+    "mac": "grep 'TODO' dataset.csv"
+  },
+  {
+    "id": "text_8976aefa",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'failed' in notes.md",
+    "linux": "grep 'failed' notes.md",
+    "windows_cmd": "findstr \"failed\" notes.md",
+    "mac": "grep 'failed' notes.md"
+  },
+  {
+    "id": "text_417545f1",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of backup.zip",
+    "linux": "cat backup.zip",
+    "windows_cmd": "type backup.zip",
+    "mac": "cat backup.zip"
+  },
+  {
+    "id": "text_49f817a6",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in server.conf",
+    "linux": "sort server.conf",
+    "windows_cmd": "sort server.conf",
+    "mac": "sort server.conf"
+  },
+  {
+    "id": "text_0320ba97",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of dataset.csv",
+    "linux": "cat dataset.csv",
+    "windows_cmd": "type dataset.csv",
+    "mac": "cat dataset.csv"
+  },
+  {
+    "id": "text_031358fe",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of config.json",
+    "linux": "cat config.json",
+    "windows_cmd": "type config.json",
+    "mac": "cat config.json"
+  },
+  {
+    "id": "text_6b9aad32",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in config.json",
+    "linux": "sort config.json",
+    "windows_cmd": "sort config.json",
+    "mac": "sort config.json"
+  },
+  {
+    "id": "text_91d846d1",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of docker-compose.yml",
+    "linux": "cat docker-compose.yml",
+    "windows_cmd": "type docker-compose.yml",
+    "mac": "cat docker-compose.yml"
+  },
+  {
+    "id": "text_60031ee9",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'failed' in style.css",
+    "linux": "grep 'failed' style.css",
+    "windows_cmd": "findstr \"failed\" style.css",
+    "mac": "grep 'failed' style.css"
+  },
+  {
+    "id": "text_ec403794",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'success' in dataset.csv",
+    "linux": "grep 'success' dataset.csv",
+    "windows_cmd": "findstr \"success\" dataset.csv",
+    "mac": "grep 'success' dataset.csv"
+  },
+  {
+    "id": "text_1e79220d",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in docker-compose.yml",
+    "linux": "wc -l docker-compose.yml",
+    "windows_cmd": "find /c /v \"\" docker-compose.yml",
+    "mac": "wc -l docker-compose.yml"
+  },
+  {
+    "id": "text_579ee590",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of script.py",
+    "linux": "cat script.py",
+    "windows_cmd": "type script.py",
+    "mac": "cat script.py"
+  },
+  {
+    "id": "text_b346a684",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of todo.list",
+    "linux": "cat todo.list",
+    "windows_cmd": "type todo.list",
+    "mac": "cat todo.list"
+  },
+  {
+    "id": "text_679de2b4",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'TODO' in error.log",
+    "linux": "grep 'TODO' error.log",
+    "windows_cmd": "findstr \"TODO\" error.log",
+    "mac": "grep 'TODO' error.log"
+  },
+  {
+    "id": "text_b810af95",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in error.log",
+    "linux": "wc -l error.log",
+    "windows_cmd": "find /c /v \"\" error.log",
+    "mac": "wc -l error.log"
+  },
+  {
+    "id": "text_a2517d9d",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'failed' in index.html",
+    "linux": "grep 'failed' index.html",
+    "windows_cmd": "findstr \"failed\" index.html",
+    "mac": "grep 'failed' index.html"
+  },
+  {
+    "id": "text_7a0530db",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in app.log",
+    "linux": "wc -l app.log",
+    "windows_cmd": "find /c /v \"\" app.log",
+    "mac": "wc -l app.log"
+  },
+  {
+    "id": "text_ac2dfdb0",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in app.log",
+    "linux": "sort app.log",
+    "windows_cmd": "sort app.log",
+    "mac": "sort app.log"
+  },
+  {
+    "id": "text_1888cabd",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of dataset.csv",
+    "linux": "cat dataset.csv",
+    "windows_cmd": "type dataset.csv",
+    "mac": "cat dataset.csv"
+  },
+  {
+    "id": "text_cdb9fe4f",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'error' in notes.md",
+    "linux": "grep 'error' notes.md",
+    "windows_cmd": "findstr \"error\" notes.md",
+    "mac": "grep 'error' notes.md"
+  },
+  {
+    "id": "text_f9d7f12c",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in todo.list",
+    "linux": "sort todo.list",
+    "windows_cmd": "sort todo.list",
+    "mac": "sort todo.list"
+  },
+  {
+    "id": "text_133f3255",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in script.py",
+    "linux": "wc -l script.py",
+    "windows_cmd": "find /c /v \"\" script.py",
+    "mac": "wc -l script.py"
+  },
+  {
+    "id": "text_adfc48e5",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'TODO' in notes.md",
+    "linux": "grep 'TODO' notes.md",
+    "windows_cmd": "findstr \"TODO\" notes.md",
+    "mac": "grep 'TODO' notes.md"
+  },
+  {
+    "id": "text_75af1344",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in query.sql",
+    "linux": "sort query.sql",
+    "windows_cmd": "sort query.sql",
+    "mac": "sort query.sql"
+  },
+  {
+    "id": "text_f96aaf81",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in report.pdf",
+    "linux": "sort report.pdf",
+    "windows_cmd": "sort report.pdf",
+    "mac": "sort report.pdf"
+  },
+  {
+    "id": "text_5e565f1e",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in style.css",
+    "linux": "sort style.css",
+    "windows_cmd": "sort style.css",
+    "mac": "sort style.css"
+  },
+  {
+    "id": "text_c3f0e3af",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'user' in query.sql",
+    "linux": "grep 'user' query.sql",
+    "windows_cmd": "findstr \"user\" query.sql",
+    "mac": "grep 'user' query.sql"
+  },
+  {
+    "id": "text_dbc6748b",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of error.log",
+    "linux": "cat error.log",
+    "windows_cmd": "type error.log",
+    "mac": "cat error.log"
+  },
+  {
+    "id": "text_b669441b",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of error.log",
+    "linux": "cat error.log",
+    "windows_cmd": "type error.log",
+    "mac": "cat error.log"
+  },
+  {
+    "id": "text_d7c2f72a",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in app.log",
+    "linux": "wc -l app.log",
+    "windows_cmd": "find /c /v \"\" app.log",
+    "mac": "wc -l app.log"
+  },
+  {
+    "id": "text_00250612",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in main.cpp",
+    "linux": "sort main.cpp",
+    "windows_cmd": "sort main.cpp",
+    "mac": "sort main.cpp"
+  },
+  {
+    "id": "text_35e5c368",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in style.css",
+    "linux": "sort style.css",
+    "windows_cmd": "sort style.css",
+    "mac": "sort style.css"
+  },
+  {
+    "id": "text_2969471a",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in script.py",
+    "linux": "sort script.py",
+    "windows_cmd": "sort script.py",
+    "mac": "sort script.py"
+  },
+  {
+    "id": "text_03eb59ad",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of docker-compose.yml",
+    "linux": "cat docker-compose.yml",
+    "windows_cmd": "type docker-compose.yml",
+    "mac": "cat docker-compose.yml"
+  },
+  {
+    "id": "text_02cd0924",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of notes.md",
+    "linux": "cat notes.md",
+    "windows_cmd": "type notes.md",
+    "mac": "cat notes.md"
+  },
+  {
+    "id": "text_895d4e0b",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in backup.zip",
+    "linux": "wc -l backup.zip",
+    "windows_cmd": "find /c /v \"\" backup.zip",
+    "mac": "wc -l backup.zip"
+  },
+  {
+    "id": "text_15443826",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'failed' in image.png",
+    "linux": "grep 'failed' image.png",
+    "windows_cmd": "findstr \"failed\" image.png",
+    "mac": "grep 'failed' image.png"
+  },
+  {
+    "id": "text_4019af7d",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of app.log",
+    "linux": "cat app.log",
+    "windows_cmd": "type app.log",
+    "mac": "cat app.log"
+  },
+  {
+    "id": "text_c67e3079",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'success' in style.css",
+    "linux": "grep 'success' style.css",
+    "windows_cmd": "findstr \"success\" style.css",
+    "mac": "grep 'success' style.css"
+  },
+  {
+    "id": "text_8f3e9257",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in index.html",
+    "linux": "wc -l index.html",
+    "windows_cmd": "find /c /v \"\" index.html",
+    "mac": "wc -l index.html"
+  },
+  {
+    "id": "text_bc51d428",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in error.log",
+    "linux": "sort error.log",
+    "windows_cmd": "sort error.log",
+    "mac": "sort error.log"
+  },
+  {
+    "id": "text_030a32bb",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in app.log",
+    "linux": "sort app.log",
+    "windows_cmd": "sort app.log",
+    "mac": "sort app.log"
+  },
+  {
+    "id": "text_0b5d8115",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in index.html",
+    "linux": "wc -l index.html",
+    "windows_cmd": "find /c /v \"\" index.html",
+    "mac": "wc -l index.html"
+  },
+  {
+    "id": "text_64cee4fb",
+    "category": "text_processing",
+    "subcategory": "search",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "search"
+    ],
+    "instruction": "Search for 'warning' in dataset.csv",
+    "linux": "grep 'warning' dataset.csv",
+    "windows_cmd": "findstr \"warning\" dataset.csv",
+    "mac": "grep 'warning' dataset.csv"
+  },
+  {
+    "id": "text_f83e345c",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in main.cpp",
+    "linux": "wc -l main.cpp",
+    "windows_cmd": "find /c /v \"\" main.cpp",
+    "mac": "wc -l main.cpp"
+  },
+  {
+    "id": "text_0d2955e3",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in error.log",
+    "linux": "sort error.log",
+    "windows_cmd": "sort error.log",
+    "mac": "sort error.log"
+  },
+  {
+    "id": "text_b5a5cdf9",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of test.spec.js",
+    "linux": "cat test.spec.js",
+    "windows_cmd": "type test.spec.js",
+    "mac": "cat test.spec.js"
+  },
+  {
+    "id": "text_e2892cc3",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in index.html",
+    "linux": "sort index.html",
+    "windows_cmd": "sort index.html",
+    "mac": "sort index.html"
+  },
+  {
+    "id": "text_b2a3895d",
+    "category": "text_processing",
+    "subcategory": "count",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "count"
+    ],
+    "instruction": "Count lines in todo.list",
+    "linux": "wc -l todo.list",
+    "windows_cmd": "find /c /v \"\" todo.list",
+    "mac": "wc -l todo.list"
+  },
+  {
+    "id": "text_a55e80d1",
+    "category": "text_processing",
+    "subcategory": "view",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "view"
+    ],
+    "instruction": "Display content of config.json",
+    "linux": "cat config.json",
+    "windows_cmd": "type config.json",
+    "mac": "cat config.json"
+  },
+  {
+    "id": "text_d75d60bb",
+    "category": "text_processing",
+    "subcategory": "sort",
+    "difficulty": "intermediate",
+    "tags": [
+      "text",
+      "sort"
+    ],
+    "instruction": "Sort lines in main.cpp",
+    "linux": "sort main.cpp",
+    "windows_cmd": "sort main.cpp",
+    "mac": "sort main.cpp"
+  },
+  {
+    "id": "text_comp_001",
+    "category": "text_processing",
+    "subcategory": "grep_context",
+    "instruction": "Search for 'error' in log.txt showing 3 lines of context around each match",
+    "linux": "grep -C 3 'error' log.txt",
+    "windows_cmd": "findstr /c:\"error\" log.txt",
+    "mac": "grep -C 3 'error' log.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "grep",
+      "context",
+      "search"
+    ]
+  },
+  {
+    "id": "text_comp_002",
+    "category": "text_processing",
+    "subcategory": "sed_replace_inplace",
+    "instruction": "Replace all occurrences of 'foo' with 'bar' in file.txt in-place",
+    "linux": "sed -i 's/foo/bar/g' file.txt",
+    "windows_cmd": "powershell -c \"(Get-Content file.txt) -replace 'foo', 'bar' | Set-Content file.txt\"",
+    "mac": "sed -i '' 's/foo/bar/g' file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "sed",
+      "replace",
+      "inplace"
+    ]
+  },
+  {
+    "id": "text_comp_003",
+    "category": "text_processing",
+    "subcategory": "awk_column",
+    "instruction": "Print the second column of a CSV file data.csv",
+    "linux": "awk -F',' '{print $2}' data.csv",
+    "windows_cmd": "for /f \"tokens=2 delims=,\" %a in (data.csv) do @echo %a",
+    "mac": "awk -F',' '{print $2}' data.csv",
+    "difficulty": "intermediate",
+    "tags": [
+      "awk",
+      "csv",
+      "columns"
+    ]
+  },
+  {
+    "id": "text_comp_004",
+    "category": "text_processing",
+    "subcategory": "sort_unique_count",
+    "instruction": "Sort file.txt, remove duplicates, and count occurrences of each line",
+    "linux": "sort file.txt | uniq -c",
+    "windows_cmd": "powershell -c \"Get-Content file.txt | Group-Object | Select-Object Count, Name\"",
+    "mac": "sort file.txt | uniq -c",
+    "difficulty": "intermediate",
+    "tags": [
+      "sort",
+      "uniq",
+      "count"
+    ]
+  },
+  {
+    "id": "text_comp_005",
+    "category": "text_processing",
+    "subcategory": "grep_invert",
+    "instruction": "Display lines in file.txt that do NOT contain 'debug'",
+    "linux": "grep -v 'debug' file.txt",
+    "windows_cmd": "findstr /v \"debug\" file.txt",
+    "mac": "grep -v 'debug' file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "grep",
+      "invert",
+      "filter"
+    ]
+  },
+  {
+    "id": "text_comp_006",
+    "category": "text_processing",
+    "subcategory": "sed_delete_line",
+    "instruction": "Delete the 5th line of file.txt",
+    "linux": "sed '5d' file.txt",
+    "windows_cmd": "powershell -c \"$c=Get-Content file.txt; $c[0..3] + $c[5..($c.Count-1)]\"",
+    "mac": "sed '5d' file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "sed",
+      "delete",
+      "lines"
+    ]
+  },
+  {
+    "id": "text_comp_007",
+    "category": "text_processing",
+    "subcategory": "grep_recursive_line",
+    "instruction": "Search for 'TODO' recursively and show line numbers",
+    "linux": "grep -rn 'TODO' .",
+    "windows_cmd": "findstr /s /n \"TODO\" *",
+    "mac": "grep -rn 'TODO' .",
+    "difficulty": "intermediate",
+    "tags": [
+      "grep",
+      "recursive",
+      "line-numbers"
+    ]
+  },
+  {
+    "id": "text_comp_008",
+    "category": "text_processing",
+    "subcategory": "tr_upper",
+    "instruction": "Convert contents of file.txt to uppercase",
+    "linux": "tr '[:lower:]' '[:upper:]' < file.txt",
+    "windows_cmd": "powershell -c \"(Get-Content file.txt).ToUpper()\"",
+    "mac": "tr '[:lower:]' '[:upper:]' < file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "tr",
+      "case",
+      "uppercase"
+    ]
+  },
+  {
+    "id": "text_comp_009",
+    "category": "text_processing",
+    "subcategory": "head_bytes",
+    "instruction": "Display the first 100 bytes of file.bin",
+    "linux": "head -c 100 file.bin",
+    "windows_cmd": "powershell -c \"Get-Content -Encoding Byte -TotalCount 100 file.bin\"",
+    "mac": "head -c 100 file.bin",
+    "difficulty": "intermediate",
+    "tags": [
+      "head",
+      "bytes",
+      "binary"
+    ]
+  },
+  {
+    "id": "text_comp_010",
+    "category": "text_processing",
+    "subcategory": "awk_sum",
+    "instruction": "Sum the numbers in the first column of numbers.txt",
+    "linux": "awk '{s+=$1} END {print s}' numbers.txt",
+    "windows_cmd": "powershell -c \"(Get-Content numbers.txt | Measure-Object -Sum).Sum\"",
+    "mac": "awk '{s+=$1} END {print s}' numbers.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "awk",
+      "math",
+      "sum"
+    ]
+  },
+  {
+    "id": "text_comp_011",
+    "category": "text_processing",
+    "subcategory": "cut_chars",
+    "instruction": "Extract the first 5 characters of each line in file.txt",
+    "linux": "cut -c 1-5 file.txt",
+    "windows_cmd": "powershell -c \"Get-Content file.txt | % { $_.Substring(0, [math]::Min(5, $_.Length)) }\"",
+    "mac": "cut -c 1-5 file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "cut",
+      "substring",
+      "extract"
+    ]
+  },
+  {
+    "id": "text_comp_012",
+    "category": "text_processing",
+    "subcategory": "grep_count_matches",
+    "instruction": "Count the total number of matches of 'error' in file.txt (multiple per line)",
+    "linux": "grep -o 'error' file.txt | wc -l",
+    "windows_cmd": "powershell -c \"([regex]::Matches((Get-Content file.txt), 'error')).Count\"",
+    "mac": "grep -o 'error' file.txt | wc -l",
+    "difficulty": "advanced",
+    "tags": [
+      "grep",
+      "count",
+      "regex"
+    ]
+  },
+  {
+    "id": "text_comp_013",
+    "category": "text_processing",
+    "subcategory": "sed_insert",
+    "instruction": "Insert 'New Line' at the beginning of file.txt",
+    "linux": "sed -i '1i New Line' file.txt",
+    "windows_cmd": "powershell -c \"$c = Get-Content file.txt; 'New Line' | Set-Content file.txt; $c | Add-Content file.txt\"",
+    "mac": "sed -i '' -e '1i\\' -e 'New Line' file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "sed",
+      "insert",
+      "prepend"
+    ]
+  },
+  {
+    "id": "text_comp_014",
+    "category": "text_processing",
+    "subcategory": "sort_numeric",
+    "instruction": "Sort file.txt numerically",
+    "linux": "sort -n file.txt",
+    "windows_cmd": "sort /n file.txt",
+    "mac": "sort -n file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "sort",
+      "numeric",
+      "order"
+    ]
+  },
+  {
+    "id": "text_comp_015",
+    "category": "text_processing",
+    "subcategory": "paste_delimiter",
+    "instruction": "Merge two files with a comma delimiter",
+    "linux": "paste -d, file1.txt file2.txt",
+    "windows_cmd": "powershell -c \"$a=gc file1.txt;$b=gc file2.txt; 0..($a.count-1) | % { '{0},{1}' -f $a[$_],$b[$_] }\"",
+    "mac": "paste -d, file1.txt file2.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "paste",
+      "merge",
+      "delimiter"
+    ]
+  },
+  {
+    "id": "text_comp_016",
+    "category": "text_processing",
+    "subcategory": "grep_regex",
+    "instruction": "Find lines starting with a number",
+    "linux": "grep '^[0-9]' file.txt",
+    "windows_cmd": "findstr \"^[0-9]\" file.txt",
+    "mac": "grep '^[0-9]' file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "grep",
+      "regex",
+      "start"
+    ]
+  },
+  {
+    "id": "text_comp_017",
+    "category": "text_processing",
+    "subcategory": "wc_words",
+    "instruction": "Count the number of words in file.txt",
+    "linux": "wc -w file.txt",
+    "windows_cmd": "powershell -c \"(Get-Content file.txt | Measure-Object -Word).Words\"",
+    "mac": "wc -w file.txt",
+    "difficulty": "beginner",
+    "tags": [
+      "wc",
+      "words",
+      "count"
+    ]
+  },
+  {
+    "id": "text_comp_018",
+    "category": "text_processing",
+    "subcategory": "awk_filter",
+    "instruction": "Print lines where the first column is greater than 100",
+    "linux": "awk '$1 > 100' data.txt",
+    "windows_cmd": "powershell -c \"Get-Content data.txt | ? { [int]($_ -split ' ')[0] -gt 100 }\"",
+    "mac": "awk '$1 > 100' data.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "awk",
+      "filter",
+      "logic"
+    ]
+  },
+  {
+    "id": "text_comp_019",
+    "category": "text_processing",
+    "subcategory": "tee_append",
+    "instruction": "Append output of a command to log.txt and display it",
+    "linux": "date | tee -a log.txt",
+    "windows_cmd": "date >> log.txt & date",
+    "mac": "date | tee -a log.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "tee",
+      "append",
+      "redirect"
+    ]
+  },
+  {
+    "id": "text_comp_020",
+    "category": "text_processing",
+    "subcategory": "sed_delete_empty",
+    "instruction": "Delete all empty lines from file.txt",
+    "linux": "sed -i '/^$/d' file.txt",
+    "windows_cmd": "powershell -c \"(Get-Content file.txt) | ? { $_ -ne '' } | Set-Content file.txt\"",
+    "mac": "sed -i '' '/^$/d' file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "sed",
+      "clean",
+      "empty"
+    ]
+  },
+  {
+    "id": "text_comp_021",
+    "category": "text_processing",
+    "subcategory": "rev_lines",
+    "instruction": "Reverse the order of characters in each line",
+    "linux": "rev file.txt",
+    "windows_cmd": "powershell -c \"Get-Content file.txt | % { -join $_[($_.Length-1)..0] }\"",
+    "mac": "rev file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "rev",
+      "reverse",
+      "text"
+    ]
+  },
+  {
+    "id": "text_comp_022",
+    "category": "text_processing",
+    "subcategory": "expand_tabs",
+    "instruction": "Convert tabs to spaces in file.txt",
+    "linux": "expand -t 4 file.txt > file_spaces.txt",
+    "windows_cmd": "powershell -c \"(Get-Content file.txt).Replace('`t', '    ') | Set-Content file_spaces.txt\"",
+    "mac": "expand -t 4 file.txt > file_spaces.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "expand",
+      "tabs",
+      "spaces"
+    ]
+  },
+  {
+    "id": "text_comp_024",
+    "category": "text_processing",
+    "subcategory": "grep_files_without",
+    "instruction": "List files that do NOT match pattern 'done'",
+    "linux": "grep -L 'done' *.txt",
+    "windows_cmd": "findstr /v /m \"done\" *.txt",
+    "mac": "grep -L 'done' *.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "grep",
+      "invert",
+      "files"
+    ]
+  },
+  {
+    "id": "text_comp_025",
+    "category": "text_processing",
+    "subcategory": "sed_print_range",
+    "instruction": "Print lines 10 through 15 of file.txt",
+    "linux": "sed -n '10,15p' file.txt",
+    "windows_cmd": "powershell -c \"Get-Content file.txt | Select-Object -Skip 9 -First 6\"",
+    "mac": "sed -n '10,15p' file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "sed",
+      "range",
+      "print"
+    ]
+  },
+  {
+    "id": "text_comp_026",
+    "category": "text_processing",
+    "subcategory": "split_file",
+    "instruction": "Split file into pieces of 100 lines each prefixing with 'part'",
+    "linux": "split -l 100 file.txt part",
+    "windows_cmd": "powershell -c \"$i=0; Get-Content file.txt -ReadCount 100 | % { $_ | Set-Content part$i; $i++ }\"",
+    "mac": "split -l 100 file.txt part",
+    "difficulty": "intermediate",
+    "tags": [
+      "split",
+      "chunks",
+      "files"
+    ]
+  },
+  {
+    "id": "text_comp_027",
+    "category": "text_processing",
+    "subcategory": "join_files",
+    "instruction": "Join two files on the first field",
+    "linux": "join file1.txt file2.txt",
+    "windows_cmd": "echo Use PowerShell Join-Object.",
+    "mac": "join file1.txt file2.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "join",
+      "merge",
+      "fields"
+    ]
+  },
+  {
+    "id": "text_comp_028",
+    "category": "text_processing",
+    "subcategory": "diff_side",
+    "instruction": "Show side-by-side difference between two files",
+    "linux": "diff -y file1.txt file2.txt",
+    "windows_cmd": "fc /n file1.txt file2.txt",
+    "mac": "diff -y file1.txt file2.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "diff",
+      "compare",
+      "side-by-side"
+    ]
+  },
+  {
+    "id": "text_comp_029",
+    "category": "text_processing",
+    "subcategory": "sort_reverse",
+    "instruction": "Sort file.txt in reverse order",
+    "linux": "sort -r file.txt",
+    "windows_cmd": "sort /r file.txt",
+    "mac": "sort -r file.txt",
+    "difficulty": "beginner",
+    "tags": [
+      "sort",
+      "reverse",
+      "order"
+    ]
+  },
+  {
+    "id": "text_comp_030",
+    "category": "text_processing",
+    "subcategory": "strings_bin",
+    "instruction": "Extract printable strings from binary file",
+    "linux": "strings binary.dat",
+    "windows_cmd": "strings binary.dat",
+    "mac": "strings binary.dat",
+    "difficulty": "intermediate",
+    "tags": [
+      "strings",
+      "binary",
+      "extract"
+    ]
+  },
+  {
+    "id": "text_comp_031",
+    "category": "text_processing",
+    "subcategory": "grep_quiet",
+    "instruction": "Check if 'error' exists in log.txt without outputting it (exit code)",
+    "linux": "grep -q 'error' log.txt",
+    "windows_cmd": "findstr \"error\" log.txt >nul",
+    "mac": "grep -q 'error' log.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "grep",
+      "check",
+      "quiet"
+    ]
+  },
+  {
+    "id": "text_comp_032",
+    "category": "text_processing",
+    "subcategory": "od_octal",
+    "instruction": "Dump file.txt in octal format",
+    "linux": "od -c file.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "od -c file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "od",
+      "dump",
+      "octal"
+    ]
+  },
+  {
+    "id": "text_comp_033",
+    "category": "text_processing",
+    "subcategory": "md5_text",
+    "instruction": "Calculate MD5 hash of string 'hello'",
+    "linux": "echo -n 'hello' | md5sum",
+    "windows_cmd": "echo | set /p=\"hello\" > temp.txt & certutil -hashfile temp.txt MD5",
+    "mac": "echo -n 'hello' | md5",
+    "difficulty": "advanced",
+    "tags": [
+      "md5",
+      "hash",
+      "string"
+    ]
+  },
+  {
+    "id": "text_comp_034",
+    "category": "text_processing",
+    "subcategory": "iconv",
+    "instruction": "Convert file encoding from ISO-8859-1 to UTF-8",
+    "linux": "iconv -f ISO-8859-1 -t UTF-8 in.txt -o out.txt",
+    "windows_cmd": "powershell -c \"Get-Content in.txt -Encoding Default | Set-Content out.txt -Encoding UTF8\"",
+    "mac": "iconv -f ISO-8859-1 -t UTF-8 in.txt > out.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "iconv",
+      "encoding",
+      "convert"
+    ]
+  },
+  {
+    "id": "text_comp_035",
+    "category": "text_processing",
+    "subcategory": "grep_or",
+    "instruction": "Find lines matching 'cat' OR 'dog'",
+    "linux": "grep -E 'cat|dog' file.txt",
+    "windows_cmd": "findstr \"cat dog\" file.txt",
+    "mac": "grep -E 'cat|dog' file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "grep",
+      "or",
+      "regex"
+    ]
+  },
+  {
+    "id": "text_comp_036",
+    "category": "text_processing",
+    "subcategory": "comm_unique_1",
+    "instruction": "Show lines unique to file1.txt compared to file2.txt",
+    "linux": "comm -23 (sort file1.txt) (sort file2.txt)",
+    "windows_cmd": "echo Requires PowerShell Compare-Object",
+    "mac": "comm -23 <(sort file1.txt) <(sort file2.txt)",
+    "difficulty": "advanced",
+    "tags": [
+      "comm",
+      "unique",
+      "compare"
+    ]
+  },
+  {
+    "id": "text_comp_037",
+    "category": "text_processing",
+    "subcategory": "zgrep",
+    "instruction": "Search for 'error' inside compressed log.gz",
+    "linux": "zgrep 'error' log.gz",
+    "windows_cmd": "echo N/A",
+    "mac": "zgrep 'error' log.gz",
+    "difficulty": "intermediate",
+    "tags": [
+      "zgrep",
+      "compressed",
+      "search"
+    ]
+  },
+  {
+    "id": "text_comp_038",
+    "category": "text_processing",
+    "subcategory": "base64_decode",
+    "instruction": "Decode a Base64 file",
+    "linux": "base64 -d encoded.txt > decoded.txt",
+    "windows_cmd": "certutil -decode encoded.txt decoded.txt",
+    "mac": "base64 -D -i encoded.txt -o decoded.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "base64",
+      "decode",
+      "convert"
+    ]
+  },
+  {
+    "id": "text_comp_039",
+    "category": "text_processing",
+    "subcategory": "awk_length",
+    "instruction": "Print lines longer than 80 characters",
+    "linux": "awk 'length($0) > 80' file.txt",
+    "windows_cmd": "powershell -c \"Get-Content file.txt | ? { $_.Length -gt 80 }\"",
+    "mac": "awk 'length($0) > 80' file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "awk",
+      "length",
+      "filter"
+    ]
+  },
+  {
+    "id": "text_comp_040",
+    "category": "text_processing",
+    "subcategory": "uniq_dups",
+    "instruction": "Show only duplicate lines in file.txt",
+    "linux": "sort file.txt | uniq -d",
+    "windows_cmd": "powershell -c \"Get-Content file.txt | Group-Object | ? { $_.Count -gt 1 } | Select-Object -ExpandProperty Name\"",
+    "mac": "sort file.txt | uniq -d",
+    "difficulty": "intermediate",
+    "tags": [
+      "uniq",
+      "duplicates",
+      "filter"
+    ]
+  },
+  {
+    "id": "text_comp_041",
+    "category": "text_processing",
+    "subcategory": "shuf_lines",
+    "instruction": "Pick 5 random lines from file.txt",
+    "linux": "shuf -n 5 file.txt",
+    "windows_cmd": "powershell -c \"Get-Content file.txt | Get-Random -Count 5\"",
+    "mac": "gshuf -n 5 file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "random",
+      "lines",
+      "sample"
+    ]
+  },
+  {
+    "id": "text_comp_042",
+    "category": "text_processing",
+    "subcategory": "wc_max_line",
+    "instruction": "Find the length of the longest line in file.txt",
+    "linux": "wc -L file.txt",
+    "windows_cmd": "powershell -c \"(Get-Content file.txt | Measure-Object -Property Length -Maximum).Maximum\"",
+    "mac": "awk '{ if (length($0) > max) max = length($0) } END { print max }' file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "wc",
+      "length",
+      "max"
+    ]
+  },
+  {
+    "id": "text_comp_043",
+    "category": "text_processing",
+    "subcategory": "nl_width",
+    "instruction": "Number lines with zero-padded width of 6",
+    "linux": "nl -n rz -w 6 file.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "nl -n rz -w 6 file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "nl",
+      "number",
+      "format"
+    ]
+  },
+  {
+    "id": "text_comp_044",
+    "category": "text_processing",
+    "subcategory": "grep_before",
+    "instruction": "Show 2 lines before match of 'error'",
+    "linux": "grep -B 2 'error' log.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "grep -B 2 'error' log.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "grep",
+      "context",
+      "before"
+    ]
+  },
+  {
+    "id": "text_comp_045",
+    "category": "text_processing",
+    "subcategory": "sed_sub_match",
+    "instruction": "Replace 'foo' with 'foo_bar' (append)",
+    "linux": "sed 's/foo/&_bar/g' file.txt",
+    "windows_cmd": "powershell -c \"(Get-Content file.txt) -replace 'foo', '$&_bar'\"",
+    "mac": "sed 's/foo/&_bar/g' file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "sed",
+      "replace",
+      "regex"
+    ]
+  },
+  {
+    "id": "text_comp_046",
+    "category": "text_processing",
+    "subcategory": "awk_printf",
+    "instruction": "Format a CSV file as a table",
+    "linux": "awk -F, '{printf \"%-10s %-10s\\n\", $1, $2}' data.csv",
+    "windows_cmd": "echo PowerShell Import-Csv | Format-Table",
+    "mac": "awk -F, '{printf \"%-10s %-10s\\n\", $1, $2}' data.csv",
+    "difficulty": "advanced",
+    "tags": [
+      "awk",
+      "format",
+      "table"
+    ]
+  },
+  {
+    "id": "text_comp_047",
+    "category": "text_processing",
+    "subcategory": "cksum",
+    "instruction": "Calculate CRC checksum",
+    "linux": "cksum file.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "cksum file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "checksum",
+      "crc",
+      "hash"
+    ]
+  },
+  {
+    "id": "text_comp_048",
+    "category": "text_processing",
+    "subcategory": "pr_cols",
+    "instruction": "Format file.txt into 3 columns",
+    "linux": "pr -3 file.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "pr -3 file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "pr",
+      "format",
+      "columns"
+    ]
+  },
+  {
+    "id": "text_comp_049",
+    "category": "text_processing",
+    "subcategory": "cat_ends",
+    "instruction": "Display file content showing $ at end of lines",
+    "linux": "cat -E file.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "cat -e file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "cat",
+      "view",
+      "special"
+    ]
+  },
+  {
+    "id": "text_comp_050",
+    "category": "text_processing",
+    "subcategory": "csplit",
+    "instruction": "Split file content based on pattern 'Chapter'",
+    "linux": "csplit book.txt '/Chapter/' {*}",
+    "windows_cmd": "echo N/A",
+    "mac": "csplit book.txt '/Chapter/' {*}",
+    "difficulty": "advanced",
+    "tags": [
+      "split",
+      "pattern",
+      "context"
+    ]
+  }
+]

@@ -1,0 +1,2153 @@
+[
+  {
+    "id": "dir_b54b8241",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_6e78ad94",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_cc53268e",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_1254f22e",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_1a55aa80",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory scripts and its contents",
+    "linux": "rm -rf scripts",
+    "windows_cmd": "rmdir /s /q scripts",
+    "mac": "rm -rf scripts"
+  },
+  {
+    "id": "dir_b49ca2d7",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in build",
+    "linux": "ls build",
+    "windows_cmd": "dir build",
+    "mac": "ls build"
+  },
+  {
+    "id": "dir_feeecb51",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named tests",
+    "linux": "mkdir tests",
+    "windows_cmd": "mkdir tests",
+    "mac": "mkdir tests"
+  },
+  {
+    "id": "dir_2c054e7e",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory lib and its contents",
+    "linux": "rm -rf lib",
+    "windows_cmd": "rmdir /s /q lib",
+    "mac": "rm -rf lib"
+  },
+  {
+    "id": "dir_177ac452",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named Music",
+    "linux": "mkdir Music",
+    "windows_cmd": "mkdir Music",
+    "mac": "mkdir Music"
+  },
+  {
+    "id": "dir_7e48774a",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to bin",
+    "linux": "cd bin",
+    "windows_cmd": "cd bin",
+    "mac": "cd bin"
+  },
+  {
+    "id": "dir_474a13a5",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named Music",
+    "linux": "mkdir Music",
+    "windows_cmd": "mkdir Music",
+    "mac": "mkdir Music"
+  },
+  {
+    "id": "dir_e2745913",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to backup",
+    "linux": "cd backup",
+    "windows_cmd": "cd backup",
+    "mac": "cd backup"
+  },
+  {
+    "id": "dir_5970070f",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_668ea1e5",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to build",
+    "linux": "cd build",
+    "windows_cmd": "cd build",
+    "mac": "cd build"
+  },
+  {
+    "id": "dir_4e9b3400",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_54c3b6ba",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named include",
+    "linux": "mkdir include",
+    "windows_cmd": "mkdir include",
+    "mac": "mkdir include"
+  },
+  {
+    "id": "dir_4b9af676",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to public",
+    "linux": "cd public",
+    "windows_cmd": "cd public",
+    "mac": "cd public"
+  },
+  {
+    "id": "dir_640445f0",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_2594d60a",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named Desktop",
+    "linux": "mkdir Desktop",
+    "windows_cmd": "mkdir Desktop",
+    "mac": "mkdir Desktop"
+  },
+  {
+    "id": "dir_7f308809",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in include",
+    "linux": "ls include",
+    "windows_cmd": "dir include",
+    "mac": "ls include"
+  },
+  {
+    "id": "dir_d480f014",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to src",
+    "linux": "cd src",
+    "windows_cmd": "cd src",
+    "mac": "cd src"
+  },
+  {
+    "id": "dir_9df4d344",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named lib",
+    "linux": "mkdir lib",
+    "windows_cmd": "mkdir lib",
+    "mac": "mkdir lib"
+  },
+  {
+    "id": "dir_6755271e",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to scripts",
+    "linux": "cd scripts",
+    "windows_cmd": "cd scripts",
+    "mac": "cd scripts"
+  },
+  {
+    "id": "dir_671d0a32",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in Desktop",
+    "linux": "ls Desktop",
+    "windows_cmd": "dir Desktop",
+    "mac": "ls Desktop"
+  },
+  {
+    "id": "dir_0d671bbf",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_7f3c9c22",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to Downloads",
+    "linux": "cd Downloads",
+    "windows_cmd": "cd Downloads",
+    "mac": "cd Downloads"
+  },
+  {
+    "id": "dir_a2a4558f",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_5b9bd04b",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create nested directories bin/Desktop",
+    "linux": "mkdir -p bin/Desktop",
+    "windows_cmd": "mkdir bin\\Desktop",
+    "mac": "mkdir -p bin/Desktop"
+  },
+  {
+    "id": "dir_9c78e131",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in backup",
+    "linux": "ls backup",
+    "windows_cmd": "dir backup",
+    "mac": "ls backup"
+  },
+  {
+    "id": "dir_5873fdd0",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_5e6a2204",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in temp",
+    "linux": "ls temp",
+    "windows_cmd": "dir temp",
+    "mac": "ls temp"
+  },
+  {
+    "id": "dir_64123076",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory lib and its contents",
+    "linux": "rm -rf lib",
+    "windows_cmd": "rmdir /s /q lib",
+    "mac": "rm -rf lib"
+  },
+  {
+    "id": "dir_e55a6ace",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory scripts and its contents",
+    "linux": "rm -rf scripts",
+    "windows_cmd": "rmdir /s /q scripts",
+    "mac": "rm -rf scripts"
+  },
+  {
+    "id": "dir_cc64dbe4",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in Music",
+    "linux": "ls Music",
+    "windows_cmd": "dir Music",
+    "mac": "ls Music"
+  },
+  {
+    "id": "dir_141c8db2",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_cab21674",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to assets",
+    "linux": "cd assets",
+    "windows_cmd": "cd assets",
+    "mac": "cd assets"
+  },
+  {
+    "id": "dir_849ee9a4",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create nested directories tests/config",
+    "linux": "mkdir -p tests/config",
+    "windows_cmd": "mkdir tests\\config",
+    "mac": "mkdir -p tests/config"
+  },
+  {
+    "id": "dir_add122f9",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in scripts",
+    "linux": "ls scripts",
+    "windows_cmd": "dir scripts",
+    "mac": "ls scripts"
+  },
+  {
+    "id": "dir_badbe2bf",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named Downloads",
+    "linux": "mkdir Downloads",
+    "windows_cmd": "mkdir Downloads",
+    "mac": "mkdir Downloads"
+  },
+  {
+    "id": "dir_84245e8b",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to src",
+    "linux": "cd src",
+    "windows_cmd": "cd src",
+    "mac": "cd src"
+  },
+  {
+    "id": "dir_bdef2d4c",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named tests",
+    "linux": "mkdir tests",
+    "windows_cmd": "mkdir tests",
+    "mac": "mkdir tests"
+  },
+  {
+    "id": "dir_f6cea192",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in bin",
+    "linux": "ls bin",
+    "windows_cmd": "dir bin",
+    "mac": "ls bin"
+  },
+  {
+    "id": "dir_8e877fa0",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named Documents",
+    "linux": "mkdir Documents",
+    "windows_cmd": "mkdir Documents",
+    "mac": "mkdir Documents"
+  },
+  {
+    "id": "dir_cdb18cda",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to logs",
+    "linux": "cd logs",
+    "windows_cmd": "cd logs",
+    "mac": "cd logs"
+  },
+  {
+    "id": "dir_f78539ad",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to Music",
+    "linux": "cd Music",
+    "windows_cmd": "cd Music",
+    "mac": "cd Music"
+  },
+  {
+    "id": "dir_7b25de61",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in tests",
+    "linux": "ls tests",
+    "windows_cmd": "dir tests",
+    "mac": "ls tests"
+  },
+  {
+    "id": "dir_933c4c92",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create nested directories temp/Downloads",
+    "linux": "mkdir -p temp/Downloads",
+    "windows_cmd": "mkdir temp\\Downloads",
+    "mac": "mkdir -p temp/Downloads"
+  },
+  {
+    "id": "dir_87e6aab8",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_c1914530",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_c1581a84",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create nested directories bin/temp",
+    "linux": "mkdir -p bin/temp",
+    "windows_cmd": "mkdir bin\\temp",
+    "mac": "mkdir -p bin/temp"
+  },
+  {
+    "id": "dir_6e412202",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory backup and its contents",
+    "linux": "rm -rf backup",
+    "windows_cmd": "rmdir /s /q backup",
+    "mac": "rm -rf backup"
+  },
+  {
+    "id": "dir_fa968be8",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_41ca1e79",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_1885d0b2",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in Documents",
+    "linux": "ls Documents",
+    "windows_cmd": "dir Documents",
+    "mac": "ls Documents"
+  },
+  {
+    "id": "dir_c805de50",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named Downloads",
+    "linux": "mkdir Downloads",
+    "windows_cmd": "mkdir Downloads",
+    "mac": "mkdir Downloads"
+  },
+  {
+    "id": "dir_c1892251",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory Documents and its contents",
+    "linux": "rm -rf Documents",
+    "windows_cmd": "rmdir /s /q Documents",
+    "mac": "rm -rf Documents"
+  },
+  {
+    "id": "dir_e2dafa3c",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named scripts",
+    "linux": "mkdir scripts",
+    "windows_cmd": "mkdir scripts",
+    "mac": "mkdir scripts"
+  },
+  {
+    "id": "dir_ef03f1be",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to bin",
+    "linux": "cd bin",
+    "windows_cmd": "cd bin",
+    "mac": "cd bin"
+  },
+  {
+    "id": "dir_fc7ee705",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named Downloads",
+    "linux": "mkdir Downloads",
+    "windows_cmd": "mkdir Downloads",
+    "mac": "mkdir Downloads"
+  },
+  {
+    "id": "dir_f710d0af",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory include and its contents",
+    "linux": "rm -rf include",
+    "windows_cmd": "rmdir /s /q include",
+    "mac": "rm -rf include"
+  },
+  {
+    "id": "dir_ab53ffb9",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory assets and its contents",
+    "linux": "rm -rf assets",
+    "windows_cmd": "rmdir /s /q assets",
+    "mac": "rm -rf assets"
+  },
+  {
+    "id": "dir_61eed452",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in config",
+    "linux": "ls config",
+    "windows_cmd": "dir config",
+    "mac": "ls config"
+  },
+  {
+    "id": "dir_363ed483",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in Pictures",
+    "linux": "ls Pictures",
+    "windows_cmd": "dir Pictures",
+    "mac": "ls Pictures"
+  },
+  {
+    "id": "dir_d3300db7",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to Downloads",
+    "linux": "cd Downloads",
+    "windows_cmd": "cd Downloads",
+    "mac": "cd Downloads"
+  },
+  {
+    "id": "dir_3d9ee152",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to public",
+    "linux": "cd public",
+    "windows_cmd": "cd public",
+    "mac": "cd public"
+  },
+  {
+    "id": "dir_03ccc6a2",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory temp and its contents",
+    "linux": "rm -rf temp",
+    "windows_cmd": "rmdir /s /q temp",
+    "mac": "rm -rf temp"
+  },
+  {
+    "id": "dir_79d4d867",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_4216840f",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory bin and its contents",
+    "linux": "rm -rf bin",
+    "windows_cmd": "rmdir /s /q bin",
+    "mac": "rm -rf bin"
+  },
+  {
+    "id": "dir_4343cdda",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in lib",
+    "linux": "ls lib",
+    "windows_cmd": "dir lib",
+    "mac": "ls lib"
+  },
+  {
+    "id": "dir_8f7e41f3",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named Desktop",
+    "linux": "mkdir Desktop",
+    "windows_cmd": "mkdir Desktop",
+    "mac": "mkdir Desktop"
+  },
+  {
+    "id": "dir_668b5981",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory Documents and its contents",
+    "linux": "rm -rf Documents",
+    "windows_cmd": "rmdir /s /q Documents",
+    "mac": "rm -rf Documents"
+  },
+  {
+    "id": "dir_c861e542",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to src",
+    "linux": "cd src",
+    "windows_cmd": "cd src",
+    "mac": "cd src"
+  },
+  {
+    "id": "dir_6e90daae",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named include",
+    "linux": "mkdir include",
+    "windows_cmd": "mkdir include",
+    "mac": "mkdir include"
+  },
+  {
+    "id": "dir_a9133fa7",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_f72ca253",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in scripts",
+    "linux": "ls scripts",
+    "windows_cmd": "dir scripts",
+    "mac": "ls scripts"
+  },
+  {
+    "id": "dir_3b5481be",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_58ab61dd",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_91fa4eb9",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to public",
+    "linux": "cd public",
+    "windows_cmd": "cd public",
+    "mac": "cd public"
+  },
+  {
+    "id": "dir_998809b9",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to temp",
+    "linux": "cd temp",
+    "windows_cmd": "cd temp",
+    "mac": "cd temp"
+  },
+  {
+    "id": "dir_9524b554",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named backup",
+    "linux": "mkdir backup",
+    "windows_cmd": "mkdir backup",
+    "mac": "mkdir backup"
+  },
+  {
+    "id": "dir_42bf249e",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to scripts",
+    "linux": "cd scripts",
+    "windows_cmd": "cd scripts",
+    "mac": "cd scripts"
+  },
+  {
+    "id": "dir_cddf8be6",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in public",
+    "linux": "ls public",
+    "windows_cmd": "dir public",
+    "mac": "ls public"
+  },
+  {
+    "id": "dir_12d3c6ba",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named public",
+    "linux": "mkdir public",
+    "windows_cmd": "mkdir public",
+    "mac": "mkdir public"
+  },
+  {
+    "id": "dir_39013fd5",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory tests and its contents",
+    "linux": "rm -rf tests",
+    "windows_cmd": "rmdir /s /q tests",
+    "mac": "rm -rf tests"
+  },
+  {
+    "id": "dir_f439a277",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named include",
+    "linux": "mkdir include",
+    "windows_cmd": "mkdir include",
+    "mac": "mkdir include"
+  },
+  {
+    "id": "dir_de3a0b77",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to Pictures",
+    "linux": "cd Pictures",
+    "windows_cmd": "cd Pictures",
+    "mac": "cd Pictures"
+  },
+  {
+    "id": "dir_edefa737",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_fc3ae802",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named Documents",
+    "linux": "mkdir Documents",
+    "windows_cmd": "mkdir Documents",
+    "mac": "mkdir Documents"
+  },
+  {
+    "id": "dir_ed7d9cf2",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named config",
+    "linux": "mkdir config",
+    "windows_cmd": "mkdir config",
+    "mac": "mkdir config"
+  },
+  {
+    "id": "dir_420d6f39",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory Documents and its contents",
+    "linux": "rm -rf Documents",
+    "windows_cmd": "rmdir /s /q Documents",
+    "mac": "rm -rf Documents"
+  },
+  {
+    "id": "dir_8553f0df",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory src and its contents",
+    "linux": "rm -rf src",
+    "windows_cmd": "rmdir /s /q src",
+    "mac": "rm -rf src"
+  },
+  {
+    "id": "dir_c338981a",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_db31812a",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_328b6528",
+    "category": "directory_operations",
+    "subcategory": "tree",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "tree"
+    ],
+    "instruction": "Display directory structure",
+    "linux": "tree",
+    "windows_cmd": "tree",
+    "mac": "tree"
+  },
+  {
+    "id": "dir_3ab78bb4",
+    "category": "directory_operations",
+    "subcategory": "navigate",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "navigate"
+    ],
+    "instruction": "Change directory to temp",
+    "linux": "cd temp",
+    "windows_cmd": "cd temp",
+    "mac": "cd temp"
+  },
+  {
+    "id": "dir_a01d0449",
+    "category": "directory_operations",
+    "subcategory": "create",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "create"
+    ],
+    "instruction": "Create a directory named temp",
+    "linux": "mkdir temp",
+    "windows_cmd": "mkdir temp",
+    "mac": "mkdir temp"
+  },
+  {
+    "id": "dir_abcfd7d7",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory Pictures and its contents",
+    "linux": "rm -rf Pictures",
+    "windows_cmd": "rmdir /s /q Pictures",
+    "mac": "rm -rf Pictures"
+  },
+  {
+    "id": "dir_82bb6d31",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory logs and its contents",
+    "linux": "rm -rf logs",
+    "windows_cmd": "rmdir /s /q logs",
+    "mac": "rm -rf logs"
+  },
+  {
+    "id": "dir_c898a5d5",
+    "category": "directory_operations",
+    "subcategory": "remove",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "remove"
+    ],
+    "instruction": "Remove the directory backup and its contents",
+    "linux": "rm -rf backup",
+    "windows_cmd": "rmdir /s /q backup",
+    "mac": "rm -rf backup"
+  },
+  {
+    "id": "dir_f46412b8",
+    "category": "directory_operations",
+    "subcategory": "list",
+    "difficulty": "beginner",
+    "tags": [
+      "directory",
+      "list"
+    ],
+    "instruction": "List files in build",
+    "linux": "ls build",
+    "windows_cmd": "dir build",
+    "mac": "ls build"
+  },
+  {
+    "id": "dir_comp_001",
+    "category": "directory_operations",
+    "subcategory": "find_delete_empty",
+    "instruction": "Recursively find and remove all empty directories in /tmp",
+    "linux": "find /tmp -type d -empty -delete",
+    "windows_cmd": "for /f \"delims=\" %d in ('dir /tmp /ad /b /s ^| sort /r') do rd \"%d\"",
+    "mac": "find /tmp -type d -empty -delete",
+    "difficulty": "advanced",
+    "tags": [
+      "find",
+      "delete",
+      "empty",
+      "recursive"
+    ]
+  },
+  {
+    "id": "dir_comp_002",
+    "category": "directory_operations",
+    "subcategory": "sync",
+    "instruction": "Sync contents of 'data' folder to 'backup' folder, deleting files in backup that are gone from data",
+    "linux": "rsync -av --delete data/ backup/",
+    "windows_cmd": "robocopy data backup /mir",
+    "mac": "rsync -av --delete data/ backup/",
+    "difficulty": "advanced",
+    "tags": [
+      "sync",
+      "mirror",
+      "backup"
+    ]
+  },
+  {
+    "id": "dir_comp_003",
+    "category": "directory_operations",
+    "subcategory": "size_depth",
+    "instruction": "Calculate the size of each subdirectory in the current folder, max depth 1",
+    "linux": "du -h --max-depth=1",
+    "windows_cmd": "for /d %d in (*) do @echo %d & dir /s /a \"%d\" | findstr /c:\"File(s)\"",
+    "mac": "du -h -d 1",
+    "difficulty": "intermediate",
+    "tags": [
+      "size",
+      "du",
+      "disk"
+    ]
+  },
+  {
+    "id": "dir_comp_004",
+    "category": "directory_operations",
+    "subcategory": "flatten",
+    "instruction": "Move all files from subdirectories into the current directory (flatten)",
+    "linux": "find . -mindepth 2 -type f -exec mv {} . \\;",
+    "windows_cmd": "for /r %f in (*) do move \"%f\" .",
+    "mac": "find . -mindepth 2 -type f -exec mv {} . \\;",
+    "difficulty": "intermediate",
+    "tags": [
+      "move",
+      "flatten",
+      "organize"
+    ]
+  },
+  {
+    "id": "dir_comp_005",
+    "category": "directory_operations",
+    "subcategory": "tree_permissions",
+    "instruction": "Display directory structure showing file permissions",
+    "linux": "tree -p",
+    "windows_cmd": "tree",
+    "mac": "tree -p",
+    "difficulty": "beginner",
+    "tags": [
+      "tree",
+      "view",
+      "permissions"
+    ]
+  },
+  {
+    "id": "dir_comp_006",
+    "category": "directory_operations",
+    "subcategory": "copy_structure",
+    "instruction": "Copy directory structure of 'src' to 'dest' without copying files",
+    "linux": "find src -type d -exec mkdir -p dest/{} \\;",
+    "windows_cmd": "xcopy src dest /t /e",
+    "mac": "rsync -a -f\"+ */\" -f\"- *\" src/ dest/",
+    "difficulty": "advanced",
+    "tags": [
+      "copy",
+      "structure",
+      "mkdir"
+    ]
+  },
+  {
+    "id": "dir_comp_007",
+    "category": "directory_operations",
+    "subcategory": "count_files",
+    "instruction": "Count total number of files in the current directory and subdirectories",
+    "linux": "find . -type f | wc -l",
+    "windows_cmd": "dir /s /b /a-d | find /c /v \"\"",
+    "mac": "find . -type f | wc -l",
+    "difficulty": "intermediate",
+    "tags": [
+      "count",
+      "files",
+      "recursive"
+    ]
+  },
+  {
+    "id": "dir_comp_008",
+    "category": "directory_operations",
+    "subcategory": "chmod_recursive",
+    "instruction": "Recursively change permissions of all directories to 755",
+    "linux": "find . -type d -exec chmod 755 {} \\;",
+    "windows_cmd": "icacls * /grant:r Everyone:(OI)(CI)RX /t",
+    "mac": "find . -type d -exec chmod 755 {} \\;",
+    "difficulty": "advanced",
+    "tags": [
+      "chmod",
+      "permissions",
+      "recursive"
+    ]
+  },
+  {
+    "id": "dir_comp_009",
+    "category": "directory_operations",
+    "subcategory": "prune",
+    "instruction": "Delete 'node_modules' directories found anywhere under the current project",
+    "linux": "find . -name 'node_modules' -type d -prune -exec rm -rf {} +",
+    "windows_cmd": "for /d /r . %d in (node_modules) do @if exist \"%d\" rd /s /q \"%d\"",
+    "mac": "find . -name 'node_modules' -type d -prune -exec rm -rf {} +",
+    "difficulty": "advanced",
+    "tags": [
+      "find",
+      "delete",
+      "prune"
+    ]
+  },
+  {
+    "id": "dir_comp_010",
+    "category": "directory_operations",
+    "subcategory": "diff",
+    "instruction": "Compare contents of two directories 'v1' and 'v2'",
+    "linux": "diff -rq v1 v2",
+    "windows_cmd": "robocopy v1 v2 /l /e /ns /njs /njh /ndl /fp /log:diff.txt",
+    "mac": "diff -rq v1 v2",
+    "difficulty": "intermediate",
+    "tags": [
+      "diff",
+      "compare",
+      "recursive"
+    ]
+  },
+  {
+    "id": "dir_comp_011",
+    "category": "directory_operations",
+    "subcategory": "mkdir_date",
+    "instruction": "Create a new directory named with today's date (YYYY-MM-DD)",
+    "linux": "mkdir $(date +%F)",
+    "windows_cmd": "mkdir %DATE:~10,4%-%DATE:~4,2%-%DATE:~7,2%",
+    "mac": "mkdir $(date +%F)",
+    "difficulty": "intermediate",
+    "tags": [
+      "mkdir",
+      "date",
+      "dynamic"
+    ]
+  },
+  {
+    "id": "dir_comp_012",
+    "category": "directory_operations",
+    "subcategory": "tar_exclude",
+    "instruction": "Archive 'project' folder excluding the '.git' directory",
+    "linux": "tar -cvf project.tar --exclude='.git' project",
+    "windows_cmd": "tar -cvf project.tar --exclude \".git\" project",
+    "mac": "tar -cvf project.tar --exclude='.git' project",
+    "difficulty": "intermediate",
+    "tags": [
+      "tar",
+      "archive",
+      "exclude"
+    ]
+  },
+  {
+    "id": "dir_comp_013",
+    "category": "directory_operations",
+    "subcategory": "zip_encrypt",
+    "instruction": "Zip the 'secure' folder with password protection",
+    "linux": "zip -er secure.zip secure",
+    "windows_cmd": "echo Use 7zip or similar, CMD has no built-in zip password support.",
+    "mac": "zip -er secure.zip secure",
+    "difficulty": "advanced",
+    "tags": [
+      "zip",
+      "encrypt",
+      "password"
+    ]
+  },
+  {
+    "id": "dir_comp_014",
+    "category": "directory_operations",
+    "subcategory": "find_recent",
+    "instruction": "Find directories modified in the last 24 hours",
+    "linux": "find . -type d -mtime -1",
+    "windows_cmd": "forfiles /s /m * /c \"cmd /c if @isdir==TRUE if @fdate==%DATE% echo @path\"",
+    "mac": "find . -type d -mtime -1",
+    "difficulty": "advanced",
+    "tags": [
+      "find",
+      "time",
+      "directories"
+    ]
+  },
+  {
+    "id": "dir_comp_015",
+    "category": "directory_operations",
+    "subcategory": "chown_recursive",
+    "instruction": "Change owner of directory 'app' and all contents to 'www-data'",
+    "linux": "chown -R www-data:www-data app",
+    "windows_cmd": "icacls app /setowner www-data /t",
+    "mac": "chown -R www-data:www-data app",
+    "difficulty": "intermediate",
+    "tags": [
+      "chown",
+      "permissions",
+      "recursive"
+    ]
+  },
+  {
+    "id": "dir_comp_016",
+    "category": "directory_operations",
+    "subcategory": "move_merge",
+    "instruction": "Move files from 'src' to 'dest', overwriting existing files",
+    "linux": "cp -r src/* dest/ && rm -rf src",
+    "windows_cmd": "move /y src\\* dest\\",
+    "mac": "cp -r src/* dest/ && rm -rf src",
+    "difficulty": "intermediate",
+    "tags": [
+      "move",
+      "merge",
+      "overwrite"
+    ]
+  },
+  {
+    "id": "dir_comp_017",
+    "category": "directory_operations",
+    "subcategory": "list_hidden",
+    "instruction": "List all hidden directories in the user home folder",
+    "linux": "find ~ -maxdepth 1 -type d -name '.*'",
+    "windows_cmd": "dir %USERPROFILE% /adh",
+    "mac": "find ~ -maxdepth 1 -type d -name '.*'",
+    "difficulty": "intermediate",
+    "tags": [
+      "list",
+      "hidden",
+      "find"
+    ]
+  },
+  {
+    "id": "dir_comp_018",
+    "category": "directory_operations",
+    "subcategory": "batch_rename_dir",
+    "instruction": "Rename all directories starting with 'test_' to 'prod_'",
+    "linux": "rename 's/^test_/prod_/' test_*/",
+    "windows_cmd": "for /d %d in (test_*) do ren \"%d\" \"prod_%~nd\"",
+    "mac": "for d in test_*; do mv \"$d\" \"prod_${d#test_}\"; done",
+    "difficulty": "advanced",
+    "tags": [
+      "rename",
+      "batch",
+      "directories"
+    ]
+  },
+  {
+    "id": "dir_comp_019",
+    "category": "directory_operations",
+    "subcategory": "symlink_dir",
+    "instruction": "Create a symlink 'current' pointing to directory 'release-v1.2'",
+    "linux": "ln -s release-v1.2 current",
+    "windows_cmd": "mklink /D current release-v1.2",
+    "mac": "ln -s release-v1.2 current",
+    "difficulty": "intermediate",
+    "tags": [
+      "link",
+      "symlink",
+      "directory"
+    ]
+  },
+  {
+    "id": "dir_comp_020",
+    "category": "directory_operations",
+    "subcategory": "disk_usage",
+    "instruction": "Display disk usage of the current directory in human-readable format summary",
+    "linux": "du -sh .",
+    "windows_cmd": "powershell -c \"(Get-ChildItem -Recurse | Measure-Object -Property Length -Sum).Sum / 1MB\"",
+    "mac": "du -sh .",
+    "difficulty": "intermediate",
+    "tags": [
+      "du",
+      "size",
+      "disk"
+    ]
+  },
+  {
+    "id": "dir_comp_021",
+    "category": "directory_operations",
+    "subcategory": "copy_new",
+    "instruction": "Copy only new or modified files from 'src' to 'dest'",
+    "linux": "cp -u -r src/* dest/",
+    "windows_cmd": "xcopy src dest /d /e /i /y",
+    "mac": "rsync -au src/ dest/",
+    "difficulty": "intermediate",
+    "tags": [
+      "copy",
+      "update",
+      "new"
+    ]
+  },
+  {
+    "id": "dir_comp_022",
+    "category": "directory_operations",
+    "subcategory": "clean_tmp",
+    "instruction": "Delete all subdirectories in /tmp that haven't been accessed in 10 days",
+    "linux": "find /tmp -type d -atime +10 -delete",
+    "windows_cmd": "forfiles /p \"C:\\Windows\\Temp\" /s /d -10 /c \"cmd /c if @isdir==TRUE rd /s /q @path\"",
+    "mac": "find /tmp -type d -atime +10 -delete",
+    "difficulty": "advanced",
+    "tags": [
+      "delete",
+      "clean",
+      "time"
+    ]
+  },
+  {
+    "id": "dir_comp_023",
+    "category": "directory_operations",
+    "subcategory": "tree_size",
+    "instruction": "Show directory structure with sizes",
+    "linux": "du -h | sort -h",
+    "windows_cmd": "powershell -c \"Get-ChildItem -Recurse | Select-Object FullName, Length\"",
+    "mac": "du -h | sort -h",
+    "difficulty": "intermediate",
+    "tags": [
+      "tree",
+      "size",
+      "view"
+    ]
+  },
+  {
+    "id": "dir_comp_024",
+    "category": "directory_operations",
+    "subcategory": "pushd",
+    "instruction": "Push the current directory to stack, move to '/var/log', then pop back",
+    "linux": "pushd /var/log && popd",
+    "windows_cmd": "pushd \\var\\log && popd",
+    "mac": "pushd /var/log && popd",
+    "difficulty": "intermediate",
+    "tags": [
+      "navigation",
+      "stack",
+      "pushd"
+    ]
+  },
+  {
+    "id": "dir_comp_025",
+    "category": "directory_operations",
+    "subcategory": "find_max_depth",
+    "instruction": "List all directories exactly 2 levels deep",
+    "linux": "find . -maxdepth 2 -mindepth 2 -type d",
+    "windows_cmd": "powershell -c \"Get-ChildItem -Directory -Recurse -Depth 2 | Where-Object { $_.FullName.Split('\\').Count -eq ((Get-Location).Path.Split('\\').Count + 2) }\"",
+    "mac": "find . -maxdepth 2 -mindepth 2 -type d",
+    "difficulty": "advanced",
+    "tags": [
+      "find",
+      "depth",
+      "list"
+    ]
+  },
+  {
+    "id": "dir_comp_026",
+    "category": "directory_operations",
+    "subcategory": "remove_pattern",
+    "instruction": "Remove all directories starting with 'temp-'",
+    "linux": "rm -rf temp-*/",
+    "windows_cmd": "for /d %d in (temp-*) do rd /s /q \"%d\"",
+    "mac": "rm -rf temp-*/",
+    "difficulty": "intermediate",
+    "tags": [
+      "remove",
+      "pattern",
+      "wildcard"
+    ]
+  },
+  {
+    "id": "dir_comp_027",
+    "category": "directory_operations",
+    "subcategory": "zip_dir",
+    "instruction": "Create a zip file of the 'docs' directory",
+    "linux": "zip -r docs.zip docs",
+    "windows_cmd": "powershell -c \"Compress-Archive -Path docs -DestinationPath docs.zip\"",
+    "mac": "zip -r docs.zip docs",
+    "difficulty": "intermediate",
+    "tags": [
+      "zip",
+      "archive",
+      "directory"
+    ]
+  },
+  {
+    "id": "dir_comp_028",
+    "category": "directory_operations",
+    "subcategory": "mkdir_parents",
+    "instruction": "Create the directory path a/b/c/d even if parents don't exist",
+    "linux": "mkdir -p a/b/c/d",
+    "windows_cmd": "mkdir a\\b\\c\\d",
+    "mac": "mkdir -p a/b/c/d",
+    "difficulty": "beginner",
+    "tags": [
+      "mkdir",
+      "recursive",
+      "parents"
+    ]
+  },
+  {
+    "id": "dir_comp_029",
+    "category": "directory_operations",
+    "subcategory": "is_empty",
+    "instruction": "Check if directory 'data' is empty",
+    "linux": "[ -z \"$(ls -A data)\" ] && echo 'Empty' || echo 'Not Empty'",
+    "windows_cmd": "dir /b data | findstr . >nul && echo Not Empty || echo Empty",
+    "mac": "[ -z \"$(ls -A data)\" ] && echo 'Empty' || echo 'Not Empty'",
+    "difficulty": "intermediate",
+    "tags": [
+      "check",
+      "empty",
+      "logic"
+    ]
+  },
+  {
+    "id": "dir_comp_030",
+    "category": "directory_operations",
+    "subcategory": "ls_sort_time",
+    "instruction": "List directories sorted by modification time, newest first",
+    "linux": "ls -lt | grep '^d'",
+    "windows_cmd": "dir /ad /od",
+    "mac": "ls -lt | grep '^d'",
+    "difficulty": "intermediate",
+    "tags": [
+      "list",
+      "sort",
+      "time"
+    ]
+  },
+  {
+    "id": "dir_comp_031",
+    "category": "directory_operations",
+    "subcategory": "unzip_dir",
+    "instruction": "Unzip 'archive.zip' into a new directory 'extracted'",
+    "linux": "unzip archive.zip -d extracted",
+    "windows_cmd": "powershell -c \"Expand-Archive archive.zip -DestinationPath extracted\"",
+    "mac": "unzip archive.zip -d extracted",
+    "difficulty": "intermediate",
+    "tags": [
+      "unzip",
+      "extract",
+      "directory"
+    ]
+  },
+  {
+    "id": "dir_comp_032",
+    "category": "directory_operations",
+    "subcategory": "find_user",
+    "instruction": "Find all directories owned by user 'john'",
+    "linux": "find / -type d -user john 2>/dev/null",
+    "windows_cmd": "icacls * /find sid:john",
+    "mac": "find / -type d -user john 2>/dev/null",
+    "difficulty": "advanced",
+    "tags": [
+      "find",
+      "user",
+      "owner"
+    ]
+  },
+  {
+    "id": "dir_comp_033",
+    "category": "directory_operations",
+    "subcategory": "move_up",
+    "instruction": "Move all contents of the current directory to the parent directory",
+    "linux": "mv * ..",
+    "windows_cmd": "move * ..",
+    "mac": "mv * ..",
+    "difficulty": "beginner",
+    "tags": [
+      "move",
+      "parent",
+      "navigate"
+    ]
+  },
+  {
+    "id": "dir_comp_034",
+    "category": "directory_operations",
+    "subcategory": "compare_counts",
+    "instruction": "Compare file counts between two directories",
+    "linux": "echo \"dir1: $(find dir1 -type f | wc -l)\"; echo \"dir2: $(find dir2 -type f | wc -l)\"",
+    "windows_cmd": "dir dir1 /s /b | find /c /v \"\" & dir dir2 /s /b | find /c /v \"\"",
+    "mac": "echo \"dir1: $(find dir1 -type f | wc -l)\"; echo \"dir2: $(find dir2 -type f | wc -l)\"",
+    "difficulty": "intermediate",
+    "tags": [
+      "compare",
+      "count",
+      "stats"
+    ]
+  },
+  {
+    "id": "dir_comp_035",
+    "category": "directory_operations",
+    "subcategory": "chmod_dirs_only",
+    "instruction": "Set permissions of all directories to 700 but leave files alone",
+    "linux": "find . -type d -exec chmod 700 {} \\;",
+    "windows_cmd": "icacls * /grant:r %USERNAME%:(OI)(CI)F /t /c /q",
+    "mac": "find . -type d -exec chmod 700 {} \\;",
+    "difficulty": "advanced",
+    "tags": [
+      "chmod",
+      "permissions",
+      "filter"
+    ]
+  },
+  {
+    "id": "dir_comp_036",
+    "category": "directory_operations",
+    "subcategory": "copy_attrs",
+    "instruction": "Copy directory 'src' to 'dest' preserving timestamps and permissions",
+    "linux": "cp -rp src dest",
+    "windows_cmd": "robocopy src dest /copyall /e",
+    "mac": "cp -rp src dest",
+    "difficulty": "intermediate",
+    "tags": [
+      "copy",
+      "preserve",
+      "attributes"
+    ]
+  },
+  {
+    "id": "dir_comp_037",
+    "category": "directory_operations",
+    "subcategory": "case_sensitive",
+    "instruction": "Rename directory 'Images' to 'images' (case change)",
+    "linux": "mv Images images",
+    "windows_cmd": "ren Images images",
+    "mac": "mv Images images",
+    "difficulty": "beginner",
+    "tags": [
+      "rename",
+      "case",
+      "directory"
+    ]
+  },
+  {
+    "id": "dir_comp_038",
+    "category": "directory_operations",
+    "subcategory": "list_full_path",
+    "instruction": "List all subdirectories with their absolute paths",
+    "linux": "find $(pwd) -type d",
+    "windows_cmd": "dir /s /b /ad",
+    "mac": "find $(pwd) -type d",
+    "difficulty": "intermediate",
+    "tags": [
+      "list",
+      "path",
+      "absolute"
+    ]
+  },
+  {
+    "id": "dir_comp_039",
+    "category": "directory_operations",
+    "subcategory": "exclude_dir",
+    "instruction": "List files in current directory excluding 'node_modules'",
+    "linux": "find . -path ./node_modules -prune -o -print",
+    "windows_cmd": "dir /s /b | findstr /v \"node_modules\"",
+    "mac": "find . -path ./node_modules -prune -o -print",
+    "difficulty": "advanced",
+    "tags": [
+      "list",
+      "exclude",
+      "find"
+    ]
+  },
+  {
+    "id": "dir_comp_040",
+    "category": "directory_operations",
+    "subcategory": "create_temp_dir",
+    "instruction": "Create a temporary directory with a unique name",
+    "linux": "mktemp -d",
+    "windows_cmd": "mkdir %TEMP%\\dir%RANDOM%",
+    "mac": "mktemp -d",
+    "difficulty": "intermediate",
+    "tags": [
+      "create",
+      "temp",
+      "directory"
+    ]
+  },
+  {
+    "id": "dir_comp_041",
+    "category": "directory_operations",
+    "subcategory": "prune_empty",
+    "instruction": "Remove empty directories from the current tree recursively",
+    "linux": "find . -type d -empty -delete",
+    "windows_cmd": "for /f \"delims=\" %d in ('dir /s /b /ad ^| sort /r') do rd \"%d\"",
+    "mac": "find . -type d -empty -delete",
+    "difficulty": "advanced",
+    "tags": [
+      "delete",
+      "empty",
+      "recursive"
+    ]
+  },
+  {
+    "id": "dir_comp_042",
+    "category": "directory_operations",
+    "subcategory": "alias_dir",
+    "instruction": "Create a directory alias/link 'www' to '/var/www/html'",
+    "linux": "ln -s /var/www/html www",
+    "windows_cmd": "mklink /D www \\var\\www\\html",
+    "mac": "ln -s /var/www/html www",
+    "difficulty": "intermediate",
+    "tags": [
+      "link",
+      "alias",
+      "shortcut"
+    ]
+  },
+  {
+    "id": "dir_comp_043",
+    "category": "directory_operations",
+    "subcategory": "copy_parents",
+    "instruction": "Copy file 'foo/bar/baz.txt' to 'dest' creating parent directories",
+    "linux": "cp --parents foo/bar/baz.txt dest/",
+    "windows_cmd": "xcopy foo\\bar\\baz.txt dest\\foo\\bar\\",
+    "mac": "rsync -R foo/bar/baz.txt dest/",
+    "difficulty": "advanced",
+    "tags": [
+      "copy",
+      "parents",
+      "recursive"
+    ]
+  },
+  {
+    "id": "dir_comp_044",
+    "category": "directory_operations",
+    "subcategory": "last_access",
+    "instruction": "Find directories accessed in the last 7 days",
+    "linux": "find . -type d -atime -7",
+    "windows_cmd": "powershell -c \"Get-ChildItem -Directory -Recurse | ? { $_.LastAccessTime -gt (Get-Date).AddDays(-7) }\"",
+    "mac": "find . -type d -atime -7",
+    "difficulty": "advanced",
+    "tags": [
+      "find",
+      "access",
+      "time"
+    ]
+  },
+  {
+    "id": "dir_comp_045",
+    "category": "directory_operations",
+    "subcategory": "immutable",
+    "instruction": "Make directory 'critical' immutable (cannot be deleted or modified)",
+    "linux": "chattr +i critical",
+    "windows_cmd": "icacls critical /deny Everyone:(DE,WD,AD,WA,WEA)",
+    "mac": "chflags uchg critical",
+    "difficulty": "advanced",
+    "tags": [
+      "permissions",
+      "immutable",
+      "lock"
+    ]
+  },
+  {
+    "id": "dir_comp_046",
+    "category": "directory_operations",
+    "subcategory": "list_perm_octal",
+    "instruction": "List directories with permissions in octal format",
+    "linux": "stat -c '%a %n' */",
+    "windows_cmd": "echo Windows does not use octal permissions natively.",
+    "mac": "stat -f '%A %N' */",
+    "difficulty": "advanced",
+    "tags": [
+      "list",
+      "permissions",
+      "octal"
+    ]
+  },
+  {
+    "id": "dir_comp_047",
+    "category": "directory_operations",
+    "subcategory": "dir_size_limit",
+    "instruction": "Find directories larger than 1GB",
+    "linux": "du -h --threshold=1G",
+    "windows_cmd": "powershell -c \"Get-ChildItem -Directory -Recurse | % { $s = (Get-ChildItem $_.FullName -Recurse -File | Measure-Object -Property Length -Sum).Sum; if ($s -gt 1GB) { $_.FullName } }\"",
+    "mac": "du -h | awk '$1 ~ /G/ {print}'",
+    "difficulty": "advanced",
+    "tags": [
+      "find",
+      "size",
+      "large"
+    ]
+  },
+  {
+    "id": "dir_comp_048",
+    "category": "directory_operations",
+    "subcategory": "mount_dir",
+    "instruction": "Mount a shared directory to '/mnt/share'",
+    "linux": "mount -t nfs 192.168.1.100:/share /mnt/share",
+    "windows_cmd": "net use Z: \\\\192.168.1.100\\share",
+    "mac": "mount_smb //user@192.168.1.100/share /mnt/share",
+    "difficulty": "advanced",
+    "tags": [
+      "mount",
+      "network",
+      "share"
+    ]
+  },
+  {
+    "id": "dir_comp_049",
+    "category": "directory_operations",
+    "subcategory": "tar_pipe_copy",
+    "instruction": "Copy directory 'src' to 'dest' using tar to preserve all attributes",
+    "linux": "tar cf - src | (cd dest && tar xf -)",
+    "windows_cmd": "echo Use robocopy for best results on Windows.",
+    "mac": "tar cf - src | (cd dest && tar xf -)",
+    "difficulty": "advanced",
+    "tags": [
+      "tar",
+      "copy",
+      "preserve"
+    ]
+  },
+  {
+    "id": "dir_comp_050",
+    "category": "directory_operations",
+    "subcategory": "cwd_name",
+    "instruction": "Print only the name of the current directory (not full path)",
+    "linux": "basename \"$PWD\"",
+    "windows_cmd": "for %I in (.) do echo %~nxI",
+    "mac": "basename \"$PWD\"",
+    "difficulty": "intermediate",
+    "tags": [
+      "pwd",
+      "name",
+      "current"
+    ]
+  }
+]

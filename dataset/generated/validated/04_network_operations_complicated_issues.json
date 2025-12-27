@@ -1,0 +1,10 @@
+[
+  {
+    "id": "net_comp_001",
+    "valid": false,
+    "errors": [
+      "Contains PowerShell syntax, not CMD"
+    ],
+    "warnings": []
+  }
+]

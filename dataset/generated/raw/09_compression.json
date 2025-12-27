@@ -1,0 +1,2152 @@
+[
+  {
+    "id": "comp_e65a2854",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of build",
+    "linux": "tar -cvf build.tar build",
+    "windows_cmd": "tar -cvf build.tar build",
+    "mac": "tar -cvf build.tar build"
+  },
+  {
+    "id": "comp_f4ea6362",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Music directory",
+    "linux": "zip -r Music.zip Music",
+    "windows_cmd": "tar -a -c -f Music.zip Music",
+    "mac": "zip -r Music.zip Music"
+  },
+  {
+    "id": "comp_798c6559",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_9373ed5f",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of logs",
+    "linux": "tar -cvf logs.tar logs",
+    "windows_cmd": "tar -cvf logs.tar logs",
+    "mac": "tar -cvf logs.tar logs"
+  },
+  {
+    "id": "comp_1831784c",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the bin directory",
+    "linux": "zip -r bin.zip bin",
+    "windows_cmd": "tar -a -c -f bin.zip bin",
+    "mac": "zip -r bin.zip bin"
+  },
+  {
+    "id": "comp_3571f214",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of Music",
+    "linux": "tar -cvf Music.tar Music",
+    "windows_cmd": "tar -cvf Music.tar Music",
+    "mac": "tar -cvf Music.tar Music"
+  },
+  {
+    "id": "comp_47427808",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_52174aec",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the src directory",
+    "linux": "zip -r src.zip src",
+    "windows_cmd": "tar -a -c -f src.zip src",
+    "mac": "zip -r src.zip src"
+  },
+  {
+    "id": "comp_ce2d39fd",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the include directory",
+    "linux": "zip -r include.zip include",
+    "windows_cmd": "tar -a -c -f include.zip include",
+    "mac": "zip -r include.zip include"
+  },
+  {
+    "id": "comp_9e700936",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_d888ab03",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the assets directory",
+    "linux": "zip -r assets.zip assets",
+    "windows_cmd": "tar -a -c -f assets.zip assets",
+    "mac": "zip -r assets.zip assets"
+  },
+  {
+    "id": "comp_e01590d6",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the tests directory",
+    "linux": "zip -r tests.zip tests",
+    "windows_cmd": "tar -a -c -f tests.zip tests",
+    "mac": "zip -r tests.zip tests"
+  },
+  {
+    "id": "comp_722c0158",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_6e5462c6",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of public",
+    "linux": "tar -cvf public.tar public",
+    "windows_cmd": "tar -cvf public.tar public",
+    "mac": "tar -cvf public.tar public"
+  },
+  {
+    "id": "comp_ec7e12d4",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_39eb0f4b",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the build directory",
+    "linux": "zip -r build.zip build",
+    "windows_cmd": "tar -a -c -f build.zip build",
+    "mac": "zip -r build.zip build"
+  },
+  {
+    "id": "comp_9103eeac",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_82cec467",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of Pictures",
+    "linux": "tar -cvf Pictures.tar Pictures",
+    "windows_cmd": "tar -cvf Pictures.tar Pictures",
+    "mac": "tar -cvf Pictures.tar Pictures"
+  },
+  {
+    "id": "comp_51776694",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Documents directory",
+    "linux": "zip -r Documents.zip Documents",
+    "windows_cmd": "tar -a -c -f Documents.zip Documents",
+    "mac": "zip -r Documents.zip Documents"
+  },
+  {
+    "id": "comp_af038279",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the lib directory",
+    "linux": "zip -r lib.zip lib",
+    "windows_cmd": "tar -a -c -f lib.zip lib",
+    "mac": "zip -r lib.zip lib"
+  },
+  {
+    "id": "comp_b3807383",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the bin directory",
+    "linux": "zip -r bin.zip bin",
+    "windows_cmd": "tar -a -c -f bin.zip bin",
+    "mac": "zip -r bin.zip bin"
+  },
+  {
+    "id": "comp_e68cf91e",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the lib directory",
+    "linux": "zip -r lib.zip lib",
+    "windows_cmd": "tar -a -c -f lib.zip lib",
+    "mac": "zip -r lib.zip lib"
+  },
+  {
+    "id": "comp_6a177e13",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the config directory",
+    "linux": "zip -r config.zip config",
+    "windows_cmd": "tar -a -c -f config.zip config",
+    "mac": "zip -r config.zip config"
+  },
+  {
+    "id": "comp_d7a8e15a",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_184f1b37",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Pictures directory",
+    "linux": "zip -r Pictures.zip Pictures",
+    "windows_cmd": "tar -a -c -f Pictures.zip Pictures",
+    "mac": "zip -r Pictures.zip Pictures"
+  },
+  {
+    "id": "comp_12732244",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of config",
+    "linux": "tar -cvf config.tar config",
+    "windows_cmd": "tar -cvf config.tar config",
+    "mac": "tar -cvf config.tar config"
+  },
+  {
+    "id": "comp_a296a9b9",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of public",
+    "linux": "tar -cvf public.tar public",
+    "windows_cmd": "tar -cvf public.tar public",
+    "mac": "tar -cvf public.tar public"
+  },
+  {
+    "id": "comp_96265e98",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the backup directory",
+    "linux": "zip -r backup.zip backup",
+    "windows_cmd": "tar -a -c -f backup.zip backup",
+    "mac": "zip -r backup.zip backup"
+  },
+  {
+    "id": "comp_eb0551fa",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_083a3f3e",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the include directory",
+    "linux": "zip -r include.zip include",
+    "windows_cmd": "tar -a -c -f include.zip include",
+    "mac": "zip -r include.zip include"
+  },
+  {
+    "id": "comp_b1e9514b",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of include",
+    "linux": "tar -cvf include.tar include",
+    "windows_cmd": "tar -cvf include.tar include",
+    "mac": "tar -cvf include.tar include"
+  },
+  {
+    "id": "comp_52373c93",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_f4216bc1",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of backup",
+    "linux": "tar -cvf backup.tar backup",
+    "windows_cmd": "tar -cvf backup.tar backup",
+    "mac": "tar -cvf backup.tar backup"
+  },
+  {
+    "id": "comp_b0c6016a",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of Desktop",
+    "linux": "tar -cvf Desktop.tar Desktop",
+    "windows_cmd": "tar -cvf Desktop.tar Desktop",
+    "mac": "tar -cvf Desktop.tar Desktop"
+  },
+  {
+    "id": "comp_7d57f1a9",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the build directory",
+    "linux": "zip -r build.zip build",
+    "windows_cmd": "tar -a -c -f build.zip build",
+    "mac": "zip -r build.zip build"
+  },
+  {
+    "id": "comp_96f03d50",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_6308e375",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_91957abb",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_640e4319",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_d232b5ef",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Documents directory",
+    "linux": "zip -r Documents.zip Documents",
+    "windows_cmd": "tar -a -c -f Documents.zip Documents",
+    "mac": "zip -r Documents.zip Documents"
+  },
+  {
+    "id": "comp_dfea99e2",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of bin",
+    "linux": "tar -cvf bin.tar bin",
+    "windows_cmd": "tar -cvf bin.tar bin",
+    "mac": "tar -cvf bin.tar bin"
+  },
+  {
+    "id": "comp_c1f6c4d6",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_f6706e1a",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the logs directory",
+    "linux": "zip -r logs.zip logs",
+    "windows_cmd": "tar -a -c -f logs.zip logs",
+    "mac": "zip -r logs.zip logs"
+  },
+  {
+    "id": "comp_1a1158be",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Pictures directory",
+    "linux": "zip -r Pictures.zip Pictures",
+    "windows_cmd": "tar -a -c -f Pictures.zip Pictures",
+    "mac": "zip -r Pictures.zip Pictures"
+  },
+  {
+    "id": "comp_467db790",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of config",
+    "linux": "tar -cvf config.tar config",
+    "windows_cmd": "tar -cvf config.tar config",
+    "mac": "tar -cvf config.tar config"
+  },
+  {
+    "id": "comp_704270c2",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_384ceaa7",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_13db6bc2",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the tests directory",
+    "linux": "zip -r tests.zip tests",
+    "windows_cmd": "tar -a -c -f tests.zip tests",
+    "mac": "zip -r tests.zip tests"
+  },
+  {
+    "id": "comp_17b36901",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_f3f8c337",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the src directory",
+    "linux": "zip -r src.zip src",
+    "windows_cmd": "tar -a -c -f src.zip src",
+    "mac": "zip -r src.zip src"
+  },
+  {
+    "id": "comp_4098084d",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of Pictures",
+    "linux": "tar -cvf Pictures.tar Pictures",
+    "windows_cmd": "tar -cvf Pictures.tar Pictures",
+    "mac": "tar -cvf Pictures.tar Pictures"
+  },
+  {
+    "id": "comp_5ecf61ea",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of include",
+    "linux": "tar -cvf include.tar include",
+    "windows_cmd": "tar -cvf include.tar include",
+    "mac": "tar -cvf include.tar include"
+  },
+  {
+    "id": "comp_9dc303a8",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_9e87bcb5",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the public directory",
+    "linux": "zip -r public.zip public",
+    "windows_cmd": "tar -a -c -f public.zip public",
+    "mac": "zip -r public.zip public"
+  },
+  {
+    "id": "comp_10957e0c",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_78157415",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Music directory",
+    "linux": "zip -r Music.zip Music",
+    "windows_cmd": "tar -a -c -f Music.zip Music",
+    "mac": "zip -r Music.zip Music"
+  },
+  {
+    "id": "comp_0b2a38b2",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the bin directory",
+    "linux": "zip -r bin.zip bin",
+    "windows_cmd": "tar -a -c -f bin.zip bin",
+    "mac": "zip -r bin.zip bin"
+  },
+  {
+    "id": "comp_5d76ae94",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_644ef3e0",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_792248e2",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_e996c9f9",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Documents directory",
+    "linux": "zip -r Documents.zip Documents",
+    "windows_cmd": "tar -a -c -f Documents.zip Documents",
+    "mac": "zip -r Documents.zip Documents"
+  },
+  {
+    "id": "comp_c4d4788f",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the logs directory",
+    "linux": "zip -r logs.zip logs",
+    "windows_cmd": "tar -a -c -f logs.zip logs",
+    "mac": "zip -r logs.zip logs"
+  },
+  {
+    "id": "comp_8a3c9d88",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the bin directory",
+    "linux": "zip -r bin.zip bin",
+    "windows_cmd": "tar -a -c -f bin.zip bin",
+    "mac": "zip -r bin.zip bin"
+  },
+  {
+    "id": "comp_53e11bd2",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_e054bc53",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of backup",
+    "linux": "tar -cvf backup.tar backup",
+    "windows_cmd": "tar -cvf backup.tar backup",
+    "mac": "tar -cvf backup.tar backup"
+  },
+  {
+    "id": "comp_c2fa3313",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_305919da",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_b7e78ca5",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of Desktop",
+    "linux": "tar -cvf Desktop.tar Desktop",
+    "windows_cmd": "tar -cvf Desktop.tar Desktop",
+    "mac": "tar -cvf Desktop.tar Desktop"
+  },
+  {
+    "id": "comp_a28a4966",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the bin directory",
+    "linux": "zip -r bin.zip bin",
+    "windows_cmd": "tar -a -c -f bin.zip bin",
+    "mac": "zip -r bin.zip bin"
+  },
+  {
+    "id": "comp_5c8201f7",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Downloads directory",
+    "linux": "zip -r Downloads.zip Downloads",
+    "windows_cmd": "tar -a -c -f Downloads.zip Downloads",
+    "mac": "zip -r Downloads.zip Downloads"
+  },
+  {
+    "id": "comp_d2cfc579",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of Documents",
+    "linux": "tar -cvf Documents.tar Documents",
+    "windows_cmd": "tar -cvf Documents.tar Documents",
+    "mac": "tar -cvf Documents.tar Documents"
+  },
+  {
+    "id": "comp_169bd375",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_de8d07ad",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of src",
+    "linux": "tar -cvf src.tar src",
+    "windows_cmd": "tar -cvf src.tar src",
+    "mac": "tar -cvf src.tar src"
+  },
+  {
+    "id": "comp_626d7720",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the scripts directory",
+    "linux": "zip -r scripts.zip scripts",
+    "windows_cmd": "tar -a -c -f scripts.zip scripts",
+    "mac": "zip -r scripts.zip scripts"
+  },
+  {
+    "id": "comp_154e9ad8",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of scripts",
+    "linux": "tar -cvf scripts.tar scripts",
+    "windows_cmd": "tar -cvf scripts.tar scripts",
+    "mac": "tar -cvf scripts.tar scripts"
+  },
+  {
+    "id": "comp_f0931d9f",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_24a75956",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of scripts",
+    "linux": "tar -cvf scripts.tar scripts",
+    "windows_cmd": "tar -cvf scripts.tar scripts",
+    "mac": "tar -cvf scripts.tar scripts"
+  },
+  {
+    "id": "comp_1b800adb",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_7149c0a9",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Pictures directory",
+    "linux": "zip -r Pictures.zip Pictures",
+    "windows_cmd": "tar -a -c -f Pictures.zip Pictures",
+    "mac": "zip -r Pictures.zip Pictures"
+  },
+  {
+    "id": "comp_2dac2c40",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the include directory",
+    "linux": "zip -r include.zip include",
+    "windows_cmd": "tar -a -c -f include.zip include",
+    "mac": "zip -r include.zip include"
+  },
+  {
+    "id": "comp_643ed6fc",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_2b8e95dc",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the assets directory",
+    "linux": "zip -r assets.zip assets",
+    "windows_cmd": "tar -a -c -f assets.zip assets",
+    "mac": "zip -r assets.zip assets"
+  },
+  {
+    "id": "comp_c4662014",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_d683e5d6",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of Music",
+    "linux": "tar -cvf Music.tar Music",
+    "windows_cmd": "tar -cvf Music.tar Music",
+    "mac": "tar -cvf Music.tar Music"
+  },
+  {
+    "id": "comp_80ac8935",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of assets",
+    "linux": "tar -cvf assets.tar assets",
+    "windows_cmd": "tar -cvf assets.tar assets",
+    "mac": "tar -cvf assets.tar assets"
+  },
+  {
+    "id": "comp_6ab3258b",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_facda4de",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of config",
+    "linux": "tar -cvf config.tar config",
+    "windows_cmd": "tar -cvf config.tar config",
+    "mac": "tar -cvf config.tar config"
+  },
+  {
+    "id": "comp_e4ac88fc",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the public directory",
+    "linux": "zip -r public.zip public",
+    "windows_cmd": "tar -a -c -f public.zip public",
+    "mac": "zip -r public.zip public"
+  },
+  {
+    "id": "comp_b1b1fd3d",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Music directory",
+    "linux": "zip -r Music.zip Music",
+    "windows_cmd": "tar -a -c -f Music.zip Music",
+    "mac": "zip -r Music.zip Music"
+  },
+  {
+    "id": "comp_516c601d",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the bin directory",
+    "linux": "zip -r bin.zip bin",
+    "windows_cmd": "tar -a -c -f bin.zip bin",
+    "mac": "zip -r bin.zip bin"
+  },
+  {
+    "id": "comp_920c5648",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_cb392f17",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of logs",
+    "linux": "tar -cvf logs.tar logs",
+    "windows_cmd": "tar -cvf logs.tar logs",
+    "mac": "tar -cvf logs.tar logs"
+  },
+  {
+    "id": "comp_88c0f6df",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_269e616f",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the assets directory",
+    "linux": "zip -r assets.zip assets",
+    "windows_cmd": "tar -a -c -f assets.zip assets",
+    "mac": "zip -r assets.zip assets"
+  },
+  {
+    "id": "comp_e5b1a9ad",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_297a51fa",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of temp",
+    "linux": "tar -cvf temp.tar temp",
+    "windows_cmd": "tar -cvf temp.tar temp",
+    "mac": "tar -cvf temp.tar temp"
+  },
+  {
+    "id": "comp_4d8dcad7",
+    "category": "compression",
+    "subcategory": "tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "tar"
+    ],
+    "instruction": "Create tarball of temp",
+    "linux": "tar -cvf temp.tar temp",
+    "windows_cmd": "tar -cvf temp.tar temp",
+    "mac": "tar -cvf temp.tar temp"
+  },
+  {
+    "id": "comp_274538ca",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the temp directory",
+    "linux": "zip -r temp.zip temp",
+    "windows_cmd": "tar -a -c -f temp.zip temp",
+    "mac": "zip -r temp.zip temp"
+  },
+  {
+    "id": "comp_6e94adf8",
+    "category": "compression",
+    "subcategory": "zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "zip"
+    ],
+    "instruction": "Zip the Documents directory",
+    "linux": "zip -r Documents.zip Documents",
+    "windows_cmd": "tar -a -c -f Documents.zip Documents",
+    "mac": "zip -r Documents.zip Documents"
+  },
+  {
+    "id": "comp_392fdbb0",
+    "category": "compression",
+    "subcategory": "unzip",
+    "difficulty": "intermediate",
+    "tags": [
+      "compression",
+      "unzip"
+    ],
+    "instruction": "Unzip archive.zip",
+    "linux": "unzip archive.zip",
+    "windows_cmd": "tar -xf archive.zip",
+    "mac": "unzip archive.zip"
+  },
+  {
+    "id": "comp_comp_001",
+    "category": "compression",
+    "subcategory": "tar_exclude_vcs",
+    "instruction": "Create a tarball of the project excluding .git directories",
+    "linux": "tar --exclude-vcs -cvf project.tar project/",
+    "windows_cmd": "tar --exclude \".git\" -cvf project.tar project",
+    "mac": "tar --exclude-vcs -cvf project.tar project/",
+    "difficulty": "intermediate",
+    "tags": [
+      "tar",
+      "exclude",
+      "git"
+    ]
+  },
+  {
+    "id": "comp_comp_002",
+    "category": "compression",
+    "subcategory": "zip_encrypt",
+    "instruction": "Create a password-protected zip file of 'secure_data'",
+    "linux": "zip -e -r secure.zip secure_data/",
+    "windows_cmd": "echo 7-Zip required for encryption via CLI.",
+    "mac": "zip -e -r secure.zip secure_data/",
+    "difficulty": "intermediate",
+    "tags": [
+      "zip",
+      "encrypt",
+      "password"
+    ]
+  },
+  {
+    "id": "comp_comp_003",
+    "category": "compression",
+    "subcategory": "extract_specific",
+    "instruction": "Extract only 'README.md' from 'archive.tar.gz'",
+    "linux": "tar -xzvf archive.tar.gz README.md",
+    "windows_cmd": "tar -xzvf archive.tar.gz README.md",
+    "mac": "tar -xzvf archive.tar.gz README.md",
+    "difficulty": "intermediate",
+    "tags": [
+      "tar",
+      "extract",
+      "single"
+    ]
+  },
+  {
+    "id": "comp_comp_004",
+    "category": "compression",
+    "subcategory": "list_content",
+    "instruction": "List contents of 'backup.zip' without extracting",
+    "linux": "unzip -l backup.zip",
+    "windows_cmd": "tar -tf backup.zip",
+    "mac": "unzip -l backup.zip",
+    "difficulty": "beginner",
+    "tags": [
+      "list",
+      "zip",
+      "view"
+    ]
+  },
+  {
+    "id": "comp_comp_005",
+    "category": "compression",
+    "subcategory": "gzip_keep",
+    "instruction": "Compress 'large.iso' using gzip keeping the original file",
+    "linux": "gzip -k large.iso",
+    "windows_cmd": "echo gzip not standard in CMD.",
+    "mac": "gzip -k large.iso",
+    "difficulty": "intermediate",
+    "tags": [
+      "gzip",
+      "compress",
+      "keep"
+    ]
+  },
+  {
+    "id": "comp_comp_006",
+    "category": "compression",
+    "subcategory": "tar_append",
+    "instruction": "Append 'file.txt' to an existing 'archive.tar'",
+    "linux": "tar -rvf archive.tar file.txt",
+    "windows_cmd": "tar -rvf archive.tar file.txt",
+    "mac": "tar -rvf archive.tar file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "tar",
+      "append",
+      "update"
+    ]
+  },
+  {
+    "id": "comp_comp_007",
+    "category": "compression",
+    "subcategory": "bz2_compress",
+    "instruction": "Create a .tar.bz2 archive of 'folder'",
+    "linux": "tar -cjvf folder.tar.bz2 folder/",
+    "windows_cmd": "tar -cjvf folder.tar.bz2 folder",
+    "mac": "tar -cjvf folder.tar.bz2 folder/",
+    "difficulty": "intermediate",
+    "tags": [
+      "tar",
+      "bzip2",
+      "compress"
+    ]
+  },
+  {
+    "id": "comp_comp_008",
+    "category": "compression",
+    "subcategory": "xz_compress",
+    "instruction": "Create a .tar.xz archive with maximum compression",
+    "linux": "tar -cJvf archive.tar.xz folder/ --options=compression-level=9",
+    "windows_cmd": "tar -cJvf archive.tar.xz folder",
+    "mac": "tar -cJvf archive.tar.xz folder/",
+    "difficulty": "advanced",
+    "tags": [
+      "tar",
+      "xz",
+      "compress"
+    ]
+  },
+  {
+    "id": "comp_comp_009",
+    "category": "compression",
+    "subcategory": "zip_split",
+    "instruction": "Create a split zip file (100MB parts) of 'data'",
+    "linux": "zip -s 100m -r data.zip data/",
+    "windows_cmd": "echo 7-Zip required for split archives.",
+    "mac": "zip -s 100m -r data.zip data/",
+    "difficulty": "advanced",
+    "tags": [
+      "zip",
+      "split",
+      "size"
+    ]
+  },
+  {
+    "id": "comp_comp_010",
+    "category": "compression",
+    "subcategory": "unrar",
+    "instruction": "Extract 'movie.rar'",
+    "linux": "unrar x movie.rar",
+    "windows_cmd": "echo WinRAR/7-Zip required.",
+    "mac": "unrar x movie.rar",
+    "difficulty": "intermediate",
+    "tags": [
+      "rar",
+      "extract",
+      "unrar"
+    ]
+  },
+  {
+    "id": "comp_comp_011",
+    "category": "compression",
+    "subcategory": "tar_diff",
+    "instruction": "Compare 'archive.tar' with the filesystem",
+    "linux": "tar -dvf archive.tar",
+    "windows_cmd": "tar -dvf archive.tar",
+    "mac": "tar -dvf archive.tar",
+    "difficulty": "advanced",
+    "tags": [
+      "tar",
+      "diff",
+      "compare"
+    ]
+  },
+  {
+    "id": "comp_comp_012",
+    "category": "compression",
+    "subcategory": "zip_update",
+    "instruction": "Update changed files in 'backup.zip'",
+    "linux": "zip -u backup.zip *",
+    "windows_cmd": "echo Use 7-Zip 'u' command.",
+    "mac": "zip -u backup.zip *",
+    "difficulty": "intermediate",
+    "tags": [
+      "zip",
+      "update",
+      "refresh"
+    ]
+  },
+  {
+    "id": "comp_comp_013",
+    "category": "compression",
+    "subcategory": "tar_wildcard",
+    "instruction": "Extract all .png files from 'images.tar'",
+    "linux": "tar -xvf images.tar --wildcards '*.png'",
+    "windows_cmd": "tar -xvf images.tar \"*.png\"",
+    "mac": "tar -xvf images.tar '*.png'",
+    "difficulty": "intermediate",
+    "tags": [
+      "tar",
+      "wildcard",
+      "extract"
+    ]
+  },
+  {
+    "id": "comp_comp_014",
+    "category": "compression",
+    "subcategory": "gz_decompress",
+    "instruction": "Decompress 'log.tar.gz' to 'log.tar'",
+    "linux": "gunzip log.tar.gz",
+    "windows_cmd": "echo Use tar -xf to extract directly.",
+    "mac": "gunzip log.tar.gz",
+    "difficulty": "beginner",
+    "tags": [
+      "gzip",
+      "decompress",
+      "gunzip"
+    ]
+  },
+  {
+    "id": "comp_comp_015",
+    "category": "compression",
+    "subcategory": "zip_delete",
+    "instruction": "Delete 'old.txt' from 'archive.zip'",
+    "linux": "zip -d archive.zip old.txt",
+    "windows_cmd": "echo 7-Zip 'd' command needed.",
+    "mac": "zip -d archive.zip old.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "zip",
+      "delete",
+      "remove"
+    ]
+  },
+  {
+    "id": "comp_comp_016",
+    "category": "compression",
+    "subcategory": "tar_strip",
+    "instruction": "Extract tarball stripping the first directory level",
+    "linux": "tar -xvf source.tar --strip-components=1",
+    "windows_cmd": "tar -xvf source.tar --strip-components=1",
+    "mac": "tar -xvf source.tar --strip-components=1",
+    "difficulty": "advanced",
+    "tags": [
+      "tar",
+      "strip",
+      "path"
+    ]
+  },
+  {
+    "id": "comp_comp_017",
+    "category": "compression",
+    "subcategory": "7z_compress",
+    "instruction": "Compress directory using 7z (highest ratio)",
+    "linux": "7z a -mx9 archive.7z folder/",
+    "windows_cmd": "7z a -mx9 archive.7z folder",
+    "mac": "7z a -mx9 archive.7z folder/",
+    "difficulty": "intermediate",
+    "tags": [
+      "7z",
+      "compress",
+      "ultra"
+    ]
+  },
+  {
+    "id": "comp_comp_018",
+    "category": "compression",
+    "subcategory": "zip_move",
+    "instruction": "Move files into zip (delete original after zipping)",
+    "linux": "zip -m archive.zip file1 file2",
+    "windows_cmd": "echo 7-Zip required.",
+    "mac": "zip -m archive.zip file1 file2",
+    "difficulty": "intermediate",
+    "tags": [
+      "zip",
+      "move",
+      "archive"
+    ]
+  },
+  {
+    "id": "comp_comp_019",
+    "category": "compression",
+    "subcategory": "tar_perm",
+    "instruction": "Extract tarball preserving permissions",
+    "linux": "tar -xpvf archive.tar",
+    "windows_cmd": "tar -xvf archive.tar (permissions vary on NTFS)",
+    "mac": "tar -xpvf archive.tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "tar",
+      "permissions",
+      "preserve"
+    ]
+  },
+  {
+    "id": "comp_comp_020",
+    "category": "compression",
+    "subcategory": "zip_repair",
+    "instruction": "Attempt to repair a corrupted zip file",
+    "linux": "zip -FF corrupted.zip --out fixed.zip",
+    "windows_cmd": "echo Use 7-Zip or WinRAR GUI.",
+    "mac": "zip -FF corrupted.zip --out fixed.zip",
+    "difficulty": "advanced",
+    "tags": [
+      "zip",
+      "repair",
+      "fix"
+    ]
+  },
+  {
+    "id": "comp_comp_021",
+    "category": "compression",
+    "subcategory": "tar_newer",
+    "instruction": "Archive files newer than a specific date",
+    "linux": "tar -cvf newer.tar --newer-mtime='2023-01-01' .",
+    "windows_cmd": "tar -cvf newer.tar --newer-mtime \"2023-01-01\" .",
+    "mac": "tar -cvf newer.tar --newer-mtime='2023-01-01' .",
+    "difficulty": "advanced",
+    "tags": [
+      "tar",
+      "time",
+      "filter"
+    ]
+  },
+  {
+    "id": "comp_comp_022",
+    "category": "compression",
+    "subcategory": "bzip2_file",
+    "instruction": "Compress a single file with bzip2",
+    "linux": "bzip2 file.txt",
+    "windows_cmd": "echo Use 7-Zip.",
+    "mac": "bzip2 file.txt",
+    "difficulty": "beginner",
+    "tags": [
+      "bzip2",
+      "compress",
+      "file"
+    ]
+  },
+  {
+    "id": "comp_comp_023",
+    "category": "compression",
+    "subcategory": "cpio",
+    "instruction": "Create a cpio archive",
+    "linux": "ls | cpio -ov > archive.cpio",
+    "windows_cmd": "echo N/A",
+    "mac": "ls | cpio -ov > archive.cpio",
+    "difficulty": "advanced",
+    "tags": [
+      "cpio",
+      "archive",
+      "backup"
+    ]
+  },
+  {
+    "id": "comp_comp_024",
+    "category": "compression",
+    "subcategory": "tar_to_stdout",
+    "instruction": "Stream tar output to another command (e.g. ssh)",
+    "linux": "tar -cf - folder | ssh user@host 'tar -xf -'",
+    "windows_cmd": "tar -cf - folder | ssh user@host \"tar -xf -\"",
+    "mac": "tar -cf - folder | ssh user@host 'tar -xf -'",
+    "difficulty": "advanced",
+    "tags": [
+      "tar",
+      "pipe",
+      "ssh"
+    ]
+  },
+  {
+    "id": "comp_comp_025",
+    "category": "compression",
+    "subcategory": "zcat",
+    "instruction": "View contents of a gzipped text file without extracting",
+    "linux": "zcat log.txt.gz",
+    "windows_cmd": "echo Use 7-Zip e -so.",
+    "mac": "zcat log.txt.gz",
+    "difficulty": "intermediate",
+    "tags": [
+      "zcat",
+      "view",
+      "gzip"
+    ]
+  },
+  {
+    "id": "comp_comp_026",
+    "category": "compression",
+    "subcategory": "zip_comment",
+    "instruction": "Add a comment to a zip archive",
+    "linux": "zip -z archive.zip",
+    "windows_cmd": "echo N/A in CMD tar.",
+    "mac": "zip -z archive.zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "zip",
+      "comment",
+      "meta"
+    ]
+  },
+  {
+    "id": "comp_comp_027",
+    "category": "compression",
+    "subcategory": "tar_remove",
+    "instruction": "Remove a file from a tar archive",
+    "linux": "tar --delete -f archive.tar file.txt",
+    "windows_cmd": "echo N/A in Windows tar usually.",
+    "mac": "tar --delete -f archive.tar file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "tar",
+      "delete",
+      "remove"
+    ]
+  },
+  {
+    "id": "comp_comp_028",
+    "category": "compression",
+    "subcategory": "lz4",
+    "instruction": "Compress file using lz4",
+    "linux": "lz4 file.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "lz4 file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "lz4",
+      "compress",
+      "fast"
+    ]
+  },
+  {
+    "id": "comp_comp_029",
+    "category": "compression",
+    "subcategory": "pigz",
+    "instruction": "Parallel gzip compression",
+    "linux": "pigz -k file.iso",
+    "windows_cmd": "echo N/A",
+    "mac": "pigz -k file.iso",
+    "difficulty": "intermediate",
+    "tags": [
+      "pigz",
+      "parallel",
+      "gzip"
+    ]
+  },
+  {
+    "id": "comp_comp_030",
+    "category": "compression",
+    "subcategory": "shar",
+    "instruction": "Create a shell archive (shar)",
+    "linux": "shar file.txt > file.shar",
+    "windows_cmd": "echo N/A",
+    "mac": "echo N/A",
+    "difficulty": "advanced",
+    "tags": [
+      "shar",
+      "script",
+      "archive"
+    ]
+  },
+  {
+    "id": "comp_comp_031",
+    "category": "compression",
+    "subcategory": "zip_no_dir",
+    "instruction": "Zip files in current dir without path info (junk paths)",
+    "linux": "zip -j archive.zip *",
+    "windows_cmd": "tar -a -c -f archive.zip * (tar keeps paths usually)",
+    "mac": "zip -j archive.zip *",
+    "difficulty": "intermediate",
+    "tags": [
+      "zip",
+      "junk",
+      "flat"
+    ]
+  },
+  {
+    "id": "comp_comp_032",
+    "category": "compression",
+    "subcategory": "tar_exclude_file",
+    "instruction": "Archive folder excluding file 'skip.txt'",
+    "linux": "tar -cvf archive.tar --exclude='skip.txt' folder",
+    "windows_cmd": "tar -cvf archive.tar --exclude \"skip.txt\" folder",
+    "mac": "tar -cvf archive.tar --exclude='skip.txt' folder",
+    "difficulty": "intermediate",
+    "tags": [
+      "tar",
+      "exclude",
+      "file"
+    ]
+  },
+  {
+    "id": "comp_comp_033",
+    "category": "compression",
+    "subcategory": "rar_password",
+    "instruction": "Create password protected RAR archive",
+    "linux": "rar a -p archive.rar folder",
+    "windows_cmd": "echo WinRAR required.",
+    "mac": "rar a -p archive.rar folder",
+    "difficulty": "intermediate",
+    "tags": [
+      "rar",
+      "password",
+      "encrypt"
+    ]
+  },
+  {
+    "id": "comp_comp_034",
+    "category": "compression",
+    "subcategory": "unzip_pipe",
+    "instruction": "Unzip to pipe/stdout",
+    "linux": "unzip -p archive.zip file.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "unzip -p archive.zip file.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "unzip",
+      "pipe",
+      "stdout"
+    ]
+  },
+  {
+    "id": "comp_comp_035",
+    "category": "compression",
+    "subcategory": "tar_gz_extract",
+    "instruction": "Extract .tar.gz (tgz) file",
+    "linux": "tar -xzvf archive.tgz",
+    "windows_cmd": "tar -xzvf archive.tgz",
+    "mac": "tar -xzvf archive.tgz",
+    "difficulty": "beginner",
+    "tags": [
+      "tar",
+      "gzip",
+      "extract"
+    ]
+  },
+  {
+    "id": "comp_comp_036",
+    "category": "compression",
+    "subcategory": "xz_decompress",
+    "instruction": "Decompress .xz file",
+    "linux": "unxz file.xz",
+    "windows_cmd": "echo Use 7-Zip.",
+    "mac": "unxz file.xz",
+    "difficulty": "intermediate",
+    "tags": [
+      "xz",
+      "decompress",
+      "unxz"
+    ]
+  },
+  {
+    "id": "comp_comp_037",
+    "category": "compression",
+    "subcategory": "tar_verify",
+    "instruction": "Verify a tar archive",
+    "linux": "tar -Wfv archive.tar",
+    "windows_cmd": "tar -Wfv archive.tar (if supported)",
+    "mac": "echo N/A (BSD tar lacks -W)",
+    "difficulty": "advanced",
+    "tags": [
+      "tar",
+      "verify",
+      "check"
+    ]
+  },
+  {
+    "id": "comp_comp_038",
+    "category": "compression",
+    "subcategory": "zip_exclude",
+    "instruction": "Zip folder excluding 'temp' subdirectory",
+    "linux": "zip -r archive.zip folder -x 'folder/temp/*'",
+    "windows_cmd": "echo Use 7-Zip for exclusions.",
+    "mac": "zip -r archive.zip folder -x 'folder/temp/*'",
+    "difficulty": "intermediate",
+    "tags": [
+      "zip",
+      "exclude",
+      "pattern"
+    ]
+  },
+  {
+    "id": "comp_comp_039",
+    "category": "compression",
+    "subcategory": "bzcat",
+    "instruction": "Read bzip2 compressed file",
+    "linux": "bzcat file.bz2",
+    "windows_cmd": "echo Use 7-Zip.",
+    "mac": "bzcat file.bz2",
+    "difficulty": "intermediate",
+    "tags": [
+      "bzcat",
+      "read",
+      "view"
+    ]
+  },
+  {
+    "id": "comp_comp_040",
+    "category": "compression",
+    "subcategory": "pax",
+    "instruction": "Copy directory tree using pax",
+    "linux": "cd src && pax -rw . ../dest",
+    "windows_cmd": "echo N/A",
+    "mac": "cd src && pax -rw . ../dest",
+    "difficulty": "advanced",
+    "tags": [
+      "pax",
+      "copy",
+      "tree"
+    ]
+  },
+  {
+    "id": "comp_comp_041",
+    "category": "compression",
+    "subcategory": "zip_recursive",
+    "instruction": "Recursively zip current directory",
+    "linux": "zip -r archive.zip .",
+    "windows_cmd": "tar -a -c -f archive.zip *",
+    "mac": "zip -r archive.zip .",
+    "difficulty": "beginner",
+    "tags": [
+      "zip",
+      "recursive",
+      "all"
+    ]
+  },
+  {
+    "id": "comp_comp_042",
+    "category": "compression",
+    "subcategory": "lzip",
+    "instruction": "Compress using lzip",
+    "linux": "lzip file.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "lzip file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "lzip",
+      "compress",
+      "lz"
+    ]
+  },
+  {
+    "id": "comp_comp_043",
+    "category": "compression",
+    "subcategory": "tar_from_file",
+    "instruction": "Create archive from list of files in 'list.txt'",
+    "linux": "tar -cvf archive.tar -T list.txt",
+    "windows_cmd": "tar -cvf archive.tar -T list.txt",
+    "mac": "tar -cvf archive.tar -T list.txt",
+    "difficulty": "advanced",
+    "tags": [
+      "tar",
+      "list",
+      "input"
+    ]
+  },
+  {
+    "id": "comp_comp_044",
+    "category": "compression",
+    "subcategory": "zip_verify",
+    "instruction": "Test integrity of zip file",
+    "linux": "unzip -t archive.zip",
+    "windows_cmd": "echo Use 7-Zip 't' command.",
+    "mac": "unzip -t archive.zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "zip",
+      "test",
+      "verify"
+    ]
+  },
+  {
+    "id": "comp_comp_045",
+    "category": "compression",
+    "subcategory": "zstd",
+    "instruction": "Compress using Zstandard",
+    "linux": "zstd file.txt",
+    "windows_cmd": "echo N/A",
+    "mac": "zstd file.txt",
+    "difficulty": "intermediate",
+    "tags": [
+      "zstd",
+      "compress",
+      "fast"
+    ]
+  },
+  {
+    "id": "comp_comp_046",
+    "category": "compression",
+    "subcategory": "tar_owner",
+    "instruction": "Archive preserving file ownership",
+    "linux": "tar --same-owner -cvf archive.tar folder",
+    "windows_cmd": "tar -cvf archive.tar folder",
+    "mac": "tar -cvf archive.tar folder",
+    "difficulty": "intermediate",
+    "tags": [
+      "tar",
+      "owner",
+      "permissions"
+    ]
+  },
+  {
+    "id": "comp_comp_047",
+    "category": "compression",
+    "subcategory": "arj",
+    "instruction": "Extract ARJ archive",
+    "linux": "arj x archive.arj",
+    "windows_cmd": "echo N/A",
+    "mac": "arj x archive.arj",
+    "difficulty": "advanced",
+    "tags": [
+      "arj",
+      "extract",
+      "legacy"
+    ]
+  },
+  {
+    "id": "comp_comp_048",
+    "category": "compression",
+    "subcategory": "cab",
+    "instruction": "Extract Microsoft CAB file",
+    "linux": "cabextract file.cab",
+    "windows_cmd": "expand file.cab -F:* .",
+    "mac": "cabextract file.cab",
+    "difficulty": "intermediate",
+    "tags": [
+      "cab",
+      "extract",
+      "windows"
+    ]
+  },
+  {
+    "id": "comp_comp_049",
+    "category": "compression",
+    "subcategory": "iso_create",
+    "instruction": "Create an ISO image from a directory",
+    "linux": "mkisofs -o image.iso folder/",
+    "windows_cmd": "echo Use 3rd party tool (ImgBurn).",
+    "mac": "hdiutil makehybrid -o image.iso folder/",
+    "difficulty": "advanced",
+    "tags": [
+      "iso",
+      "image",
+      "burn"
+    ]
+  },
+  {
+    "id": "comp_comp_050",
+    "category": "compression",
+    "subcategory": "dmg_convert",
+    "instruction": "Convert DMG to ISO",
+    "linux": "dmg2img source.dmg target.iso",
+    "windows_cmd": "echo Use 3rd party tool.",
+    "mac": "hdiutil convert source.dmg -format UDTO -o target.iso",
+    "difficulty": "advanced",
+    "tags": [
+      "dmg",
+      "iso",
+      "convert"
+    ]
+  }
+]

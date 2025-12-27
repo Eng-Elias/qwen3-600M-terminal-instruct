@@ -1,0 +1,737 @@
+[
+  {
+    "id": "net_comp_002",
+    "category": "network_operations",
+    "subcategory": "download_auth",
+    "instruction": "Download a file using Basic Authentication",
+    "linux": "curl -u user:pass -O http://example.com/secure.zip",
+    "windows_cmd": "curl -u user:pass -O http://example.com/secure.zip",
+    "mac": "curl -u user:pass -O http://example.com/secure.zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "curl",
+      "download",
+      "auth"
+    ]
+  },
+  {
+    "id": "net_comp_003",
+    "category": "network_operations",
+    "subcategory": "trace_route",
+    "instruction": "Trace the route to google.com avoiding DNS resolution",
+    "linux": "traceroute -n google.com",
+    "windows_cmd": "tracert -d google.com",
+    "mac": "traceroute -n google.com",
+    "difficulty": "intermediate",
+    "tags": [
+      "trace",
+      "network",
+      "route"
+    ]
+  },
+  {
+    "id": "net_comp_004",
+    "category": "network_operations",
+    "subcategory": "dns_type",
+    "instruction": "Query the MX records for gmail.com",
+    "linux": "nslookup -type=MX gmail.com",
+    "windows_cmd": "nslookup -type=MX gmail.com",
+    "mac": "nslookup -type=MX gmail.com",
+    "difficulty": "intermediate",
+    "tags": [
+      "dns",
+      "mx",
+      "lookup"
+    ]
+  },
+  {
+    "id": "net_comp_005",
+    "category": "network_operations",
+    "subcategory": "listen_port",
+    "instruction": "Listen on port 8080 and display incoming data",
+    "linux": "nc -l 8080",
+    "windows_cmd": "echo Use 'netcat' (nc) if installed, or powershell.",
+    "mac": "nc -l 8080",
+    "difficulty": "advanced",
+    "tags": [
+      "listen",
+      "server",
+      "netcat"
+    ]
+  },
+  {
+    "id": "net_comp_006",
+    "category": "network_operations",
+    "subcategory": "http_header",
+    "instruction": "Fetch only the HTTP headers from example.com",
+    "linux": "curl -I http://example.com",
+    "windows_cmd": "curl -I http://example.com",
+    "mac": "curl -I http://example.com",
+    "difficulty": "intermediate",
+    "tags": [
+      "http",
+      "headers",
+      "curl"
+    ]
+  },
+  {
+    "id": "net_comp_007",
+    "category": "network_operations",
+    "subcategory": "arp_scan",
+    "instruction": "Display the ARP table",
+    "linux": "arp -a",
+    "windows_cmd": "arp -a",
+    "mac": "arp -a",
+    "difficulty": "beginner",
+    "tags": [
+      "arp",
+      "network",
+      "mac-address"
+    ]
+  },
+  {
+    "id": "net_comp_008",
+    "category": "network_operations",
+    "subcategory": "ping_flood",
+    "instruction": "Send 100 ping packets as fast as possible",
+    "linux": "ping -f -c 100 google.com",
+    "windows_cmd": "echo CMD does not support flood ping directly.",
+    "mac": "ping -f -c 100 google.com",
+    "difficulty": "advanced",
+    "tags": [
+      "ping",
+      "stress",
+      "flood"
+    ]
+  },
+  {
+    "id": "net_comp_009",
+    "category": "network_operations",
+    "subcategory": "ssh_tunnel",
+    "instruction": "Create an SSH tunnel forwarding local port 8080 to remote 80",
+    "linux": "ssh -L 8080:localhost:80 user@remote",
+    "windows_cmd": "ssh -L 8080:localhost:80 user@remote",
+    "mac": "ssh -L 8080:localhost:80 user@remote",
+    "difficulty": "advanced",
+    "tags": [
+      "ssh",
+      "tunnel",
+      "port-forwarding"
+    ]
+  },
+  {
+    "id": "net_comp_010",
+    "category": "network_operations",
+    "subcategory": "download_resume",
+    "instruction": "Resume an interrupted download",
+    "linux": "curl -C - -O http://example.com/large.iso",
+    "windows_cmd": "curl -C - -O http://example.com/large.iso",
+    "mac": "curl -C - -O http://example.com/large.iso",
+    "difficulty": "intermediate",
+    "tags": [
+      "download",
+      "resume",
+      "curl"
+    ]
+  },
+  {
+    "id": "net_comp_011",
+    "category": "network_operations",
+    "subcategory": "tcpdump",
+    "instruction": "Capture 10 packets on interface eth0",
+    "linux": "tcpdump -i eth0 -c 10",
+    "windows_cmd": "echo Requires Wireshark or similar tools.",
+    "mac": "tcpdump -i en0 -c 10",
+    "difficulty": "advanced",
+    "tags": [
+      "capture",
+      "sniff",
+      "tcpdump"
+    ]
+  },
+  {
+    "id": "net_comp_012",
+    "category": "network_operations",
+    "subcategory": "flush_dns",
+    "instruction": "Flush the DNS cache",
+    "linux": "systemd-resolve --flush-caches",
+    "windows_cmd": "ipconfig /flushdns",
+    "mac": "sudo killall -HUP mDNSResponder",
+    "difficulty": "intermediate",
+    "tags": [
+      "dns",
+      "flush",
+      "cache"
+    ]
+  },
+  {
+    "id": "net_comp_013",
+    "category": "network_operations",
+    "subcategory": "whois",
+    "instruction": "Get registration info for google.com",
+    "linux": "whois google.com",
+    "windows_cmd": "echo Whois is not built-in to Windows.",
+    "mac": "whois google.com",
+    "difficulty": "beginner",
+    "tags": [
+      "whois",
+      "domain",
+      "info"
+    ]
+  },
+  {
+    "id": "net_comp_014",
+    "category": "network_operations",
+    "subcategory": "scp_upload",
+    "instruction": "Upload 'file.txt' to remote server via SCP",
+    "linux": "scp file.txt user@host:/tmp/",
+    "windows_cmd": "scp file.txt user@host:/tmp/",
+    "mac": "scp file.txt user@host:/tmp/",
+    "difficulty": "intermediate",
+    "tags": [
+      "scp",
+      "upload",
+      "ssh"
+    ]
+  },
+  {
+    "id": "net_comp_015",
+    "category": "network_operations",
+    "subcategory": "netstat_listen",
+    "instruction": "Show all listening TCP ports with numeric addresses",
+    "linux": "netstat -lnt",
+    "windows_cmd": "netstat -an | findstr \"LISTENING\"",
+    "mac": "netstat -an | grep LISTEN",
+    "difficulty": "intermediate",
+    "tags": [
+      "netstat",
+      "ports",
+      "listening"
+    ]
+  },
+  {
+    "id": "net_comp_016",
+    "category": "network_operations",
+    "subcategory": "dig_short",
+    "instruction": "Get only the IP address of a domain using dig",
+    "linux": "dig +short google.com",
+    "windows_cmd": "nslookup google.com | findstr Address",
+    "mac": "dig +short google.com",
+    "difficulty": "intermediate",
+    "tags": [
+      "dig",
+      "dns",
+      "ip"
+    ]
+  },
+  {
+    "id": "net_comp_017",
+    "category": "network_operations",
+    "subcategory": "curl_post",
+    "instruction": "Send a POST request with JSON data to an API",
+    "linux": "curl -X POST -H 'Content-Type: application/json' -d '{\"key\":\"val\"}' http://api.com",
+    "windows_cmd": "curl -X POST -H \"Content-Type: application/json\" -d \"{\\\"key\\\":\\\"val\\\"}\" http://api.com",
+    "mac": "curl -X POST -H 'Content-Type: application/json' -d '{\"key\":\"val\"}' http://api.com",
+    "difficulty": "advanced",
+    "tags": [
+      "curl",
+      "post",
+      "api"
+    ]
+  },
+  {
+    "id": "net_comp_018",
+    "category": "network_operations",
+    "subcategory": "interface_stats",
+    "instruction": "Display statistics for network interface eth0",
+    "linux": "ip -s link show eth0",
+    "windows_cmd": "netstat -e",
+    "mac": "netstat -I en0",
+    "difficulty": "intermediate",
+    "tags": [
+      "stats",
+      "interface",
+      "traffic"
+    ]
+  },
+  {
+    "id": "net_comp_019",
+    "category": "network_operations",
+    "subcategory": "dhcp_renew",
+    "instruction": "Release and renew DHCP lease",
+    "linux": "dhclient -r && dhclient",
+    "windows_cmd": "ipconfig /release && ipconfig /renew",
+    "mac": "sudo ipconfig set en0 DHCP",
+    "difficulty": "intermediate",
+    "tags": [
+      "dhcp",
+      "ip",
+      "renew"
+    ]
+  },
+  {
+    "id": "net_comp_020",
+    "category": "network_operations",
+    "subcategory": "wget_mirror",
+    "instruction": "Mirror a website for offline viewing",
+    "linux": "wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://example.com",
+    "windows_cmd": "wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://example.com (if installed)",
+    "mac": "wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://example.com",
+    "difficulty": "advanced",
+    "tags": [
+      "wget",
+      "mirror",
+      "download"
+    ]
+  },
+  {
+    "id": "net_comp_021",
+    "category": "network_operations",
+    "subcategory": "hostname_change",
+    "instruction": "Change the system hostname to 'server1'",
+    "linux": "hostnamectl set-hostname server1",
+    "windows_cmd": "wmic computersystem where name=\"%COMPUTERNAME%\" call rename name=\"server1\"",
+    "mac": "sudo scutil --set HostName server1",
+    "difficulty": "advanced",
+    "tags": [
+      "hostname",
+      "system",
+      "config"
+    ]
+  },
+  {
+    "id": "net_comp_022",
+    "category": "network_operations",
+    "subcategory": "route_add",
+    "instruction": "Add a static route to 10.0.0.0/24 via 192.168.1.254",
+    "linux": "ip route add 10.0.0.0/24 via 192.168.1.254",
+    "windows_cmd": "route add 10.0.0.0 mask 255.255.255.0 192.168.1.254",
+    "mac": "sudo route -n add -net 10.0.0.0/24 192.168.1.254",
+    "difficulty": "advanced",
+    "tags": [
+      "route",
+      "network",
+      "config"
+    ]
+  },
+  {
+    "id": "net_comp_023",
+    "category": "network_operations",
+    "subcategory": "wifi_scan",
+    "instruction": "Scan for available Wi-Fi networks",
+    "linux": "nmcli dev wifi",
+    "windows_cmd": "netsh wlan show networks",
+    "mac": "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s",
+    "difficulty": "intermediate",
+    "tags": [
+      "wifi",
+      "scan",
+      "wireless"
+    ]
+  },
+  {
+    "id": "net_comp_024",
+    "category": "network_operations",
+    "subcategory": "smtp_test",
+    "instruction": "Test SMTP connection to mail.example.com on port 25",
+    "linux": "telnet mail.example.com 25",
+    "windows_cmd": "telnet mail.example.com 25",
+    "mac": "telnet mail.example.com 25",
+    "difficulty": "intermediate",
+    "tags": [
+      "smtp",
+      "telnet",
+      "email"
+    ]
+  },
+  {
+    "id": "net_comp_025",
+    "category": "network_operations",
+    "subcategory": "mac_spoof",
+    "instruction": "Change MAC address of eth0 to AA:BB:CC:DD:EE:FF",
+    "linux": "ip link set dev eth0 address AA:BB:CC:DD:EE:FF",
+    "windows_cmd": "echo Requires 3rd party tool or registry hack.",
+    "mac": "sudo ifconfig en0 ether AA:BB:CC:DD:EE:FF",
+    "difficulty": "advanced",
+    "tags": [
+      "mac",
+      "spoof",
+      "config"
+    ]
+  },
+  {
+    "id": "net_comp_026",
+    "category": "network_operations",
+    "subcategory": "bandwidth",
+    "instruction": "Measure bandwidth to a server using iperf",
+    "linux": "iperf -c server_ip",
+    "windows_cmd": "iperf -c server_ip (requires iperf.exe)",
+    "mac": "iperf -c server_ip",
+    "difficulty": "intermediate",
+    "tags": [
+      "bandwidth",
+      "speed",
+      "test"
+    ]
+  },
+  {
+    "id": "net_comp_027",
+    "category": "network_operations",
+    "subcategory": "firewall_allow",
+    "instruction": "Allow incoming traffic on port 80",
+    "linux": "ufw allow 80/tcp",
+    "windows_cmd": "netsh advfirewall firewall add rule name=\"Open Port 80\" dir=in action=allow protocol=TCP localport=80",
+    "mac": "echo macOS Application Firewall is managed via GUI or socketfilterfw.",
+    "difficulty": "advanced",
+    "tags": [
+      "firewall",
+      "security",
+      "port"
+    ]
+  },
+  {
+    "id": "net_comp_028",
+    "category": "network_operations",
+    "subcategory": "proxy_env",
+    "instruction": "Set HTTP proxy environment variable",
+    "linux": "export http_proxy=http://proxy:8080",
+    "windows_cmd": "set http_proxy=http://proxy:8080",
+    "mac": "export http_proxy=http://proxy:8080",
+    "difficulty": "intermediate",
+    "tags": [
+      "proxy",
+      "env",
+      "config"
+    ]
+  },
+  {
+    "id": "net_comp_029",
+    "category": "network_operations",
+    "subcategory": "sftp",
+    "instruction": "Connect to a server using SFTP",
+    "linux": "sftp user@host",
+    "windows_cmd": "sftp user@host",
+    "mac": "sftp user@host",
+    "difficulty": "beginner",
+    "tags": [
+      "sftp",
+      "file-transfer",
+      "ssh"
+    ]
+  },
+  {
+    "id": "net_comp_030",
+    "category": "network_operations",
+    "subcategory": "mtu",
+    "instruction": "Set MTU to 1400 on interface eth0",
+    "linux": "ip link set dev eth0 mtu 1400",
+    "windows_cmd": "netsh interface ipv4 set subinterface \"Ethernet\" mtu=1400 store=persistent",
+    "mac": "sudo networksetup -setMTU en0 1400",
+    "difficulty": "advanced",
+    "tags": [
+      "mtu",
+      "network",
+      "config"
+    ]
+  },
+  {
+    "id": "net_comp_031",
+    "category": "network_operations",
+    "subcategory": "nmap_os",
+    "instruction": "Detect OS of remote host using nmap",
+    "linux": "nmap -O target_ip",
+    "windows_cmd": "nmap -O target_ip",
+    "mac": "nmap -O target_ip",
+    "difficulty": "intermediate",
+    "tags": [
+      "nmap",
+      "scan",
+      "os-detect"
+    ]
+  },
+  {
+    "id": "net_comp_032",
+    "category": "network_operations",
+    "subcategory": "wol",
+    "instruction": "Send Wake-on-LAN magic packet",
+    "linux": "wakeonlan AA:BB:CC:DD:EE:FF",
+    "windows_cmd": "wolcmd AA:BB:CC:DD:EE:FF 192.168.1.255 255.255.255.0 7",
+    "mac": "wakeonlan AA:BB:CC:DD:EE:FF",
+    "difficulty": "advanced",
+    "tags": [
+      "wol",
+      "wake",
+      "power"
+    ]
+  },
+  {
+    "id": "net_comp_033",
+    "category": "network_operations",
+    "subcategory": "ss_socket",
+    "instruction": "Display socket statistics (ss)",
+    "linux": "ss -tupln",
+    "windows_cmd": "netstat -ano",
+    "mac": "netstat -an",
+    "difficulty": "intermediate",
+    "tags": [
+      "ss",
+      "socket",
+      "stats"
+    ]
+  },
+  {
+    "id": "net_comp_034",
+    "category": "network_operations",
+    "subcategory": "curl_user_agent",
+    "instruction": "Download a file pretending to be a browser (User-Agent)",
+    "linux": "curl -A \"Mozilla/5.0\" -O http://example.com/file.zip",
+    "windows_cmd": "curl -A \"Mozilla/5.0\" -O http://example.com/file.zip",
+    "mac": "curl -A \"Mozilla/5.0\" -O http://example.com/file.zip",
+    "difficulty": "intermediate",
+    "tags": [
+      "curl",
+      "user-agent",
+      "spoof"
+    ]
+  },
+  {
+    "id": "net_comp_035",
+    "category": "network_operations",
+    "subcategory": "ssh_key_gen",
+    "instruction": "Generate a new SSH key pair (RSA 4096 bit)",
+    "linux": "ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_new",
+    "windows_cmd": "ssh-keygen -t rsa -b 4096 -f %USERPROFILE%\\.ssh\\id_rsa_new",
+    "mac": "ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_new",
+    "difficulty": "intermediate",
+    "tags": [
+      "ssh",
+      "keygen",
+      "security"
+    ]
+  },
+  {
+    "id": "net_comp_036",
+    "category": "network_operations",
+    "subcategory": "ping_ipv6",
+    "instruction": "Ping an IPv6 address",
+    "linux": "ping6 ::1",
+    "windows_cmd": "ping ::1",
+    "mac": "ping6 ::1",
+    "difficulty": "beginner",
+    "tags": [
+      "ping",
+      "ipv6",
+      "network"
+    ]
+  },
+  {
+    "id": "net_comp_037",
+    "category": "network_operations",
+    "subcategory": "nmcli_conn",
+    "instruction": "List configured network connections",
+    "linux": "nmcli connection show",
+    "windows_cmd": "netsh interface show interface",
+    "mac": "networksetup -listallnetworkservices",
+    "difficulty": "intermediate",
+    "tags": [
+      "nmcli",
+      "network",
+      "list"
+    ]
+  },
+  {
+    "id": "net_comp_038",
+    "category": "network_operations",
+    "subcategory": "dns_reverse",
+    "instruction": "Perform a reverse DNS lookup for IP 8.8.8.8",
+    "linux": "dig -x 8.8.8.8 +short",
+    "windows_cmd": "nslookup 8.8.8.8",
+    "mac": "dig -x 8.8.8.8 +short",
+    "difficulty": "intermediate",
+    "tags": [
+      "dns",
+      "reverse",
+      "lookup"
+    ]
+  },
+  {
+    "id": "net_comp_039",
+    "category": "network_operations",
+    "subcategory": "nc_transfer",
+    "instruction": "Transfer a file using netcat (receiver side)",
+    "linux": "nc -l 1234 > received_file",
+    "windows_cmd": "nc -l 1234 > received_file (if installed)",
+    "mac": "nc -l 1234 > received_file",
+    "difficulty": "advanced",
+    "tags": [
+      "nc",
+      "file-transfer",
+      "netcat"
+    ]
+  },
+  {
+    "id": "net_comp_040",
+    "category": "network_operations",
+    "subcategory": "curl_cookie",
+    "instruction": "Save cookies from a request to 'cookies.txt'",
+    "linux": "curl -c cookies.txt http://example.com",
+    "windows_cmd": "curl -c cookies.txt http://example.com",
+    "mac": "curl -c cookies.txt http://example.com",
+    "difficulty": "intermediate",
+    "tags": [
+      "curl",
+      "cookies",
+      "web"
+    ]
+  },
+  {
+    "id": "net_comp_041",
+    "category": "network_operations",
+    "subcategory": "ssh_copy_id",
+    "instruction": "Install SSH public key on remote server",
+    "linux": "ssh-copy-id user@host",
+    "windows_cmd": "type %USERPROFILE%\\.ssh\\id_rsa.pub | ssh user@host \"cat >> .ssh/authorized_keys\"",
+    "mac": "ssh-copy-id user@host",
+    "difficulty": "advanced",
+    "tags": [
+      "ssh",
+      "auth",
+      "key"
+    ]
+  },
+  {
+    "id": "net_comp_042",
+    "category": "network_operations",
+    "subcategory": "ethtool",
+    "instruction": "Display driver information for eth0",
+    "linux": "ethtool -i eth0",
+    "windows_cmd": "echo Use Device Manager or PowerShell.",
+    "mac": "echo N/A on macOS.",
+    "difficulty": "advanced",
+    "tags": [
+      "ethtool",
+      "driver",
+      "hardware"
+    ]
+  },
+  {
+    "id": "net_comp_043",
+    "category": "network_operations",
+    "subcategory": "bridge_brctl",
+    "instruction": "Show ethernet bridge configuration",
+    "linux": "brctl show",
+    "windows_cmd": "netsh bridge show adapter",
+    "mac": "ifconfig bridge0",
+    "difficulty": "advanced",
+    "tags": [
+      "bridge",
+      "network",
+      "config"
+    ]
+  },
+  {
+    "id": "net_comp_044",
+    "category": "network_operations",
+    "subcategory": "ftp_cli",
+    "instruction": "Connect to FTP server in passive mode",
+    "linux": "ftp -p ftp.example.com",
+    "windows_cmd": "ftp ftp.example.com",
+    "mac": "ftp -p ftp.example.com",
+    "difficulty": "intermediate",
+    "tags": [
+      "ftp",
+      "connect",
+      "transfer"
+    ]
+  },
+  {
+    "id": "net_comp_045",
+    "category": "network_operations",
+    "subcategory": "route_del",
+    "instruction": "Delete default gateway",
+    "linux": "ip route del default",
+    "windows_cmd": "route delete 0.0.0.0",
+    "mac": "sudo route delete default",
+    "difficulty": "advanced",
+    "tags": [
+      "route",
+      "gateway",
+      "delete"
+    ]
+  },
+  {
+    "id": "net_comp_046",
+    "category": "network_operations",
+    "subcategory": "ip_addr_add",
+    "instruction": "Add secondary IP address to interface",
+    "linux": "ip addr add 192.168.1.50/24 dev eth0",
+    "windows_cmd": "netsh interface ipv4 add address \"Ethernet\" 192.168.1.50 255.255.255.0",
+    "mac": "sudo ifconfig en0 alias 192.168.1.50 255.255.255.0",
+    "difficulty": "advanced",
+    "tags": [
+      "ip",
+      "config",
+      "alias"
+    ]
+  },
+  {
+    "id": "net_comp_047",
+    "category": "network_operations",
+    "subcategory": "wireshark_cli",
+    "instruction": "Capture traffic using tshark (CLI Wireshark)",
+    "linux": "tshark -i eth0",
+    "windows_cmd": "tshark -i 1",
+    "mac": "tshark -i en0",
+    "difficulty": "advanced",
+    "tags": [
+      "tshark",
+      "capture",
+      "sniff"
+    ]
+  },
+  {
+    "id": "net_comp_048",
+    "category": "network_operations",
+    "subcategory": "socat",
+    "instruction": "Forward local port 8080 to remote 80 using socat",
+    "linux": "socat TCP-LISTEN:8080,fork TCP:example.com:80",
+    "windows_cmd": "echo Requires socat binary.",
+    "mac": "socat TCP-LISTEN:8080,fork TCP:example.com:80",
+    "difficulty": "advanced",
+    "tags": [
+      "socat",
+      "proxy",
+      "forward"
+    ]
+  },
+  {
+    "id": "net_comp_049",
+    "category": "network_operations",
+    "subcategory": "mosh",
+    "instruction": "Connect to server using mosh (mobile shell)",
+    "linux": "mosh user@server",
+    "windows_cmd": "echo Mosh client required (e.g. via WSL).",
+    "mac": "mosh user@server",
+    "difficulty": "intermediate",
+    "tags": [
+      "mosh",
+      "ssh",
+      "mobile"
+    ]
+  },
+  {
+    "id": "net_comp_050",
+    "category": "network_operations",
+    "subcategory": "ncat_ssl",
+    "instruction": "Connect to SSL/TLS service using ncat",
+    "linux": "ncat --ssl example.com 443",
+    "windows_cmd": "ncat --ssl example.com 443",
+    "mac": "ncat --ssl example.com 443",
+    "difficulty": "intermediate",
+    "tags": [
+      "ncat",
+      "ssl",
+      "connect"
+    ]
+  }
+]

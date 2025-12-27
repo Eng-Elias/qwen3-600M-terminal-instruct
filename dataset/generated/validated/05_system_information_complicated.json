@@ -1,0 +1,752 @@
+[
+  {
+    "id": "sys_comp_001",
+    "category": "system_information",
+    "subcategory": "hardware_summary",
+    "instruction": "Display detailed hardware configuration summary",
+    "linux": "lshw -short",
+    "windows_cmd": "systeminfo",
+    "mac": "system_profiler SPHardwareDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "hardware",
+      "info",
+      "summary"
+    ]
+  },
+  {
+    "id": "sys_comp_002",
+    "category": "system_information",
+    "subcategory": "kernel_version",
+    "instruction": "Show full kernel version and build date",
+    "linux": "uname -v",
+    "windows_cmd": "ver",
+    "mac": "uname -v",
+    "difficulty": "beginner",
+    "tags": [
+      "kernel",
+      "version",
+      "build"
+    ]
+  },
+  {
+    "id": "sys_comp_003",
+    "category": "system_information",
+    "subcategory": "disk_uuid",
+    "instruction": "List block devices with their UUIDs",
+    "linux": "blkid",
+    "windows_cmd": "wmic partition get name,size,type",
+    "mac": "diskutil list",
+    "difficulty": "intermediate",
+    "tags": [
+      "disk",
+      "uuid",
+      "partitions"
+    ]
+  },
+  {
+    "id": "sys_comp_004",
+    "category": "system_information",
+    "subcategory": "cpu_details",
+    "instruction": "Display detailed CPU information (architecture, cores, threads)",
+    "linux": "lscpu",
+    "windows_cmd": "wmic cpu get caption, deviceid, name, numberofcores, maxclockspeed",
+    "mac": "sysctl -a | grep machdep.cpu",
+    "difficulty": "intermediate",
+    "tags": [
+      "cpu",
+      "cores",
+      "info"
+    ]
+  },
+  {
+    "id": "sys_comp_005",
+    "category": "system_information",
+    "subcategory": "memory_slots",
+    "instruction": "Show memory slot usage and capacity",
+    "linux": "dmidecode -t memory",
+    "windows_cmd": "wmic memorychip get capacity, speed, devicelocator",
+    "mac": "system_profiler SPMemoryDataType",
+    "difficulty": "advanced",
+    "tags": [
+      "memory",
+      "ram",
+      "slots"
+    ]
+  },
+  {
+    "id": "sys_comp_006",
+    "category": "system_information",
+    "subcategory": "usb_tree",
+    "instruction": "List USB devices in a tree structure",
+    "linux": "lsusb -t",
+    "windows_cmd": "wmic path Win32_USBControllerDevice get Dependent",
+    "mac": "system_profiler SPUSBDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "usb",
+      "devices",
+      "tree"
+    ]
+  },
+  {
+    "id": "sys_comp_007",
+    "category": "system_information",
+    "subcategory": "bios_info",
+    "instruction": "Display BIOS/UEFI version and date",
+    "linux": "dmidecode -t bios",
+    "windows_cmd": "wmic bios get smbiosbiosversion",
+    "mac": "system_profiler SPHardwareDataType | grep 'Boot ROM'",
+    "difficulty": "intermediate",
+    "tags": [
+      "bios",
+      "firmware",
+      "uefi"
+    ]
+  },
+  {
+    "id": "sys_comp_008",
+    "category": "system_information",
+    "subcategory": "battery_status",
+    "instruction": "Check laptop battery health and status",
+    "linux": "upower -i /org/freedesktop/UPower/devices/battery_BAT0",
+    "windows_cmd": "powercfg /batteryreport",
+    "mac": "pmset -g batt",
+    "difficulty": "intermediate",
+    "tags": [
+      "battery",
+      "power",
+      "health"
+    ]
+  },
+  {
+    "id": "sys_comp_009",
+    "category": "system_information",
+    "subcategory": "last_boot",
+    "instruction": "Show the date and time of the last system boot",
+    "linux": "who -b",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "sysctl kern.boottime",
+    "difficulty": "beginner",
+    "tags": [
+      "boot",
+      "time",
+      "uptime"
+    ]
+  },
+  {
+    "id": "sys_comp_010",
+    "category": "system_information",
+    "subcategory": "pci_devices",
+    "instruction": "List all PCI devices",
+    "linux": "lspci",
+    "windows_cmd": "wmic path win32_pncentity where \"deviceid like 'PCI%'\" get name, deviceid",
+    "mac": "system_profiler SPPCIDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "pci",
+      "hardware",
+      "devices"
+    ]
+  },
+  {
+    "id": "sys_comp_011",
+    "category": "system_information",
+    "subcategory": "load_avg",
+    "instruction": "Display system load averages",
+    "linux": "cat /proc/loadavg",
+    "windows_cmd": "wmic cpu get loadpercentage",
+    "mac": "sysctl vm.loadavg",
+    "difficulty": "intermediate",
+    "tags": [
+      "load",
+      "cpu",
+      "performance"
+    ]
+  },
+  {
+    "id": "sys_comp_012",
+    "category": "system_information",
+    "subcategory": "os_release",
+    "instruction": "Show OS release information (distro, version, codename)",
+    "linux": "cat /etc/*release",
+    "windows_cmd": "reg query \"HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\" /v ProductName",
+    "mac": "sw_vers",
+    "difficulty": "intermediate",
+    "tags": [
+      "os",
+      "version",
+      "release"
+    ]
+  },
+  {
+    "id": "sys_comp_013",
+    "category": "system_information",
+    "subcategory": "hostname_fqdn",
+    "instruction": "Display the Fully Qualified Domain Name (FQDN)",
+    "linux": "hostname -f",
+    "windows_cmd": "echo %COMPUTERNAME%.%USERDNSDOMAIN%",
+    "mac": "hostname -f",
+    "difficulty": "intermediate",
+    "tags": [
+      "hostname",
+      "fqdn",
+      "network"
+    ]
+  },
+  {
+    "id": "sys_comp_014",
+    "category": "system_information",
+    "subcategory": "open_ports",
+    "instruction": "List all open ports and associated processes",
+    "linux": "netstat -tulpn",
+    "windows_cmd": "netstat -ano",
+    "mac": "lsof -i -P | grep LISTEN",
+    "difficulty": "advanced",
+    "tags": [
+      "ports",
+      "network",
+      "security"
+    ]
+  },
+  {
+    "id": "sys_comp_015",
+    "category": "system_information",
+    "subcategory": "disk_serial",
+    "instruction": "Get the serial number of the hard drive",
+    "linux": "hdparm -I /dev/sda | grep Serial",
+    "windows_cmd": "wmic diskdrive get serialnumber",
+    "mac": "system_profiler SPSerialATADataType | grep Serial",
+    "difficulty": "advanced",
+    "tags": [
+      "disk",
+      "serial",
+      "hardware"
+    ]
+  },
+  {
+    "id": "sys_comp_016",
+    "category": "system_information",
+    "subcategory": "user_groups",
+    "instruction": "List all groups the current user belongs to",
+    "linux": "groups",
+    "windows_cmd": "whoami /groups",
+    "mac": "groups",
+    "difficulty": "beginner",
+    "tags": [
+      "user",
+      "groups",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sys_comp_017",
+    "category": "system_information",
+    "subcategory": "timezone",
+    "instruction": "Check the current system timezone",
+    "linux": "timedatectl",
+    "windows_cmd": "tzutil /g",
+    "mac": "sudo systemsetup -gettimezone",
+    "difficulty": "intermediate",
+    "tags": [
+      "timezone",
+      "date",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_018",
+    "category": "system_information",
+    "subcategory": "login_history",
+    "instruction": "Show history of user logins",
+    "linux": "last",
+    "windows_cmd": "echo Check Event Viewer Security Log",
+    "mac": "last",
+    "difficulty": "intermediate",
+    "tags": [
+      "logins",
+      "history",
+      "security"
+    ]
+  },
+  {
+    "id": "sys_comp_019",
+    "category": "system_information",
+    "subcategory": "swap_usage",
+    "instruction": "Display swap memory usage",
+    "linux": "swapon --show",
+    "windows_cmd": "wmic pagefile list /format:list",
+    "mac": "sysctl vm.swapusage",
+    "difficulty": "intermediate",
+    "tags": [
+      "swap",
+      "memory",
+      "paging"
+    ]
+  },
+  {
+    "id": "sys_comp_020",
+    "category": "system_information",
+    "subcategory": "locale",
+    "instruction": "Show current locale settings",
+    "linux": "localectl",
+    "windows_cmd": "systeminfo | findstr \"Locale\"",
+    "mac": "locale",
+    "difficulty": "intermediate",
+    "tags": [
+      "locale",
+      "language",
+      "settings"
+    ]
+  },
+  {
+    "id": "sys_comp_021",
+    "category": "system_information",
+    "subcategory": "cpu_temp",
+    "instruction": "Check CPU temperature",
+    "linux": "sensors",
+    "windows_cmd": "wmic /namespace:\\\\root\\wmi path MSAcpi_ThermalZoneTemperature get CurrentTemperature",
+    "mac": "sudo powermetrics --samplers smc | grep -i \"CPU die temperature\"",
+    "difficulty": "advanced",
+    "tags": [
+      "temperature",
+      "sensors",
+      "hardware"
+    ]
+  },
+  {
+    "id": "sys_comp_022",
+    "category": "system_information",
+    "subcategory": "file_limits",
+    "instruction": "Check open file limits (ulimit)",
+    "linux": "ulimit -n",
+    "windows_cmd": "echo Windows handles limits differently per process/system.",
+    "mac": "ulimit -n",
+    "difficulty": "intermediate",
+    "tags": [
+      "limits",
+      "files",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_023",
+    "category": "system_information",
+    "subcategory": "gpu_info",
+    "instruction": "Display Graphics/GPU information",
+    "linux": "lshw -C display",
+    "windows_cmd": "wmic path win32_VideoController get name",
+    "mac": "system_profiler SPDisplaysDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "gpu",
+      "graphics",
+      "video"
+    ]
+  },
+  {
+    "id": "sys_comp_024",
+    "category": "system_information",
+    "subcategory": "scheduled_tasks",
+    "instruction": "List scheduled tasks/cron jobs",
+    "linux": "crontab -l",
+    "windows_cmd": "schtasks /query",
+    "mac": "crontab -l",
+    "difficulty": "intermediate",
+    "tags": [
+      "cron",
+      "schedule",
+      "tasks"
+    ]
+  },
+  {
+    "id": "sys_comp_025",
+    "category": "system_information",
+    "subcategory": "runlevel",
+    "instruction": "Check current runlevel or boot target",
+    "linux": "runlevel",
+    "windows_cmd": "echo Windows uses Sessions, not Runlevels.",
+    "mac": "who -r",
+    "difficulty": "advanced",
+    "tags": [
+      "runlevel",
+      "boot",
+      "init"
+    ]
+  },
+  {
+    "id": "sys_comp_026",
+    "category": "system_information",
+    "subcategory": "bluetooth",
+    "instruction": "Check Bluetooth status and controller info",
+    "linux": "hciconfig -a",
+    "windows_cmd": "wmic path Win32_PNPEntity where \"Caption like '%Bluetooth%'\" get Caption",
+    "mac": "system_profiler SPBluetoothDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "bluetooth",
+      "hardware",
+      "wireless"
+    ]
+  },
+  {
+    "id": "sys_comp_027",
+    "category": "system_information",
+    "subcategory": "arp_table",
+    "instruction": "Display the ARP cache",
+    "linux": "ip neigh show",
+    "windows_cmd": "arp -a",
+    "mac": "arp -a",
+    "difficulty": "intermediate",
+    "tags": [
+      "arp",
+      "network",
+      "cache"
+    ]
+  },
+  {
+    "id": "sys_comp_028",
+    "category": "system_information",
+    "subcategory": "disk_free_inode",
+    "instruction": "Check inode usage on disk",
+    "linux": "df -i",
+    "windows_cmd": "echo NTFS doesn't use inodes in the same way.",
+    "mac": "df -i",
+    "difficulty": "advanced",
+    "tags": [
+      "disk",
+      "inode",
+      "usage"
+    ]
+  },
+  {
+    "id": "sys_comp_029",
+    "category": "system_information",
+    "subcategory": "mounts",
+    "instruction": "List all mounted filesystems",
+    "linux": "mount | column -t",
+    "windows_cmd": "wmic logicaldisk get name, description",
+    "mac": "mount",
+    "difficulty": "intermediate",
+    "tags": [
+      "mount",
+      "filesystem",
+      "disk"
+    ]
+  },
+  {
+    "id": "sys_comp_030",
+    "category": "system_information",
+    "subcategory": "product_key",
+    "instruction": "Retrieve Windows Product Key (BIOS)",
+    "linux": "strings /sys/firmware/acpi/tables/MSDM",
+    "windows_cmd": "wmic path softwarelicensingservice get OA3xOriginalProductKey",
+    "mac": "echo N/A",
+    "difficulty": "advanced",
+    "tags": [
+      "license",
+      "key",
+      "bios"
+    ]
+  },
+  {
+    "id": "sys_comp_031",
+    "category": "system_information",
+    "subcategory": "uptime_since",
+    "instruction": "Show exact date and time system was booted",
+    "linux": "uptime -s",
+    "windows_cmd": "systeminfo | find \"System Boot Time\"",
+    "mac": "sysctl -n kern.boottime",
+    "difficulty": "beginner",
+    "tags": [
+      "uptime",
+      "boot",
+      "time"
+    ]
+  },
+  {
+    "id": "sys_comp_032",
+    "category": "system_information",
+    "subcategory": "user_id",
+    "instruction": "Display user ID (uid) and group ID (gid)",
+    "linux": "id",
+    "windows_cmd": "whoami /user",
+    "mac": "id",
+    "difficulty": "beginner",
+    "tags": [
+      "user",
+      "id",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sys_comp_033",
+    "category": "system_information",
+    "subcategory": "ipv6_addr",
+    "instruction": "Display only the IPv6 address",
+    "linux": "ip -6 addr",
+    "windows_cmd": "ipconfig | find \"IPv6\"",
+    "mac": "ifconfig | grep inet6",
+    "difficulty": "intermediate",
+    "tags": [
+      "ipv6",
+      "network",
+      "address"
+    ]
+  },
+  {
+    "id": "sys_comp_034",
+    "category": "system_information",
+    "subcategory": "dns_servers",
+    "instruction": "Show configured DNS servers",
+    "linux": "cat /etc/resolv.conf",
+    "windows_cmd": "ipconfig /all | find \"DNS Servers\"",
+    "mac": "scutil --dns",
+    "difficulty": "intermediate",
+    "tags": [
+      "dns",
+      "network",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_035",
+    "category": "system_information",
+    "subcategory": "default_gateway",
+    "instruction": "Show default gateway IP",
+    "linux": "ip route | grep default",
+    "windows_cmd": "ipconfig | find \"Default Gateway\"",
+    "mac": "route -n get default",
+    "difficulty": "intermediate",
+    "tags": [
+      "gateway",
+      "network",
+      "route"
+    ]
+  },
+  {
+    "id": "sys_comp_036",
+    "category": "system_information",
+    "subcategory": "shell_version",
+    "instruction": "Check the version of the current shell",
+    "linux": "$SHELL --version",
+    "windows_cmd": "cmd /?",
+    "mac": "$SHELL --version",
+    "difficulty": "beginner",
+    "tags": [
+      "shell",
+      "version",
+      "info"
+    ]
+  },
+  {
+    "id": "sys_comp_037",
+    "category": "system_information",
+    "subcategory": "display_res",
+    "instruction": "Check current display resolution",
+    "linux": "xrandr | grep '*'",
+    "windows_cmd": "wmic path Win32_VideoController get CurrentHorizontalResolution,CurrentVerticalResolution",
+    "mac": "system_profiler SPDisplaysDataType | grep Resolution",
+    "difficulty": "intermediate",
+    "tags": [
+      "display",
+      "resolution",
+      "screen"
+    ]
+  },
+  {
+    "id": "sys_comp_038",
+    "category": "system_information",
+    "subcategory": "sound_cards",
+    "instruction": "List audio/sound devices",
+    "linux": "aplay -l",
+    "windows_cmd": "wmic sounddev get name",
+    "mac": "system_profiler SPAudioDataType",
+    "difficulty": "intermediate",
+    "tags": [
+      "audio",
+      "sound",
+      "hardware"
+    ]
+  },
+  {
+    "id": "sys_comp_039",
+    "category": "system_information",
+    "subcategory": "process_limit",
+    "instruction": "Check max number of processes allowed",
+    "linux": "ulimit -u",
+    "windows_cmd": "echo Windows limits rely on memory/paged pool.",
+    "mac": "ulimit -u",
+    "difficulty": "advanced",
+    "tags": [
+      "limits",
+      "processes",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_040",
+    "category": "system_information",
+    "subcategory": "kernel_modules",
+    "instruction": "List loaded kernel modules/drivers",
+    "linux": "lsmod",
+    "windows_cmd": "driverquery",
+    "mac": "kextstat",
+    "difficulty": "advanced",
+    "tags": [
+      "kernel",
+      "drivers",
+      "modules"
+    ]
+  },
+  {
+    "id": "sys_comp_041",
+    "category": "system_information",
+    "subcategory": "virtualization",
+    "instruction": "Check if running in a virtual machine",
+    "linux": "systemd-detect-virt",
+    "windows_cmd": "systeminfo | find \"System Model\"",
+    "mac": "sysctl -a | grep machdep.cpu.features | grep VMM",
+    "difficulty": "advanced",
+    "tags": [
+      "vm",
+      "virtualization",
+      "detect"
+    ]
+  },
+  {
+    "id": "sys_comp_042",
+    "category": "system_information",
+    "subcategory": "block_size",
+    "instruction": "Check filesystem block size",
+    "linux": "blockdev --getbsz /dev/sda1",
+    "windows_cmd": "fsutil fsinfo ntfsinfo C:",
+    "mac": "stat -f %k .",
+    "difficulty": "advanced",
+    "tags": [
+      "disk",
+      "block",
+      "size"
+    ]
+  },
+  {
+    "id": "sys_comp_043",
+    "category": "system_information",
+    "subcategory": "who_users",
+    "instruction": "Show who is currently logged in",
+    "linux": "who -a",
+    "windows_cmd": "query user",
+    "mac": "who",
+    "difficulty": "beginner",
+    "tags": [
+      "users",
+      "login",
+      "who"
+    ]
+  },
+  {
+    "id": "sys_comp_044",
+    "category": "system_information",
+    "subcategory": "sysctl",
+    "instruction": "List all kernel parameters",
+    "linux": "sysctl -a",
+    "windows_cmd": "echo Registry contains parameters.",
+    "mac": "sysctl -a",
+    "difficulty": "advanced",
+    "tags": [
+      "kernel",
+      "config",
+      "sysctl"
+    ]
+  },
+  {
+    "id": "sys_comp_045",
+    "category": "system_information",
+    "subcategory": "assoc",
+    "instruction": "Check file association for .txt",
+    "linux": "xdg-mime query default text/plain",
+    "windows_cmd": "assoc .txt",
+    "mac": "echo Use 'duti' or LaunchServices.",
+    "difficulty": "intermediate",
+    "tags": [
+      "file",
+      "association",
+      "config"
+    ]
+  },
+  {
+    "id": "sys_comp_046",
+    "category": "system_information",
+    "subcategory": "path_var",
+    "instruction": "Print the PATH variable specifically",
+    "linux": "echo $PATH",
+    "windows_cmd": "path",
+    "mac": "echo $PATH",
+    "difficulty": "beginner",
+    "tags": [
+      "path",
+      "env",
+      "var"
+    ]
+  },
+  {
+    "id": "sys_comp_047",
+    "category": "system_information",
+    "subcategory": "uptime_pretty",
+    "instruction": "Show uptime in pretty format",
+    "linux": "uptime -p",
+    "windows_cmd": "systeminfo | find \"Up Time\"",
+    "mac": "uptime",
+    "difficulty": "beginner",
+    "tags": [
+      "uptime",
+      "time",
+      "pretty"
+    ]
+  },
+  {
+    "id": "sys_comp_048",
+    "category": "system_information",
+    "subcategory": "wifi_signal",
+    "instruction": "Check Wi-Fi signal strength",
+    "linux": "iwconfig",
+    "windows_cmd": "netsh wlan show interfaces",
+    "mac": "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I",
+    "difficulty": "intermediate",
+    "tags": [
+      "wifi",
+      "signal",
+      "network"
+    ]
+  },
+  {
+    "id": "sys_comp_049",
+    "category": "system_information",
+    "subcategory": "cpu_freq",
+    "instruction": "Check current CPU frequency",
+    "linux": "cat /proc/cpuinfo | grep 'MHz'",
+    "windows_cmd": "wmic cpu get currentclockspeed",
+    "mac": "sysctl hw.cpufrequency",
+    "difficulty": "advanced",
+    "tags": [
+      "cpu",
+      "frequency",
+      "speed"
+    ]
+  },
+  {
+    "id": "sys_comp_050",
+    "category": "system_information",
+    "subcategory": "printer_list",
+    "instruction": "List installed printers",
+    "linux": "lpstat -p",
+    "windows_cmd": "wmic printer get name",
+    "mac": "lpstat -p",
+    "difficulty": "intermediate",
+    "tags": [
+      "printer",
+      "hardware",
+      "list"
+    ]
+  }
+]

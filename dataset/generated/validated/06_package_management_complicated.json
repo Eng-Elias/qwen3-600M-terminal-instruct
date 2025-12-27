@@ -1,0 +1,737 @@
+[
+  {
+    "id": "pkg_comp_001",
+    "category": "package_management",
+    "subcategory": "list_installed",
+    "instruction": "List all installed packages and filter for 'python'",
+    "linux": "apt list --installed | grep python",
+    "windows_cmd": "choco list --local-only | findstr /i python",
+    "mac": "brew list | grep python",
+    "difficulty": "intermediate",
+    "tags": [
+      "list",
+      "filter",
+      "search"
+    ]
+  },
+  {
+    "id": "pkg_comp_003",
+    "category": "package_management",
+    "subcategory": "info",
+    "instruction": "Display detailed information about package 'git'",
+    "linux": "apt show git",
+    "windows_cmd": "choco info git",
+    "mac": "brew info git",
+    "difficulty": "intermediate",
+    "tags": [
+      "info",
+      "details",
+      "package"
+    ]
+  },
+  {
+    "id": "pkg_comp_004",
+    "category": "package_management",
+    "subcategory": "search_desc",
+    "instruction": "Search for packages related to 'video editor'",
+    "linux": "apt-cache search \"video editor\"",
+    "windows_cmd": "choco search \"video editor\"",
+    "mac": "brew search \"video editor\"",
+    "difficulty": "intermediate",
+    "tags": [
+      "search",
+      "description",
+      "find"
+    ]
+  },
+  {
+    "id": "pkg_comp_005",
+    "category": "package_management",
+    "subcategory": "upgrade_one",
+    "instruction": "Upgrade only the 'nodejs' package",
+    "linux": "sudo apt --only-upgrade install nodejs",
+    "windows_cmd": "choco upgrade nodejs -y",
+    "mac": "brew upgrade nodejs",
+    "difficulty": "intermediate",
+    "tags": [
+      "upgrade",
+      "single",
+      "update"
+    ]
+  },
+  {
+    "id": "pkg_comp_006",
+    "category": "package_management",
+    "subcategory": "add_repo",
+    "instruction": "Add a new package repository (e.g. deadsnakes ppa)",
+    "linux": "sudo add-apt-repository ppa:deadsnakes/ppa",
+    "windows_cmd": "choco source add -n=newrepo -s=\"http://newrepo.com/api\"",
+    "mac": "brew tap user/repo",
+    "difficulty": "advanced",
+    "tags": [
+      "repo",
+      "source",
+      "add"
+    ]
+  },
+  {
+    "id": "pkg_comp_007",
+    "category": "package_management",
+    "subcategory": "clean",
+    "instruction": "Clean up cached package files to free space",
+    "linux": "sudo apt clean && sudo apt autoclean",
+    "windows_cmd": "choco clean",
+    "mac": "brew cleanup",
+    "difficulty": "intermediate",
+    "tags": [
+      "clean",
+      "cache",
+      "space"
+    ]
+  },
+  {
+    "id": "pkg_comp_008",
+    "category": "package_management",
+    "subcategory": "autoremove",
+    "instruction": "Remove unused dependencies",
+    "linux": "sudo apt autoremove -y",
+    "windows_cmd": "echo Chocolatey handles dependencies on uninstall usually.",
+    "mac": "brew autoremove",
+    "difficulty": "intermediate",
+    "tags": [
+      "cleanup",
+      "dependencies",
+      "unused"
+    ]
+  },
+  {
+    "id": "pkg_comp_009",
+    "category": "package_management",
+    "subcategory": "hold",
+    "instruction": "Prevent 'docker' package from being updated",
+    "linux": "sudo apt-mark hold docker",
+    "windows_cmd": "choco pin add -n=docker",
+    "mac": "brew pin docker",
+    "difficulty": "advanced",
+    "tags": [
+      "pin",
+      "hold",
+      "lock"
+    ]
+  },
+  {
+    "id": "pkg_comp_010",
+    "category": "package_management",
+    "subcategory": "unhold",
+    "instruction": "Allow 'docker' package to be updated again",
+    "linux": "sudo apt-mark unhold docker",
+    "windows_cmd": "choco pin remove -n=docker",
+    "mac": "brew unpin docker",
+    "difficulty": "advanced",
+    "tags": [
+      "unpin",
+      "unhold",
+      "unlock"
+    ]
+  },
+  {
+    "id": "pkg_comp_011",
+    "category": "package_management",
+    "subcategory": "install_version",
+    "instruction": "Install specific version 1.2.3 of 'app'",
+    "linux": "sudo apt install app=1.2.3",
+    "windows_cmd": "choco install app --version 1.2.3",
+    "mac": "echo Homebrew install specific version requires finding the formula version.",
+    "difficulty": "advanced",
+    "tags": [
+      "version",
+      "install",
+      "specific"
+    ]
+  },
+  {
+    "id": "pkg_comp_012",
+    "category": "package_management",
+    "subcategory": "list_files",
+    "instruction": "List files installed by package 'tar'",
+    "linux": "dpkg -L tar",
+    "windows_cmd": "echo Chocolatey does not easily track file lists natively.",
+    "mac": "brew list tar",
+    "difficulty": "intermediate",
+    "tags": [
+      "files",
+      "list",
+      "content"
+    ]
+  },
+  {
+    "id": "pkg_comp_013",
+    "category": "package_management",
+    "subcategory": "check_dep",
+    "instruction": "Check dependencies of package 'vim'",
+    "linux": "apt-cache depends vim",
+    "windows_cmd": "choco info vim",
+    "mac": "brew deps vim",
+    "difficulty": "intermediate",
+    "tags": [
+      "dependencies",
+      "check",
+      "info"
+    ]
+  },
+  {
+    "id": "pkg_comp_014",
+    "category": "package_management",
+    "subcategory": "reinstall",
+    "instruction": "Reinstall package 'curl'",
+    "linux": "sudo apt install --reinstall curl",
+    "windows_cmd": "choco install curl --force",
+    "mac": "brew reinstall curl",
+    "difficulty": "intermediate",
+    "tags": [
+      "reinstall",
+      "force",
+      "repair"
+    ]
+  },
+  {
+    "id": "pkg_comp_015",
+    "category": "package_management",
+    "subcategory": "export_list",
+    "instruction": "Export list of installed packages to a file",
+    "linux": "apt list --installed > packages.txt",
+    "windows_cmd": "choco list --local-only > packages.txt",
+    "mac": "brew list > packages.txt",
+    "difficulty": "beginner",
+    "tags": [
+      "export",
+      "list",
+      "backup"
+    ]
+  },
+  {
+    "id": "pkg_comp_016",
+    "category": "package_management",
+    "subcategory": "install_file",
+    "instruction": "Install a package from a local .deb/.msi file",
+    "linux": "sudo dpkg -i package.deb",
+    "windows_cmd": "msiexec /i package.msi /quiet",
+    "mac": "sudo installer -pkg package.pkg -target /",
+    "difficulty": "advanced",
+    "tags": [
+      "install",
+      "local",
+      "file"
+    ]
+  },
+  {
+    "id": "pkg_comp_017",
+    "category": "package_management",
+    "subcategory": "fix_broken",
+    "instruction": "Fix broken package dependencies",
+    "linux": "sudo apt --fix-broken install",
+    "windows_cmd": "choco install -f",
+    "mac": "brew doctor",
+    "difficulty": "advanced",
+    "tags": [
+      "fix",
+      "repair",
+      "dependencies"
+    ]
+  },
+  {
+    "id": "pkg_comp_018",
+    "category": "package_management",
+    "subcategory": "update_check",
+    "instruction": "Check for available updates without installing",
+    "linux": "apt list --upgradable",
+    "windows_cmd": "choco outdated",
+    "mac": "brew outdated",
+    "difficulty": "intermediate",
+    "tags": [
+      "check",
+      "update",
+      "outdated"
+    ]
+  },
+  {
+    "id": "pkg_comp_019",
+    "category": "package_management",
+    "subcategory": "remove_config",
+    "instruction": "Remove a package and its config files",
+    "linux": "sudo apt purge package",
+    "windows_cmd": "choco uninstall package",
+    "mac": "brew uninstall --zap package",
+    "difficulty": "advanced",
+    "tags": [
+      "remove",
+      "purge",
+      "zap"
+    ]
+  },
+  {
+    "id": "pkg_comp_020",
+    "category": "package_management",
+    "subcategory": "download_only",
+    "instruction": "Download package 'git' without installing it",
+    "linux": "apt download git",
+    "windows_cmd": "choco install git --download-only",
+    "mac": "brew fetch git",
+    "difficulty": "intermediate",
+    "tags": [
+      "download",
+      "fetch",
+      "cache"
+    ]
+  },
+  {
+    "id": "pkg_comp_021",
+    "category": "package_management",
+    "subcategory": "history",
+    "instruction": "View package installation history",
+    "linux": "grep install /var/log/dpkg.log",
+    "windows_cmd": "type %ProgramData%\\chocolatey\\logs\\chocolatey.log",
+    "mac": "echo Homebrew doesn't maintain a simple history log file.",
+    "difficulty": "advanced",
+    "tags": [
+      "history",
+      "log",
+      "view"
+    ]
+  },
+  {
+    "id": "pkg_comp_022",
+    "category": "package_management",
+    "subcategory": "add_key",
+    "instruction": "Add a GPG key for a repository",
+    "linux": "wget -qO - https://key.url | sudo apt-key add -",
+    "windows_cmd": "echo Chocolatey handles keys internally or via source commands.",
+    "mac": "echo Homebrew taps handle keys.",
+    "difficulty": "advanced",
+    "tags": [
+      "key",
+      "gpg",
+      "repo"
+    ]
+  },
+  {
+    "id": "pkg_comp_023",
+    "category": "package_management",
+    "subcategory": "list_repos",
+    "instruction": "List configured repositories",
+    "linux": "cat /etc/apt/sources.list",
+    "windows_cmd": "choco source list",
+    "mac": "brew tap",
+    "difficulty": "intermediate",
+    "tags": [
+      "repos",
+      "sources",
+      "list"
+    ]
+  },
+  {
+    "id": "pkg_comp_024",
+    "category": "package_management",
+    "subcategory": "install_quiet",
+    "instruction": "Install 'wget' quietly without confirmation",
+    "linux": "sudo apt install wget -y -q",
+    "windows_cmd": "choco install wget -y --no-progress",
+    "mac": "brew install wget --quiet",
+    "difficulty": "intermediate",
+    "tags": [
+      "install",
+      "quiet",
+      "silent"
+    ]
+  },
+  {
+    "id": "pkg_comp_025",
+    "category": "package_management",
+    "subcategory": "what_provides",
+    "instruction": "Find which package provides the command 'lsusb'",
+    "linux": "apt-file search lsusb",
+    "windows_cmd": "echo N/A for Windows",
+    "mac": "brew uses --installed lsusb",
+    "difficulty": "advanced",
+    "tags": [
+      "search",
+      "provides",
+      "file"
+    ]
+  },
+  {
+    "id": "pkg_comp_026",
+    "category": "package_management",
+    "subcategory": "remove_orphans",
+    "instruction": "Remove orphaned packages (deborphan)",
+    "linux": "deborphan | xargs sudo apt-get -y remove --purge",
+    "windows_cmd": "echo Chocolatey doesn't track orphans natively.",
+    "mac": "echo Homebrew uses 'brew autoremove'.",
+    "difficulty": "advanced",
+    "tags": [
+      "clean",
+      "orphans",
+      "remove"
+    ]
+  },
+  {
+    "id": "pkg_comp_027",
+    "category": "package_management",
+    "subcategory": "policy",
+    "instruction": "Show installation candidate versions for 'docker'",
+    "linux": "apt-cache policy docker",
+    "windows_cmd": "choco search docker --all-versions",
+    "mac": "brew info docker",
+    "difficulty": "advanced",
+    "tags": [
+      "policy",
+      "versions",
+      "candidate"
+    ]
+  },
+  {
+    "id": "pkg_comp_028",
+    "category": "package_management",
+    "subcategory": "verify",
+    "instruction": "Verify integrity of installed packages",
+    "linux": "debsums -c",
+    "windows_cmd": "echo Chocolatey package verifier is a paid feature.",
+    "mac": "brew doctor",
+    "difficulty": "advanced",
+    "tags": [
+      "verify",
+      "integrity",
+      "check"
+    ]
+  },
+  {
+    "id": "pkg_comp_029",
+    "category": "package_management",
+    "subcategory": "install_multi",
+    "instruction": "Install git, curl, and vim in one command",
+    "linux": "sudo apt install git curl vim -y",
+    "windows_cmd": "choco install git curl vim -y",
+    "mac": "brew install git curl vim",
+    "difficulty": "beginner",
+    "tags": [
+      "install",
+      "batch",
+      "multiple"
+    ]
+  },
+  {
+    "id": "pkg_comp_030",
+    "category": "package_management",
+    "subcategory": "remove_repo",
+    "instruction": "Remove a repository source",
+    "linux": "sudo add-apt-repository --remove ppa:user/repo",
+    "windows_cmd": "choco source remove -n=repoName",
+    "mac": "brew untap user/repo",
+    "difficulty": "intermediate",
+    "tags": [
+      "remove",
+      "repo",
+      "source"
+    ]
+  },
+  {
+    "id": "pkg_comp_031",
+    "category": "package_management",
+    "subcategory": "install_suggests",
+    "instruction": "Install package with suggested packages",
+    "linux": "sudo apt install package --install-suggests",
+    "windows_cmd": "echo Chocolatey installs dependencies by default.",
+    "mac": "echo Homebrew installs dependencies by default.",
+    "difficulty": "intermediate",
+    "tags": [
+      "install",
+      "suggests",
+      "deps"
+    ]
+  },
+  {
+    "id": "pkg_comp_032",
+    "category": "package_management",
+    "subcategory": "dry_run",
+    "instruction": "Simulate an upgrade without doing it",
+    "linux": "sudo apt upgrade --dry-run",
+    "windows_cmd": "choco upgrade all --whatif",
+    "mac": "brew upgrade --dry-run",
+    "difficulty": "intermediate",
+    "tags": [
+      "dry-run",
+      "simulate",
+      "test"
+    ]
+  },
+  {
+    "id": "pkg_comp_033",
+    "category": "package_management",
+    "subcategory": "stats",
+    "instruction": "Show package statistics",
+    "linux": "apt-cache stats",
+    "windows_cmd": "choco list --local-only | find /c /v \"\"",
+    "mac": "brew info",
+    "difficulty": "intermediate",
+    "tags": [
+      "stats",
+      "info",
+      "count"
+    ]
+  },
+  {
+    "id": "pkg_comp_034",
+    "category": "package_management",
+    "subcategory": "config_only",
+    "instruction": "Configure unpacked packages",
+    "linux": "sudo dpkg --configure -a",
+    "windows_cmd": "echo N/A",
+    "mac": "echo N/A",
+    "difficulty": "advanced",
+    "tags": [
+      "config",
+      "dpkg",
+      "fix"
+    ]
+  },
+  {
+    "id": "pkg_comp_035",
+    "category": "package_management",
+    "subcategory": "search_installed",
+    "instruction": "Check if 'python' is installed",
+    "linux": "dpkg -s python",
+    "windows_cmd": "choco list --local-only --exact python",
+    "mac": "brew list --versions python",
+    "difficulty": "beginner",
+    "tags": [
+      "check",
+      "installed",
+      "status"
+    ]
+  },
+  {
+    "id": "pkg_comp_036",
+    "category": "package_management",
+    "subcategory": "edit_sources",
+    "instruction": "Edit the sources list",
+    "linux": "sudo nano /etc/apt/sources.list",
+    "windows_cmd": "echo Use choco source commands.",
+    "mac": "echo Brew taps are managed via CLI.",
+    "difficulty": "intermediate",
+    "tags": [
+      "edit",
+      "config",
+      "sources"
+    ]
+  },
+  {
+    "id": "pkg_comp_037",
+    "category": "package_management",
+    "subcategory": "exclude_upgrade",
+    "instruction": "Upgrade all except 'kernel'",
+    "linux": "sudo apt-mark hold kernel && sudo apt upgrade",
+    "windows_cmd": "choco upgrade all --except=\"kernel\"",
+    "mac": "brew upgrade --ignore-pinned",
+    "difficulty": "advanced",
+    "tags": [
+      "upgrade",
+      "exclude",
+      "hold"
+    ]
+  },
+  {
+    "id": "pkg_comp_038",
+    "category": "package_management",
+    "subcategory": "mark_auto",
+    "instruction": "Mark 'libfoo' as automatically installed",
+    "linux": "sudo apt-mark auto libfoo",
+    "windows_cmd": "echo N/A",
+    "mac": "echo N/A",
+    "difficulty": "advanced",
+    "tags": [
+      "mark",
+      "auto",
+      "manual"
+    ]
+  },
+  {
+    "id": "pkg_comp_039",
+    "category": "package_management",
+    "subcategory": "update_force",
+    "instruction": "Force update package lists",
+    "linux": "sudo apt update --allow-insecure-repositories",
+    "windows_cmd": "choco upgrade all --force",
+    "mac": "brew update --force",
+    "difficulty": "advanced",
+    "tags": [
+      "update",
+      "force",
+      "insecure"
+    ]
+  },
+  {
+    "id": "pkg_comp_040",
+    "category": "package_management",
+    "subcategory": "audit",
+    "instruction": "Audit installed packages for security issues",
+    "linux": "sudo apt install debsecan && debsecan",
+    "windows_cmd": "echo Use Windows Defender or other tools.",
+    "mac": "brew audit",
+    "difficulty": "advanced",
+    "tags": [
+      "audit",
+      "security",
+      "check"
+    ]
+  },
+  {
+    "id": "pkg_comp_041",
+    "category": "package_management",
+    "subcategory": "install_opt",
+    "instruction": "Install package to a custom directory",
+    "linux": "sudo dpkg -i --instdir=/opt/custom pkg.deb",
+    "windows_cmd": "choco install pkg --install-directory=\"C:\\Custom\"",
+    "mac": "echo Homebrew installs to Cellar.",
+    "difficulty": "advanced",
+    "tags": [
+      "install",
+      "custom",
+      "path"
+    ]
+  },
+  {
+    "id": "pkg_comp_042",
+    "category": "package_management",
+    "subcategory": "pin_version",
+    "instruction": "Pin 'node' to version 14",
+    "linux": "echo 'Package: node\nPin: version 14*\nPin-Priority: 1001' | sudo tee /etc/apt/preferences.d/node",
+    "windows_cmd": "choco pin add -n=node --version=14.0.0",
+    "mac": "echo Brew pinning versions is deprecated, use separate formulas.",
+    "difficulty": "advanced",
+    "tags": [
+      "pin",
+      "version",
+      "config"
+    ]
+  },
+  {
+    "id": "pkg_comp_043",
+    "category": "package_management",
+    "subcategory": "list_manual",
+    "instruction": "List manually installed packages (not dependencies)",
+    "linux": "apt-mark showmanual",
+    "windows_cmd": "choco list --local-only",
+    "mac": "brew leaves",
+    "difficulty": "intermediate",
+    "tags": [
+      "list",
+      "manual",
+      "leaves"
+    ]
+  },
+  {
+    "id": "pkg_comp_044",
+    "category": "package_management",
+    "subcategory": "backup_config",
+    "instruction": "Backup configuration of all packages",
+    "linux": "dpkg --get-selections > selections.txt",
+    "windows_cmd": "choco export packages.config",
+    "mac": "brew bundle dump",
+    "difficulty": "intermediate",
+    "tags": [
+      "backup",
+      "config",
+      "export"
+    ]
+  },
+  {
+    "id": "pkg_comp_045",
+    "category": "package_management",
+    "subcategory": "restore_config",
+    "instruction": "Restore packages from backup list",
+    "linux": "sudo dpkg --set-selections < selections.txt && sudo apt-get dselect-upgrade",
+    "windows_cmd": "choco install packages.config",
+    "mac": "brew bundle",
+    "difficulty": "advanced",
+    "tags": [
+      "restore",
+      "install",
+      "import"
+    ]
+  },
+  {
+    "id": "pkg_comp_046",
+    "category": "package_management",
+    "subcategory": "search_file",
+    "instruction": "Find which installed package owns '/usr/bin/python'",
+    "linux": "dpkg -S /usr/bin/python",
+    "windows_cmd": "echo N/A",
+    "mac": "echo N/A",
+    "difficulty": "intermediate",
+    "tags": [
+      "find",
+      "owner",
+      "file"
+    ]
+  },
+  {
+    "id": "pkg_comp_047",
+    "category": "package_management",
+    "subcategory": "install_build_dep",
+    "instruction": "Install build dependencies for 'python'",
+    "linux": "sudo apt-get build-dep python",
+    "windows_cmd": "echo N/A",
+    "mac": "echo Homebrew handles build deps automatically.",
+    "difficulty": "advanced",
+    "tags": [
+      "build",
+      "dependencies",
+      "dev"
+    ]
+  },
+  {
+    "id": "pkg_comp_048",
+    "category": "package_management",
+    "subcategory": "list_upgradable",
+    "instruction": "List packages that can be upgraded",
+    "linux": "apt list --upgradable",
+    "windows_cmd": "choco outdated",
+    "mac": "brew outdated",
+    "difficulty": "beginner",
+    "tags": [
+      "list",
+      "upgrade",
+      "check"
+    ]
+  },
+  {
+    "id": "pkg_comp_049",
+    "category": "package_management",
+    "subcategory": "add_ppa",
+    "instruction": "Add a PPA for Ubuntu",
+    "linux": "sudo add-apt-repository ppa:user/repo",
+    "windows_cmd": "echo N/A",
+    "mac": "echo Use 'brew tap'.",
+    "difficulty": "intermediate",
+    "tags": [
+      "ppa",
+      "repo",
+      "add"
+    ]
+  },
+  {
+    "id": "pkg_comp_050",
+    "category": "package_management",
+    "subcategory": "changelog",
+    "instruction": "View changelog of 'sudo' package",
+    "linux": "apt-get changelog sudo",
+    "windows_cmd": "echo Check chocolatey package page.",
+    "mac": "brew info sudo (check url)",
+    "difficulty": "intermediate",
+    "tags": [
+      "changelog",
+      "info",
+      "history"
+    ]
+  }
+]

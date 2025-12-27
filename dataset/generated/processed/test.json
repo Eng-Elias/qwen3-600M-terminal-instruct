@@ -1,0 +1,2887 @@
+[
+  {
+    "instruction": "List configured repositories",
+    "input": "[LINUX]",
+    "output": "cat /etc/apt/sources.list"
+  },
+  {
+    "instruction": "What is OS version using Mac terminal",
+    "input": "",
+    "output": "sw_vers"
+  },
+  {
+    "instruction": "Create tarball of Pictures for Windows",
+    "input": "",
+    "output": "tar -cvf Pictures.tar Pictures"
+  },
+  {
+    "instruction": "Upload 'file.txt' to remote server via SCP",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Upload 'file.txt' to remote server via SCP\", \"linux\": \"scp file.txt user@host:/tmp/\", \"windows\": \"scp file.txt user@host:/tmp/\", \"mac\": \"scp file.txt user@host:/tmp/\"}"
+  },
+  {
+    "instruction": "Search for 'error' in readme.txt",
+    "input": "[WINDOWS]",
+    "output": "findstr \"error\" readme.txt"
+  },
+  {
+    "instruction": "Set time zone to UTC for current session",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Set time zone to UTC for current session\", \"linux\": \"export TZ=UTC\", \"windows\": \"set TZ=UTC\", \"mac\": \"export TZ=UTC\"}"
+  },
+  {
+    "instruction": "Move all files from subdirectories into the current directory (flatten)",
+    "input": "[LINUX]",
+    "output": "find . -mindepth 2 -type f -exec mv {} . \\;"
+  },
+  {
+    "instruction": "Show value of HOME",
+    "input": "[MAC]",
+    "output": "echo $HOME"
+  },
+  {
+    "instruction": "List block devices with their UUIDs in Linux",
+    "input": "",
+    "output": "blkid"
+  },
+  {
+    "instruction": "Send SIGHUP (reload configuration) to process 1234",
+    "input": "[LINUX]",
+    "output": "kill -1 1234"
+  },
+  {
+    "instruction": "Enable verbose logging for Node.js",
+    "input": "[MAC]",
+    "output": "export NODE_DEBUG=http"
+  },
+  {
+    "instruction": "Change directory to bin using Windows CMD",
+    "input": "",
+    "output": "cd bin"
+  },
+  {
+    "instruction": "Create a tarball of the project excluding .git directories",
+    "input": "[WINDOWS]",
+    "output": "tar --exclude \".git\" -cvf project.tar project"
+  },
+  {
+    "instruction": "Permanently set 'MY_VAR=hello' for the current user",
+    "input": "[WINDOWS]",
+    "output": "setx MY_VAR \"hello\""
+  },
+  {
+    "instruction": "Set SHELL to some_value",
+    "input": "[LINUX]",
+    "output": "export SHELL=some_value"
+  },
+  {
+    "instruction": "Extract only 'README.md' from 'archive.tar.gz' for Windows",
+    "input": "",
+    "output": "tar -xzvf archive.tar.gz README.md"
+  },
+  {
+    "instruction": "Check if 'error' exists in log.txt without outputting it (exit code)",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Check if 'error' exists in log.txt without outputting it (exit code)\", \"linux\": \"grep -q 'error' log.txt\", \"windows\": \"findstr \\\"error\\\" log.txt >nul\", \"mac\": \"grep -q 'error' log.txt\"}"
+  },
+  {
+    "instruction": "Display environment variables",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Display environment variables\", \"linux\": \"printenv\", \"windows\": \"set\", \"mac\": \"printenv\"}"
+  },
+  {
+    "instruction": "Remove a repository source",
+    "input": "[WINDOWS]",
+    "output": "choco source remove -n=repoName"
+  },
+  {
+    "instruction": "What is USB devices",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"What is USB devices\", \"linux\": \"lsusb\", \"windows\": \"wmic path Win32_USBControllerDevice get Dependent\", \"mac\": \"system_profiler SPUSBDataType\"}"
+  },
+  {
+    "instruction": "List files in Music in Linux",
+    "input": "",
+    "output": "ls Music"
+  },
+  {
+    "instruction": "Show value of SHELL",
+    "input": "[MAC]",
+    "output": "echo $SHELL"
+  },
+  {
+    "instruction": "Find lines matching 'cat' OR 'dog'",
+    "input": "[MAC]",
+    "output": "grep -E 'cat|dog' file.txt"
+  },
+  {
+    "instruction": "Download a file using Basic Authentication",
+    "input": "[MAC]",
+    "output": "curl -u user:pass -O http://example.com/secure.zip"
+  },
+  {
+    "instruction": "List threads of process 1234",
+    "input": "[MAC]",
+    "output": "ps -M 1234"
+  },
+  {
+    "instruction": "List all subdirectories with their absolute paths",
+    "input": "[MAC]",
+    "output": "find $(pwd) -type d"
+  },
+  {
+    "instruction": "Show network interface configuration",
+    "input": "[WINDOWS]",
+    "output": "ipconfig"
+  },
+  {
+    "instruction": "List files in scripts",
+    "input": "[LINUX]",
+    "output": "ls scripts"
+  },
+  {
+    "instruction": "Sort lines in app.log",
+    "input": "[LINUX]",
+    "output": "sort app.log"
+  },
+  {
+    "instruction": "Count lines in error.log",
+    "input": "[LINUX]",
+    "output": "wc -l error.log"
+  },
+  {
+    "instruction": "Disable Gatekeeper (Mac)",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Disable Gatekeeper (Mac)\", \"linux\": \"echo N/A\", \"windows\": \"echo N/A\", \"mac\": \"sudo spctl --master-disable\"}"
+  },
+  {
+    "instruction": "Delete all .txt files on Linux",
+    "input": "",
+    "output": "rm *.txt"
+  },
+  {
+    "instruction": "Resume a suspended process 1234",
+    "input": "[WINDOWS]",
+    "output": "pssuspend -r 1234 (requires PsTools)"
+  },
+  {
+    "instruction": "Show current locale settings",
+    "input": "[MAC]",
+    "output": "locale"
+  },
+  {
+    "instruction": "Unzip to pipe/stdout",
+    "input": "[MAC]",
+    "output": "unzip -p archive.zip file.txt"
+  },
+  {
+    "instruction": "Manually set terminal dimensions",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Manually set terminal dimensions\", \"linux\": \"export COLUMNS=80 LINES=24\", \"windows\": \"mode con cols=80 lines=24\", \"mac\": \"export COLUMNS=80 LINES=24\"}"
+  },
+  {
+    "instruction": "Get IP address of google.com for Linux",
+    "input": "",
+    "output": "nslookup google.com"
+  },
+  {
+    "instruction": "Find lines matching 'cat' OR 'dog'",
+    "input": "[WINDOWS]",
+    "output": "findstr \"cat dog\" file.txt"
+  },
+  {
+    "instruction": "Get IP address of api.service.com on macOS",
+    "input": "",
+    "output": "nslookup api.service.com"
+  },
+  {
+    "instruction": "Display content of style.css for Linux",
+    "input": "",
+    "output": "cat style.css"
+  },
+  {
+    "instruction": "Set system locale to US English UTF-8",
+    "input": "[MAC]",
+    "output": "export LANG=en_US.UTF-8"
+  },
+  {
+    "instruction": "Unset JAVA_HOME",
+    "input": "[LINUX]",
+    "output": "unset JAVA_HOME"
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "[WINDOWS]",
+    "output": "tasklist"
+  },
+  {
+    "instruction": "Create a hard link named 'hardlink' to 'file.txt' on Windows",
+    "input": "",
+    "output": "mklink /H hardlink file.txt"
+  },
+  {
+    "instruction": "Create an empty file named query.sql on Linux",
+    "input": "",
+    "output": "touch query.sql"
+  },
+  {
+    "instruction": "Add a new package repository (e.g. deadsnakes ppa) using Linux",
+    "input": "",
+    "output": "sudo add-apt-repository ppa:deadsnakes/ppa"
+  },
+  {
+    "instruction": "Display statistics for network interface eth0",
+    "input": "[WINDOWS]",
+    "output": "netstat -e"
+  },
+  {
+    "instruction": "Check SELinux status",
+    "input": "[WINDOWS]",
+    "output": "echo N/A"
+  },
+  {
+    "instruction": "Find the PID of 'nginx'",
+    "input": "[WINDOWS]",
+    "output": "tasklist | findstr nginx"
+  },
+  {
+    "instruction": "List manually installed packages (not dependencies)",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"List manually installed packages (not dependencies)\", \"linux\": \"apt-mark showmanual\", \"windows\": \"choco list --local-only\", \"mac\": \"brew leaves\"}"
+  },
+  {
+    "instruction": "Create a temporary file and print its name",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Create a temporary file and print its name\", \"linux\": \"mktemp\", \"windows\": \"echo %TEMP%\\\\tmp%RANDOM%.tmp\", \"mac\": \"mktemp\"}"
+  },
+  {
+    "instruction": "Check Wi-Fi signal strength",
+    "input": "[LINUX]",
+    "output": "iwconfig"
+  },
+  {
+    "instruction": "Check SELinux status for macOS",
+    "input": "",
+    "output": "echo N/A (SIP is different)"
+  },
+  {
+    "instruction": "Save permission settings to a file using Linux",
+    "input": "",
+    "output": "getfacl -R . > permissions.bak"
+  },
+  {
+    "instruction": "Show value of TMPDIR",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Show value of TMPDIR\", \"linux\": \"echo $TMPDIR\", \"windows\": \"echo %TMPDIR%\", \"mac\": \"echo $TMPDIR\"}"
+  },
+  {
+    "instruction": "List block devices with their UUIDs",
+    "input": "[LINUX]",
+    "output": "blkid"
+  },
+  {
+    "instruction": "Set man page pager to 'bat' using Mac terminal",
+    "input": "",
+    "output": "export MANPAGER=\"sh -c 'col -bx | bat -l man -p'\""
+  },
+  {
+    "instruction": "Forward local port 8080 to remote 80 using socat",
+    "input": "[LINUX]",
+    "output": "socat TCP-LISTEN:8080,fork TCP:example.com:80"
+  },
+  {
+    "instruction": "Install python3",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Install python3\", \"linux\": \"sudo apt install python3 -y\", \"windows\": \"choco install python3 -y\", \"mac\": \"brew install python3\"}"
+  },
+  {
+    "instruction": "Delete all .log files",
+    "input": "[WINDOWS]",
+    "output": "del *.log"
+  },
+  {
+    "instruction": "Display content of dataset.csv",
+    "input": "[MAC]",
+    "output": "cat dataset.csv"
+  },
+  {
+    "instruction": "Check if directory 'data' is empty",
+    "input": "[MAC]",
+    "output": "[ -z \"$(ls -A data)\" ] && echo 'Empty' || echo 'Not Empty'"
+  },
+  {
+    "instruction": "Attempt to repair a corrupted zip file",
+    "input": "[WINDOWS]",
+    "output": "echo Use 7-Zip or WinRAR GUI."
+  },
+  {
+    "instruction": "Add user 'john' to group 'docker' for macOS",
+    "input": "",
+    "output": "dseditgroup -o edit -a john -t user docker"
+  },
+  {
+    "instruction": "Rename all directories starting with 'test_' to 'prod_'",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Rename all directories starting with 'test_' to 'prod_'\", \"linux\": \"rename 's/^test_/prod_/' test_*/\", \"windows\": \"for /d %d in (test_*) do ren \\\"%d\\\" \\\"prod_%~nd\\\"\", \"mac\": \"for d in test_*; do mv \\\"$d\\\" \\\"prod_${d#test_}\\\"; done\"}"
+  },
+  {
+    "instruction": "Create an empty file named backup.zip",
+    "input": "[MAC]",
+    "output": "touch backup.zip"
+  },
+  {
+    "instruction": "Install htop",
+    "input": "[LINUX]",
+    "output": "sudo apt install htop -y"
+  },
+  {
+    "instruction": "Interactively delete files larger than 100MB using Linux",
+    "input": "",
+    "output": "find . -size +100M -ok rm {} \\;"
+  },
+  {
+    "instruction": "Remove the directory backup and its contents",
+    "input": "[WINDOWS]",
+    "output": "rmdir /s /q backup"
+  },
+  {
+    "instruction": "List all running processes using Windows CMD",
+    "input": "",
+    "output": "tasklist"
+  },
+  {
+    "instruction": "Print OS version",
+    "input": "[MAC]",
+    "output": "sw_vers"
+  },
+  {
+    "instruction": "Unzip archive.zip",
+    "input": "[MAC]",
+    "output": "unzip archive.zip"
+  },
+  {
+    "instruction": "Make config.json read-only",
+    "input": "[LINUX]",
+    "output": "chmod 444 config.json"
+  },
+  {
+    "instruction": "Simulate an upgrade without doing it",
+    "input": "[MAC]",
+    "output": "brew upgrade --dry-run"
+  },
+  {
+    "instruction": "Find the PID of 'bash'",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Find the PID of 'bash'\", \"linux\": \"pgrep bash\", \"windows\": \"tasklist | findstr bash\", \"mac\": \"pgrep bash\"}"
+  },
+  {
+    "instruction": "Ping amazon.com 3 times",
+    "input": "[MAC]",
+    "output": "ping -c 3 amazon.com"
+  },
+  {
+    "instruction": "Create archive from list of files in 'list.txt'",
+    "input": "[LINUX]",
+    "output": "tar -cvf archive.tar -T list.txt"
+  },
+  {
+    "instruction": "Delete all .pdf files for Linux",
+    "input": "",
+    "output": "rm *.pdf"
+  },
+  {
+    "instruction": "Download file from github.com/backup.zip",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Download file from github.com/backup.zip\", \"linux\": \"curl -O https://github.com/backup.zip\", \"windows\": \"curl -O https://github.com/backup.zip\", \"mac\": \"curl -O https://github.com/backup.zip\"}"
+  },
+  {
+    "instruction": "Securely delete 'secrets.txt' by overwriting it before removing",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Securely delete 'secrets.txt' by overwriting it before removing\", \"linux\": \"shred -u secrets.txt\", \"windows\": \"sdelete secrets.txt\", \"mac\": \"rm -P secrets.txt\"}"
+  },
+  {
+    "instruction": "Show the full command line used to start process 1234",
+    "input": "[LINUX]",
+    "output": "cat /proc/1234/cmdline | tr '\\0' ' '"
+  },
+  {
+    "instruction": "Show value of EDITOR",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Show value of EDITOR\", \"linux\": \"echo $EDITOR\", \"windows\": \"echo %EDITOR%\", \"mac\": \"echo $EDITOR\"}"
+  },
+  {
+    "instruction": "Start a long-running script in the background",
+    "input": "[LINUX]",
+    "output": "./script.sh &"
+  },
+  {
+    "instruction": "Sync contents of 'data' folder to 'backup' folder, deleting files in backup that are gone from data",
+    "input": "[MAC]",
+    "output": "rsync -av --delete data/ backup/"
+  },
+  {
+    "instruction": "List all groups on the system",
+    "input": "[WINDOWS]",
+    "output": "net localgroup"
+  },
+  {
+    "instruction": "Zip folder excluding 'temp' subdirectory",
+    "input": "[LINUX]",
+    "output": "zip -r archive.zip folder -x 'folder/temp/*'"
+  },
+  {
+    "instruction": "Run 'ps aux' every 2 seconds to monitor processes",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Run 'ps aux' every 2 seconds to monitor processes\", \"linux\": \"watch -n 2 'ps aux'\", \"windows\": \"for /l %x in (1, 0, 100) do @cls & tasklist & timeout 2 >nul\", \"mac\": \"watch -n 2 'ps aux'\"}"
+  },
+  {
+    "instruction": "Delete default gateway",
+    "input": "[MAC]",
+    "output": "sudo route delete default"
+  },
+  {
+    "instruction": "Sort lines in todo.list on Mac",
+    "input": "",
+    "output": "sort todo.list"
+  },
+  {
+    "instruction": "List all running processes for Windows",
+    "input": "",
+    "output": "tasklist"
+  },
+  {
+    "instruction": "Show installation candidate versions for 'docker' in Windows",
+    "input": "",
+    "output": "choco search docker --all-versions"
+  },
+  {
+    "instruction": "Archive folder excluding file 'skip.txt'",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Archive folder excluding file 'skip.txt'\", \"linux\": \"tar -cvf archive.tar --exclude='skip.txt' folder\", \"windows\": \"tar -cvf archive.tar --exclude \\\"skip.txt\\\" folder\", \"mac\": \"tar -cvf archive.tar --exclude='skip.txt' folder\"}"
+  },
+  {
+    "instruction": "Log in to a new group 'devs' using Linux",
+    "input": "",
+    "output": "newgrp devs"
+  },
+  {
+    "instruction": "Print current user ID from environment",
+    "input": "[MAC]",
+    "output": "echo $UID"
+  },
+  {
+    "instruction": "Find the PID of 'vim'",
+    "input": "[LINUX]",
+    "output": "pgrep vim"
+  },
+  {
+    "instruction": "Connect to SSL/TLS service using ncat on Linux",
+    "input": "",
+    "output": "ncat --ssl example.com 443"
+  },
+  {
+    "instruction": "Delete all files listed in 'files_to_delete.txt'",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Delete all files listed in 'files_to_delete.txt'\", \"linux\": \"xargs rm < files_to_delete.txt\", \"windows\": \"for /f %f in (files_to_delete.txt) do del %f\", \"mac\": \"xargs rm < files_to_delete.txt\"}"
+  },
+  {
+    "instruction": "Get IP address of microsoft.com",
+    "input": "[LINUX]",
+    "output": "nslookup microsoft.com"
+  },
+  {
+    "instruction": "Send a POST request with JSON data to an API",
+    "input": "[LINUX]",
+    "output": "curl -X POST -H 'Content-Type: application/json' -d '{\"key\":\"val\"}' http://api.com"
+  },
+  {
+    "instruction": "Get IP address of microsoft.com",
+    "input": "[LINUX]",
+    "output": "nslookup microsoft.com"
+  },
+  {
+    "instruction": "Sync contents of 'data' folder to 'backup' folder, deleting files in backup that are gone from data",
+    "input": "[LINUX]",
+    "output": "rsync -av --delete data/ backup/"
+  },
+  {
+    "instruction": "Lock the password of user 'john'",
+    "input": "[WINDOWS]",
+    "output": "net user john /active:no"
+  },
+  {
+    "instruction": "Take ownership of 'file.txt'",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Take ownership of 'file.txt'\", \"linux\": \"chown $USER file.txt\", \"windows\": \"takeown /f file.txt\", \"mac\": \"chown $USER file.txt\"}"
+  },
+  {
+    "instruction": "Display the ARP table in Windows",
+    "input": "",
+    "output": "arp -a"
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"List all running processes\", \"linux\": \"ps aux\", \"windows\": \"tasklist\", \"mac\": \"ps aux\"}"
+  },
+  {
+    "instruction": "Find the PID of 'nginx'",
+    "input": "[WINDOWS]",
+    "output": "tasklist | findstr nginx"
+  },
+  {
+    "instruction": "Show environment variables of process 1234 using Mac terminal",
+    "input": "",
+    "output": "ps -p 1234 -wwwe"
+  },
+  {
+    "instruction": "Create a symbolic link named 'link' pointing to 'target'",
+    "input": "[WINDOWS]",
+    "output": "mklink link target"
+  },
+  {
+    "instruction": "List all groups on the system",
+    "input": "[MAC]",
+    "output": "dscl . list /Groups"
+  },
+  {
+    "instruction": "Zip the bin directory",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Zip the bin directory\", \"linux\": \"zip -r bin.zip bin\", \"windows\": \"tar -a -c -f bin.zip bin\", \"mac\": \"zip -r bin.zip bin\"}"
+  },
+  {
+    "instruction": "What is OS version",
+    "input": "[LINUX]",
+    "output": "cat /etc/os-release"
+  },
+  {
+    "instruction": "Display swap memory usage using Mac terminal",
+    "input": "",
+    "output": "sysctl vm.swapusage"
+  },
+  {
+    "instruction": "Scan for available Wi-Fi networks",
+    "input": "[WINDOWS]",
+    "output": "netsh wlan show networks"
+  },
+  {
+    "instruction": "Unset SHELL on Windows",
+    "input": "",
+    "output": "set SHELL="
+  },
+  {
+    "instruction": "Move notes.md to Pictures",
+    "input": "[WINDOWS]",
+    "output": "move notes.md Pictures\\"
+  },
+  {
+    "instruction": "Display system uptime",
+    "input": "[WINDOWS]",
+    "output": "systeminfo | find \"System Boot Time\""
+  },
+  {
+    "instruction": "Append '/opt/bin' to the PATH variable for the current session",
+    "input": "[LINUX]",
+    "output": "export PATH=$PATH:/opt/bin"
+  },
+  {
+    "instruction": "Show me disk usage",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Show me disk usage\", \"linux\": \"df -h\", \"windows\": \"wmic logicaldisk get size,freespace,caption\", \"mac\": \"df -h\"}"
+  },
+  {
+    "instruction": "Find all directories owned by user 'john' using Windows CMD",
+    "input": "",
+    "output": "icacls * /find sid:john"
+  },
+  {
+    "instruction": "Update all packages",
+    "input": "[LINUX]",
+    "output": "sudo apt update && sudo apt upgrade -y"
+  },
+  {
+    "instruction": "Take ownership of 'file.txt'",
+    "input": "[LINUX]",
+    "output": "chown $USER file.txt"
+  },
+  {
+    "instruction": "Set EDITOR to some_value on Linux",
+    "input": "",
+    "output": "export EDITOR=some_value"
+  },
+  {
+    "instruction": "Search for 'failed' in config.json",
+    "input": "[WINDOWS]",
+    "output": "findstr \"failed\" config.json"
+  },
+  {
+    "instruction": "Find files modified within the last hour for Linux",
+    "input": "",
+    "output": "find . -mmin -60"
+  },
+  {
+    "instruction": "Archive 'project' folder excluding the '.git' directory",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Archive 'project' folder excluding the '.git' directory\", \"linux\": \"tar -cvf project.tar --exclude='.git' project\", \"windows\": \"tar -cvf project.tar --exclude \\\".git\\\" project\", \"mac\": \"tar -cvf project.tar --exclude='.git' project\"}"
+  },
+  {
+    "instruction": "Unset LANG for Windows",
+    "input": "",
+    "output": "set LANG="
+  },
+  {
+    "instruction": "Display content of index.html",
+    "input": "[WINDOWS]",
+    "output": "type index.html"
+  },
+  {
+    "instruction": "Check open file limits (ulimit)",
+    "input": "[WINDOWS]",
+    "output": "echo Windows handles limits differently per process/system."
+  },
+  {
+    "instruction": "Connect to server using mosh (mobile shell)",
+    "input": "[LINUX]",
+    "output": "mosh user@server"
+  },
+  {
+    "instruction": "Install ffmpeg in Linux",
+    "input": "",
+    "output": "sudo apt install ffmpeg -y"
+  },
+  {
+    "instruction": "Create an empty file named main.cpp",
+    "input": "[LINUX]",
+    "output": "touch main.cpp"
+  },
+  {
+    "instruction": "List manually installed packages (not dependencies) for Linux",
+    "input": "",
+    "output": "apt-mark showmanual"
+  },
+  {
+    "instruction": "Detect OS of remote host using nmap on Linux",
+    "input": "",
+    "output": "nmap -O target_ip"
+  },
+  {
+    "instruction": "Set priority of process 1234 to high/nice -10",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Set priority of process 1234 to high/nice -10\", \"linux\": \"renice -n -10 -p 1234\", \"windows\": \"wmic process where processid=1234 call setpriority 128\", \"mac\": \"renice -n -10 -p 1234\"}"
+  },
+  {
+    "instruction": "View permissions of index.html",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"View permissions of index.html\", \"linux\": \"ls -l index.html\", \"windows\": \"icacls index.html\", \"mac\": \"ls -l index.html\"}"
+  },
+  {
+    "instruction": "Move report.pdf to config using Windows CMD",
+    "input": "",
+    "output": "move report.pdf config\\"
+  },
+  {
+    "instruction": "Sort lines in script.py on Mac",
+    "input": "",
+    "output": "sort script.py"
+  },
+  {
+    "instruction": "Extract 'movie.rar'",
+    "input": "[MAC]",
+    "output": "unrar x movie.rar"
+  },
+  {
+    "instruction": "Ping an IPv6 address",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Ping an IPv6 address\", \"linux\": \"ping6 ::1\", \"windows\": \"ping ::1\", \"mac\": \"ping6 ::1\"}"
+  },
+  {
+    "instruction": "Change owner of docker-compose.yml to root",
+    "input": "[MAC]",
+    "output": "chown root docker-compose.yml"
+  },
+  {
+    "instruction": "Terminate all 'slack' processes",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Terminate all 'slack' processes\", \"linux\": \"pkill slack\", \"windows\": \"taskkill /IM slack.exe /F\", \"mac\": \"pkill slack\"}"
+  },
+  {
+    "instruction": "Add user 'john' to group 'docker'",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Add user 'john' to group 'docker'\", \"linux\": \"usermod -aG docker john\", \"windows\": \"net localgroup docker john /add\", \"mac\": \"dseditgroup -o edit -a john -t user docker\"}"
+  },
+  {
+    "instruction": "Configure unpacked packages",
+    "input": "[MAC]",
+    "output": "echo N/A"
+  },
+  {
+    "instruction": "Find the PID of 'java'",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Find the PID of 'java'\", \"linux\": \"pgrep java\", \"windows\": \"tasklist | findstr java\", \"mac\": \"pgrep java\"}"
+  },
+  {
+    "instruction": "Ping microsoft.com 4 times",
+    "input": "[WINDOWS]",
+    "output": "ping -n 4 microsoft.com"
+  },
+  {
+    "instruction": "Search for package 'yarn'",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Search for package 'yarn'\", \"linux\": \"apt search yarn\", \"windows\": \"choco search yarn\", \"mac\": \"brew search yarn\"}"
+  },
+  {
+    "instruction": "Sort file.txt numerically",
+    "input": "[MAC]",
+    "output": "sort -n file.txt"
+  },
+  {
+    "instruction": "Ping 127.0.0.1 5 times",
+    "input": "[MAC]",
+    "output": "ping -c 5 127.0.0.1"
+  },
+  {
+    "instruction": "Display system load averages",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Display system load averages\", \"linux\": \"cat /proc/loadavg\", \"windows\": \"wmic cpu get loadpercentage\", \"mac\": \"sysctl vm.loadavg\"}"
+  },
+  {
+    "instruction": "Display disk usage",
+    "input": "[WINDOWS]",
+    "output": "wmic logicaldisk get size,freespace,caption"
+  },
+  {
+    "instruction": "Number lines with zero-padded width of 6",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Number lines with zero-padded width of 6\", \"linux\": \"nl -n rz -w 6 file.txt\", \"windows\": \"echo N/A\", \"mac\": \"nl -n rz -w 6 file.txt\"}"
+  },
+  {
+    "instruction": "Unzip archive.zip on Mac",
+    "input": "",
+    "output": "unzip archive.zip"
+  },
+  {
+    "instruction": "Test SMTP connection to mail.example.com on port 25",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Test SMTP connection to mail.example.com on port 25\", \"linux\": \"telnet mail.example.com 25\", \"windows\": \"telnet mail.example.com 25\", \"mac\": \"telnet mail.example.com 25\"}"
+  },
+  {
+    "instruction": "Create a directory alias/link 'www' to '/var/www/html'",
+    "input": "[MAC]",
+    "output": "ln -s /var/www/html www"
+  },
+  {
+    "instruction": "Change owner of docker-compose.yml to admin",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Change owner of docker-compose.yml to admin\", \"linux\": \"chown admin docker-compose.yml\", \"windows\": \"icacls docker-compose.yml /setowner admin\", \"mac\": \"chown admin docker-compose.yml\"}"
+  },
+  {
+    "instruction": "Get only the IP address of a domain using dig",
+    "input": "[LINUX]",
+    "output": "dig +short google.com"
+  },
+  {
+    "instruction": "Change MAC address of eth0 to AA:BB:CC:DD:EE:FF",
+    "input": "[MAC]",
+    "output": "sudo ifconfig en0 ether AA:BB:CC:DD:EE:FF"
+  },
+  {
+    "instruction": "Display the contents of style.css",
+    "input": "[WINDOWS]",
+    "output": "type style.css"
+  },
+  {
+    "instruction": "Copy notes.md to the backup directory",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Copy notes.md to the backup directory\", \"linux\": \"cp notes.md backup/\", \"windows\": \"copy notes.md backup\\\\\", \"mac\": \"cp notes.md backup/\"}"
+  },
+  {
+    "instruction": "Search for 'warning' in error.log",
+    "input": "[MAC]",
+    "output": "grep 'warning' error.log"
+  },
+  {
+    "instruction": "Make style.css read-only",
+    "input": "[LINUX]",
+    "output": "chmod 444 style.css"
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"List all running processes\", \"linux\": \"ps aux\", \"windows\": \"tasklist\", \"mac\": \"ps aux\"}"
+  },
+  {
+    "instruction": "Release and renew DHCP lease in Windows",
+    "input": "",
+    "output": "ipconfig /release && ipconfig /renew"
+  },
+  {
+    "instruction": "Ping stackoverflow.com 7 times",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Ping stackoverflow.com 7 times\", \"linux\": \"ping -c 7 stackoverflow.com\", \"windows\": \"ping -n 7 stackoverflow.com\", \"mac\": \"ping -c 7 stackoverflow.com\"}"
+  },
+  {
+    "instruction": "Display the contents of docker-compose.yml",
+    "input": "[MAC]",
+    "output": "cat docker-compose.yml"
+  },
+  {
+    "instruction": "Allow incoming traffic on port 80",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Allow incoming traffic on port 80\", \"linux\": \"ufw allow 80/tcp\", \"windows\": \"netsh advfirewall firewall add rule name=\\\"Open Port 80\\\" dir=in action=allow protocol=TCP localport=80\", \"mac\": \"echo macOS Application Firewall is managed via GUI or socketfilterfw.\"}"
+  },
+  {
+    "instruction": "Display user ID (uid) and group ID (gid) for Linux",
+    "input": "",
+    "output": "id"
+  },
+  {
+    "instruction": "Remove the environment variable 'TEMP_VAR'",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Remove the environment variable 'TEMP_VAR'\", \"linux\": \"unset TEMP_VAR\", \"windows\": \"set TEMP_VAR=\", \"mac\": \"unset TEMP_VAR\"}"
+  },
+  {
+    "instruction": "View permissions of test.spec.js",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"View permissions of test.spec.js\", \"linux\": \"ls -l test.spec.js\", \"windows\": \"icacls test.spec.js\", \"mac\": \"ls -l test.spec.js\"}"
+  },
+  {
+    "instruction": "Delete all .txt files",
+    "input": "[LINUX]",
+    "output": "rm *.txt"
+  },
+  {
+    "instruction": "Check if 'error' exists in log.txt without outputting it (exit code) using Mac terminal",
+    "input": "",
+    "output": "grep -q 'error' log.txt"
+  },
+  {
+    "instruction": "Set GOPATH to '~/go' on Mac",
+    "input": "",
+    "output": "export GOPATH=$HOME/go"
+  },
+  {
+    "instruction": "Retrieve Windows Product Key (BIOS)",
+    "input": "[LINUX]",
+    "output": "strings /sys/firmware/acpi/tables/MSDM"
+  },
+  {
+    "instruction": "Disable UAC (Registry)",
+    "input": "[MAC]",
+    "output": "echo N/A"
+  },
+  {
+    "instruction": "List files in current directory excluding 'node_modules' using Windows CMD",
+    "input": "",
+    "output": "dir /s /b | findstr /v \"node_modules\""
+  },
+  {
+    "instruction": "Show value of SHELL",
+    "input": "[WINDOWS]",
+    "output": "echo %SHELL%"
+  },
+  {
+    "instruction": "Display directory structure on Mac",
+    "input": "",
+    "output": "tree"
+  },
+  {
+    "instruction": "Compress a single file with bzip2",
+    "input": "[LINUX]",
+    "output": "bzip2 file.txt"
+  },
+  {
+    "instruction": "Check USB devices",
+    "input": "[LINUX]",
+    "output": "lsusb"
+  },
+  {
+    "instruction": "Unset HOME in Linux",
+    "input": "",
+    "output": "unset HOME"
+  },
+  {
+    "instruction": "Set Flask environment to development",
+    "input": "[MAC]",
+    "output": "export FLASK_ENV=development"
+  },
+  {
+    "instruction": "Install go",
+    "input": "[MAC]",
+    "output": "brew install go"
+  },
+  {
+    "instruction": "Check disk usage",
+    "input": "[MAC]",
+    "output": "df -h"
+  },
+  {
+    "instruction": "View changelog of 'sudo' package",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"View changelog of 'sudo' package\", \"linux\": \"apt-get changelog sudo\", \"windows\": \"echo Check chocolatey package page.\", \"mac\": \"brew info sudo (check url)\"}"
+  },
+  {
+    "instruction": "Remove the environment variable 'TEMP_VAR' for Linux",
+    "input": "",
+    "output": "unset TEMP_VAR"
+  },
+  {
+    "instruction": "List files installed by package 'tar'",
+    "input": "[WINDOWS]",
+    "output": "echo Chocolatey does not easily track file lists natively."
+  },
+  {
+    "instruction": "Zip the include directory",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Zip the include directory\", \"linux\": \"zip -r include.zip include\", \"windows\": \"tar -a -c -f include.zip include\", \"mac\": \"zip -r include.zip include\"}"
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "[MAC]",
+    "output": "ps aux"
+  },
+  {
+    "instruction": "Force update package lists",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Force update package lists\", \"linux\": \"sudo apt update --allow-insecure-repositories\", \"windows\": \"choco upgrade all --force\", \"mac\": \"brew update --force\"}"
+  },
+  {
+    "instruction": "Rename all directories starting with 'test_' to 'prod_'",
+    "input": "[LINUX]",
+    "output": "rename 's/^test_/prod_/' test_*/"
+  },
+  {
+    "instruction": "Check if running in a virtual machine in Windows",
+    "input": "",
+    "output": "systeminfo | find \"System Model\""
+  },
+  {
+    "instruction": "Update all packages",
+    "input": "[LINUX]",
+    "output": "sudo apt update && sudo apt upgrade -y"
+  },
+  {
+    "instruction": "Recursively zip current directory on Mac",
+    "input": "",
+    "output": "zip -r archive.zip ."
+  },
+  {
+    "instruction": "Install yarn in Windows",
+    "input": "",
+    "output": "choco install yarn -y"
+  },
+  {
+    "instruction": "List the top 5 largest files in the current directory for Windows",
+    "input": "",
+    "output": "dir /o-s | findstr /n . | findstr \"^[1-5]:\""
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"List all running processes\", \"linux\": \"ps aux\", \"windows\": \"tasklist\", \"mac\": \"ps aux\"}"
+  },
+  {
+    "instruction": "Count lines in app.log",
+    "input": "[MAC]",
+    "output": "wc -l app.log"
+  },
+  {
+    "instruction": "Rename server.conf to profile.jpg",
+    "input": "[WINDOWS]",
+    "output": "ren server.conf profile.jpg"
+  },
+  {
+    "instruction": "Unset PWD using Mac terminal",
+    "input": "",
+    "output": "unset PWD"
+  },
+  {
+    "instruction": "List configured network connections",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"List configured network connections\", \"linux\": \"nmcli connection show\", \"windows\": \"netsh interface show interface\", \"mac\": \"networksetup -listallnetworkservices\"}"
+  },
+  {
+    "instruction": "Kill the process with PID 83727 using Mac terminal",
+    "input": "",
+    "output": "kill 83727"
+  },
+  {
+    "instruction": "Recursively zip current directory",
+    "input": "[LINUX]",
+    "output": "zip -r archive.zip ."
+  },
+  {
+    "instruction": "Check current display resolution",
+    "input": "[WINDOWS]",
+    "output": "wmic path Win32_VideoController get CurrentHorizontalResolution,CurrentVerticalResolution"
+  },
+  {
+    "instruction": "Send Wake-on-LAN magic packet",
+    "input": "[MAC]",
+    "output": "wakeonlan AA:BB:CC:DD:EE:FF"
+  },
+  {
+    "instruction": "Add a comment to a zip archive on Linux",
+    "input": "",
+    "output": "zip -z archive.zip"
+  },
+  {
+    "instruction": "Set the default text editor to 'nano'",
+    "input": "[LINUX]",
+    "output": "export EDITOR=nano"
+  },
+  {
+    "instruction": "Show me memory usage",
+    "input": "[LINUX]",
+    "output": "free -h"
+  },
+  {
+    "instruction": "Update all packages",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Update all packages\", \"linux\": \"sudo apt update && sudo apt upgrade -y\", \"windows\": \"choco upgrade all -y\", \"mac\": \"brew update && brew upgrade\"}"
+  },
+  {
+    "instruction": "Unzip archive.zip",
+    "input": "[MAC]",
+    "output": "unzip archive.zip"
+  },
+  {
+    "instruction": "Zip the Music directory in Linux",
+    "input": "",
+    "output": "zip -r Music.zip Music"
+  },
+  {
+    "instruction": "Ping github.com 3 times",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Ping github.com 3 times\", \"linux\": \"ping -c 3 github.com\", \"windows\": \"ping -n 3 github.com\", \"mac\": \"ping -c 3 github.com\"}"
+  },
+  {
+    "instruction": "Display directory structure showing file permissions",
+    "input": "[WINDOWS]",
+    "output": "tree"
+  },
+  {
+    "instruction": "Set JAVA_HOME to some_value for macOS",
+    "input": "",
+    "output": "export JAVA_HOME=some_value"
+  },
+  {
+    "instruction": "Increase history size to 10000 commands",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Increase history size to 10000 commands\", \"linux\": \"export HISTSIZE=10000\", \"windows\": \"echo N/A (doskey /history buffer is fixed)\", \"mac\": \"export HISTSIZE=10000\"}"
+  },
+  {
+    "instruction": "Make docker-compose.yml read-only on Windows",
+    "input": "",
+    "output": "attrib +r docker-compose.yml"
+  },
+  {
+    "instruction": "Display driver information for eth0",
+    "input": "[MAC]",
+    "output": "echo N/A on macOS."
+  },
+  {
+    "instruction": "Show network interface configuration",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Show network interface configuration\", \"linux\": \"ifconfig\", \"windows\": \"ipconfig\", \"mac\": \"ifconfig\"}"
+  },
+  {
+    "instruction": "Terminate all 'curl' processes",
+    "input": "[LINUX]",
+    "output": "pkill curl"
+  },
+  {
+    "instruction": "Make dataset.csv read-only in Windows",
+    "input": "",
+    "output": "attrib +r dataset.csv"
+  },
+  {
+    "instruction": "Change owner of index.html to root",
+    "input": "[WINDOWS]",
+    "output": "icacls index.html /setowner root"
+  },
+  {
+    "instruction": "Save cookies from a request to 'cookies.txt'",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Save cookies from a request to 'cookies.txt'\", \"linux\": \"curl -c cookies.txt http://example.com\", \"windows\": \"curl -c cookies.txt http://example.com\", \"mac\": \"curl -c cookies.txt http://example.com\"}"
+  },
+  {
+    "instruction": "Kill the entire process group of PID 1234",
+    "input": "[MAC]",
+    "output": "kill -- -1234"
+  },
+  {
+    "instruction": "List packages that can be upgraded",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"List packages that can be upgraded\", \"linux\": \"apt list --upgradable\", \"windows\": \"choco outdated\", \"mac\": \"brew outdated\"}"
+  },
+  {
+    "instruction": "Find which package provides the command 'lsusb'",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Find which package provides the command 'lsusb'\", \"linux\": \"apt-file search lsusb\", \"windows\": \"echo N/A for Windows\", \"mac\": \"brew uses --installed lsusb\"}"
+  },
+  {
+    "instruction": "Display swap memory usage",
+    "input": "[LINUX]",
+    "output": "swapon --show"
+  },
+  {
+    "instruction": "Show value of LANG",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Show value of LANG\", \"linux\": \"echo $LANG\", \"windows\": \"echo %LANG%\", \"mac\": \"echo $LANG\"}"
+  },
+  {
+    "instruction": "Show all listening TCP ports with numeric addresses",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Show all listening TCP ports with numeric addresses\", \"linux\": \"netstat -lnt\", \"windows\": \"netstat -an | findstr \\\"LISTENING\\\"\", \"mac\": \"netstat -an | grep LISTEN\"}"
+  },
+  {
+    "instruction": "Print current user ID from environment",
+    "input": "[LINUX]",
+    "output": "echo $UID"
+  },
+  {
+    "instruction": "Set default file creation permissions to 644 (umask 022) for macOS",
+    "input": "",
+    "output": "umask 022"
+  },
+  {
+    "instruction": "Find all files modified in the last 7 days containing the text 'URGENT' on Windows",
+    "input": "",
+    "output": "forfiles /s /d -7 /c \"cmd /c findstr /m URGENT @path\""
+  },
+  {
+    "instruction": "Download package 'git' without installing it",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Download package 'git' without installing it\", \"linux\": \"apt download git\", \"windows\": \"choco install git --download-only\", \"mac\": \"brew fetch git\"}"
+  },
+  {
+    "instruction": "Connect to FTP server in passive mode",
+    "input": "[MAC]",
+    "output": "ftp -p ftp.example.com"
+  },
+  {
+    "instruction": "Change user login shell to zsh",
+    "input": "[MAC]",
+    "output": "chsh -s /bin/zsh"
+  },
+  {
+    "instruction": "View disk usage",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"View disk usage\", \"linux\": \"df -h\", \"windows\": \"wmic logicaldisk get size,freespace,caption\", \"mac\": \"df -h\"}"
+  },
+  {
+    "instruction": "Set JAVA_HOME to '/usr/lib/jvm/java-11'",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Set JAVA_HOME to '/usr/lib/jvm/java-11'\", \"linux\": \"export JAVA_HOME=/usr/lib/jvm/java-11\", \"windows\": \"set JAVA_HOME=C:\\\\Program Files\\\\Java\\\\jdk-11\", \"mac\": \"export JAVA_HOME=$(/usr/libexec/java_home -v 11)\"}"
+  },
+  {
+    "instruction": "Display the contents of todo.list",
+    "input": "[MAC]",
+    "output": "cat todo.list"
+  },
+  {
+    "instruction": "Check inode usage on disk",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Check inode usage on disk\", \"linux\": \"df -i\", \"windows\": \"echo NTFS doesn't use inodes in the same way.\", \"mac\": \"df -i\"}"
+  },
+  {
+    "instruction": "Interactively delete files larger than 100MB",
+    "input": "[WINDOWS]",
+    "output": "forfiles /s /c \"cmd /c if @fsize gtr 104857600 del /p @path\""
+  },
+  {
+    "instruction": "Send 100 ping packets as fast as possible",
+    "input": "[LINUX]",
+    "output": "ping -f -c 100 google.com"
+  },
+  {
+    "instruction": "Unzip archive.zip",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Unzip archive.zip\", \"linux\": \"unzip archive.zip\", \"windows\": \"tar -xf archive.zip\", \"mac\": \"unzip archive.zip\"}"
+  },
+  {
+    "instruction": "Set NO_PROXY to bypass proxy for localhost",
+    "input": "[MAC]",
+    "output": "export no_proxy='localhost,127.0.0.1'"
+  },
+  {
+    "instruction": "Display socket statistics (ss) in Windows",
+    "input": "",
+    "output": "netstat -ano"
+  },
+  {
+    "instruction": "View permissions of profile.jpg",
+    "input": "[MAC]",
+    "output": "ls -l profile.jpg"
+  },
+  {
+    "instruction": "Remove unused dependencies",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Remove unused dependencies\", \"linux\": \"sudo apt autoremove -y\", \"windows\": \"echo Chocolatey handles dependencies on uninstall usually.\", \"mac\": \"brew autoremove\"}"
+  },
+  {
+    "instruction": "Unzip archive.zip on Windows",
+    "input": "",
+    "output": "tar -xf archive.zip"
+  },
+  {
+    "instruction": "List files in scripts",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"List files in scripts\", \"linux\": \"ls scripts\", \"windows\": \"dir scripts\", \"mac\": \"ls scripts\"}"
+  },
+  {
+    "instruction": "Get IP address of apple.com for macOS",
+    "input": "",
+    "output": "nslookup apple.com"
+  },
+  {
+    "instruction": "Update all packages",
+    "input": "[WINDOWS]",
+    "output": "choco upgrade all -y"
+  },
+  {
+    "instruction": "Create a .tar.bz2 archive of 'folder' for Linux",
+    "input": "",
+    "output": "tar -cjvf folder.tar.bz2 folder/"
+  },
+  {
+    "instruction": "Create a directory structure project/src/main and project/src/test in one command",
+    "input": "[MAC]",
+    "output": "mkdir -p project/src/{main,test}"
+  },
+  {
+    "instruction": "Sort lines in server.conf using Mac terminal",
+    "input": "",
+    "output": "sort server.conf"
+  },
+  {
+    "instruction": "Print memory usage",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Print memory usage\", \"linux\": \"free -h\", \"windows\": \"systeminfo | findstr /C:\\\"Total Physical Memory\\\"\", \"mac\": \"vm_stat\"}"
+  },
+  {
+    "instruction": "Set TERM to some_value",
+    "input": "[WINDOWS]",
+    "output": "set TERM=some_value"
+  },
+  {
+    "instruction": "Show memory slot usage and capacity",
+    "input": "[MAC]",
+    "output": "system_profiler SPMemoryDataType"
+  },
+  {
+    "instruction": "Find the PID of 'nginx'",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Find the PID of 'nginx'\", \"linux\": \"pgrep nginx\", \"windows\": \"tasklist | findstr nginx\", \"mac\": \"pgrep nginx\"}"
+  },
+  {
+    "instruction": "Calculate MD5 hash of string 'hello' on macOS",
+    "input": "",
+    "output": "echo -n 'hello' | md5"
+  },
+  {
+    "instruction": "Remove the directory tests and its contents on Windows",
+    "input": "",
+    "output": "rmdir /s /q tests"
+  },
+  {
+    "instruction": "Permanently set 'MY_VAR=hello' for the current user on macOS",
+    "input": "",
+    "output": "echo 'export MY_VAR=hello' >> ~/.zshrc"
+  },
+  {
+    "instruction": "Append output of a command to log.txt and display it",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Append output of a command to log.txt and display it\", \"linux\": \"date | tee -a log.txt\", \"windows\": \"date >> log.txt & date\", \"mac\": \"date | tee -a log.txt\"}"
+  },
+  {
+    "instruction": "Change the system hostname to 'server1'",
+    "input": "[LINUX]",
+    "output": "hostnamectl set-hostname server1"
+  },
+  {
+    "instruction": "Find files modified within the last hour",
+    "input": "[MAC]",
+    "output": "find . -mmin -60"
+  },
+  {
+    "instruction": "Delete the file error.log",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Delete the file error.log\", \"linux\": \"rm error.log\", \"windows\": \"del error.log\", \"mac\": \"rm error.log\"}"
+  },
+  {
+    "instruction": "Search for package 'git' for Linux",
+    "input": "",
+    "output": "apt search git"
+  },
+  {
+    "instruction": "Show ethernet bridge configuration",
+    "input": "[LINUX]",
+    "output": "brctl show"
+  },
+  {
+    "instruction": "Securely delete 'secrets.txt' by overwriting it before removing",
+    "input": "[LINUX]",
+    "output": "shred -u secrets.txt"
+  },
+  {
+    "instruction": "Create an empty file named profile.jpg in Linux",
+    "input": "",
+    "output": "touch profile.jpg"
+  },
+  {
+    "instruction": "Get system uptime",
+    "input": "[MAC]",
+    "output": "uptime"
+  },
+  {
+    "instruction": "Change user login shell to zsh",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Change user login shell to zsh\", \"linux\": \"chsh -s /bin/zsh\", \"windows\": \"echo N/A\", \"mac\": \"chsh -s /bin/zsh\"}"
+  },
+  {
+    "instruction": "Remove the directory backup and its contents in Linux",
+    "input": "",
+    "output": "rm -rf backup"
+  },
+  {
+    "instruction": "Check what process is holding a lock on 'file.txt'",
+    "input": "[WINDOWS]",
+    "output": "openfiles /query /fo table | findstr file.txt"
+  },
+  {
+    "instruction": "List files that do NOT match pattern 'done'",
+    "input": "[WINDOWS]",
+    "output": "findstr /v /m \"done\" *.txt"
+  },
+  {
+    "instruction": "Enable ACL support on filesystem (mount) on Windows",
+    "input": "",
+    "output": "echo NTFS supports ACL by default."
+  },
+  {
+    "instruction": "Lock the password of user 'john' for Windows",
+    "input": "",
+    "output": "net user john /active:no"
+  },
+  {
+    "instruction": "Display user ID (uid) and group ID (gid)",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Display user ID (uid) and group ID (gid)\", \"linux\": \"id\", \"windows\": \"whoami /user\", \"mac\": \"id\"}"
+  },
+  {
+    "instruction": "Search for package 'zsh'",
+    "input": "[MAC]",
+    "output": "brew search zsh"
+  },
+  {
+    "instruction": "Create archive from list of files in 'list.txt'",
+    "input": "[WINDOWS]",
+    "output": "tar -cvf archive.tar -T list.txt"
+  },
+  {
+    "instruction": "Install build dependencies for 'python' on Linux",
+    "input": "",
+    "output": "sudo apt-get build-dep python"
+  },
+  {
+    "instruction": "Copy all files except those ending in .tmp from src to dest",
+    "input": "[LINUX]",
+    "output": "rsync -av --exclude='*.tmp' src/ dest/"
+  },
+  {
+    "instruction": "View permissions of test.spec.js",
+    "input": "[WINDOWS]",
+    "output": "icacls test.spec.js"
+  },
+  {
+    "instruction": "Set custom readline config",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Set custom readline config\", \"linux\": \"export INPUTRC=~/.inputrc\", \"windows\": \"echo N/A\", \"mac\": \"export INPUTRC=~/.inputrc\"}"
+  },
+  {
+    "instruction": "Make docker-compose.yml read-only for Windows",
+    "input": "",
+    "output": "attrib +r docker-compose.yml"
+  },
+  {
+    "instruction": "Permanently set 'GLOBAL_VAR=world' for all users on Linux",
+    "input": "",
+    "output": "echo 'export GLOBAL_VAR=world' | sudo tee /etc/profile.d/global_var.sh"
+  },
+  {
+    "instruction": "Make profile.jpg read-only",
+    "input": "[LINUX]",
+    "output": "chmod 444 profile.jpg"
+  },
+  {
+    "instruction": "Install python3",
+    "input": "[WINDOWS]",
+    "output": "choco install python3 -y"
+  },
+  {
+    "instruction": "Add key to SSH agent",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Add key to SSH agent\", \"linux\": \"ssh-add ~/.ssh/id_rsa\", \"windows\": \"ssh-add %USERPROFILE%\\\\.ssh\\\\id_rsa\", \"mac\": \"ssh-add ~/.ssh/id_rsa\"}"
+  },
+  {
+    "instruction": "Unzip archive.zip on Mac",
+    "input": "",
+    "output": "unzip archive.zip"
+  },
+  {
+    "instruction": "Update all packages",
+    "input": "[MAC]",
+    "output": "brew update && brew upgrade"
+  },
+  {
+    "instruction": "Sort lines in todo.list",
+    "input": "[LINUX]",
+    "output": "sort todo.list"
+  },
+  {
+    "instruction": "Find the process ID listening on port 8080",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Find the process ID listening on port 8080\", \"linux\": \"lsof -t -i:8080\", \"windows\": \"netstat -ano | findstr :8080\", \"mac\": \"lsof -t -i:8080\"}"
+  },
+  {
+    "instruction": "Sort lines in report.pdf",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Sort lines in report.pdf\", \"linux\": \"sort report.pdf\", \"windows\": \"sort report.pdf\", \"mac\": \"sort report.pdf\"}"
+  },
+  {
+    "instruction": "List file attributes on macOS",
+    "input": "",
+    "output": "ls -lO"
+  },
+  {
+    "instruction": "Display content of app.log",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Display content of app.log\", \"linux\": \"cat app.log\", \"windows\": \"type app.log\", \"mac\": \"cat app.log\"}"
+  },
+  {
+    "instruction": "Ping api.service.com 7 times",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Ping api.service.com 7 times\", \"linux\": \"ping -c 7 api.service.com\", \"windows\": \"ping -n 7 api.service.com\", \"mac\": \"ping -c 7 api.service.com\"}"
+  },
+  {
+    "instruction": "Search for 'failed' in style.css",
+    "input": "[MAC]",
+    "output": "grep 'failed' style.css"
+  },
+  {
+    "instruction": "Stream tar output to another command (e.g. ssh)",
+    "input": "[MAC]",
+    "output": "tar -cf - folder | ssh user@host 'tar -xf -'"
+  },
+  {
+    "instruction": "Sort file.txt numerically",
+    "input": "[MAC]",
+    "output": "sort -n file.txt"
+  },
+  {
+    "instruction": "Change owner of notes.md to user",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Change owner of notes.md to user\", \"linux\": \"chown user notes.md\", \"windows\": \"icacls notes.md /setowner user\", \"mac\": \"chown user notes.md\"}"
+  },
+  {
+    "instruction": "Archive 'project' folder excluding the '.git' directory using Linux",
+    "input": "",
+    "output": "tar -cvf project.tar --exclude='.git' project"
+  },
+  {
+    "instruction": "Set USER to some_value",
+    "input": "[LINUX]",
+    "output": "export USER=some_value"
+  },
+  {
+    "instruction": "List manually installed packages (not dependencies) on macOS",
+    "input": "",
+    "output": "brew leaves"
+  },
+  {
+    "instruction": "Disable UAC (Registry)",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Disable UAC (Registry)\", \"linux\": \"echo N/A\", \"windows\": \"reg add HKLM\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Policies\\\\System /v EnableLUA /t REG_DWORD /d 0 /f\", \"mac\": \"echo N/A\"}"
+  },
+  {
+    "instruction": "Connect to a server using SFTP",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Connect to a server using SFTP\", \"linux\": \"sftp user@host\", \"windows\": \"sftp user@host\", \"mac\": \"sftp user@host\"}"
+  },
+  {
+    "instruction": "Count the number of files in the current directory recursively",
+    "input": "[LINUX]",
+    "output": "find . -type f | wc -l"
+  },
+  {
+    "instruction": "Append output of a command to log.txt and display it on Windows",
+    "input": "",
+    "output": "date >> log.txt & date"
+  },
+  {
+    "instruction": "Get IP address of 127.0.0.1 in Linux",
+    "input": "",
+    "output": "nslookup 127.0.0.1"
+  },
+  {
+    "instruction": "Send Wake-on-LAN magic packet using Windows CMD",
+    "input": "",
+    "output": "wolcmd AA:BB:CC:DD:EE:FF 192.168.1.255 255.255.255.0 7"
+  },
+  {
+    "instruction": "Show value of TMPDIR",
+    "input": "[LINUX]",
+    "output": "echo $TMPDIR"
+  },
+  {
+    "instruction": "Disown a process from the shell so it survives logout in Linux",
+    "input": "",
+    "output": "disown -h %1"
+  },
+  {
+    "instruction": "Check Wi-Fi signal strength",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Check Wi-Fi signal strength\", \"linux\": \"iwconfig\", \"windows\": \"netsh wlan show interfaces\", \"mac\": \"/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I\"}"
+  },
+  {
+    "instruction": "Print disk usage in Linux",
+    "input": "",
+    "output": "df -h"
+  },
+  {
+    "instruction": "Run 'ps aux' every 2 seconds to monitor processes",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Run 'ps aux' every 2 seconds to monitor processes\", \"linux\": \"watch -n 2 'ps aux'\", \"windows\": \"for /l %x in (1, 0, 100) do @cls & tasklist & timeout 2 >nul\", \"mac\": \"watch -n 2 'ps aux'\"}"
+  },
+  {
+    "instruction": "Rename data.txt to server.conf for Windows",
+    "input": "",
+    "output": "ren data.txt server.conf"
+  },
+  {
+    "instruction": "Set HOME to some_value",
+    "input": "[LINUX]",
+    "output": "export HOME=some_value"
+  },
+  {
+    "instruction": "Count lines in index.html",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Count lines in index.html\", \"linux\": \"wc -l index.html\", \"windows\": \"find /c /v \\\"\\\" index.html\", \"mac\": \"wc -l index.html\"}"
+  },
+  {
+    "instruction": "Set USER to some_value",
+    "input": "[MAC]",
+    "output": "export USER=some_value"
+  },
+  {
+    "instruction": "Show value of LANG",
+    "input": "[LINUX]",
+    "output": "echo $LANG"
+  },
+  {
+    "instruction": "Show value of JAVA_HOME",
+    "input": "[LINUX]",
+    "output": "echo $JAVA_HOME"
+  },
+  {
+    "instruction": "Run a command as user 'john'",
+    "input": "[WINDOWS]",
+    "output": "runas /user:john command"
+  },
+  {
+    "instruction": "Show side-by-side difference between two files on macOS",
+    "input": "",
+    "output": "diff -y file1.txt file2.txt"
+  },
+  {
+    "instruction": "Force update package lists",
+    "input": "[LINUX]",
+    "output": "sudo apt update --allow-insecure-repositories"
+  },
+  {
+    "instruction": "Set TMPDIR to some_value",
+    "input": "[MAC]",
+    "output": "export TMPDIR=some_value"
+  },
+  {
+    "instruction": "Unzip archive.zip",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Unzip archive.zip\", \"linux\": \"unzip archive.zip\", \"windows\": \"tar -xf archive.zip\", \"mac\": \"unzip archive.zip\"}"
+  },
+  {
+    "instruction": "Set XDG_CONFIG_HOME to '~/.config'",
+    "input": "[LINUX]",
+    "output": "export XDG_CONFIG_HOME=$HOME/.config"
+  },
+  {
+    "instruction": "Display directory structure on Windows",
+    "input": "",
+    "output": "tree"
+  },
+  {
+    "instruction": "Install git, curl, and vim in one command",
+    "input": "[LINUX]",
+    "output": "sudo apt install git curl vim -y"
+  },
+  {
+    "instruction": "List installed printers",
+    "input": "[LINUX]",
+    "output": "lpstat -p"
+  },
+  {
+    "instruction": "Connect to server using mosh (mobile shell)",
+    "input": "[MAC]",
+    "output": "mosh user@server"
+  },
+  {
+    "instruction": "Make docker-compose.yml read-only",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Make docker-compose.yml read-only\", \"linux\": \"chmod 444 docker-compose.yml\", \"windows\": \"attrib +r docker-compose.yml\", \"mac\": \"chmod 444 docker-compose.yml\"}"
+  },
+  {
+    "instruction": "List all hidden directories in the user home folder using Mac terminal",
+    "input": "",
+    "output": "find ~ -maxdepth 1 -type d -name '.*'"
+  },
+  {
+    "instruction": "Sort lines in report.pdf using Mac terminal",
+    "input": "",
+    "output": "sort report.pdf"
+  },
+  {
+    "instruction": "Kill all processes owned by the current user",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Kill all processes owned by the current user\", \"linux\": \"pkill -u $USER\", \"windows\": \"taskkill /F /FI \\\"USERNAME eq %USERNAME%\\\"\", \"mac\": \"pkill -u $USER\"}"
+  },
+  {
+    "instruction": "Number the lines in 'code.py'",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Number the lines in 'code.py'\", \"linux\": \"nl code.py\", \"windows\": \"findstr /n \\\"^\\\" code.py\", \"mac\": \"nl code.py\"}"
+  },
+  {
+    "instruction": "List all running processes using Linux",
+    "input": "",
+    "output": "ps aux"
+  },
+  {
+    "instruction": "Search for package 'yarn'",
+    "input": "[WINDOWS]",
+    "output": "choco search yarn"
+  },
+  {
+    "instruction": "Print memory usage",
+    "input": "[LINUX]",
+    "output": "free -h"
+  },
+  {
+    "instruction": "Archive preserving file ownership",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Archive preserving file ownership\", \"linux\": \"tar --same-owner -cvf archive.tar folder\", \"windows\": \"tar -cvf archive.tar folder\", \"mac\": \"tar -cvf archive.tar folder\"}"
+  },
+  {
+    "instruction": "Sort lines in notes.md using Linux",
+    "input": "",
+    "output": "sort notes.md"
+  },
+  {
+    "instruction": "List packages that can be upgraded for Windows",
+    "input": "",
+    "output": "choco outdated"
+  },
+  {
+    "instruction": "Forward local port 8080 to remote 80 using socat using Linux",
+    "input": "",
+    "output": "socat TCP-LISTEN:8080,fork TCP:example.com:80"
+  },
+  {
+    "instruction": "Find all .bak files and move them to the 'backup' folder",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Find all .bak files and move them to the 'backup' folder\", \"linux\": \"find . -name '*.bak' -exec mv {} backup/ \\\\;\", \"windows\": \"for /r %x in (*.bak) do move \\\"%x\\\" backup\\\\\", \"mac\": \"find . -name '*.bak' -exec mv {} backup/ \\\\;\"}"
+  },
+  {
+    "instruction": "Make error.log read-only",
+    "input": "[LINUX]",
+    "output": "chmod 444 error.log"
+  },
+  {
+    "instruction": "Add current directory to shared library search path",
+    "input": "[MAC]",
+    "output": "export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:."
+  },
+  {
+    "instruction": "Change owner of docker-compose.yml to deploy",
+    "input": "[MAC]",
+    "output": "chown deploy docker-compose.yml"
+  },
+  {
+    "instruction": "Start a long-running script in the background",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Start a long-running script in the background\", \"linux\": \"./script.sh &\", \"windows\": \"start /B script.bat\", \"mac\": \"./script.sh &\"}"
+  },
+  {
+    "instruction": "Create nested directories bin/temp",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Create nested directories bin/temp\", \"linux\": \"mkdir -p bin/temp\", \"windows\": \"mkdir bin\\\\temp\", \"mac\": \"mkdir -p bin/temp\"}"
+  },
+  {
+    "instruction": "Create an ISO image from a directory in Windows",
+    "input": "",
+    "output": "echo Use 3rd party tool (ImgBurn)."
+  },
+  {
+    "instruction": "Find the PID of 'chrome'",
+    "input": "[MAC]",
+    "output": "pgrep chrome"
+  },
+  {
+    "instruction": "Set JAVA_HOME to some_value on macOS",
+    "input": "",
+    "output": "export JAVA_HOME=some_value"
+  },
+  {
+    "instruction": "Show network interface configuration",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Show network interface configuration\", \"linux\": \"ifconfig\", \"windows\": \"ipconfig\", \"mac\": \"ifconfig\"}"
+  },
+  {
+    "instruction": "Unzip archive.zip",
+    "input": "[WINDOWS]",
+    "output": "tar -xf archive.zip"
+  },
+  {
+    "instruction": "Create tarball of logs",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Create tarball of logs\", \"linux\": \"tar -cvf logs.tar logs\", \"windows\": \"tar -cvf logs.tar logs\", \"mac\": \"tar -cvf logs.tar logs\"}"
+  },
+  {
+    "instruction": "Get IP address of stackoverflow.com",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Get IP address of stackoverflow.com\", \"linux\": \"nslookup stackoverflow.com\", \"windows\": \"nslookup stackoverflow.com\", \"mac\": \"nslookup stackoverflow.com\"}"
+  },
+  {
+    "instruction": "Set TMPDIR to some_value in Windows",
+    "input": "",
+    "output": "set TMPDIR=some_value"
+  },
+  {
+    "instruction": "What is disk usage",
+    "input": "[WINDOWS]",
+    "output": "wmic logicaldisk get size,freespace,caption"
+  },
+  {
+    "instruction": "Create a directory named temp",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Create a directory named temp\", \"linux\": \"mkdir temp\", \"windows\": \"mkdir temp\", \"mac\": \"mkdir temp\"}"
+  },
+  {
+    "instruction": "Copy notes.md to the backup directory",
+    "input": "[MAC]",
+    "output": "cp notes.md backup/"
+  },
+  {
+    "instruction": "Create an empty file named script.py",
+    "input": "[LINUX]",
+    "output": "touch script.py"
+  },
+  {
+    "instruction": "Check system uptime",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Check system uptime\", \"linux\": \"uptime\", \"windows\": \"systeminfo | find \\\"System Boot Time\\\"\", \"mac\": \"uptime\"}"
+  },
+  {
+    "instruction": "Show installation candidate versions for 'docker'",
+    "input": "[MAC]",
+    "output": "brew info docker"
+  },
+  {
+    "instruction": "Upgrade all except 'kernel'",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Upgrade all except 'kernel'\", \"linux\": \"sudo apt-mark hold kernel && sudo apt upgrade\", \"windows\": \"choco upgrade all --except=\\\"kernel\\\"\", \"mac\": \"brew upgrade --ignore-pinned\"}"
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "[WINDOWS]",
+    "output": "tasklist"
+  },
+  {
+    "instruction": "Create an empty file named main.cpp in Linux",
+    "input": "",
+    "output": "touch main.cpp"
+  },
+  {
+    "instruction": "Set TMPDIR to some_value",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Set TMPDIR to some_value\", \"linux\": \"export TMPDIR=some_value\", \"windows\": \"set TMPDIR=some_value\", \"mac\": \"export TMPDIR=some_value\"}"
+  },
+  {
+    "instruction": "Check the current system timezone using Windows CMD",
+    "input": "",
+    "output": "tzutil /g"
+  },
+  {
+    "instruction": "Show value of HOME",
+    "input": "[MAC]",
+    "output": "echo $HOME"
+  },
+  {
+    "instruction": "Change directory to bin",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Change directory to bin\", \"linux\": \"cd bin\", \"windows\": \"cd bin\", \"mac\": \"cd bin\"}"
+  },
+  {
+    "instruction": "Check the current system timezone",
+    "input": "[LINUX]",
+    "output": "timedatectl"
+  },
+  {
+    "instruction": "Override Git author name via environment",
+    "input": "[MAC]",
+    "output": "export GIT_AUTHOR_NAME='John Doe'"
+  },
+  {
+    "instruction": "Display driver information for eth0 in Linux",
+    "input": "",
+    "output": "ethtool -i eth0"
+  },
+  {
+    "instruction": "Create tarball of config",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Create tarball of config\", \"linux\": \"tar -cvf config.tar config\", \"windows\": \"tar -cvf config.tar config\", \"mac\": \"tar -cvf config.tar config\"}"
+  },
+  {
+    "instruction": "Sort file.txt numerically",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Sort file.txt numerically\", \"linux\": \"sort -n file.txt\", \"windows\": \"sort /n file.txt\", \"mac\": \"sort -n file.txt\"}"
+  },
+  {
+    "instruction": "Install package to a custom directory",
+    "input": "[MAC]",
+    "output": "echo Homebrew installs to Cellar."
+  },
+  {
+    "instruction": "Find all .csv files in config",
+    "input": "[MAC]",
+    "output": "find config -name '*.csv'"
+  },
+  {
+    "instruction": "Force a core dump of process 1234",
+    "input": "[LINUX]",
+    "output": "gcore 1234"
+  },
+  {
+    "instruction": "List files in include for macOS",
+    "input": "",
+    "output": "ls include"
+  },
+  {
+    "instruction": "Unset USER",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Unset USER\", \"linux\": \"unset USER\", \"windows\": \"set USER=\", \"mac\": \"unset USER\"}"
+  },
+  {
+    "instruction": "Create a temporary file and print its name on macOS",
+    "input": "",
+    "output": "mktemp"
+  },
+  {
+    "instruction": "Zip the logs directory",
+    "input": "[MAC]",
+    "output": "zip -r logs.zip logs"
+  },
+  {
+    "instruction": "Change owner of test.spec.js to ubuntu",
+    "input": "[LINUX]",
+    "output": "chown ubuntu test.spec.js"
+  },
+  {
+    "instruction": "Remove all directories starting with 'temp-'",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Remove all directories starting with 'temp-'\", \"linux\": \"rm -rf temp-*/\", \"windows\": \"for /d %d in (temp-*) do rd /s /q \\\"%d\\\"\", \"mac\": \"rm -rf temp-*/\"}"
+  },
+  {
+    "instruction": "Make image.png read-only",
+    "input": "[MAC]",
+    "output": "chmod 444 image.png"
+  },
+  {
+    "instruction": "Extract only 'README.md' from 'archive.tar.gz'",
+    "input": "[LINUX]",
+    "output": "tar -xzvf archive.tar.gz README.md"
+  },
+  {
+    "instruction": "Bring the last background job to the foreground",
+    "input": "[WINDOWS]",
+    "output": "echo CMD does not support job control like bash."
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"List all running processes\", \"linux\": \"ps aux\", \"windows\": \"tasklist\", \"mac\": \"ps aux\"}"
+  },
+  {
+    "instruction": "Reinstall package 'curl'",
+    "input": "[WINDOWS]",
+    "output": "choco install curl --force"
+  },
+  {
+    "instruction": "Show memory slot usage and capacity",
+    "input": "[LINUX]",
+    "output": "dmidecode -t memory"
+  },
+  {
+    "instruction": "Count how many 'chrome' processes are running",
+    "input": "[MAC]",
+    "output": "pgrep -c chrome"
+  },
+  {
+    "instruction": "Check laptop battery health and status",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Check laptop battery health and status\", \"linux\": \"upower -i /org/freedesktop/UPower/devices/battery_BAT0\", \"windows\": \"powercfg /batteryreport\", \"mac\": \"pmset -g batt\"}"
+  },
+  {
+    "instruction": "Extract all .png files from 'images.tar'",
+    "input": "[MAC]",
+    "output": "tar -xvf images.tar '*.png'"
+  },
+  {
+    "instruction": "Delete all .txt files",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Delete all .txt files\", \"linux\": \"rm *.txt\", \"windows\": \"del *.txt\", \"mac\": \"rm *.txt\"}"
+  },
+  {
+    "instruction": "Decompress .xz file for Windows",
+    "input": "",
+    "output": "echo Use 7-Zip."
+  },
+  {
+    "instruction": "Get disk usage",
+    "input": "[MAC]",
+    "output": "df -h"
+  },
+  {
+    "instruction": "Display environment variables",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Display environment variables\", \"linux\": \"printenv\", \"windows\": \"set\", \"mac\": \"printenv\"}"
+  },
+  {
+    "instruction": "Create an empty file named backup.zip",
+    "input": "[WINDOWS]",
+    "output": "type nul > backup.zip"
+  },
+  {
+    "instruction": "Display directory structure on Windows",
+    "input": "",
+    "output": "tree"
+  },
+  {
+    "instruction": "Zip the include directory for macOS",
+    "input": "",
+    "output": "zip -r include.zip include"
+  },
+  {
+    "instruction": "Find all .txt files in include",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Find all .txt files in include\", \"linux\": \"find include -name '*.txt'\", \"windows\": \"dir /s /b include\\\\*.txt\", \"mac\": \"find include -name '*.txt'\"}"
+  },
+  {
+    "instruction": "Perform a reverse DNS lookup for IP 8.8.8.8",
+    "input": "[MAC]",
+    "output": "dig -x 8.8.8.8 +short"
+  },
+  {
+    "instruction": "Copy directory structure of 'src' to 'dest' without copying files",
+    "input": "[WINDOWS]",
+    "output": "xcopy src dest /t /e"
+  },
+  {
+    "instruction": "Extract ARJ archive",
+    "input": "[LINUX]",
+    "output": "arj x archive.arj"
+  },
+  {
+    "instruction": "Display directory structure",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Display directory structure\", \"linux\": \"tree\", \"windows\": \"tree\", \"mac\": \"tree\"}"
+  },
+  {
+    "instruction": "Attempt to repair a corrupted zip file",
+    "input": "[LINUX]",
+    "output": "zip -FF corrupted.zip --out fixed.zip"
+  },
+  {
+    "instruction": "Check Bluetooth status and controller info",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Check Bluetooth status and controller info\", \"linux\": \"hciconfig -a\", \"windows\": \"wmic path Win32_PNPEntity where \\\"Caption like '%Bluetooth%'\\\" get Caption\", \"mac\": \"system_profiler SPBluetoothDataType\"}"
+  },
+  {
+    "instruction": "Suspend/Pause process 1234",
+    "input": "[MAC]",
+    "output": "kill -STOP 1234"
+  },
+  {
+    "instruction": "Install SSH public key on remote server",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Install SSH public key on remote server\", \"linux\": \"ssh-copy-id user@host\", \"windows\": \"type %USERPROFILE%\\\\.ssh\\\\id_rsa.pub | ssh user@host \\\"cat >> .ssh/authorized_keys\\\"\", \"mac\": \"ssh-copy-id user@host\"}"
+  },
+  {
+    "instruction": "Download file from microsoft.com/notes.md",
+    "input": "[WINDOWS]",
+    "output": "curl -O https://microsoft.com/notes.md"
+  },
+  {
+    "instruction": "Change directory to backup",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Change directory to backup\", \"linux\": \"cd backup\", \"windows\": \"cd backup\", \"mac\": \"cd backup\"}"
+  },
+  {
+    "instruction": "Show lines common to both 'file1.txt' and 'file2.txt' on Windows",
+    "input": "",
+    "output": "findstr /g:file1.txt file2.txt"
+  },
+  {
+    "instruction": "Display directory structure",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Display directory structure\", \"linux\": \"tree\", \"windows\": \"tree\", \"mac\": \"tree\"}"
+  },
+  {
+    "instruction": "Check open file limits (ulimit)",
+    "input": "[MAC]",
+    "output": "ulimit -n"
+  },
+  {
+    "instruction": "Zip the public directory",
+    "input": "[LINUX]",
+    "output": "zip -r public.zip public"
+  },
+  {
+    "instruction": "Check if 'error' exists in log.txt without outputting it (exit code)",
+    "input": "[LINUX]",
+    "output": "grep -q 'error' log.txt"
+  },
+  {
+    "instruction": "Display content of query.sql",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Display content of query.sql\", \"linux\": \"cat query.sql\", \"windows\": \"type query.sql\", \"mac\": \"cat query.sql\"}"
+  },
+  {
+    "instruction": "Remove the directory backup and its contents",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Remove the directory backup and its contents\", \"linux\": \"rm -rf backup\", \"windows\": \"rmdir /s /q backup\", \"mac\": \"rm -rf backup\"}"
+  },
+  {
+    "instruction": "Uninstall imagemagick in Windows",
+    "input": "",
+    "output": "choco uninstall imagemagick -y"
+  },
+  {
+    "instruction": "Display USB devices",
+    "input": "[WINDOWS]",
+    "output": "wmic path Win32_USBControllerDevice get Dependent"
+  },
+  {
+    "instruction": "Rename docker-compose.yml to error.log using Linux",
+    "input": "",
+    "output": "mv docker-compose.yml error.log"
+  },
+  {
+    "instruction": "Show current locale settings",
+    "input": "[WINDOWS]",
+    "output": "systeminfo | findstr \"Locale\""
+  },
+  {
+    "instruction": "Recursively find and remove all empty directories in /tmp",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Recursively find and remove all empty directories in /tmp\", \"linux\": \"find /tmp -type d -empty -delete\", \"windows\": \"for /f \\\"delims=\\\" %d in ('dir /tmp /ad /b /s ^| sort /r') do rd \\\"%d\\\"\", \"mac\": \"find /tmp -type d -empty -delete\"}"
+  },
+  {
+    "instruction": "Display OS version",
+    "input": "[LINUX]",
+    "output": "cat /etc/os-release"
+  },
+  {
+    "instruction": "Count lines in docker-compose.yml on Mac",
+    "input": "",
+    "output": "wc -l docker-compose.yml"
+  },
+  {
+    "instruction": "Query the MX records for gmail.com using Linux",
+    "input": "",
+    "output": "nslookup -type=MX gmail.com"
+  },
+  {
+    "instruction": "Show value of JAVA_HOME",
+    "input": "[LINUX]",
+    "output": "echo $JAVA_HOME"
+  },
+  {
+    "instruction": "Zip files in current dir without path info (junk paths)",
+    "input": "[MAC]",
+    "output": "zip -j archive.zip *"
+  },
+  {
+    "instruction": "Run a command in a new root directory",
+    "input": "[MAC]",
+    "output": "chroot /mnt/newroot /bin/bash"
+  },
+  {
+    "instruction": "Copy file 'foo/bar/baz.txt' to 'dest' creating parent directories",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Copy file 'foo/bar/baz.txt' to 'dest' creating parent directories\", \"linux\": \"cp --parents foo/bar/baz.txt dest/\", \"windows\": \"xcopy foo\\\\bar\\\\baz.txt dest\\\\foo\\\\bar\\\\\", \"mac\": \"rsync -R foo/bar/baz.txt dest/\"}"
+  },
+  {
+    "instruction": "Show me disk usage",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Show me disk usage\", \"linux\": \"df -h\", \"windows\": \"wmic logicaldisk get size,freespace,caption\", \"mac\": \"df -h\"}"
+  },
+  {
+    "instruction": "List loaded kernel modules/drivers",
+    "input": "[LINUX]",
+    "output": "lsmod"
+  },
+  {
+    "instruction": "Push the current directory to stack, move to '/var/log', then pop back",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Push the current directory to stack, move to '/var/log', then pop back\", \"linux\": \"pushd /var/log && popd\", \"windows\": \"pushd \\\\var\\\\log && popd\", \"mac\": \"pushd /var/log && popd\"}"
+  },
+  {
+    "instruction": "View system uptime on Mac",
+    "input": "",
+    "output": "uptime"
+  },
+  {
+    "instruction": "Create a directory named Downloads in Linux",
+    "input": "",
+    "output": "mkdir Downloads"
+  },
+  {
+    "instruction": "Uninstall zsh",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Uninstall zsh\", \"linux\": \"sudo apt remove zsh -y\", \"windows\": \"choco uninstall zsh -y\", \"mac\": \"brew uninstall zsh\"}"
+  },
+  {
+    "instruction": "Send SIGHUP (reload configuration) to process 1234",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Send SIGHUP (reload configuration) to process 1234\", \"linux\": \"kill -1 1234\", \"windows\": \"echo Windows CMD does not support POSIX signals directly.\", \"mac\": \"kill -1 1234\"}"
+  },
+  {
+    "instruction": "Change owner of profile.jpg to ubuntu using Linux",
+    "input": "",
+    "output": "chown ubuntu profile.jpg"
+  },
+  {
+    "instruction": "Create tarball of logs",
+    "input": "[LINUX]",
+    "output": "tar -cvf logs.tar logs"
+  },
+  {
+    "instruction": "Create a directory named include on Mac",
+    "input": "",
+    "output": "mkdir include"
+  },
+  {
+    "instruction": "Search for package 'ruby' using Windows CMD",
+    "input": "",
+    "output": "choco search ruby"
+  },
+  {
+    "instruction": "Ping amazon.com 10 times",
+    "input": "[WINDOWS]",
+    "output": "ping -n 10 amazon.com"
+  },
+  {
+    "instruction": "Delete all subdirectories in /tmp that haven't been accessed in 10 days",
+    "input": "[WINDOWS]",
+    "output": "forfiles /p \"C:\\Windows\\Temp\" /s /d -10 /c \"cmd /c if @isdir==TRUE rd /s /q @path\""
+  },
+  {
+    "instruction": "Change directory to backup for Windows",
+    "input": "",
+    "output": "cd backup"
+  },
+  {
+    "instruction": "View disk usage",
+    "input": "[MAC]",
+    "output": "df -h"
+  },
+  {
+    "instruction": "List file attributes",
+    "input": "[WINDOWS]",
+    "output": "attrib"
+  },
+  {
+    "instruction": "Display content of style.css on Mac",
+    "input": "",
+    "output": "cat style.css"
+  },
+  {
+    "instruction": "Get IP address of openai.com",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Get IP address of openai.com\", \"linux\": \"nslookup openai.com\", \"windows\": \"nslookup openai.com\", \"mac\": \"nslookup openai.com\"}"
+  },
+  {
+    "instruction": "Delete all subdirectories in /tmp that haven't been accessed in 10 days for Windows",
+    "input": "",
+    "output": "forfiles /p \"C:\\Windows\\Temp\" /s /d -10 /c \"cmd /c if @isdir==TRUE rd /s /q @path\""
+  },
+  {
+    "instruction": "Decompress 'log.tar.gz' to 'log.tar'",
+    "input": "[WINDOWS]",
+    "output": "echo Use tar -xf to extract directly."
+  },
+  {
+    "instruction": "Fix broken package dependencies on Mac",
+    "input": "",
+    "output": "brew doctor"
+  },
+  {
+    "instruction": "Download file from example.com/dataset.csv",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Download file from example.com/dataset.csv\", \"linux\": \"curl -O https://example.com/dataset.csv\", \"windows\": \"curl -O https://example.com/dataset.csv\", \"mac\": \"curl -O https://example.com/dataset.csv\"}"
+  },
+  {
+    "instruction": "Display only the IPv6 address",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Display only the IPv6 address\", \"linux\": \"ip -6 addr\", \"windows\": \"ipconfig | find \\\"IPv6\\\"\", \"mac\": \"ifconfig | grep inet6\"}"
+  },
+  {
+    "instruction": "Override Git author name via environment",
+    "input": "[MAC]",
+    "output": "export GIT_AUTHOR_NAME='John Doe'"
+  },
+  {
+    "instruction": "Push the current directory to stack, move to '/var/log', then pop back on Mac",
+    "input": "",
+    "output": "pushd /var/log && popd"
+  },
+  {
+    "instruction": "Show history of user logins",
+    "input": "[MAC]",
+    "output": "last"
+  },
+  {
+    "instruction": "View changelog of 'sudo' package",
+    "input": "[MAC]",
+    "output": "brew info sudo (check url)"
+  },
+  {
+    "instruction": "Make profile.jpg read-only",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Make profile.jpg read-only\", \"linux\": \"chmod 444 profile.jpg\", \"windows\": \"attrib +r profile.jpg\", \"mac\": \"chmod 444 profile.jpg\"}"
+  },
+  {
+    "instruction": "Remove the directory assets and its contents",
+    "input": "[WINDOWS]",
+    "output": "rmdir /s /q assets"
+  },
+  {
+    "instruction": "Set TMPDIR to some_value",
+    "input": "[LINUX]",
+    "output": "export TMPDIR=some_value"
+  },
+  {
+    "instruction": "Set application secret key",
+    "input": "[LINUX]",
+    "output": "export SECRET_KEY='s3cr3t'"
+  },
+  {
+    "instruction": "Zip folder excluding 'temp' subdirectory in Linux",
+    "input": "",
+    "output": "zip -r archive.zip folder -x 'folder/temp/*'"
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"List all running processes\", \"linux\": \"ps aux\", \"windows\": \"tasklist\", \"mac\": \"ps aux\"}"
+  },
+  {
+    "instruction": "Display directory structure",
+    "input": "[WINDOWS]",
+    "output": "tree"
+  },
+  {
+    "instruction": "Get system uptime",
+    "input": "[LINUX]",
+    "output": "uptime"
+  },
+  {
+    "instruction": "Sort lines in query.sql",
+    "input": "[LINUX]",
+    "output": "sort query.sql"
+  },
+  {
+    "instruction": "Zip the logs directory using Linux",
+    "input": "",
+    "output": "zip -r logs.zip logs"
+  },
+  {
+    "instruction": "Check how long process 1234 has been running",
+    "input": "[WINDOWS]",
+    "output": "wmic process where processid=1234 get creationdate"
+  },
+  {
+    "instruction": "Show OS release information (distro, version, codename)",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Show OS release information (distro, version, codename)\", \"linux\": \"cat /etc/*release\", \"windows\": \"reg query \\\"HKLM\\\\SOFTWARE\\\\Microsoft\\\\Windows NT\\\\CurrentVersion\\\" /v ProductName\", \"mac\": \"sw_vers\"}"
+  },
+  {
+    "instruction": "Detect OS of remote host using nmap",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Detect OS of remote host using nmap\", \"linux\": \"nmap -O target_ip\", \"windows\": \"nmap -O target_ip\", \"mac\": \"nmap -O target_ip\"}"
+  },
+  {
+    "instruction": "View permissions of data.txt",
+    "input": "[MAC]",
+    "output": "ls -l data.txt"
+  },
+  {
+    "instruction": "View OS version",
+    "input": "[WINDOWS]",
+    "output": "ver"
+  },
+  {
+    "instruction": "Display content of style.css",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Display content of style.css\", \"linux\": \"cat style.css\", \"windows\": \"type style.css\", \"mac\": \"cat style.css\"}"
+  },
+  {
+    "instruction": "Set pip configuration file location",
+    "input": "[MAC]",
+    "output": "export PIP_CONFIG_FILE=~/.config/pip/pip.conf"
+  },
+  {
+    "instruction": "View disk usage",
+    "input": "[LINUX]",
+    "output": "df -h"
+  },
+  {
+    "instruction": "Check memory usage",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Check memory usage\", \"linux\": \"free -h\", \"windows\": \"systeminfo | findstr /C:\\\"Total Physical Memory\\\"\", \"mac\": \"vm_stat\"}"
+  },
+  {
+    "instruction": "View permissions of main.cpp on macOS",
+    "input": "",
+    "output": "ls -l main.cpp"
+  },
+  {
+    "instruction": "Update all packages for Windows",
+    "input": "",
+    "output": "choco upgrade all -y"
+  },
+  {
+    "instruction": "Rename image.png to index.html",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Rename image.png to index.html\", \"linux\": \"mv image.png index.html\", \"windows\": \"ren image.png index.html\", \"mac\": \"mv image.png index.html\"}"
+  },
+  {
+    "instruction": "Enable ACL support on filesystem (mount)",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Enable ACL support on filesystem (mount)\", \"linux\": \"mount -o remount,acl /\", \"windows\": \"echo NTFS supports ACL by default.\", \"mac\": \"echo APFS/HFS+ supports ACL by default.\"}"
+  },
+  {
+    "instruction": "Display content of app.log",
+    "input": "[MAC]",
+    "output": "cat app.log"
+  },
+  {
+    "instruction": "Increase history size to 10000 commands using Mac terminal",
+    "input": "",
+    "output": "export HISTSIZE=10000"
+  },
+  {
+    "instruction": "Query the MX records for gmail.com",
+    "input": "[WINDOWS]",
+    "output": "nslookup -type=MX gmail.com"
+  },
+  {
+    "instruction": "Set X11 display variable",
+    "input": "[MAC]",
+    "output": "export DISPLAY=:0"
+  },
+  {
+    "instruction": "Change owner of main.cpp to guest",
+    "input": "[LINUX]",
+    "output": "chown guest main.cpp"
+  },
+  {
+    "instruction": "Set the sticky bit on directory '/tmp/public' on Mac",
+    "input": "",
+    "output": "chmod +t /tmp/public"
+  },
+  {
+    "instruction": "Fetch only the HTTP headers from example.com on Mac",
+    "input": "",
+    "output": "curl -I http://example.com"
+  },
+  {
+    "instruction": "Set HOME to some_value in Linux",
+    "input": "",
+    "output": "export HOME=some_value"
+  },
+  {
+    "instruction": "Download a file pretending to be a browser (User-Agent)",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Download a file pretending to be a browser (User-Agent)\", \"linux\": \"curl -A \\\"Mozilla/5.0\\\" -O http://example.com/file.zip\", \"windows\": \"curl -A \\\"Mozilla/5.0\\\" -O http://example.com/file.zip\", \"mac\": \"curl -A \\\"Mozilla/5.0\\\" -O http://example.com/file.zip\"}"
+  },
+  {
+    "instruction": "Kill all applications that are not responding using Windows CMD",
+    "input": "",
+    "output": "taskkill /FI \"STATUS eq NOT RESPONDING\" /F"
+  },
+  {
+    "instruction": "Make readme.txt read-only for Windows",
+    "input": "",
+    "output": "attrib +r readme.txt"
+  },
+  {
+    "instruction": "Show me OS version",
+    "input": "[MAC]",
+    "output": "sw_vers"
+  },
+  {
+    "instruction": "Display the first 100 bytes of 'binary.dat' in hexadecimal for Linux",
+    "input": "",
+    "output": "hexdump -n 100 -C binary.dat"
+  },
+  {
+    "instruction": "Show network interface configuration in Linux",
+    "input": "",
+    "output": "ifconfig"
+  },
+  {
+    "instruction": "Check disk usage",
+    "input": "[LINUX]",
+    "output": "df -h"
+  },
+  {
+    "instruction": "Show full kernel version and build date using Linux",
+    "input": "",
+    "output": "uname -v"
+  },
+  {
+    "instruction": "Create tarball of config",
+    "input": "[WINDOWS]",
+    "output": "tar -cvf config.tar config"
+  },
+  {
+    "instruction": "Create a directory named Desktop using Mac terminal",
+    "input": "",
+    "output": "mkdir Desktop"
+  },
+  {
+    "instruction": "Sort file.txt numerically",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Sort file.txt numerically\", \"linux\": \"sort -n file.txt\", \"windows\": \"sort /n file.txt\", \"mac\": \"sort -n file.txt\"}"
+  },
+  {
+    "instruction": "Change owner of error.log to user using Mac terminal",
+    "input": "",
+    "output": "chown user error.log"
+  },
+  {
+    "instruction": "Archive files newer than a specific date in Linux",
+    "input": "",
+    "output": "tar -cvf newer.tar --newer-mtime='2023-01-01' ."
+  },
+  {
+    "instruction": "Display the contents of config.json",
+    "input": "[WINDOWS]",
+    "output": "type config.json"
+  },
+  {
+    "instruction": "Check the MD5 hash of 'installer.exe'",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Check the MD5 hash of 'installer.exe'\", \"linux\": \"md5sum installer.exe\", \"windows\": \"certutil -hashfile installer.exe MD5\", \"mac\": \"md5 installer.exe\"}"
+  },
+  {
+    "instruction": "Create a directory named Desktop",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Create a directory named Desktop\", \"linux\": \"mkdir Desktop\", \"windows\": \"mkdir Desktop\", \"mac\": \"mkdir Desktop\"}"
+  },
+  {
+    "instruction": "Search for package 'vim'",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Search for package 'vim'\", \"linux\": \"apt search vim\", \"windows\": \"choco search vim\", \"mac\": \"brew search vim\"}"
+  },
+  {
+    "instruction": "Make backup.zip read-only for Windows",
+    "input": "",
+    "output": "attrib +r backup.zip"
+  },
+  {
+    "instruction": "Make server.conf read-only",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Make server.conf read-only\", \"linux\": \"chmod 444 server.conf\", \"windows\": \"attrib +r server.conf\", \"mac\": \"chmod 444 server.conf\"}"
+  },
+  {
+    "instruction": "Test integrity of zip file for macOS",
+    "input": "",
+    "output": "unzip -t archive.zip"
+  },
+  {
+    "instruction": "Install imagemagick",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Install imagemagick\", \"linux\": \"sudo apt install imagemagick -y\", \"windows\": \"choco install imagemagick -y\", \"mac\": \"brew install imagemagick\"}"
+  },
+  {
+    "instruction": "Kill the process with PID 61049",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Kill the process with PID 61049\", \"linux\": \"kill 61049\", \"windows\": \"taskkill /PID 61049 /F\", \"mac\": \"kill 61049\"}"
+  },
+  {
+    "instruction": "List manually installed packages (not dependencies)",
+    "input": "[LINUX]",
+    "output": "apt-mark showmanual"
+  },
+  {
+    "instruction": "Display directory structure on Linux",
+    "input": "",
+    "output": "tree"
+  },
+  {
+    "instruction": "Count lines in server.conf",
+    "input": "[LINUX]",
+    "output": "wc -l server.conf"
+  },
+  {
+    "instruction": "Download file from apple.com/server.conf",
+    "input": "[MAC]",
+    "output": "curl -O https://apple.com/server.conf"
+  },
+  {
+    "instruction": "Remove a repository source",
+    "input": "[LINUX]",
+    "output": "sudo add-apt-repository --remove ppa:user/repo"
+  },
+  {
+    "instruction": "Create tarball of logs in Windows",
+    "input": "",
+    "output": "tar -cvf logs.tar logs"
+  },
+  {
+    "instruction": "Show me system uptime",
+    "input": "Format: JSON",
+    "output": "{\"description\": \"Show me system uptime\", \"linux\": \"uptime\", \"windows\": \"systeminfo | find \\\"System Boot Time\\\"\", \"mac\": \"uptime\"}"
+  },
+  {
+    "instruction": "What is environment variables for macOS",
+    "input": "",
+    "output": "printenv"
+  },
+  {
+    "instruction": "Zip the lib directory",
+    "input": "[MAC]",
+    "output": "zip -r lib.zip lib"
+  },
+  {
+    "instruction": "Check current display resolution",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Check current display resolution\", \"linux\": \"xrandr | grep '*'\", \"windows\": \"wmic path Win32_VideoController get CurrentHorizontalResolution,CurrentVerticalResolution\", \"mac\": \"system_profiler SPDisplaysDataType | grep Resolution\"}"
+  },
+  {
+    "instruction": "Rename directory 'Images' to 'images' (case change)",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Rename directory 'Images' to 'images' (case change)\", \"linux\": \"mv Images images\", \"windows\": \"ren Images images\", \"mac\": \"mv Images images\"}"
+  },
+  {
+    "instruction": "Download file from apple.com/dataset.csv",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Download file from apple.com/dataset.csv\", \"linux\": \"curl -O https://apple.com/dataset.csv\", \"windows\": \"curl -O https://apple.com/dataset.csv\", \"mac\": \"curl -O https://apple.com/dataset.csv\"}"
+  },
+  {
+    "instruction": "Create a directory named Downloads on macOS",
+    "input": "",
+    "output": "mkdir Downloads"
+  },
+  {
+    "instruction": "Search for package 'zsh'",
+    "input": "[MAC]",
+    "output": "brew search zsh"
+  },
+  {
+    "instruction": "Extract all .png files from 'images.tar' in Windows",
+    "input": "",
+    "output": "tar -xvf images.tar \"*.png\""
+  },
+  {
+    "instruction": "View permissions of main.cpp for Windows",
+    "input": "",
+    "output": "icacls main.cpp"
+  },
+  {
+    "instruction": "Read environment variable 'HOME' into a variable 'dir' using Linux",
+    "input": "",
+    "output": "dir=$HOME"
+  },
+  {
+    "instruction": "Create nested directories temp/Downloads",
+    "input": "[LINUX]",
+    "output": "mkdir -p temp/Downloads"
+  },
+  {
+    "instruction": "Manually set SSH_AUTH_SOCK",
+    "input": "[MAC]",
+    "output": "export SSH_AUTH_SOCK=/tmp/ssh-agent.sock"
+  },
+  {
+    "instruction": "Count lines in error.log",
+    "input": "[LINUX]",
+    "output": "wc -l error.log"
+  },
+  {
+    "instruction": "Unzip archive.zip",
+    "input": "[LINUX]",
+    "output": "unzip archive.zip"
+  },
+  {
+    "instruction": "Copy all .conf files from /etc to /backup appending the current date to the filename using Windows CMD",
+    "input": "",
+    "output": "for %I in (C:\\etc\\*.conf) do copy \"%I\" \"C:\\backup\\%~nxI.%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%\""
+  },
+  {
+    "instruction": "List loaded kernel modules/drivers",
+    "input": "[WINDOWS]",
+    "output": "driverquery"
+  },
+  {
+    "instruction": "Listen on port 8080 and display incoming data",
+    "input": "[WINDOWS]",
+    "output": "echo Use 'netcat' (nc) if installed, or powershell."
+  },
+  {
+    "instruction": "Add key to SSH agent",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Add key to SSH agent\", \"linux\": \"ssh-add ~/.ssh/id_rsa\", \"windows\": \"ssh-add %USERPROFILE%\\\\.ssh\\\\id_rsa\", \"mac\": \"ssh-add ~/.ssh/id_rsa\"}"
+  },
+  {
+    "instruction": "View permissions of data.txt",
+    "input": "[LINUX]",
+    "output": "ls -l data.txt"
+  },
+  {
+    "instruction": "Download file from apple.com/server.conf for macOS",
+    "input": "",
+    "output": "curl -O https://apple.com/server.conf"
+  },
+  {
+    "instruction": "Show lines unique to file1.txt compared to file2.txt",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Show lines unique to file1.txt compared to file2.txt\", \"linux\": \"comm -23 (sort file1.txt) (sort file2.txt)\", \"windows\": \"echo Requires PowerShell Compare-Object\", \"mac\": \"comm -23 <(sort file1.txt) <(sort file2.txt)\"}"
+  },
+  {
+    "instruction": "Search for package 'imagemagick'",
+    "input": "Return the command for all operating systems as JSON",
+    "output": "{\"description\": \"Search for package 'imagemagick'\", \"linux\": \"apt search imagemagick\", \"windows\": \"choco search imagemagick\", \"mac\": \"brew search imagemagick\"}"
+  },
+  {
+    "instruction": "Rename readme.txt to data.txt",
+    "input": "[LINUX]",
+    "output": "mv readme.txt data.txt"
+  },
+  {
+    "instruction": "Set default browser to 'firefox'",
+    "input": "[MAC]",
+    "output": "echo Configured via System Settings"
+  },
+  {
+    "instruction": "Force update package lists",
+    "input": "[MAC]",
+    "output": "brew update --force"
+  },
+  {
+    "instruction": "Terminate all 'slack' processes using Mac terminal",
+    "input": "",
+    "output": "pkill slack"
+  },
+  {
+    "instruction": "Update all packages",
+    "input": "[WINDOWS]",
+    "output": "choco upgrade all -y"
+  },
+  {
+    "instruction": "Create tarball of include",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Create tarball of include\", \"linux\": \"tar -cvf include.tar include\", \"windows\": \"tar -cvf include.tar include\", \"mac\": \"tar -cvf include.tar include\"}"
+  },
+  {
+    "instruction": "Install tmux using Linux",
+    "input": "",
+    "output": "sudo apt install tmux -y"
+  },
+  {
+    "instruction": "Unset EDITOR",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Unset EDITOR\", \"linux\": \"unset EDITOR\", \"windows\": \"set EDITOR=\", \"mac\": \"unset EDITOR\"}"
+  },
+  {
+    "instruction": "Ping localhost 10 times",
+    "input": "[LINUX]",
+    "output": "ping -c 10 localhost"
+  },
+  {
+    "instruction": "Display content of notes.md",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Display content of notes.md\", \"linux\": \"cat notes.md\", \"windows\": \"type notes.md\", \"mac\": \"cat notes.md\"}"
+  },
+  {
+    "instruction": "Set terminal type to 'xterm-256color'",
+    "input": "Return JSON with multi-platform commands",
+    "output": "{\"description\": \"Set terminal type to 'xterm-256color'\", \"linux\": \"export TERM=xterm-256color\", \"windows\": \"echo N/A\", \"mac\": \"export TERM=xterm-256color\"}"
+  },
+  {
+    "instruction": "Zip the include directory",
+    "input": "Give me commands for all platforms in JSON format",
+    "output": "{\"description\": \"Zip the include directory\", \"linux\": \"zip -r include.zip include\", \"windows\": \"tar -a -c -f include.zip include\", \"mac\": \"zip -r include.zip include\"}"
+  },
+  {
+    "instruction": "Find the PID of 'git'",
+    "input": "[LINUX]",
+    "output": "pgrep git"
+  },
+  {
+    "instruction": "Add key to SSH agent",
+    "input": "[LINUX]",
+    "output": "ssh-add ~/.ssh/id_rsa"
+  },
+  {
+    "instruction": "Change owner of script.py to ubuntu",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Change owner of script.py to ubuntu\", \"linux\": \"chown ubuntu script.py\", \"windows\": \"icacls script.py /setowner ubuntu\", \"mac\": \"chown ubuntu script.py\"}"
+  },
+  {
+    "instruction": "Search for package 'jq'",
+    "input": "[MAC]",
+    "output": "brew search jq"
+  },
+  {
+    "instruction": "Rename all .jpeg files to .jpg in the current directory for Linux",
+    "input": "",
+    "output": "rename 's/\\.jpeg$/\\.jpg/' *.jpeg"
+  },
+  {
+    "instruction": "View permissions of app.log",
+    "input": "[LINUX]",
+    "output": "ls -l app.log"
+  },
+  {
+    "instruction": "Create a hard link named 'hardlink' to 'file.txt'",
+    "input": "[WINDOWS]",
+    "output": "mklink /H hardlink file.txt"
+  },
+  {
+    "instruction": "Find the PID of 'java' using Linux",
+    "input": "",
+    "output": "pgrep java"
+  },
+  {
+    "instruction": "Mirror the contents of the 'source' folder to 'destination', deleting files in destination that don't exist in source",
+    "input": "[LINUX]",
+    "output": "rsync -av --delete source/ destination/"
+  },
+  {
+    "instruction": "Measure bandwidth to a server using iperf",
+    "input": "[LINUX]",
+    "output": "iperf -c server_ip"
+  },
+  {
+    "instruction": "Count lines in docker-compose.yml",
+    "input": "[WINDOWS]",
+    "output": "find /c /v \"\" docker-compose.yml"
+  },
+  {
+    "instruction": "Rename directory 'Images' to 'images' (case change)",
+    "input": "[LINUX]",
+    "output": "mv Images images"
+  },
+  {
+    "instruction": "Sort lines in style.css on Windows",
+    "input": "",
+    "output": "sort style.css"
+  },
+  {
+    "instruction": "Search for 'error' inside compressed log.gz using Mac terminal",
+    "input": "",
+    "output": "zgrep 'error' log.gz"
+  },
+  {
+    "instruction": "Display socket statistics (ss)",
+    "input": "[MAC]",
+    "output": "netstat -an"
+  },
+  {
+    "instruction": "Create a directory named Downloads",
+    "input": "[MAC]",
+    "output": "mkdir Downloads"
+  },
+  {
+    "instruction": "View permissions of query.sql",
+    "input": "[WINDOWS]",
+    "output": "icacls query.sql"
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "[WINDOWS]",
+    "output": "tasklist"
+  },
+  {
+    "instruction": "List files opened by process 1234",
+    "input": "[LINUX]",
+    "output": "lsof -p 1234"
+  },
+  {
+    "instruction": "Search for 'TODO' in error.log for Windows",
+    "input": "",
+    "output": "findstr \"TODO\" error.log"
+  },
+  {
+    "instruction": "Archive preserving file ownership",
+    "input": "Output as JSON with commands for Linux, Windows, and Mac",
+    "output": "{\"description\": \"Archive preserving file ownership\", \"linux\": \"tar --same-owner -cvf archive.tar folder\", \"windows\": \"tar -cvf archive.tar folder\", \"mac\": \"tar -cvf archive.tar folder\"}"
+  },
+  {
+    "instruction": "Change directory to scripts",
+    "input": "[WINDOWS]",
+    "output": "cd scripts"
+  },
+  {
+    "instruction": "Save cookies from a request to 'cookies.txt'",
+    "input": "[LINUX]",
+    "output": "curl -c cookies.txt http://example.com"
+  },
+  {
+    "instruction": "Install wget",
+    "input": "[WINDOWS]",
+    "output": "choco install wget -y"
+  },
+  {
+    "instruction": "Download file from openai.com/image.png",
+    "input": "[MAC]",
+    "output": "curl -O https://openai.com/image.png"
+  },
+  {
+    "instruction": "Find the PID of 'docker'",
+    "input": "[WINDOWS]",
+    "output": "tasklist | findstr docker"
+  },
+  {
+    "instruction": "Print disk usage",
+    "input": "[WINDOWS]",
+    "output": "wmic logicaldisk get size,freespace,caption"
+  },
+  {
+    "instruction": "Change owner of test.spec.js to user",
+    "input": "[WINDOWS]",
+    "output": "icacls test.spec.js /setowner user"
+  },
+  {
+    "instruction": "List all running processes",
+    "input": "[MAC]",
+    "output": "ps aux"
+  },
+  {
+    "instruction": "Check memory usage",
+    "input": "[WINDOWS]",
+    "output": "systeminfo | findstr /C:\"Total Physical Memory\""
+  }
+]
