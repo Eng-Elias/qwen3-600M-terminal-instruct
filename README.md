@@ -124,6 +124,16 @@ qwen3-600M-terminal-instruct/
 | [Eng-Elias/qwen3-0.6b-terminal-instruct](https://huggingface.co/Eng-Elias/qwen3-0.6b-terminal-instruct) | Main model repository |
 | [Eng-Elias/qwen3-0.6b-terminal-instruct-lora](https://huggingface.co/Eng-Elias/qwen3-0.6b-terminal-instruct-lora) | LoRA adapters only |
 
+## 📊 Experiment Tracking (Weights & Biases)
+
+Training metrics, hyperparameters, and evaluation results are logged to Weights & Biases:
+
+| Item | Value |
+|------|-------|
+| **Project** | qwen3-terminal-instruct |
+| **Run** | qwen3-0.6b-terminal-20251230_2244 |
+| **Dashboard** | [View on W&B](https://wandb.ai/engelias-/qwen3-terminal-instruct/runs/3xs0ylca) |
+
 ## 📋 Supported Command Categories
 
 | Category | Examples |

@@ -121,6 +121,13 @@ generate_command("Delete file named temp.txt", "Return the command for all opera
 
 - **Merged Model:** [Eng-Elias/qwen3-0.6b-terminal-instruct](https://huggingface.co/Eng-Elias/qwen3-0.6b-terminal-instruct)
 
+## Experiment Tracking
+
+Training metrics and hyperparameters are logged to Weights & Biases:
+- **Project:** qwen3-terminal-instruct
+- **Run:** qwen3-0.6b-terminal-20251230_2244
+- **Dashboard:** [View on W&B](https://wandb.ai/engelias-/qwen3-terminal-instruct/runs/3xs0ylca)
+
 ## Limitations
 
 - Commands are based on common usage patterns; complex or obscure commands may not be accurate
